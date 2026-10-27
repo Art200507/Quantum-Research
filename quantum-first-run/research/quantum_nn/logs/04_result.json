@@ -1,0 +1,467 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "split": "validation",
+      "model": "quantum_fixed",
+      "accuracy": 0.5625
+    },
+    {
+      "seed": 0,
+      "split": "validation",
+      "model": "quantum_trained",
+      "accuracy": 0.9609375
+    },
+    {
+      "seed": 0,
+      "split": "validation",
+      "model": "classical_dot",
+      "accuracy": 0.375
+    },
+    {
+      "seed": 0,
+      "split": "validation",
+      "model": "classical_euclidean",
+      "accuracy": 0.59375
+    },
+    {
+      "seed": 0,
+      "split": "validation",
+      "model": "classical_trained_metric",
+      "accuracy": 0.9921875
+    },
+    {
+      "seed": 0,
+      "split": "validation",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 0,
+      "split": "test",
+      "model": "quantum_fixed",
+      "accuracy": 0.576171875
+    },
+    {
+      "seed": 0,
+      "split": "test",
+      "model": "quantum_trained",
+      "accuracy": 0.94921875
+    },
+    {
+      "seed": 0,
+      "split": "test",
+      "model": "classical_dot",
+      "accuracy": 0.369140625
+    },
+    {
+      "seed": 0,
+      "split": "test",
+      "model": "classical_euclidean",
+      "accuracy": 0.599609375
+    },
+    {
+      "seed": 0,
+      "split": "test",
+      "model": "classical_trained_metric",
+      "accuracy": 0.998046875
+    },
+    {
+      "seed": 0,
+      "split": "test",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 1,
+      "split": "validation",
+      "model": "quantum_fixed",
+      "accuracy": 0.4921875
+    },
+    {
+      "seed": 1,
+      "split": "validation",
+      "model": "quantum_trained",
+      "accuracy": 0.953125
+    },
+    {
+      "seed": 1,
+      "split": "validation",
+      "model": "classical_dot",
+      "accuracy": 0.390625
+    },
+    {
+      "seed": 1,
+      "split": "validation",
+      "model": "classical_euclidean",
+      "accuracy": 0.5234375
+    },
+    {
+      "seed": 1,
+      "split": "validation",
+      "model": "classical_trained_metric",
+      "accuracy": 0.984375
+    },
+    {
+      "seed": 1,
+      "split": "validation",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 1,
+      "split": "test",
+      "model": "quantum_fixed",
+      "accuracy": 0.54296875
+    },
+    {
+      "seed": 1,
+      "split": "test",
+      "model": "quantum_trained",
+      "accuracy": 0.9609375
+    },
+    {
+      "seed": 1,
+      "split": "test",
+      "model": "classical_dot",
+      "accuracy": 0.404296875
+    },
+    {
+      "seed": 1,
+      "split": "test",
+      "model": "classical_euclidean",
+      "accuracy": 0.57421875
+    },
+    {
+      "seed": 1,
+      "split": "test",
+      "model": "classical_trained_metric",
+      "accuracy": 0.982421875
+    },
+    {
+      "seed": 1,
+      "split": "test",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 2,
+      "split": "validation",
+      "model": "quantum_fixed",
+      "accuracy": 0.59375
+    },
+    {
+      "seed": 2,
+      "split": "validation",
+      "model": "quantum_trained",
+      "accuracy": 0.9765625
+    },
+    {
+      "seed": 2,
+      "split": "validation",
+      "model": "classical_dot",
+      "accuracy": 0.40625
+    },
+    {
+      "seed": 2,
+      "split": "validation",
+      "model": "classical_euclidean",
+      "accuracy": 0.59375
+    },
+    {
+      "seed": 2,
+      "split": "validation",
+      "model": "classical_trained_metric",
+      "accuracy": 0.984375
+    },
+    {
+      "seed": 2,
+      "split": "validation",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 2,
+      "split": "test",
+      "model": "quantum_fixed",
+      "accuracy": 0.5078125
+    },
+    {
+      "seed": 2,
+      "split": "test",
+      "model": "quantum_trained",
+      "accuracy": 0.9453125
+    },
+    {
+      "seed": 2,
+      "split": "test",
+      "model": "classical_dot",
+      "accuracy": 0.37890625
+    },
+    {
+      "seed": 2,
+      "split": "test",
+      "model": "classical_euclidean",
+      "accuracy": 0.53515625
+    },
+    {
+      "seed": 2,
+      "split": "test",
+      "model": "classical_trained_metric",
+      "accuracy": 0.96875
+    },
+    {
+      "seed": 2,
+      "split": "test",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 3,
+      "split": "validation",
+      "model": "quantum_fixed",
+      "accuracy": 0.5
+    },
+    {
+      "seed": 3,
+      "split": "validation",
+      "model": "quantum_trained",
+      "accuracy": 0.953125
+    },
+    {
+      "seed": 3,
+      "split": "validation",
+      "model": "classical_dot",
+      "accuracy": 0.328125
+    },
+    {
+      "seed": 3,
+      "split": "validation",
+      "model": "classical_euclidean",
+      "accuracy": 0.53125
+    },
+    {
+      "seed": 3,
+      "split": "validation",
+      "model": "classical_trained_metric",
+      "accuracy": 0.9296875
+    },
+    {
+      "seed": 3,
+      "split": "validation",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 3,
+      "split": "test",
+      "model": "quantum_fixed",
+      "accuracy": 0.568359375
+    },
+    {
+      "seed": 3,
+      "split": "test",
+      "model": "quantum_trained",
+      "accuracy": 0.95703125
+    },
+    {
+      "seed": 3,
+      "split": "test",
+      "model": "classical_dot",
+      "accuracy": 0.408203125
+    },
+    {
+      "seed": 3,
+      "split": "test",
+      "model": "classical_euclidean",
+      "accuracy": 0.603515625
+    },
+    {
+      "seed": 3,
+      "split": "test",
+      "model": "classical_trained_metric",
+      "accuracy": 0.984375
+    },
+    {
+      "seed": 3,
+      "split": "test",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 4,
+      "split": "validation",
+      "model": "quantum_fixed",
+      "accuracy": 0.5390625
+    },
+    {
+      "seed": 4,
+      "split": "validation",
+      "model": "quantum_trained",
+      "accuracy": 0.9375
+    },
+    {
+      "seed": 4,
+      "split": "validation",
+      "model": "classical_dot",
+      "accuracy": 0.34375
+    },
+    {
+      "seed": 4,
+      "split": "validation",
+      "model": "classical_euclidean",
+      "accuracy": 0.53125
+    },
+    {
+      "seed": 4,
+      "split": "validation",
+      "model": "classical_trained_metric",
+      "accuracy": 0.984375
+    },
+    {
+      "seed": 4,
+      "split": "validation",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 4,
+      "split": "test",
+      "model": "quantum_fixed",
+      "accuracy": 0.529296875
+    },
+    {
+      "seed": 4,
+      "split": "test",
+      "model": "quantum_trained",
+      "accuracy": 0.96484375
+    },
+    {
+      "seed": 4,
+      "split": "test",
+      "model": "classical_dot",
+      "accuracy": 0.380859375
+    },
+    {
+      "seed": 4,
+      "split": "test",
+      "model": "classical_euclidean",
+      "accuracy": 0.560546875
+    },
+    {
+      "seed": 4,
+      "split": "test",
+      "model": "classical_trained_metric",
+      "accuracy": 0.986328125
+    },
+    {
+      "seed": 4,
+      "split": "test",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    }
+  ],
+  "fits": [
+    {
+      "seed": 0,
+      "parameters": [
+        2.0,
+        0.4640033458125439,
+        1.467016264220367,
+        0.20683968123086982,
+        4.382026634673881
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 21,
+      "calls": 168,
+      "seconds": 0.07269095801166259,
+      "classical_parameters": [
+        -2.9406080264159042,
+        4.382026634673881
+      ],
+      "classical_success": true
+    },
+    {
+      "seed": 1,
+      "parameters": [
+        2.0,
+        0.5336110424135487,
+        1.5816591514243539,
+        0.12100042855702302,
+        4.382026634673881
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 16,
+      "calls": 126,
+      "seconds": 0.05522291699890047,
+      "classical_parameters": [
+        -2.8407341437105256,
+        4.382026634673881
+      ],
+      "classical_success": true
+    },
+    {
+      "seed": 2,
+      "parameters": [
+        2.0,
+        0.5489331225084884,
+        1.7465960860550542,
+        0.1601092781819894,
+        4.382026634673881
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 15,
+      "calls": 120,
+      "seconds": 0.05498458299553022,
+      "classical_parameters": [
+        -2.760881566726359,
+        4.382026634673881
+      ],
+      "classical_success": true
+    },
+    {
+      "seed": 3,
+      "parameters": [
+        2.0,
+        0.5458663896001605,
+        1.3612890410265794,
+        -0.01053624648363357,
+        4.382026634673881
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 22,
+      "calls": 162,
+      "seconds": 0.0687650420004502,
+      "classical_parameters": [
+        -2.766883791803006,
+        4.382026634673881
+      ],
+      "classical_success": true
+    },
+    {
+      "seed": 4,
+      "parameters": [
+        2.0,
+        0.5218106321391909,
+        1.3890364208935662,
+        -0.1977355341035406,
+        4.382026634673881
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 14,
+      "calls": 114,
+      "seconds": 0.05310412499238737,
+      "classical_parameters": [
+        -2.8957564897311836,
+        4.382026634673881
+      ],
+      "classical_success": true
+    }
+  ],
+  "decision": "Inspect learned versus fixed kernel and trained classical metric; freeze parameters before shot-budget experiments. This is a quantum attention head with classical softmax/value aggregation, not a full transformer."
+}

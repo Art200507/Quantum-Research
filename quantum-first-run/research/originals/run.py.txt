@@ -1,0 +1,146 @@
+#!/usr/bin/env python
+"""Orchestrator: builds circuits from qrng/mirror/bell_ghz, batches them into
+ONE Sampler job, and dispatches results back for analysis + plotting.
+
+Usage:
+    python run.py                        # dry-run (FakeTorino), all experiments
+    python run.py --real                 # submit to real least-busy QPU
+    python run.py --experiments qrng,bell_ghz
+    python run.py --mirror-sizes 5,20    # skip the big mirror sizes entirely
+"""
+from __future__ import annotations
+
+import argparse
+
+import bell_ghz
+import mirror
+import qrng
+from common import (
+    Submission,
+    confirm_real_submission,
+    ensure_results_dir,
+    get_counts_list,
+    get_execution_backend,
+    get_ideal_sampler,
+    run_batch,
+    save_run,
+    transpile_for_backend,
+)
+
+
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument("--real", action="store_true", help="Submit to real IBM Quantum hardware (default: dry-run on FakeTorino).")
+    p.add_argument("--shots", type=int, default=1000, help="Shots per circuit (default: 1000).")
+    p.add_argument("--experiments", type=str, default="qrng,bell_ghz,mirror", help="Comma-separated subset of: qrng,bell_ghz,mirror")
+    p.add_argument("--qrng-qubits", type=int, default=8, help="Number of qubits for the QRNG circuit (default: 8).")
+    p.add_argument("--mirror-sizes", type=str, default="5,20,50,100", help="Comma-separated qubit counts for the mirror demo.")
+    p.add_argument("--out", type=str, default=None, help="Output directory for results/plots (default: ./results).")
+    return p.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+    selected = {e.strip() for e in args.experiments.split(",") if e.strip()}
+    mirror_sizes = tuple(int(x) for x in args.mirror_sizes.split(","))
+    out_dir = args.out or ensure_results_dir()
+
+    print(f"Mode: {'REAL HARDWARE' if args.real else 'DRY RUN (FakeTorino)'}")
+    print(f"Experiments: {sorted(selected)}")
+    print(f"Shots per circuit: {args.shots}")
+
+    qrng_subs: list[Submission] = qrng.build(args.qrng_qubits) if "qrng" in selected else []
+    bell_subs: list[Submission] = bell_ghz.build() if "bell_ghz" in selected else []
+    mirror_subs: list[Submission] = mirror.build(mirror_sizes) if "mirror" in selected else []
+
+    # In dry-run, mirror sizes above the noisy-local-execution cap are not
+    # executed locally at all (see mirror.py for why -- it's a Monte Carlo
+    # trajectory cost wall, not just a memory one) -- we still transpile them
+    # so we can report realistic depth/gate-count numbers.
+    mirror_submit = [s for s in mirror_subs if args.real or s.meta["noisy_locally"]]
+    mirror_skip = [s for s in mirror_subs if not args.real and not s.meta["noisy_locally"]]
+
+    submit_subs: list[Submission] = qrng_subs + bell_subs + mirror_submit
+    if not submit_subs and not mirror_skip:
+        print("Nothing selected to run.")
+        return
+
+    max_qubits = max((s.circuit.num_qubits for s in submit_subs + mirror_skip), default=1)
+    service, backend = get_execution_backend(args.real, min_num_qubits=max_qubits)
+    backend_name = getattr(backend, "name", str(backend))
+    print(f"Backend: {backend_name}")
+
+    # Mirror circuits carry an internal barrier between U and U.inverse() (see
+    # mirror.py) specifically so that full-strength optimization_level=3
+    # layout/routing/cancellation can run safely without recognizing and
+    # erasing the U;U^-1 telescoping structure.
+    isa_submit = transpile_for_backend([s.circuit for s in submit_subs], backend, optimization_level=3) if submit_subs else []
+    if mirror_skip:
+        # optimization_level=1 here: this transpile is only for a depth/gate-count
+        # preview (never executed in dry-run), and full SABRE at level 3 on a
+        # 100-qubit circuit is minutes slower for no benefit to a number we just print.
+        isa_skip = transpile_for_backend([s.circuit for s in mirror_skip], backend, optimization_level=1)
+        for s, isa in zip(mirror_skip, isa_skip):
+            print(f"  (transpile-only, not executed) {s.label}: depth={isa.depth()}, ops={sum(isa.count_ops().values())}")
+
+    if args.real and isa_submit:
+        confirm_real_submission(backend_name, isa_submit, args.shots)
+
+    job_id = None
+    usage_seconds = None
+    metrics = None
+    counts_by_label: dict[str, dict[str, int]] = {}
+    if isa_submit:
+        job = run_batch(backend, isa_submit, args.shots)
+        result = job.result()
+        counts = get_counts_list(result)
+        counts_by_label = {s.label: c for s, c in zip(submit_subs, counts)}
+
+        if args.real:
+            job_id = job.job_id()
+            usage_seconds = job.usage()
+            metrics = job.metrics()
+            print(f"\nJob ID: {job_id}")
+            print(f"Reported quantum usage: {usage_seconds:.3f} seconds")
+
+    # Ideal (noiseless) references, computed locally -- never touches a real backend.
+    ideal_sampler = get_ideal_sampler(seed=7)
+    ideal_counts_by_label: dict[str, dict[str, int]] = {}
+    ideal_targets = bell_subs + [s for s in mirror_subs if s.meta.get("simulate_locally")]
+    if ideal_targets:
+        ideal_job = ideal_sampler.run([s.circuit for s in ideal_targets], shots=args.shots)
+        ideal_result = ideal_job.result()
+        ideal_counts_by_label = {
+            s.label: pr.data.meas.get_counts() for s, pr in zip(ideal_targets, ideal_result)
+        }
+
+    all_results: dict = {
+        "mode": "real" if args.real else "dry_run",
+        "backend": backend_name,
+        "shots": args.shots,
+        "job_id": job_id,
+        "usage_seconds": usage_seconds,
+        "metrics": metrics,
+        "raw_counts": counts_by_label,
+        "ideal_counts": ideal_counts_by_label,
+    }
+
+    if qrng_subs:
+        counts_list = [counts_by_label[s.label] for s in qrng_subs]
+        all_results["qrng"] = qrng.analyze(counts_list, qrng_subs, out_dir)
+
+    if bell_subs:
+        counts_list = [counts_by_label[s.label] for s in bell_subs]
+        ideal_list = [ideal_counts_by_label[s.label] for s in bell_subs]
+        all_results["bell_ghz"] = bell_ghz.analyze(counts_list, bell_subs, ideal_list, out_dir)
+
+    if mirror_subs:
+        counts_list = [counts_by_label.get(s.label) for s in mirror_subs]
+        all_results["mirror"] = mirror.analyze(counts_list, mirror_subs, ideal_counts_by_label, out_dir)
+
+    path = save_run(all_results)
+    print(f"\nSaved results: {path}")
+
+
+if __name__ == "__main__":
+    main()

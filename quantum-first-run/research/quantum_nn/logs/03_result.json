@@ -1,0 +1,467 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "split": "validation",
+      "model": "quantum_fixed",
+      "accuracy": 0.59375
+    },
+    {
+      "seed": 0,
+      "split": "validation",
+      "model": "quantum_trained",
+      "accuracy": 0.828125
+    },
+    {
+      "seed": 0,
+      "split": "validation",
+      "model": "classical_dot",
+      "accuracy": 0.3828125
+    },
+    {
+      "seed": 0,
+      "split": "validation",
+      "model": "classical_euclidean",
+      "accuracy": 0.6328125
+    },
+    {
+      "seed": 0,
+      "split": "validation",
+      "model": "classical_trained_metric",
+      "accuracy": 0.9921875
+    },
+    {
+      "seed": 0,
+      "split": "validation",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 0,
+      "split": "test",
+      "model": "quantum_fixed",
+      "accuracy": 0.53125
+    },
+    {
+      "seed": 0,
+      "split": "test",
+      "model": "quantum_trained",
+      "accuracy": 0.83984375
+    },
+    {
+      "seed": 0,
+      "split": "test",
+      "model": "classical_dot",
+      "accuracy": 0.390625
+    },
+    {
+      "seed": 0,
+      "split": "test",
+      "model": "classical_euclidean",
+      "accuracy": 0.57421875
+    },
+    {
+      "seed": 0,
+      "split": "test",
+      "model": "classical_trained_metric",
+      "accuracy": 0.9921875
+    },
+    {
+      "seed": 0,
+      "split": "test",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 1,
+      "split": "validation",
+      "model": "quantum_fixed",
+      "accuracy": 0.5703125
+    },
+    {
+      "seed": 1,
+      "split": "validation",
+      "model": "quantum_trained",
+      "accuracy": 0.875
+    },
+    {
+      "seed": 1,
+      "split": "validation",
+      "model": "classical_dot",
+      "accuracy": 0.359375
+    },
+    {
+      "seed": 1,
+      "split": "validation",
+      "model": "classical_euclidean",
+      "accuracy": 0.59375
+    },
+    {
+      "seed": 1,
+      "split": "validation",
+      "model": "classical_trained_metric",
+      "accuracy": 0.984375
+    },
+    {
+      "seed": 1,
+      "split": "validation",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 1,
+      "split": "test",
+      "model": "quantum_fixed",
+      "accuracy": 0.55859375
+    },
+    {
+      "seed": 1,
+      "split": "test",
+      "model": "quantum_trained",
+      "accuracy": 0.830078125
+    },
+    {
+      "seed": 1,
+      "split": "test",
+      "model": "classical_dot",
+      "accuracy": 0.375
+    },
+    {
+      "seed": 1,
+      "split": "test",
+      "model": "classical_euclidean",
+      "accuracy": 0.580078125
+    },
+    {
+      "seed": 1,
+      "split": "test",
+      "model": "classical_trained_metric",
+      "accuracy": 0.99609375
+    },
+    {
+      "seed": 1,
+      "split": "test",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 2,
+      "split": "validation",
+      "model": "quantum_fixed",
+      "accuracy": 0.4453125
+    },
+    {
+      "seed": 2,
+      "split": "validation",
+      "model": "quantum_trained",
+      "accuracy": 0.8203125
+    },
+    {
+      "seed": 2,
+      "split": "validation",
+      "model": "classical_dot",
+      "accuracy": 0.40625
+    },
+    {
+      "seed": 2,
+      "split": "validation",
+      "model": "classical_euclidean",
+      "accuracy": 0.484375
+    },
+    {
+      "seed": 2,
+      "split": "validation",
+      "model": "classical_trained_metric",
+      "accuracy": 0.9609375
+    },
+    {
+      "seed": 2,
+      "split": "validation",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 2,
+      "split": "test",
+      "model": "quantum_fixed",
+      "accuracy": 0.6015625
+    },
+    {
+      "seed": 2,
+      "split": "test",
+      "model": "quantum_trained",
+      "accuracy": 0.861328125
+    },
+    {
+      "seed": 2,
+      "split": "test",
+      "model": "classical_dot",
+      "accuracy": 0.390625
+    },
+    {
+      "seed": 2,
+      "split": "test",
+      "model": "classical_euclidean",
+      "accuracy": 0.6328125
+    },
+    {
+      "seed": 2,
+      "split": "test",
+      "model": "classical_trained_metric",
+      "accuracy": 0.982421875
+    },
+    {
+      "seed": 2,
+      "split": "test",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 3,
+      "split": "validation",
+      "model": "quantum_fixed",
+      "accuracy": 0.5859375
+    },
+    {
+      "seed": 3,
+      "split": "validation",
+      "model": "quantum_trained",
+      "accuracy": 0.8359375
+    },
+    {
+      "seed": 3,
+      "split": "validation",
+      "model": "classical_dot",
+      "accuracy": 0.4296875
+    },
+    {
+      "seed": 3,
+      "split": "validation",
+      "model": "classical_euclidean",
+      "accuracy": 0.6171875
+    },
+    {
+      "seed": 3,
+      "split": "validation",
+      "model": "classical_trained_metric",
+      "accuracy": 0.9609375
+    },
+    {
+      "seed": 3,
+      "split": "validation",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 3,
+      "split": "test",
+      "model": "quantum_fixed",
+      "accuracy": 0.576171875
+    },
+    {
+      "seed": 3,
+      "split": "test",
+      "model": "quantum_trained",
+      "accuracy": 0.857421875
+    },
+    {
+      "seed": 3,
+      "split": "test",
+      "model": "classical_dot",
+      "accuracy": 0.40234375
+    },
+    {
+      "seed": 3,
+      "split": "test",
+      "model": "classical_euclidean",
+      "accuracy": 0.595703125
+    },
+    {
+      "seed": 3,
+      "split": "test",
+      "model": "classical_trained_metric",
+      "accuracy": 0.9609375
+    },
+    {
+      "seed": 3,
+      "split": "test",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 4,
+      "split": "validation",
+      "model": "quantum_fixed",
+      "accuracy": 0.6328125
+    },
+    {
+      "seed": 4,
+      "split": "validation",
+      "model": "quantum_trained",
+      "accuracy": 0.90625
+    },
+    {
+      "seed": 4,
+      "split": "validation",
+      "model": "classical_dot",
+      "accuracy": 0.40625
+    },
+    {
+      "seed": 4,
+      "split": "validation",
+      "model": "classical_euclidean",
+      "accuracy": 0.65625
+    },
+    {
+      "seed": 4,
+      "split": "validation",
+      "model": "classical_trained_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 4,
+      "split": "validation",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 4,
+      "split": "test",
+      "model": "quantum_fixed",
+      "accuracy": 0.58203125
+    },
+    {
+      "seed": 4,
+      "split": "test",
+      "model": "quantum_trained",
+      "accuracy": 0.869140625
+    },
+    {
+      "seed": 4,
+      "split": "test",
+      "model": "classical_dot",
+      "accuracy": 0.408203125
+    },
+    {
+      "seed": 4,
+      "split": "test",
+      "model": "classical_euclidean",
+      "accuracy": 0.603515625
+    },
+    {
+      "seed": 4,
+      "split": "test",
+      "model": "classical_trained_metric",
+      "accuracy": 1.0
+    },
+    {
+      "seed": 4,
+      "split": "test",
+      "model": "oracle_task_metric",
+      "accuracy": 1.0
+    }
+  ],
+  "fits": [
+    {
+      "seed": 0,
+      "parameters": [
+        2.0,
+        0.02,
+        1.50874138398546,
+        -0.4165878990796833,
+        3.5033098373670155
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 9,
+      "calls": 66,
+      "seconds": 0.056662875023903325,
+      "classical_parameters": [
+        -2.9129816151385413,
+        4.382026634673881
+      ],
+      "classical_success": true
+    },
+    {
+      "seed": 1,
+      "parameters": [
+        2.0,
+        0.0524901983040738,
+        1.577511852629231,
+        0.28353763081641686,
+        3.4371020938953896
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 13,
+      "calls": 114,
+      "seconds": 0.13725808300659992,
+      "classical_parameters": [
+        -2.963365729311366,
+        4.382026634673881
+      ],
+      "classical_success": true
+    },
+    {
+      "seed": 2,
+      "parameters": [
+        2.0,
+        0.02,
+        2.1864197486630834,
+        -0.6010408390858573,
+        3.0349556581037738
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 11,
+      "calls": 78,
+      "seconds": 0.07425691600656137,
+      "classical_parameters": [
+        -2.812689194568151,
+        4.382026634673881
+      ],
+      "classical_success": true
+    },
+    {
+      "seed": 3,
+      "parameters": [
+        2.0,
+        0.02,
+        1.8390206910130047,
+        -0.4488483834226535,
+        3.6714108725287873
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 10,
+      "calls": 66,
+      "seconds": 0.07202374999178573,
+      "classical_parameters": [
+        -2.7018595404060526,
+        4.382026634673881
+      ],
+      "classical_success": true
+    },
+    {
+      "seed": 4,
+      "parameters": [
+        2.0,
+        0.02,
+        1.5895765113599492,
+        -0.4095652632827527,
+        3.4122657358410247
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 8,
+      "calls": 54,
+      "seconds": 0.05058845799067058,
+      "classical_parameters": [
+        -2.99837137548986,
+        4.382026634673881
+      ],
+      "classical_success": true
+    }
+  ],
+  "decision": "Inspect learned versus fixed kernel and trained classical metric; freeze parameters before shot-budget experiments. This is a quantum attention head with classical softmax/value aggregation, not a full transformer."
+}

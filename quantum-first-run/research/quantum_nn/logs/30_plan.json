@@ -1,0 +1,8 @@
+{
+  "hypothesis": "A separate prediction-set calibration may control marginal errors on matching data while failing under corruption. Must report ambiguous/empty answers, not call coverage intelligence.",
+  "design": "Freeze model choices from29.256 entirely new calibration points and512 new test points per seed;5 seeds,4 tasks, quantum and selected classical controls.",
+  "quantum_protocols": "Ideal calibration/ideal test; ideal calibration/1024-shot test;1024-shot calibration/1024-shot test. No gate noise. Test input sigma0/.8; labels always from clean inputs.",
+  "separation": "Calibration is not the earlier model-selection validation. Quantile rank ceil((n+1)*.9), score1-p_true. Classical conformal wrapper is not a uniquely quantum algorithm.",
+  "cost": "Quantum matched calibration requires256*1024 shots per fitted task/seed; not free.5 measurement repeats are conditional on one calibration cohort per seed.",
+  "claims": "Only exchangeable matching protocols support standard marginal-coverage interpretation. No conditional correctness or distribution-shift guarantee; count singleton/ambiguous/empty rates explicitly."
+}

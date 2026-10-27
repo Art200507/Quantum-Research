@@ -1,0 +1,6 @@
+{
+  "revision": "Scale every re-upload consistently; earlier unscaled RZ keeps injecting the irrelevant coordinate.",
+  "hypothesis": "Interleaving data gates with trainable gates permits learning a task-specific quantum similarity. Test disjoint retrieval episodes, not training-set memorization.",
+  "task": "8 candidate keys and query with 2 real features. Correct candidate minimizes dx0^2 + .05 dx1^2. Values are one-hot positions, weighted by softmax(beta*fidelity).",
+  "budget": "5 training seeds, 128 train/128 validation/512 test episodes; max100 iterations; no noisy hardware optimization."
+}

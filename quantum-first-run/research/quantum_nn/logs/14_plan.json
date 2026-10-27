@@ -1,0 +1,4 @@
+{
+  "hypothesis": "Confirm an exact periodic encoding collision rather than attributing every range-shift failure to sampling. Check hybrid-block candidate permutation invariance and generalized allocator accounting.",
+  "purpose": "Validation and failure isolation; no new training or novelty claim."
+}

@@ -1,0 +1,4 @@
+{
+  "hypothesis": "Adaptive allocation may improve top-one attention retrieval at fixed total shots; include all screening shots.",
+  "scope": "Hard top-one sparse retrieval, not an unbiased estimator of all soft attention weights. Freeze experiment4 parameters. New episodes, five fitted seeds, 20 shot repeats per condition."
+}

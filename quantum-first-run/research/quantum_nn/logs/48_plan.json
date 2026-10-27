@@ -1,0 +1,8 @@
+{
+  "reviewed": "47_result: noise readouts outperform ideal under toy channels but all degrade;device noise does not establish equal training cost.",
+  "hypothesis": "Regrouping one fixed shot record can match low-shot retraining with no additional quantum measurement cost.",
+  "design": "Frozen45 five encoders at256shot inference. Reconstruct original four independent256shot training blocks. Group4 blocks into1 averaged1024shot feature,2 averaged512shot features,or4 separate256shot features per labeled point. Identical total1024training shots per point; original fixed noisy validation draws select lambda and grouping by CE. Fresh2048test points,10 paired256shot repeats.",
+  "controls": "G1,G2,G4 andvalidation-selectedG;reuse45 temperature/ideal only for context if needed. No new training labels.",
+  "source": "https://arxiv.org/abs/2604.28160 (abstract read): fixed-shot grouping and readout regularization already studied;this is an independent toy control,not a replication of its full implementation or a novel method.",
+  "scope": "Ideal encoder and sampling noise only;128 unique training labels regardless of grouping. Validation selection incurs classical optimization and no extra quantum shots across groups."
+}

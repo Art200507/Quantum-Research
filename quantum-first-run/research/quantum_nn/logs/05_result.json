@@ -1,0 +1,4876 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "model": "ideal_quantum",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.9453125
+    },
+    {
+      "seed": 0,
+      "model": "classical_trained_metric",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.994140625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 0,
+      "accuracy": 0.677734375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 0,
+      "accuracy": 0.71875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 1,
+      "accuracy": 0.66015625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 1,
+      "accuracy": 0.744140625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 2,
+      "accuracy": 0.671875
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 2,
+      "accuracy": 0.765625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 3,
+      "accuracy": 0.67578125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 3,
+      "accuracy": 0.751953125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 4,
+      "accuracy": 0.685546875
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 4,
+      "accuracy": 0.71875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 5,
+      "accuracy": 0.68359375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 5,
+      "accuracy": 0.74609375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 6,
+      "accuracy": 0.662109375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 6,
+      "accuracy": 0.78125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 7,
+      "accuracy": 0.6875
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 7,
+      "accuracy": 0.78125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 8,
+      "accuracy": 0.681640625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 8,
+      "accuracy": 0.73046875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 9,
+      "accuracy": 0.67578125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 9,
+      "accuracy": 0.755859375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 10,
+      "accuracy": 0.673828125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 10,
+      "accuracy": 0.783203125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 11,
+      "accuracy": 0.640625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 11,
+      "accuracy": 0.779296875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 12,
+      "accuracy": 0.662109375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 12,
+      "accuracy": 0.716796875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 13,
+      "accuracy": 0.70703125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 13,
+      "accuracy": 0.740234375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 14,
+      "accuracy": 0.70703125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 14,
+      "accuracy": 0.751953125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 15,
+      "accuracy": 0.673828125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 15,
+      "accuracy": 0.720703125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 16,
+      "accuracy": 0.65625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 16,
+      "accuracy": 0.75390625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 17,
+      "accuracy": 0.681640625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 17,
+      "accuracy": 0.759765625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 18,
+      "accuracy": 0.67578125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 18,
+      "accuracy": 0.759765625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 19,
+      "accuracy": 0.650390625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 19,
+      "accuracy": 0.751953125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 0,
+      "accuracy": 0.818359375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 0,
+      "accuracy": 0.84765625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 1,
+      "accuracy": 0.828125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 1,
+      "accuracy": 0.86328125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 2,
+      "accuracy": 0.8359375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 2,
+      "accuracy": 0.8671875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 3,
+      "accuracy": 0.810546875
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 3,
+      "accuracy": 0.8359375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 4,
+      "accuracy": 0.80859375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 4,
+      "accuracy": 0.8515625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 5,
+      "accuracy": 0.828125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 5,
+      "accuracy": 0.85546875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 6,
+      "accuracy": 0.822265625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 6,
+      "accuracy": 0.85546875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 7,
+      "accuracy": 0.810546875
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 7,
+      "accuracy": 0.8671875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 8,
+      "accuracy": 0.814453125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 8,
+      "accuracy": 0.865234375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 9,
+      "accuracy": 0.798828125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 9,
+      "accuracy": 0.86328125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 10,
+      "accuracy": 0.80078125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 10,
+      "accuracy": 0.8359375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 11,
+      "accuracy": 0.814453125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 11,
+      "accuracy": 0.849609375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 12,
+      "accuracy": 0.810546875
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 12,
+      "accuracy": 0.85546875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 13,
+      "accuracy": 0.77734375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 13,
+      "accuracy": 0.865234375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 14,
+      "accuracy": 0.814453125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 14,
+      "accuracy": 0.841796875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 15,
+      "accuracy": 0.81640625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 15,
+      "accuracy": 0.86328125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 16,
+      "accuracy": 0.818359375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 16,
+      "accuracy": 0.865234375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 17,
+      "accuracy": 0.810546875
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 17,
+      "accuracy": 0.8671875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 18,
+      "accuracy": 0.830078125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 18,
+      "accuracy": 0.857421875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 19,
+      "accuracy": 0.81640625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 19,
+      "accuracy": 0.87890625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 0,
+      "accuracy": 0.876953125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 0,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 1,
+      "accuracy": 0.88671875
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 1,
+      "accuracy": 0.900390625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 2,
+      "accuracy": 0.884765625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 2,
+      "accuracy": 0.89453125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 3,
+      "accuracy": 0.865234375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 3,
+      "accuracy": 0.904296875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 4,
+      "accuracy": 0.88671875
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 4,
+      "accuracy": 0.89453125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 5,
+      "accuracy": 0.890625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 5,
+      "accuracy": 0.9140625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 6,
+      "accuracy": 0.884765625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 6,
+      "accuracy": 0.908203125
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 7,
+      "accuracy": 0.87890625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 7,
+      "accuracy": 0.90234375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 8,
+      "accuracy": 0.876953125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 8,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 9,
+      "accuracy": 0.89453125
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 9,
+      "accuracy": 0.9140625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 10,
+      "accuracy": 0.888671875
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 10,
+      "accuracy": 0.904296875
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 11,
+      "accuracy": 0.875
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 11,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 12,
+      "accuracy": 0.87109375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 12,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 13,
+      "accuracy": 0.880859375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 13,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 14,
+      "accuracy": 0.890625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 14,
+      "accuracy": 0.931640625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 15,
+      "accuracy": 0.890625
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 15,
+      "accuracy": 0.896484375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 16,
+      "accuracy": 0.880859375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 16,
+      "accuracy": 0.90625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 17,
+      "accuracy": 0.87109375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 17,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 18,
+      "accuracy": 0.8984375
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 18,
+      "accuracy": 0.916015625
+    },
+    {
+      "seed": 0,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 19,
+      "accuracy": 0.904296875
+    },
+    {
+      "seed": 0,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 19,
+      "accuracy": 0.91796875
+    },
+    {
+      "seed": 1,
+      "model": "ideal_quantum",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.93359375
+    },
+    {
+      "seed": 1,
+      "model": "classical_trained_metric",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.978515625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 0,
+      "accuracy": 0.728515625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 0,
+      "accuracy": 0.76171875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 1,
+      "accuracy": 0.67578125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 1,
+      "accuracy": 0.798828125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 2,
+      "accuracy": 0.66796875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 2,
+      "accuracy": 0.802734375
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 3,
+      "accuracy": 0.685546875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 3,
+      "accuracy": 0.771484375
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 4,
+      "accuracy": 0.671875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 4,
+      "accuracy": 0.748046875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 5,
+      "accuracy": 0.69921875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 5,
+      "accuracy": 0.740234375
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 6,
+      "accuracy": 0.65234375
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 6,
+      "accuracy": 0.744140625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 7,
+      "accuracy": 0.66015625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 7,
+      "accuracy": 0.765625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 8,
+      "accuracy": 0.66796875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 8,
+      "accuracy": 0.748046875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 9,
+      "accuracy": 0.693359375
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 9,
+      "accuracy": 0.78125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 10,
+      "accuracy": 0.685546875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 10,
+      "accuracy": 0.7734375
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 11,
+      "accuracy": 0.71875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 11,
+      "accuracy": 0.775390625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 12,
+      "accuracy": 0.685546875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 12,
+      "accuracy": 0.80078125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 13,
+      "accuracy": 0.685546875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 13,
+      "accuracy": 0.7734375
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 14,
+      "accuracy": 0.6796875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 14,
+      "accuracy": 0.75
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 15,
+      "accuracy": 0.67578125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 15,
+      "accuracy": 0.76953125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 16,
+      "accuracy": 0.68359375
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 16,
+      "accuracy": 0.767578125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 17,
+      "accuracy": 0.705078125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 17,
+      "accuracy": 0.779296875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 18,
+      "accuracy": 0.669921875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 18,
+      "accuracy": 0.76953125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 19,
+      "accuracy": 0.681640625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 19,
+      "accuracy": 0.7578125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 0,
+      "accuracy": 0.828125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 0,
+      "accuracy": 0.87109375
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 1,
+      "accuracy": 0.818359375
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 1,
+      "accuracy": 0.857421875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 2,
+      "accuracy": 0.8515625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 2,
+      "accuracy": 0.86328125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 3,
+      "accuracy": 0.82421875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 3,
+      "accuracy": 0.875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 4,
+      "accuracy": 0.814453125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 4,
+      "accuracy": 0.85546875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 5,
+      "accuracy": 0.822265625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 5,
+      "accuracy": 0.833984375
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 6,
+      "accuracy": 0.81640625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 6,
+      "accuracy": 0.875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 7,
+      "accuracy": 0.853515625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 7,
+      "accuracy": 0.859375
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 8,
+      "accuracy": 0.798828125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 8,
+      "accuracy": 0.859375
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 9,
+      "accuracy": 0.810546875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 9,
+      "accuracy": 0.880859375
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 10,
+      "accuracy": 0.8515625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 10,
+      "accuracy": 0.875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 11,
+      "accuracy": 0.814453125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 11,
+      "accuracy": 0.8828125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 12,
+      "accuracy": 0.8359375
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 12,
+      "accuracy": 0.8671875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 13,
+      "accuracy": 0.79296875
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 13,
+      "accuracy": 0.861328125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 14,
+      "accuracy": 0.814453125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 14,
+      "accuracy": 0.861328125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 15,
+      "accuracy": 0.83203125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 15,
+      "accuracy": 0.853515625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 16,
+      "accuracy": 0.81640625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 16,
+      "accuracy": 0.8828125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 17,
+      "accuracy": 0.849609375
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 17,
+      "accuracy": 0.853515625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 18,
+      "accuracy": 0.83203125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 18,
+      "accuracy": 0.869140625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 19,
+      "accuracy": 0.828125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 19,
+      "accuracy": 0.865234375
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 0,
+      "accuracy": 0.90234375
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 0,
+      "accuracy": 0.90625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 1,
+      "accuracy": 0.87890625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 1,
+      "accuracy": 0.923828125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 2,
+      "accuracy": 0.896484375
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 2,
+      "accuracy": 0.923828125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 3,
+      "accuracy": 0.890625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 3,
+      "accuracy": 0.91796875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 4,
+      "accuracy": 0.89453125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 4,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 5,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 5,
+      "accuracy": 0.908203125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 6,
+      "accuracy": 0.900390625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 6,
+      "accuracy": 0.931640625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 7,
+      "accuracy": 0.890625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 7,
+      "accuracy": 0.90625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 8,
+      "accuracy": 0.908203125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 8,
+      "accuracy": 0.90625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 9,
+      "accuracy": 0.892578125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 9,
+      "accuracy": 0.9296875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 10,
+      "accuracy": 0.908203125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 10,
+      "accuracy": 0.916015625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 11,
+      "accuracy": 0.890625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 11,
+      "accuracy": 0.91796875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 12,
+      "accuracy": 0.8984375
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 12,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 13,
+      "accuracy": 0.896484375
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 13,
+      "accuracy": 0.931640625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 14,
+      "accuracy": 0.884765625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 14,
+      "accuracy": 0.927734375
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 15,
+      "accuracy": 0.880859375
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 15,
+      "accuracy": 0.900390625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 16,
+      "accuracy": 0.892578125
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 16,
+      "accuracy": 0.908203125
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 17,
+      "accuracy": 0.900390625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 17,
+      "accuracy": 0.921875
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 18,
+      "accuracy": 0.884765625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 18,
+      "accuracy": 0.9140625
+    },
+    {
+      "seed": 1,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 19,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 1,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 19,
+      "accuracy": 0.91796875
+    },
+    {
+      "seed": 2,
+      "model": "ideal_quantum",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.94921875
+    },
+    {
+      "seed": 2,
+      "model": "classical_trained_metric",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.9609375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 0,
+      "accuracy": 0.703125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 0,
+      "accuracy": 0.810546875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 1,
+      "accuracy": 0.70703125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 1,
+      "accuracy": 0.771484375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 2,
+      "accuracy": 0.689453125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 2,
+      "accuracy": 0.796875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 3,
+      "accuracy": 0.701171875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 3,
+      "accuracy": 0.794921875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 4,
+      "accuracy": 0.728515625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 4,
+      "accuracy": 0.77734375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 5,
+      "accuracy": 0.720703125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 5,
+      "accuracy": 0.802734375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 6,
+      "accuracy": 0.720703125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 6,
+      "accuracy": 0.78515625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 7,
+      "accuracy": 0.697265625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 7,
+      "accuracy": 0.794921875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 8,
+      "accuracy": 0.732421875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 8,
+      "accuracy": 0.78125
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 9,
+      "accuracy": 0.701171875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 9,
+      "accuracy": 0.78125
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 10,
+      "accuracy": 0.720703125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 10,
+      "accuracy": 0.751953125
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 11,
+      "accuracy": 0.72265625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 11,
+      "accuracy": 0.78125
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 12,
+      "accuracy": 0.732421875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 12,
+      "accuracy": 0.779296875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 13,
+      "accuracy": 0.6953125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 13,
+      "accuracy": 0.78125
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 14,
+      "accuracy": 0.75
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 14,
+      "accuracy": 0.791015625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 15,
+      "accuracy": 0.685546875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 15,
+      "accuracy": 0.787109375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 16,
+      "accuracy": 0.7265625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 16,
+      "accuracy": 0.759765625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 17,
+      "accuracy": 0.701171875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 17,
+      "accuracy": 0.7890625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 18,
+      "accuracy": 0.744140625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 18,
+      "accuracy": 0.796875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 19,
+      "accuracy": 0.736328125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 19,
+      "accuracy": 0.7890625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 0,
+      "accuracy": 0.8125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 0,
+      "accuracy": 0.873046875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 1,
+      "accuracy": 0.853515625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 1,
+      "accuracy": 0.87109375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 2,
+      "accuracy": 0.849609375
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 2,
+      "accuracy": 0.869140625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 3,
+      "accuracy": 0.82421875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 3,
+      "accuracy": 0.85546875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 4,
+      "accuracy": 0.84375
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 4,
+      "accuracy": 0.88671875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 5,
+      "accuracy": 0.857421875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 5,
+      "accuracy": 0.888671875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 6,
+      "accuracy": 0.841796875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 6,
+      "accuracy": 0.875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 7,
+      "accuracy": 0.841796875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 7,
+      "accuracy": 0.884765625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 8,
+      "accuracy": 0.83203125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 8,
+      "accuracy": 0.890625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 9,
+      "accuracy": 0.861328125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 9,
+      "accuracy": 0.892578125
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 10,
+      "accuracy": 0.875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 10,
+      "accuracy": 0.888671875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 11,
+      "accuracy": 0.849609375
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 11,
+      "accuracy": 0.869140625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 12,
+      "accuracy": 0.818359375
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 12,
+      "accuracy": 0.8984375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 13,
+      "accuracy": 0.84765625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 13,
+      "accuracy": 0.890625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 14,
+      "accuracy": 0.83984375
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 14,
+      "accuracy": 0.876953125
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 15,
+      "accuracy": 0.833984375
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 15,
+      "accuracy": 0.8828125
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 16,
+      "accuracy": 0.8515625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 16,
+      "accuracy": 0.869140625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 17,
+      "accuracy": 0.841796875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 17,
+      "accuracy": 0.8984375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 18,
+      "accuracy": 0.84375
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 18,
+      "accuracy": 0.880859375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 19,
+      "accuracy": 0.841796875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 19,
+      "accuracy": 0.884765625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 0,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 0,
+      "accuracy": 0.91796875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 1,
+      "accuracy": 0.90625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 1,
+      "accuracy": 0.935546875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 2,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 2,
+      "accuracy": 0.91796875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 3,
+      "accuracy": 0.904296875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 3,
+      "accuracy": 0.9296875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 4,
+      "accuracy": 0.9140625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 4,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 5,
+      "accuracy": 0.904296875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 5,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 6,
+      "accuracy": 0.921875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 6,
+      "accuracy": 0.9140625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 7,
+      "accuracy": 0.892578125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 7,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 8,
+      "accuracy": 0.916015625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 8,
+      "accuracy": 0.9140625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 9,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 9,
+      "accuracy": 0.931640625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 10,
+      "accuracy": 0.916015625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 10,
+      "accuracy": 0.927734375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 11,
+      "accuracy": 0.9140625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 11,
+      "accuracy": 0.931640625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 12,
+      "accuracy": 0.904296875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 12,
+      "accuracy": 0.927734375
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 13,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 13,
+      "accuracy": 0.935546875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 14,
+      "accuracy": 0.921875
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 14,
+      "accuracy": 0.94140625
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 15,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 15,
+      "accuracy": 0.91796875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 16,
+      "accuracy": 0.90234375
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 16,
+      "accuracy": 0.919921875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 17,
+      "accuracy": 0.90625
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 17,
+      "accuracy": 0.908203125
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 18,
+      "accuracy": 0.896484375
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 18,
+      "accuracy": 0.91796875
+    },
+    {
+      "seed": 2,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 19,
+      "accuracy": 0.923828125
+    },
+    {
+      "seed": 2,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 19,
+      "accuracy": 0.92578125
+    },
+    {
+      "seed": 3,
+      "model": "ideal_quantum",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.935546875
+    },
+    {
+      "seed": 3,
+      "model": "classical_trained_metric",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.966796875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 0,
+      "accuracy": 0.677734375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 0,
+      "accuracy": 0.7578125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 1,
+      "accuracy": 0.71484375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 1,
+      "accuracy": 0.76171875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 2,
+      "accuracy": 0.712890625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 2,
+      "accuracy": 0.765625
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 3,
+      "accuracy": 0.69921875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 3,
+      "accuracy": 0.77734375
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 4,
+      "accuracy": 0.697265625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 4,
+      "accuracy": 0.748046875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 5,
+      "accuracy": 0.72265625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 5,
+      "accuracy": 0.79296875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 6,
+      "accuracy": 0.6640625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 6,
+      "accuracy": 0.7734375
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 7,
+      "accuracy": 0.703125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 7,
+      "accuracy": 0.73828125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 8,
+      "accuracy": 0.65625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 8,
+      "accuracy": 0.7578125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 9,
+      "accuracy": 0.69140625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 9,
+      "accuracy": 0.75390625
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 10,
+      "accuracy": 0.703125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 10,
+      "accuracy": 0.751953125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 11,
+      "accuracy": 0.71484375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 11,
+      "accuracy": 0.771484375
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 12,
+      "accuracy": 0.6953125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 12,
+      "accuracy": 0.73046875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 13,
+      "accuracy": 0.6953125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 13,
+      "accuracy": 0.75
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 14,
+      "accuracy": 0.712890625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 14,
+      "accuracy": 0.7734375
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 15,
+      "accuracy": 0.669921875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 15,
+      "accuracy": 0.771484375
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 16,
+      "accuracy": 0.693359375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 16,
+      "accuracy": 0.740234375
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 17,
+      "accuracy": 0.689453125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 17,
+      "accuracy": 0.759765625
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 18,
+      "accuracy": 0.654296875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 18,
+      "accuracy": 0.787109375
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 19,
+      "accuracy": 0.6875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 19,
+      "accuracy": 0.736328125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 0,
+      "accuracy": 0.826171875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 0,
+      "accuracy": 0.87890625
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 1,
+      "accuracy": 0.84375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 1,
+      "accuracy": 0.875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 2,
+      "accuracy": 0.828125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 2,
+      "accuracy": 0.84765625
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 3,
+      "accuracy": 0.828125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 3,
+      "accuracy": 0.89453125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 4,
+      "accuracy": 0.833984375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 4,
+      "accuracy": 0.88671875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 5,
+      "accuracy": 0.826171875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 5,
+      "accuracy": 0.87890625
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 6,
+      "accuracy": 0.841796875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 6,
+      "accuracy": 0.87109375
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 7,
+      "accuracy": 0.8359375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 7,
+      "accuracy": 0.86328125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 8,
+      "accuracy": 0.85546875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 8,
+      "accuracy": 0.85546875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 9,
+      "accuracy": 0.853515625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 9,
+      "accuracy": 0.89453125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 10,
+      "accuracy": 0.841796875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 10,
+      "accuracy": 0.86328125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 11,
+      "accuracy": 0.830078125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 11,
+      "accuracy": 0.875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 12,
+      "accuracy": 0.828125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 12,
+      "accuracy": 0.869140625
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 13,
+      "accuracy": 0.8359375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 13,
+      "accuracy": 0.8828125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 14,
+      "accuracy": 0.833984375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 14,
+      "accuracy": 0.88671875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 15,
+      "accuracy": 0.84375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 15,
+      "accuracy": 0.875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 16,
+      "accuracy": 0.845703125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 16,
+      "accuracy": 0.880859375
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 17,
+      "accuracy": 0.859375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 17,
+      "accuracy": 0.884765625
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 18,
+      "accuracy": 0.85546875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 18,
+      "accuracy": 0.88671875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 19,
+      "accuracy": 0.81640625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 19,
+      "accuracy": 0.896484375
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 0,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 0,
+      "accuracy": 0.9296875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 1,
+      "accuracy": 0.89453125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 1,
+      "accuracy": 0.93359375
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 2,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 2,
+      "accuracy": 0.92578125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 3,
+      "accuracy": 0.892578125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 3,
+      "accuracy": 0.9296875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 4,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 4,
+      "accuracy": 0.90625
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 5,
+      "accuracy": 0.916015625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 5,
+      "accuracy": 0.91796875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 6,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 6,
+      "accuracy": 0.91796875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 7,
+      "accuracy": 0.900390625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 7,
+      "accuracy": 0.919921875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 8,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 8,
+      "accuracy": 0.921875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 9,
+      "accuracy": 0.908203125
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 9,
+      "accuracy": 0.923828125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 10,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 10,
+      "accuracy": 0.919921875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 11,
+      "accuracy": 0.888671875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 11,
+      "accuracy": 0.91796875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 12,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 12,
+      "accuracy": 0.9296875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 13,
+      "accuracy": 0.900390625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 13,
+      "accuracy": 0.927734375
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 14,
+      "accuracy": 0.90234375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 14,
+      "accuracy": 0.923828125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 15,
+      "accuracy": 0.9140625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 15,
+      "accuracy": 0.9296875
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 16,
+      "accuracy": 0.88671875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 16,
+      "accuracy": 0.92578125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 17,
+      "accuracy": 0.900390625
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 17,
+      "accuracy": 0.92578125
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 18,
+      "accuracy": 0.927734375
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 18,
+      "accuracy": 0.9140625
+    },
+    {
+      "seed": 3,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 19,
+      "accuracy": 0.904296875
+    },
+    {
+      "seed": 3,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 19,
+      "accuracy": 0.931640625
+    },
+    {
+      "seed": 4,
+      "model": "ideal_quantum",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.955078125
+    },
+    {
+      "seed": 4,
+      "model": "classical_trained_metric",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.994140625
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 0,
+      "accuracy": 0.693359375
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 0,
+      "accuracy": 0.7734375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 1,
+      "accuracy": 0.681640625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 1,
+      "accuracy": 0.767578125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 2,
+      "accuracy": 0.6796875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 2,
+      "accuracy": 0.7421875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 3,
+      "accuracy": 0.6953125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 3,
+      "accuracy": 0.77734375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 4,
+      "accuracy": 0.677734375
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 4,
+      "accuracy": 0.775390625
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 5,
+      "accuracy": 0.701171875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 5,
+      "accuracy": 0.779296875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 6,
+      "accuracy": 0.66015625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 6,
+      "accuracy": 0.759765625
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 7,
+      "accuracy": 0.69921875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 7,
+      "accuracy": 0.77734375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 8,
+      "accuracy": 0.673828125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 8,
+      "accuracy": 0.76171875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 9,
+      "accuracy": 0.685546875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 9,
+      "accuracy": 0.76953125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 10,
+      "accuracy": 0.69140625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 10,
+      "accuracy": 0.78515625
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 11,
+      "accuracy": 0.654296875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 11,
+      "accuracy": 0.759765625
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 12,
+      "accuracy": 0.6640625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 12,
+      "accuracy": 0.767578125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 13,
+      "accuracy": 0.685546875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 13,
+      "accuracy": 0.76953125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 14,
+      "accuracy": 0.66796875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 14,
+      "accuracy": 0.75
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 15,
+      "accuracy": 0.703125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 15,
+      "accuracy": 0.77734375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 16,
+      "accuracy": 0.67578125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 16,
+      "accuracy": 0.787109375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 17,
+      "accuracy": 0.7109375
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 17,
+      "accuracy": 0.74609375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 18,
+      "accuracy": 0.70703125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 18,
+      "accuracy": 0.7734375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 19,
+      "accuracy": 0.681640625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 128,
+      "shots_used": 128,
+      "repeat": 19,
+      "accuracy": 0.767578125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 0,
+      "accuracy": 0.85546875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 0,
+      "accuracy": 0.861328125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 1,
+      "accuracy": 0.826171875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 1,
+      "accuracy": 0.8828125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 2,
+      "accuracy": 0.8125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 2,
+      "accuracy": 0.857421875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 3,
+      "accuracy": 0.84375
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 3,
+      "accuracy": 0.88671875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 4,
+      "accuracy": 0.822265625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 4,
+      "accuracy": 0.873046875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 5,
+      "accuracy": 0.830078125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 5,
+      "accuracy": 0.859375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 6,
+      "accuracy": 0.806640625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 6,
+      "accuracy": 0.890625
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 7,
+      "accuracy": 0.81640625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 7,
+      "accuracy": 0.876953125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 8,
+      "accuracy": 0.810546875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 8,
+      "accuracy": 0.87109375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 9,
+      "accuracy": 0.82421875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 9,
+      "accuracy": 0.861328125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 10,
+      "accuracy": 0.814453125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 10,
+      "accuracy": 0.873046875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 11,
+      "accuracy": 0.828125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 11,
+      "accuracy": 0.859375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 12,
+      "accuracy": 0.810546875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 12,
+      "accuracy": 0.87890625
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 13,
+      "accuracy": 0.828125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 13,
+      "accuracy": 0.876953125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 14,
+      "accuracy": 0.83984375
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 14,
+      "accuracy": 0.85546875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 15,
+      "accuracy": 0.8203125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 15,
+      "accuracy": 0.859375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 16,
+      "accuracy": 0.826171875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 16,
+      "accuracy": 0.880859375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 17,
+      "accuracy": 0.84765625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 17,
+      "accuracy": 0.865234375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 18,
+      "accuracy": 0.833984375
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 18,
+      "accuracy": 0.8671875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 19,
+      "accuracy": 0.845703125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 512,
+      "shots_used": 512,
+      "repeat": 19,
+      "accuracy": 0.86328125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 0,
+      "accuracy": 0.912109375
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 0,
+      "accuracy": 0.9296875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 1,
+      "accuracy": 0.890625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 1,
+      "accuracy": 0.923828125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 2,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 2,
+      "accuracy": 0.9140625
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 3,
+      "accuracy": 0.8984375
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 3,
+      "accuracy": 0.91796875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 4,
+      "accuracy": 0.892578125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 4,
+      "accuracy": 0.921875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 5,
+      "accuracy": 0.90625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 5,
+      "accuracy": 0.927734375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 6,
+      "accuracy": 0.892578125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 6,
+      "accuracy": 0.927734375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 7,
+      "accuracy": 0.900390625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 7,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 8,
+      "accuracy": 0.8828125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 8,
+      "accuracy": 0.92578125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 9,
+      "accuracy": 0.90625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 9,
+      "accuracy": 0.921875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 10,
+      "accuracy": 0.8984375
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 10,
+      "accuracy": 0.919921875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 11,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 11,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 12,
+      "accuracy": 0.88671875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 12,
+      "accuracy": 0.916015625
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 13,
+      "accuracy": 0.876953125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 13,
+      "accuracy": 0.919921875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 14,
+      "accuracy": 0.892578125
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 14,
+      "accuracy": 0.90234375
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 15,
+      "accuracy": 0.8984375
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 15,
+      "accuracy": 0.935546875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 16,
+      "accuracy": 0.91015625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 16,
+      "accuracy": 0.9140625
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 17,
+      "accuracy": 0.888671875
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 17,
+      "accuracy": 0.919921875
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 18,
+      "accuracy": 0.890625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 18,
+      "accuracy": 0.89453125
+    },
+    {
+      "seed": 4,
+      "model": "uniform",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 19,
+      "accuracy": 0.890625
+    },
+    {
+      "seed": 4,
+      "model": "adaptive_halving",
+      "budget": 2048,
+      "shots_used": 2048,
+      "repeat": 19,
+      "accuracy": 0.919921875
+    }
+  ],
+  "revised_circuit_max_error": 9.992007221626409e-16,
+  "decision": "Inspect fixed-budget gains and shot requirements; no quantum advantage follows because trained classical metric uses direct arithmetic without measurement shots."
+}

@@ -1,0 +1,568 @@
+{
+  "date": "2026-10-27",
+  "completed_experimental_cycles": 49,
+  "new_cycles": [
+    54,
+    55,
+    56,
+    57
+  ],
+  "review_before_each": [
+    "53_checkpoint/52_result before54",
+    "54_result before55",
+    "55_result before56",
+    "56_result plus task/trajectory failure audit before57"
+  ],
+  "reference_monitor": [
+    {
+      "budget": 128,
+      "fraction": 0.0,
+      "threshold": 41.131615440063044,
+      "alert_rate": 0.016
+    },
+    {
+      "budget": 128,
+      "fraction": 0.25,
+      "threshold": 41.131615440063044,
+      "alert_rate": 0.0625
+    },
+    {
+      "budget": 128,
+      "fraction": 0.5,
+      "threshold": 41.131615440063044,
+      "alert_rate": 0.1815
+    },
+    {
+      "budget": 128,
+      "fraction": 1.0,
+      "threshold": 41.131615440063044,
+      "alert_rate": 0.642
+    },
+    {
+      "budget": 512,
+      "fraction": 0.0,
+      "threshold": 44.69215806266672,
+      "alert_rate": 0.0095
+    },
+    {
+      "budget": 512,
+      "fraction": 0.25,
+      "threshold": 44.69215806266672,
+      "alert_rate": 0.095
+    },
+    {
+      "budget": 512,
+      "fraction": 0.5,
+      "threshold": 44.69215806266672,
+      "alert_rate": 0.566
+    },
+    {
+      "budget": 512,
+      "fraction": 1.0,
+      "threshold": 44.69215806266672,
+      "alert_rate": 0.9985
+    },
+    {
+      "budget": 2048,
+      "fraction": 0.0,
+      "threshold": 43.18230864536194,
+      "alert_rate": 0.0145
+    },
+    {
+      "budget": 2048,
+      "fraction": 0.25,
+      "threshold": 43.18230864536194,
+      "alert_rate": 0.5665
+    },
+    {
+      "budget": 2048,
+      "fraction": 0.5,
+      "threshold": 43.18230864536194,
+      "alert_rate": 1.0
+    },
+    {
+      "budget": 2048,
+      "fraction": 1.0,
+      "threshold": 43.18230864536194,
+      "alert_rate": 1.0
+    }
+  ],
+  "initial_policy_test": [
+    {
+      "sequence": "stationary",
+      "policy": "never",
+      "accuracy": 0.9126157407407407,
+      "cross_entropy": 0.21080755055211894,
+      "brier": 0.0625705058908917,
+      "confident_wrong_fraction": 0.016999421296296294,
+      "total_shots": 311296.0,
+      "updates": 0.0,
+      "evaluation_rows": 36
+    },
+    {
+      "sequence": "stationary",
+      "policy": "always",
+      "accuracy": 0.9133873456790123,
+      "cross_entropy": 0.23629572332967866,
+      "brier": 0.06262144359436922,
+      "confident_wrong_fraction": 0.016420717592592594,
+      "total_shots": 606208.0,
+      "updates": 18.0,
+      "evaluation_rows": 36
+    },
+    {
+      "sequence": "stationary",
+      "policy": "triggered",
+      "accuracy": 0.9126157407407407,
+      "cross_entropy": 0.21080755055211894,
+      "brier": 0.0625705058908917,
+      "confident_wrong_fraction": 0.016999421296296294,
+      "total_shots": 324608.0,
+      "updates": 0.0,
+      "evaluation_rows": 36
+    },
+    {
+      "sequence": "abrupt",
+      "policy": "never",
+      "accuracy": 0.8946035879629629,
+      "cross_entropy": 0.28789614101026134,
+      "brier": 0.07777955764489251,
+      "confident_wrong_fraction": 0.02741608796296296,
+      "total_shots": 311296.0,
+      "updates": 0.0,
+      "evaluation_rows": 36
+    },
+    {
+      "sequence": "abrupt",
+      "policy": "always",
+      "accuracy": 0.9090952932098766,
+      "cross_entropy": 0.24206192352596878,
+      "brier": 0.065726724743783,
+      "confident_wrong_fraction": 0.01789158950617284,
+      "total_shots": 606208.0,
+      "updates": 18.0,
+      "evaluation_rows": 36
+    },
+    {
+      "sequence": "abrupt",
+      "policy": "triggered",
+      "accuracy": 0.9091676311728395,
+      "cross_entropy": 0.23958982829868633,
+      "brier": 0.0658639499784976,
+      "confident_wrong_fraction": 0.01818094135802469,
+      "total_shots": 365568.0,
+      "updates": 2.0,
+      "evaluation_rows": 36
+    },
+    {
+      "sequence": "gradual",
+      "policy": "never",
+      "accuracy": 0.8989679783950617,
+      "cross_entropy": 0.3040107519335974,
+      "brier": 0.07424286111710802,
+      "confident_wrong_fraction": 0.02662037037037037,
+      "total_shots": 311296.0,
+      "updates": 0.0,
+      "evaluation_rows": 36
+    },
+    {
+      "sequence": "gradual",
+      "policy": "always",
+      "accuracy": 0.9104456018518517,
+      "cross_entropy": 0.25670965244513905,
+      "brier": 0.06443341487989626,
+      "confident_wrong_fraction": 0.017771026234567902,
+      "total_shots": 606208.0,
+      "updates": 18.0,
+      "evaluation_rows": 36
+    },
+    {
+      "sequence": "gradual",
+      "policy": "triggered",
+      "accuracy": 0.9079861111111112,
+      "cross_entropy": 0.25949966498083665,
+      "brier": 0.06646689945560175,
+      "confident_wrong_fraction": 0.01912133487654321,
+      "total_shots": 372394.6666666667,
+      "updates": 2.3333333333333335,
+      "evaluation_rows": 36
+    }
+  ],
+  "randomized_policy_test": [
+    {
+      "kind": "stationary",
+      "policy": "never",
+      "accuracy": 0.9132486979166666,
+      "cross_entropy": 0.23991350207405895,
+      "brier": 0.06269966202220772,
+      "confident_wrong_fraction": 0.018473307291666668,
+      "total_shots": 212992.0,
+      "updates": 0.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "stationary",
+      "policy": "always",
+      "accuracy": 0.9143880208333334,
+      "cross_entropy": 0.21786259276110254,
+      "brier": 0.06238101508556485,
+      "confident_wrong_fraction": 0.01679144965277778,
+      "total_shots": 606208.0,
+      "updates": 24.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "stationary",
+      "policy": "periodic3",
+      "accuracy": 0.9141438802083334,
+      "cross_entropy": 0.22735873182559296,
+      "brier": 0.062093978671707135,
+      "confident_wrong_fraction": 0.016438802083333332,
+      "total_shots": 327680.0,
+      "updates": 7.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "stationary",
+      "policy": "periodic6",
+      "accuracy": 0.9144422743055555,
+      "cross_entropy": 0.23574397856201249,
+      "brier": 0.06251919289367777,
+      "confident_wrong_fraction": 0.017822265625,
+      "total_shots": 262144.0,
+      "updates": 3.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "stationary",
+      "policy": "periodic8",
+      "accuracy": 0.9139539930555555,
+      "cross_entropy": 0.22075080164116326,
+      "brier": 0.06220627039120241,
+      "confident_wrong_fraction": 0.015733506944444444,
+      "total_shots": 245760.0,
+      "updates": 2.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "stationary",
+      "policy": "triggered",
+      "accuracy": 0.9140896267361112,
+      "cross_entropy": 0.2225580373341125,
+      "brier": 0.062234640768599615,
+      "confident_wrong_fraction": 0.017686631944444444,
+      "total_shots": 239616.0,
+      "updates": 0.5,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "abrupt",
+      "policy": "never",
+      "accuracy": 0.898193359375,
+      "cross_entropy": 0.2768735323969671,
+      "brier": 0.07440295719192298,
+      "confident_wrong_fraction": 0.02536349826388889,
+      "total_shots": 212992.0,
+      "updates": 0.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "abrupt",
+      "policy": "always",
+      "accuracy": 0.9102376302083334,
+      "cross_entropy": 0.23898611878992068,
+      "brier": 0.06508144671582876,
+      "confident_wrong_fraction": 0.017171223958333332,
+      "total_shots": 606208.0,
+      "updates": 24.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "abrupt",
+      "policy": "periodic3",
+      "accuracy": 0.9082845052083334,
+      "cross_entropy": 0.24641916703351632,
+      "brier": 0.06638148223974574,
+      "confident_wrong_fraction": 0.01885308159722222,
+      "total_shots": 327680.0,
+      "updates": 7.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "abrupt",
+      "policy": "periodic6",
+      "accuracy": 0.9035915798611112,
+      "cross_entropy": 0.2554842773509463,
+      "brier": 0.06970530250911865,
+      "confident_wrong_fraction": 0.02031792534722222,
+      "total_shots": 262144.0,
+      "updates": 3.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "abrupt",
+      "policy": "periodic8",
+      "accuracy": 0.9001736111111112,
+      "cross_entropy": 0.2796057984092901,
+      "brier": 0.07276549895644051,
+      "confident_wrong_fraction": 0.022813585069444444,
+      "total_shots": 245760.0,
+      "updates": 2.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "abrupt",
+      "policy": "triggered",
+      "accuracy": 0.9087727864583334,
+      "cross_entropy": 0.28866666715664624,
+      "brier": 0.06638041082560779,
+      "confident_wrong_fraction": 0.021538628472222224,
+      "total_shots": 265216.0,
+      "updates": 1.75,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "ramp",
+      "policy": "never",
+      "accuracy": 0.9069010416666666,
+      "cross_entropy": 0.24247036928146506,
+      "brier": 0.06872081847088883,
+      "confident_wrong_fraction": 0.020860460069444444,
+      "total_shots": 212992.0,
+      "updates": 0.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "ramp",
+      "policy": "always",
+      "accuracy": 0.9123263888888888,
+      "cross_entropy": 0.2290358894687697,
+      "brier": 0.06356023323181419,
+      "confident_wrong_fraction": 0.016438802083333332,
+      "total_shots": 606208.0,
+      "updates": 24.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "ramp",
+      "policy": "periodic3",
+      "accuracy": 0.9126519097222222,
+      "cross_entropy": 0.23968750649636408,
+      "brier": 0.06357843742081494,
+      "confident_wrong_fraction": 0.016330295138888888,
+      "total_shots": 327680.0,
+      "updates": 7.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "ramp",
+      "policy": "periodic6",
+      "accuracy": 0.9101019965277778,
+      "cross_entropy": 0.24674773303765662,
+      "brier": 0.065832597632174,
+      "confident_wrong_fraction": 0.019205729166666668,
+      "total_shots": 262144.0,
+      "updates": 3.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "ramp",
+      "policy": "periodic8",
+      "accuracy": 0.9092881944444445,
+      "cross_entropy": 0.24486161220459934,
+      "brier": 0.06643622112025525,
+      "confident_wrong_fraction": 0.019558376736111112,
+      "total_shots": 245760.0,
+      "updates": 2.0,
+      "evaluation_rows": 48
+    },
+    {
+      "kind": "ramp",
+      "policy": "triggered",
+      "accuracy": 0.9115668402777778,
+      "cross_entropy": 0.2400405453051971,
+      "brier": 0.06517661721812679,
+      "confident_wrong_fraction": 0.017795138888888888,
+      "total_shots": 260096.0,
+      "updates": 1.5,
+      "evaluation_rows": 48
+    }
+  ],
+  "randomized_overall": [
+    {
+      "policy": "never",
+      "accuracy": 0.9061143663194444,
+      "cross_entropy": 0.25308580125083036,
+      "brier": 0.06860781256167318,
+      "confident_wrong_fraction": 0.021565755208333332,
+      "total_shots": 212992.0,
+      "updates": 0.0,
+      "evaluation_rows": 144
+    },
+    {
+      "policy": "always",
+      "accuracy": 0.9123173466435185,
+      "cross_entropy": 0.22862820033993098,
+      "brier": 0.06367423167773593,
+      "confident_wrong_fraction": 0.01680049189814815,
+      "total_shots": 606208.0,
+      "updates": 24.0,
+      "evaluation_rows": 144
+    },
+    {
+      "policy": "periodic3",
+      "accuracy": 0.9116934317129629,
+      "cross_entropy": 0.2378218017851578,
+      "brier": 0.06401796611075594,
+      "confident_wrong_fraction": 0.017207392939814815,
+      "total_shots": 327680.0,
+      "updates": 7.0,
+      "evaluation_rows": 144
+    },
+    {
+      "policy": "periodic6",
+      "accuracy": 0.9093786168981483,
+      "cross_entropy": 0.2459919963168718,
+      "brier": 0.06601903101165679,
+      "confident_wrong_fraction": 0.01911530671296296,
+      "total_shots": 262144.0,
+      "updates": 3.0,
+      "evaluation_rows": 144
+    },
+    {
+      "policy": "periodic8",
+      "accuracy": 0.9078052662037037,
+      "cross_entropy": 0.24840607075168425,
+      "brier": 0.06713599682263273,
+      "confident_wrong_fraction": 0.019368489583333332,
+      "total_shots": 245760.0,
+      "updates": 2.0,
+      "evaluation_rows": 144
+    },
+    {
+      "policy": "triggered",
+      "accuracy": 0.911476417824074,
+      "cross_entropy": 0.2504217499319853,
+      "brier": 0.06459722293744473,
+      "confident_wrong_fraction": 0.019006799768518517,
+      "total_shots": 254976.0,
+      "updates": 1.25,
+      "evaluation_rows": 144
+    }
+  ],
+  "confidence_guard": [
+    {
+      "policy": "never",
+      "guard": "raw",
+      "accuracy": 0.9042245370370371,
+      "cross_entropy": 0.23352773714120845,
+      "brier": 0.06846735207700186,
+      "confident_wrong_fraction": 0.017216435185185185,
+      "total_shots": 212992.0,
+      "updates": 0.0,
+      "evaluation_rows": 144
+    },
+    {
+      "policy": "never",
+      "guard": "cap4",
+      "accuracy": 0.9042245370370371,
+      "cross_entropy": 0.22770256666437566,
+      "brier": 0.06851460057915437,
+      "confident_wrong_fraction": 0.017216435185185185,
+      "total_shots": 212992.0,
+      "updates": 0.0,
+      "evaluation_rows": 144
+    },
+    {
+      "policy": "periodic6",
+      "guard": "raw",
+      "accuracy": 0.9068196614583334,
+      "cross_entropy": 0.2604516159814101,
+      "brier": 0.06699362783502176,
+      "confident_wrong_fraction": 0.017822265625,
+      "total_shots": 262144.0,
+      "updates": 3.0,
+      "evaluation_rows": 144
+    },
+    {
+      "policy": "periodic6",
+      "guard": "cap4",
+      "accuracy": 0.9068196614583334,
+      "cross_entropy": 0.22495766926753186,
+      "brier": 0.0670083831614639,
+      "confident_wrong_fraction": 0.017822265625,
+      "total_shots": 262144.0,
+      "updates": 3.0,
+      "evaluation_rows": 144
+    },
+    {
+      "policy": "triggered",
+      "guard": "raw",
+      "accuracy": 0.9077690972222222,
+      "cross_entropy": 0.23600352803419827,
+      "brier": 0.06587653555422174,
+      "confident_wrong_fraction": 0.015661168981481483,
+      "total_shots": 265216.0,
+      "updates": 1.75,
+      "evaluation_rows": 144
+    },
+    {
+      "policy": "triggered",
+      "guard": "cap4",
+      "accuracy": 0.9077690972222222,
+      "cross_entropy": 0.21990794437664468,
+      "brier": 0.0659279747690079,
+      "confident_wrong_fraction": 0.015661168981481483,
+      "total_shots": 265216.0,
+      "updates": 1.75,
+      "evaluation_rows": 144
+    }
+  ],
+  "findings": [
+    "512reference shots/event detectsfullhypotheticalA->B change99.85%,falsealarm .95%;quarterchange9.5%,half56.6%. These are stationary event rates foroneinitialbaseline,notdevice-wide guarantees.",
+    "55abrupt:triggered90.917% accuracy,365568totalshots,versusalways90.910%,606208shots. Gradualtriggeredaccuracy slightlylower;stationarymonitoroverheadwithoutbenefit.",
+    "56strongerperiodiccontrols/newtrajectories:triggered91.148%,254976shots;periodic6 90.938%,262144shots;periodic3 91.169%,327680shots;always91.232%,606208shots. TriggeredCE .2504 is worse thanperiodic6 .2460 andperiodic3 .2378.",
+    "56abrupttriggeredCE .2887 worse thannever .2769,largelyXORoutliers. Alloptimizersconverged;optimizerstatus alonecannotvalidatereliability.",
+    "57freshtrajectories:triggeredfixedcap4 reducesCE .2360->.2199 withidentical90.777%accuracy/265216shots. Brier slightlyworse .06588->.06593. Periodic6capCE .2250 versusnevercap .2277. No universalmetricdominance.",
+    "57raw logitsreach693.6;150/3456affineupdateshitparameterbounds. This supportsinvestigatingnoisy/smallcalibrationsetsoverconfidence,butdoesnotproveexclusivecausality."
+  ],
+  "validation": {
+    "passed": true,
+    "joint_gradient_error": 1.5781687068283645e-10,
+    "feature_derivative_errors": [
+      4.727169766738371e-10,
+      4.669100661658376e-10
+    ],
+    "learned_angle_Qiskit_error": 1.4988010832439613e-15,
+    "physical_circuits_checked": 32,
+    "likelihood_ratio_SciPy_error": 2.842170943040401e-14,
+    "reference_checks": "Statistic symmetry/zero foridenticalcounts;probabilitynormalization;exactreference shotallocations passed.",
+    "policy_cost_checks": "Every55/56/57row totalcost reconstructedfromupdates/referencecost;all56/57monitorbaselinerefreshcosts verified.",
+    "confidence_cap": "Every57prediction retains originalpositive/negative sign. No extraquantumshots.",
+    "syntax": "All4newrunnersandreplayparsed."
+  },
+  "optimization57": {
+    "converged": 3456,
+    "updates": 3456,
+    "bound_hits": 150
+  },
+  "research_question": "Can limited reference measurements trigger safe recalibration of hybrid quantum classifiers under device drift,with better accuracy/probability-error/measurement-cost tradeoffs than fixed scheduling?",
+  "next_actions": [
+    "Freeze aconsolidatedbenchmark:independentencoderselection/calibration/testlabels,freshtrainingseeds,multiplefixedperiodiccontrols,allprobabilitymetricsandfullcosts.",
+    "Compareproperregularizedaffinecalibration andheldout/shrinkagecalibration againstfixedconfidencecap;vary64calibrationlabelbudget beforedrawingreliabilityconclusions.",
+    "Stressmonitorwithcircuit-dependent/coherent/unseennoise,notjustknownA/Baxis;testfamily-wisefalsealarms,alarmdelaysandamortizedcostperdeployment.",
+    "Skipduplicatebatch0refreshinalways policy fornextbenchmark;currentcostsincludeexplicitprebatch0refreshafterinitialcalibration.",
+    "Professor discussion canframeexisting-methodreplication/controlledextension;nohardware submission untilaspecificboundedtestisprepared."
+  ],
+  "limitations": [
+    "12oldencoderfits(3trainingseeds/task),not49independentresearchreplications;cyclecount records exploratoryruns.",
+    "54reference panel usesidentityencoder4inputpointsandZZ/XX settings;homogeneouschannelsharedwithtaskcircuitsassumed.",
+    "Unknownchange times/magnitudes only alongpreviousA/Bparametricaxis. Notunknownnoisemechanisms orrealIBMdrift.",
+    "64knowncalibrationlabels arefresh/disjointfromencoderselectionandtest,butreusedthroughoutupdates;3/12simulatedreference trajectoriesarenotindependentdevices.",
+    "Monitoring/performance pairedacrossmodels;evaluation rowsnotindependenttrainingseedcount.",
+    "Fixedcapisclassicalpostprocessing,notacalibration/coverageguarantee;confidentlywrongfractionat90%neednotchange.",
+    "Synchronousmonitor/updatebeforebatch;latencyandhardwarequeueingexcluded. Alwayspolicyincludesbatch0extrarefreshascosted.",
+    "Noquantumadvantage;2qubitfeaturemap hasexactclassicalequivalent. Noquantumtransformertrained."
+  ],
+  "safeguards": "Localonly;nohardware,credentials,paidjobs,installs orbackgroundservices."
+}

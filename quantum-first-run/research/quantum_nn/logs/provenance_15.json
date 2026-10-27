@@ -1,0 +1,32 @@
+{
+  "python": "3.15.0",
+  "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.1",
+    "qiskit-aer": "0.18.0"
+  },
+  "source_sha256": {
+    "shots.py": "deafa3e0f7f5fa8cfee10932db6ca18a4ff9e3ec411575894af41cea0535fb66",
+    "attention.py": "7c44018c1047d22698ac7e76daf9b1aa8bb9c9a9aa36c7e917d32f0e2783b234",
+    "core.py": "773406793f65e3911b5f09ab4b00b32d86b75daa5a0d2f55267b119c9c8d2d92",
+    "block_readout.py": "8044fc90a58611830cae23a8266c47925c34f8438de1555ea73808a24483d6ec",
+    "hybrid_block.py": "9a75bd558b98657446eab2079215599d0b9230014593f8acfc49ced37ecb1e5b",
+    "encoding_range.py": "671f262a31fc42c17399a8bbac5caaca341d46eb3143d2593384d7233644c344",
+    "experiments.py": "67b4879df9f7ed47c7915b6fbeb5edb5395595ae925039aad03ed6e51a5af3c4",
+    "robustness.py": "9a94256048b790c52fdaad580753a5ee5d2f769d47de37ea35f307bb34255e1b",
+    "continue.py": "c9a89cb31b0177558f74d7527942f9302f6de63913c89331017c5ff816d8e7c0",
+    "value_attention.py": "1fbe2544efea8c275423b375eafab781417d3acb6d096c73ea1ee53668c79fa8",
+    "noise.py": "244d33d995f624735b4793d7f26e7e6a323581cb6195051f596e590b1999ef98",
+    "noisy_shots.py": "a60a624a24e4e1b578c0c69bb99f571cdf1cbdef786d9ec929ee07151246da3f",
+    "validate_block.py": "d9fb8dff23de83104ef2a7a752b35f28f08bce4e9af47e86105cf555a0720706"
+  },
+  "new_result_sha256": {
+    "12_result.json": "8e4cd1427dab2d9927bc8b4585e1c3b2e288028eaa905f047f879491af3e1025",
+    "14_result.json": "6cc2e40ea14092e6adf36ce9024de8a9559919ccdfc353aa240f40d59c81f491",
+    "11_result.json": "871b6d1aa7ca2ec1454f1b6171766cbdcdfbd476a133f96a249b359a8c134d9b",
+    "13_result.json": "09bbc90d0b03d17e03576b4030af71a43261989fec3d2baf07c0277eae9c15b3",
+    "10_result.json": "c5ac89fbc082d047ccb35a351c2d5bfddb283fb99c7211dde958316fbe8c2a72"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "hypothesis": "Learning input directions may improve in-range capability yet still fail outside the training range.",
+  "design": "Freeze models/checkpoints35/37.5 seeds,1024 fresh inputs per seed,range multipliers1/1.5/2/3. Recompute labels from the unchanged analytic task at the new input; this is domain extrapolation, not noisy observation of the old input.",
+  "metrics": "Accuracy and balanced accuracy plus majority baseline, since radial labels become imbalanced when the domain grows. Exact expectations isolate representation error; no finite-shot or gate noise here.",
+  "limits": "Chosen analytic tasks,not natural real-world data. Shared base points across scales are paired,not independent. No model selection or fitting on extrapolation labels."
+}

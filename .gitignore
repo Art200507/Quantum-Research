@@ -1,0 +1,16 @@
+# Local environments and generated interpreter caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+# Credentials and machine-local assistant/account state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/
+.codex/
+.agents/
+.aws/

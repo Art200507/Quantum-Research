@@ -1,0 +1,5 @@
+{
+  "hypothesis": "Improved quantum-feature capability may be expressible by cheap classical trigonometric features in this small circuit. Verify independently before attributing gains to quantum computing.",
+  "method": "Conjugate each Pauli by the single CX and evaluate input product-state Bloch coordinates sin/cos. No statevectors in elementary control. Test every trained feature model and selected readout on independent inputs.",
+  "scope": "Exact control for this specific2-qubit fixed encoder only; not a claim that arbitrary QNNs are efficiently classically simulable."
+}

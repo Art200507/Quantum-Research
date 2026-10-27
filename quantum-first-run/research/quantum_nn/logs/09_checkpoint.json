@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-26",
+  "completed_experiments": 8,
+  "focus": "Actual trainable QNNs and quantum circuit attention; classical memory is no longer the main study.",
+  "useful_observations": [
+    "Shared post-encoding unitaries are untrainable for fidelity attention; observed cancellation ~1e-15.",
+    "Consistently scaling re-uploaded inputs improves trained-head test accuracy from 85.16% in the initial study to 95.55% on new test data; different cohorts, not a paired treatment estimate.",
+    "Adaptive sparse readout improves finite-shot retrieval and weighted-value error in toy attention; strong classical metric still wins."
+  ],
+  "most_recent_noisy_result": {
+    "budget": 512,
+    "uniform_accuracy": 0.776484375,
+    "adaptive_accuracy": 0.829375,
+    "p_CX": 0.05,
+    "p_U": 0.005,
+    "trained_seeds": 5,
+    "fresh_episodes_per_seed": 128
+  },
+  "weighted_values": {
+    "uniform_MSE_original_beta": 0.2549592812687592,
+    "adaptive_sparse_MSE_original_beta": 0.19545877151306243,
+    "uniform_MSE_calibrated_beta": 0.2394836588912016,
+    "adaptive_sparse_MSE_calibrated_beta": 0.19198714010033854,
+    "classical_trained_top1_MSE": 0.05219659781899899,
+    "limitation": "Sparse and dense heads differ semantically. Calibration costs 819200 validation shots/seed/method; not an end-to-end resource gain."
+  },
+  "next_experiments": [
+    "Inspect AQKA and QASA full methods/code; adaptive shot allocation and parameter placement are not presumed novel.",
+    "Vary candidate count, input domain, training seeds and realistic noise correlations; charge adaptive-round latency.",
+    "Compare output-vector estimation against sparse and dense classical/quantum controls on identical tasks.",
+    "Only then integrate head into a small complete hybrid transformer with capacity-matched controls."
+  ],
+  "checks": [
+    "Circuit/statevector equivalence",
+    "Compute/uncompute fidelity identity",
+    "Unobservable-gradient checks",
+    "Noisy density trace",
+    "Same total shots for uniform/adaptive",
+    "Revised encoding independently verified",
+    "Soft-value output evaluated, not only winning key",
+    "Adaptive API extension preserves earlier behavior"
+  ],
+  "hardware": "None; do not submit without separate authorization.",
+  "source_access_notes": "Web sources below are primary abstracts/page excerpts unless stated; no independent reproduction of their claims.",
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/2504.05336v4",
+      "note": "QASA current abstract: capacity-matched classical bottleneck matches quantum error metrics; important control."
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.14672v2",
+      "note": "AQKA current abstract: adaptive quantum kernel acquisition; direct prior overlap, not our method."
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.11673v2",
+      "note": "Higher-order attention preprint claims task-specific separation; proofs/code not verified, potential replication lead."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-021-22539-9",
+      "note": "Power of data in QML, peer-reviewed primary paper page excerpt; motivates strong classical controls."
+    }
+  ]
+}

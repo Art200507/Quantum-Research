@@ -1,0 +1,32 @@
+{
+  "reviewed": "51_result:affine baseline did not erase ring grouping gains;all12 affine fits converge. Other tasks often favor simple calibration.",
+  "hypothesis": "Calibration/refitting matched to a device-error distribution improves reliability,but becomes stale when asymmetric readout errors drift.",
+  "environments": {
+    "A": {
+      "p": 0.02,
+      "q0": [
+        0.01,
+        0.08
+      ],
+      "q1": [
+        0.03,
+        0.12
+      ]
+    },
+    "B": {
+      "p": 0.06,
+      "q0": [
+        0.08,
+        0.01
+      ],
+      "q1": [
+        0.12,
+        0.03
+      ]
+    }
+  },
+  "definition": "Global depolarization once afterCX,then independent asymmetric classical readout flips:q0/q1 tuples=(P(report1|true0),P(report0|true1)). A/B reverse dominant bias and change depolarization. Ideal basis rotations.",
+  "design": "Frozen12 encoders from50;for eachdevice A/B measure original128train/256val points4x256shots. Refit G1/G2/G4 andtemperature/affine;select entire pipeline by measured validation CE. Fresh1024test points,5 paired256shot repeats in A and B. Compare50 shot-only selected pipeline,51 shot-only affine,and A/B matched pipelines.",
+  "cost": "Per adaptation environment/model:131072training+262144validation shots. Temperature/affine candidates need only validation measurements. Repeats do not add unique labels.",
+  "scope": "Hypothetical channels,not IBM calibration or time-series drift. B adaptation assumes fresh representative calibration data available;not automatic drift detection. Channel transfer only,not retraining quantum encoder."
+}

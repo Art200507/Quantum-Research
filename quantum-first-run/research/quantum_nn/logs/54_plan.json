@@ -1,0 +1,29 @@
+{
+  "reviewed": "53_checkpoint and52_result: matched correction helps,but stale calibration can hurt;no monitor exists yet.",
+  "hypothesis": "A small unlabeled reference-circuit panel can flag channel changes without knowing B or using task labels.",
+  "references": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "bases": [
+    "ZZ",
+    "XX"
+  ],
+  "design": "Fixed identity-encoder reference circuits;8 input/basis groups.4096initial baseline shots,monitor budgets128/512/2048 total per event. Compare joint categorical outcome counts with two-sample likelihood-ratio statistic.99th-percentile threshold from4000 parametric bootstrap pairs generated from smoothed baseline only. Detector never receives B probabilities.2000 fresh events per budget/fraction0,.25,.5,1.",
+  "cost": "4096initial quantum shots+budget per monitoring event. Bootstrap draws are classical calculations,not quantum executions. Evaluation repeats are stationary synthetic monitoring events,not independent devices or drift trajectories.",
+  "scope": "Shared homogeneous hypothetical A/B channels;reference and task circuits assumed affected identically. Unknown intermediate fractions used only for evaluation;no trained-model decision orrecalibration yet. Nominal1% falsealarm is tested,not guaranteed."
+}

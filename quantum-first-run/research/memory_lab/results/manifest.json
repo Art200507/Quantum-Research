@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-26",
+  "python": "3.15.0",
+  "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.1",
+    "qiskit-aer": "0.18.0",
+    "matplotlib": "3.11.2"
+  },
+  "rows_per_experiment": {
+    "1": 24,
+    "2": 96,
+    "3": 72,
+    "4": 96,
+    "5": 144,
+    "6": 288,
+    "7": 216,
+    "8": 96,
+    "9": 144,
+    "10": 1512
+  },
+  "sha256": {
+    "quantum_check.py": "a036189feaa24acba9da4ab3f29ea8c6ff6469bf36885b079f39e22c0dfeb64a",
+    "reproduce.py": "640f308fa25ce9f27d4cccca0a10823fcaabaeca1a123c605c33d1904442226d",
+    "extended.py": "c6a0bfe3b7e2d8642fb5741b49ea0b2cec7d6c83ee67d152b177fe471678dd96",
+    "validate.py": "91e6beffda8c3f194041267232590a6bb8b45d91a39d2cd6ac983c07a165e8b3",
+    "make_report.py": "6d32deb158ed37d2ef326bfa0bb11f7848259607ec0407b3591346799c716c34",
+    "lab.py": "fbe4c745061a7111062d1d642436b50eb860b58b693847de9ccc70b52ad381fb",
+    "results/01.json": "2d0678f5c8abe8e7711cb4dfd695572495e7b5549c572a4f80bbd1f797f6a246",
+    "results/10.json": "133986bdfa0a4ccf3864b5d786330ba25bbd1ebbfe2b88e0601cf56132c25f2c",
+    "results/06.json": "fe5892ce244784ddbe8624d809c612e10397444dc1cad782d0b13bde63ebb1d8",
+    "results/07.json": "f94bf1b5e7ae0e1f0476d2d023f412f226b7aeacf2f4d5d1f3d76b20b832a187",
+    "results/04.json": "f4c1b7e648e7bb2b5e19f64af3319c9ce9fd3f006c6317a185d6bb6b4cafddd1",
+    "results/08.json": "30b8583ed6ca9674029f5bbe17f09e6ad6f17b72350a16e39d43cd15e66df911",
+    "results/09.json": "9bafde53ca50fe82d41640c05528acbb79916cd7294ffe7b1e8206610e0b5227",
+    "results/05.json": "fa6fcc968008cbd71e702fcfd921b0470a3b8bc996ca45ddec2b1a881f493545",
+    "results/02.json": "e95e6db945bbf10a43f3de9885d218163efed2da8c254548c37175664f8f43d3",
+    "results/03.json": "19514fcf0879ee04d4a25be64bb1a6e334ce4c45cecd3475b9a5697058b31846"
+  },
+  "no_hardware": true,
+  "no_energy_measurement": true,
+  "figure_error_bars": "1.96 * between-memory standard error; descriptive normal approximation, not simultaneous intervals; zero empirical SE does not guarantee future perfection"
+}

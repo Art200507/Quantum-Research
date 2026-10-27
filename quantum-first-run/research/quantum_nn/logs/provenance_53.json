@@ -1,0 +1,17 @@
+{
+  "sha256": {
+    "quantum-first-run/research/quantum_nn/grouping_breadth.py": "5484173a21c6c4b9880b75c91102eda6128aeeac0667c7335a494c86fbfc3b43",
+    "quantum-first-run/research/quantum_nn/affine_control.py": "fdc82ccd604ea12c8240912270e4f8dae47d3872a7f8e0b5868368adb6e8db94",
+    "quantum-first-run/research/quantum_nn/asymmetric_drift.py": "ebfd86f5dfe971b91e4d9cbdafd319fdd72417ce14e4477403b8f024df0c725f",
+    "quantum-first-run/research/quantum_nn/continue.py": "3063e1dc953a7123480f7f0f5f0cbf3690e3ef28f659374561a3b483aeb7a15e",
+    "quantum-first-run/research/quantum_nn/logs/50_plan.json": "fdccfdeebef950937ae8daf6478eab60256f6b3841057591398af6a45456fccc",
+    "quantum-first-run/research/quantum_nn/logs/50_result.json": "cb7508ce5134fb9ca8593c61c6712527ddca0b1a4be7ac6bb9345fa37e0b6915",
+    "quantum-first-run/research/quantum_nn/logs/51_plan.json": "2288ebc58718ffbbcc79e490e2ca028050646e812f23c9bd77b48da9596b8156",
+    "quantum-first-run/research/quantum_nn/logs/51_result.json": "2e649ddb765d24c05c5d659719b1da45bf93b16e67c76253003e8ea3a34acb04",
+    "quantum-first-run/research/quantum_nn/logs/52_plan.json": "3b1f7aa6c354c346d608ce92ac8a166c6dd018003147e94b6032eae7c8b92471",
+    "quantum-first-run/research/quantum_nn/logs/52_result.json": "5ad318acbc297e6d105f4d03a348f9c78df83d8f8a4cef65f819cb688f4846ca",
+    "quantum-first-run/research/quantum_nn/logs/53_checkpoint.json": "06e849990f248889904456bc8e30738868829ddec052f0a159779267f6f9db87",
+    "quantum-first-run/research/quantum_nn/README.md": "7f513e773f6ef0a50c6aa1be1fc869e5f9745266380d228a8e7b332776164147",
+    "quantum-first-run/research/HANDOFF.md": "71f3ad3f03e389af85f8298ebe47e9d220a90c0e350f8aa01a0d5b86cb47a8be"
+  }
+}

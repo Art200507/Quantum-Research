@@ -1,0 +1,5 @@
+{
+  "hypothesis": "A top-one retrieval gain may not transfer to attention weighted-value outputs. Evaluate the quantum attention operation softmax(beta*fidelity) @ V directly and calibrate beta on separate validation episodes.",
+  "scope": "5 fixed trained maps, 80 validation/256 test episodes per seed, 8 keys and 4-dimensional random values, B512/query,20 measurement repeats. Noisy shot estimates here mean finite shots from ideal probabilities, not gate noise.",
+  "calibration_cost": "80*512*20 = 819200 validation shots per seed per allocation method; all beta choices reuse those samples. This overhead is not free and must be amortized before claiming resource savings."
+}

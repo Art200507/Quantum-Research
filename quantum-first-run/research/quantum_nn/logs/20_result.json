@@ -1,0 +1,2242 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.875,
+      "cross_entropy": 0.3553872588811616,
+      "brier": 0.10724660582862072
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.796875,
+      "cross_entropy": 0.458732698591229,
+      "brier": 0.1489827418611593
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.689453125,
+      "cross_entropy": 0.6115171519069504,
+      "brier": 0.21021793626440063
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.90625,
+      "cross_entropy": 0.2426137899692697,
+      "brier": 0.07254208890472344
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.8125,
+      "cross_entropy": 0.5138658060012296,
+      "brier": 0.1541985676402715
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.771484375,
+      "cross_entropy": 0.5779223572291059,
+      "brier": 0.1698558821016947
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.8359375,
+      "cross_entropy": 0.34871576989754816,
+      "brier": 0.11226397491029008
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.8203125,
+      "cross_entropy": 0.4042692350524686,
+      "brier": 0.12703759405294524
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.79296875,
+      "cross_entropy": 0.4950257291782926,
+      "brier": 0.14763790591347142
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.06434452804133539,
+      "brier": 0.011825430085456537
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.96875,
+      "cross_entropy": 0.07575541979414666,
+      "brier": 0.02202675430094493
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.966796875,
+      "cross_entropy": 0.09171233743381879,
+      "brier": 0.02517724701449677
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.07248551010081283,
+      "brier": 0.016258193683353232
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.984375,
+      "cross_entropy": 0.06062407355174672,
+      "brier": 0.015310028382858117
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.9765625,
+      "cross_entropy": 0.0870746630814925,
+      "brier": 0.022875473199017803
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.09162442694711566,
+      "brier": 0.022786114235638436
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.984375,
+      "cross_entropy": 0.06163389004289763,
+      "brier": 0.015250257503753339
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.98046875,
+      "cross_entropy": 0.08865562995487347,
+      "brier": 0.023116431410072448
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.875,
+      "cross_entropy": 0.3458556555355723,
+      "brier": 0.10301495378399556
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.6875,
+      "cross_entropy": 0.6325001321119956,
+      "brier": 0.2171271255107738
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.673828125,
+      "cross_entropy": 0.6144164997765065,
+      "brier": 0.2074850293078316
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.828125,
+      "cross_entropy": 0.3580624211974055,
+      "brier": 0.10956585046769339
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.7265625,
+      "cross_entropy": 0.5448550132232417,
+      "brier": 0.1782522847372144
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.740234375,
+      "cross_entropy": 0.5714947738414454,
+      "brier": 0.18034742807837767
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.7265625,
+      "cross_entropy": 0.5175563286375956,
+      "brier": 0.17518735082762937
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.75,
+      "cross_entropy": 0.5404836682579778,
+      "brier": 0.18179912422342112
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.6875,
+      "cross_entropy": 0.631158346111899,
+      "brier": 0.21248745905243283
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.6875,
+      "cross_entropy": 0.5835892968000719,
+      "brier": 0.19669206693736657
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.6328125,
+      "cross_entropy": 0.6853461646930054,
+      "brier": 0.2439262524214285
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.5546875,
+      "cross_entropy": 0.7171785770383884,
+      "brier": 0.25905180690397644
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.65625,
+      "cross_entropy": 0.6249075704545962,
+      "brier": 0.21697682043878735
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.609375,
+      "cross_entropy": 0.6866643876440234,
+      "brier": 0.24479561327124577
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.623046875,
+      "cross_entropy": 0.6771954240476274,
+      "brier": 0.2400856994634412
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.65625,
+      "cross_entropy": 0.6524549836112816,
+      "brier": 0.22950473744859312
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.640625,
+      "cross_entropy": 0.6863415774907902,
+      "brier": 0.245485273326635
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.646484375,
+      "cross_entropy": 0.6593095068995565,
+      "brier": 0.23311245966344246
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.9375,
+      "cross_entropy": 0.19881107614136265,
+      "brier": 0.05257634839684676
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.796875,
+      "cross_entropy": 0.4474875969126567,
+      "brier": 0.14607225491448567
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.720703125,
+      "cross_entropy": 0.5408089146172135,
+      "brier": 0.1822306234774492
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.78125,
+      "cross_entropy": 0.42064266514516624,
+      "brier": 0.13158816720863892
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.7578125,
+      "cross_entropy": 0.47540783622058774,
+      "brier": 0.15865917237450844
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.73828125,
+      "cross_entropy": 0.5782249721166508,
+      "brier": 0.19095891790691527
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.8046875,
+      "cross_entropy": 0.43619608419897093,
+      "brier": 0.13591668060145357
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.8125,
+      "cross_entropy": 0.40271185300396317,
+      "brier": 0.13193294212413031
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.83203125,
+      "cross_entropy": 0.4083118037925552,
+      "brier": 0.12755194769276545
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.02146623826370171,
+      "brier": 0.0010811580611767306
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.921875,
+      "cross_entropy": 0.15051012766623456,
+      "brier": 0.050907973197448886
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.876953125,
+      "cross_entropy": 0.2453966756192137,
+      "brier": 0.08317543623036411
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.05249174572946104,
+      "brier": 0.009839262251653009
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.05164726321235079,
+      "brier": 0.014229053369286176
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.98046875,
+      "cross_entropy": 0.070972677451455,
+      "brier": 0.01810502880132192
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.05895948583267922,
+      "brier": 0.011594605352948224
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.052859392995868205,
+      "brier": 0.014039314889175925
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.982421875,
+      "cross_entropy": 0.08152062130227325,
+      "brier": 0.021289175904850355
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.11118333751120936,
+      "brier": 0.024653506491374433
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.796875,
+      "cross_entropy": 0.6742863493001101,
+      "brier": 0.16843818504373792
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.728515625,
+      "cross_entropy": 0.8558721585704888,
+      "brier": 0.2141755200522576
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.75,
+      "cross_entropy": 0.5357762073600074,
+      "brier": 0.17802566551978588
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.765625,
+      "cross_entropy": 0.5931171488047587,
+      "brier": 0.19604733604650285
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.72265625,
+      "cross_entropy": 0.6029077487633397,
+      "brier": 0.20258168361125595
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.71875,
+      "cross_entropy": 0.47188340539885,
+      "brier": 0.16110098432073677
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.734375,
+      "cross_entropy": 0.4692505548932175,
+      "brier": 0.15862040050993348
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.6953125,
+      "cross_entropy": 0.5147972105829604,
+      "brier": 0.17762196576993783
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.8125,
+      "cross_entropy": 0.6195325287922633,
+      "brier": 0.21338099747450975
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.671875,
+      "cross_entropy": 0.6701187968016133,
+      "brier": 0.23827034473370087
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.6328125,
+      "cross_entropy": 0.6581838348792424,
+      "brier": 0.23268645194507384
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.65625,
+      "cross_entropy": 0.615998146427786,
+      "brier": 0.21409984257110748
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.609375,
+      "cross_entropy": 0.6481872265606317,
+      "brier": 0.22866232229143013
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.642578125,
+      "cross_entropy": 0.6215341167386822,
+      "brier": 0.21623116001512568
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.625,
+      "cross_entropy": 0.6407193590728941,
+      "brier": 0.22500038855742371
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.625,
+      "cross_entropy": 0.6562685502696821,
+      "brier": 0.23187738254195622
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.619140625,
+      "cross_entropy": 0.6302379863990137,
+      "brier": 0.22041076522861974
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.5625,
+      "cross_entropy": 0.6688866365739512,
+      "brier": 0.23927267696070417
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.609375,
+      "cross_entropy": 0.6594746420641161,
+      "brier": 0.23353116957445508
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.583984375,
+      "cross_entropy": 0.6726215444379123,
+      "brier": 0.24026033095679777
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.8125,
+      "cross_entropy": 0.4916280627229453,
+      "brier": 0.15445464853335333
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.78125,
+      "cross_entropy": 0.47748827372086683,
+      "brier": 0.15997670425360372
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.791015625,
+      "cross_entropy": 0.47041198243083354,
+      "brier": 0.15467839668166333
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.7734375,
+      "cross_entropy": 0.45861079364741286,
+      "brier": 0.14579693796061696
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.796875,
+      "cross_entropy": 0.44549022016616635,
+      "brier": 0.14430510384309864
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.7890625,
+      "cross_entropy": 0.42563397552958104,
+      "brier": 0.1379895670568464
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.13922628460028116,
+      "brier": 0.04062245890322759
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.953125,
+      "cross_entropy": 0.10182447449149434,
+      "brier": 0.030461114235008857
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.10181290239793549,
+      "brier": 0.03118020096574762
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.96875,
+      "cross_entropy": 0.11308012038157939,
+      "brier": 0.0309100744040961
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.07126619685225546,
+      "brier": 0.017079431008843106
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.98046875,
+      "cross_entropy": 0.07787639356158703,
+      "brier": 0.020237356799282888
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.96875,
+      "cross_entropy": 0.09515646806028154,
+      "brier": 0.02553513185707524
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.0851587811453996,
+      "brier": 0.021885175567331685
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.96875,
+      "cross_entropy": 0.09171095301287951,
+      "brier": 0.025929959186883476
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.75,
+      "cross_entropy": 0.42484171824629074,
+      "brier": 0.12842061812827374
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.5859375,
+      "cross_entropy": 0.68103836066415,
+      "brier": 0.24331021102613026
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.583984375,
+      "cross_entropy": 0.6803787792647585,
+      "brier": 0.24248397847913883
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.859375,
+      "cross_entropy": 0.32080951229682486,
+      "brier": 0.099905951405139
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.765625,
+      "cross_entropy": 0.47314673336146784,
+      "brier": 0.15869627476724887
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.767578125,
+      "cross_entropy": 0.48066332141381,
+      "brier": 0.16111523213647633
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.828125,
+      "cross_entropy": 0.3813453822163458,
+      "brier": 0.12118515925426226
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.78125,
+      "cross_entropy": 0.42363294295238274,
+      "brier": 0.14173974474647996
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.75,
+      "cross_entropy": 0.46682291639670753,
+      "brier": 0.15834763943723038
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.6875,
+      "cross_entropy": 0.5385081881407496,
+      "brier": 0.1815990654918368
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.46875,
+      "cross_entropy": 0.7517951068258433,
+      "brier": 0.2757644393349349
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.47265625,
+      "cross_entropy": 0.8119425183008291,
+      "brier": 0.29557370625575186
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.625,
+      "cross_entropy": 0.6104129515663208,
+      "brier": 0.21228067300459785
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.609375,
+      "cross_entropy": 0.6793662075045106,
+      "brier": 0.24047201799714585
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.62109375,
+      "cross_entropy": 0.6671763135112057,
+      "brier": 0.2358397129920463
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.640625,
+      "cross_entropy": 0.6333085238206381,
+      "brier": 0.22148621190106907
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.578125,
+      "cross_entropy": 0.6571773133558876,
+      "brier": 0.23279991045791423
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.5703125,
+      "cross_entropy": 0.6624495575305551,
+      "brier": 0.2355764414661699
+    }
+  ],
+  "fits": [
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 16,
+      "parameters": [
+        -1.0887769712817474,
+        -1.433936096341584,
+        -0.02357661798163392,
+        -0.5009452719396589,
+        -0.06759881371360704,
+        0.08780115610932793,
+        -0.8120481005316783,
+        3.0863145105476897,
+        -0.519791011537363
+      ],
+      "validation_loss": 0.458732698591229,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 49,
+          "calls": 570
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 56,
+          "calls": 670
+        }
+      ],
+      "shallow_weight": 0.30745422969530395
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 64,
+      "parameters": [
+        -3.503981195153406,
+        -1.6026713982291658,
+        -0.13117878805142802,
+        -0.3370142572547985,
+        1.18845446928411,
+        0.4180840533180113,
+        -5.1435756537809105,
+        7.876618249184733,
+        0.4001856336937112
+      ],
+      "validation_loss": 0.5138658060012296,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 68,
+          "calls": 910
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 82,
+          "calls": 1040
+        }
+      ],
+      "shallow_weight": 0.005802911713636963
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 128,
+      "parameters": [
+        -1.1178970330763673,
+        -1.6081815069086691,
+        0.41033732910192167,
+        -0.18103095432842792,
+        1.429624838011725,
+        0.1115126405189916,
+        -2.7872117660983164,
+        7.027194100865708,
+        -0.09751464097419443
+      ],
+      "validation_loss": 0.4042692350524686,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 38,
+          "calls": 510
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 39,
+          "calls": 470
+        }
+      ],
+      "shallow_weight": 0.05801915277194538
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 16,
+      "parameters": [
+        0.02263294345106017,
+        -0.8886374724452101,
+        -0.6874751492056171,
+        -0.4855713271195974,
+        0.11340126805682883,
+        3.5731123429166134,
+        3.3759574481625627,
+        19.48232189105284,
+        -0.2132943705740252
+      ],
+      "validation_loss": 0.07575541979414666,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 88,
+          "calls": 1110
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 85,
+          "calls": 1090
+        }
+      ],
+      "shallow_weight": 0.966944637930033
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 64,
+      "parameters": [
+        0.015190812972192456,
+        -1.1901961465852346,
+        -0.02450241789983932,
+        -0.782420978797002,
+        -0.1953324603541042,
+        0.9333411942387955,
+        3.673906847818552,
+        19.5328790429055,
+        -0.04886741239619059
+      ],
+      "validation_loss": 0.06062407355174672,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 87,
+          "calls": 1140
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 96,
+          "calls": 1190
+        }
+      ],
+      "shallow_weight": 0.9752509289954785
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 128,
+      "parameters": [
+        0.016562822951967468,
+        -1.0352811272397469,
+        0.2562472290443362,
+        0.007337782407168005,
+        -0.04608528833645842,
+        0.7830161339759485,
+        4.122915064846167,
+        18.807711592268696,
+        -0.2620480171472135
+      ],
+      "validation_loss": 0.06163389004289763,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 60,
+          "calls": 760
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 54,
+          "calls": 650
+        }
+      ],
+      "shallow_weight": 0.984060939047899
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 16,
+      "parameters": [
+        -1.7231802923944584,
+        -0.24382637589430356,
+        -0.05988181024627796,
+        -2.5943595036712805,
+        -0.01522288765819673,
+        -0.37486247240694387,
+        -0.9316634324227229,
+        3.24458759342561,
+        -0.7833530609759184
+      ],
+      "validation_loss": 0.6325001321119956,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 46,
+          "calls": 520
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 53,
+          "calls": 630
+        }
+      ],
+      "shallow_weight": 0.2825873620233791
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 64,
+      "parameters": [
+        -1.6820496186783507,
+        0.04104992427826093,
+        -0.029351036643585265,
+        -2.184338288194135,
+        -1.0874540579763787,
+        -0.37158581628535114,
+        -1.8029199757861476,
+        4.626067897289522,
+        -1.3658607319476956
+      ],
+      "validation_loss": 0.5448550132232417,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 51,
+          "calls": 580
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 63,
+          "calls": 710
+        }
+      ],
+      "shallow_weight": 0.14149598975936334
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 128,
+      "parameters": [
+        0.666374933671603,
+        -0.039000812130038,
+        -0.0847111734948036,
+        -1.9091392667177869,
+        -0.3448128479763755,
+        -0.011629881673073383,
+        -1.8083075163045028,
+        3.0783494875782065,
+        -0.5871541296990315
+      ],
+      "validation_loss": 0.5404836682579778,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 72,
+          "calls": 890
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 57,
+          "calls": 680
+        }
+      ],
+      "shallow_weight": 0.14084280213262984
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "parameters": [
+        0.9940791535166494,
+        1.283457154882204,
+        0.8328411202879735,
+        1.4464264048277362,
+        -0.5892463370553186,
+        0.634279867142564,
+        -0.8588604544762648,
+        1.6582290648429014,
+        -0.5202455442547955
+      ],
+      "validation_loss": 0.6853461646930054,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 88,
+          "calls": 1150
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 106,
+          "calls": 1260
+        }
+      ],
+      "shallow_weight": 0.2975774843438446
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "parameters": [
+        0.10006526992417208,
+        1.8631166797415375,
+        0.02685822374348032,
+        0.7541390983618974,
+        -0.018398365476832886,
+        0.3347323782645826,
+        -0.4203022172820566,
+        1.593595939656913,
+        -0.3524935814975473
+      ],
+      "validation_loss": 0.6866643876440234,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 21,
+          "calls": 240
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 22,
+          "calls": 250
+        }
+      ],
+      "shallow_weight": 0.39644443445623456
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "parameters": [
+        0.38681497917576346,
+        1.4359567623195946,
+        0.0325746202710151,
+        0.4610284679233564,
+        -0.0019547879224494774,
+        0.4364262378768128,
+        -0.47341876727478427,
+        1.3420350730119412,
+        -0.16203619014606524
+      ],
+      "validation_loss": 0.6863415774907902,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 16,
+          "calls": 180
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 16,
+          "calls": 170
+        }
+      ],
+      "shallow_weight": 0.3838073871024015
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 16,
+      "parameters": [
+        -0.6523062682726947,
+        -1.566426834324423,
+        0.2228481092070484,
+        0.009218648116655181,
+        -0.3197742855268232,
+        0.4808984646658546,
+        -1.0472040395275486,
+        5.216164821466748,
+        -0.03055317603875951
+      ],
+      "validation_loss": 0.4474875969126567,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 54,
+          "calls": 610
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 94,
+          "calls": 1070
+        }
+      ],
+      "shallow_weight": 0.2597623633054164
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 64,
+      "parameters": [
+        -1.7506636426221986,
+        -1.5545308866223733,
+        0.07370010292707514,
+        0.3608302670646458,
+        -0.06330430161227835,
+        0.5880606196515945,
+        -1.606970549815402,
+        4.166387385705285,
+        -0.3003176617347567
+      ],
+      "validation_loss": 0.47540783622058774,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 33,
+          "calls": 380
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 41,
+          "calls": 490
+        }
+      ],
+      "shallow_weight": 0.16700963782333686
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 128,
+      "parameters": [
+        -1.4264738757200732,
+        -1.704209258153256,
+        -0.34729452006684636,
+        -0.34099626157415824,
+        -1.243512536605766,
+        0.07880348632404555,
+        -1.6231857637270488,
+        6.876932878747406,
+        -0.019369618458180228
+      ],
+      "validation_loss": 0.40271185300396317,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 44,
+          "calls": 510
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 30,
+          "calls": 360
+        }
+      ],
+      "shallow_weight": 0.16476598291803876
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 16,
+      "parameters": [
+        -0.01394737031434431,
+        -1.4547020844629515,
+        -0.022496460006013075,
+        -0.7697832708544656,
+        0.008424553386473896,
+        -0.2402312330868579,
+        1.668238200220529,
+        17.201097164270063,
+        -1.8970553631670974
+      ],
+      "validation_loss": 0.15051012766623456,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 31,
+          "calls": 350
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 34,
+          "calls": 380
+        }
+      ],
+      "shallow_weight": 0.841340786130422
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 64,
+      "parameters": [
+        -0.020650945746506583,
+        -0.9386551910208433,
+        -0.7118101267263526,
+        -0.5763827223400817,
+        0.059713463566357206,
+        1.4573649523277052,
+        4.444274068002617,
+        22.142047488917388,
+        0.12963365980049446
+      ],
+      "validation_loss": 0.05164726321235079,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 92,
+          "calls": 1050
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 76,
+          "calls": 990
+        }
+      ],
+      "shallow_weight": 0.9883907287335463
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 128,
+      "parameters": [
+        0.009926843740934598,
+        -0.3569934314402176,
+        -0.0349895163569169,
+        0.17006795634522784,
+        -0.6922028798613908,
+        0.45325246510299,
+        3.4666053351275865,
+        20.52087111105666,
+        -0.037585926622099364
+      ],
+      "validation_loss": 0.052859392995868205,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 51,
+          "calls": 630
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 70,
+          "calls": 830
+        }
+      ],
+      "shallow_weight": 0.9697225073239515
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 16,
+      "parameters": [
+        -1.3195172791840561,
+        0.1650755063957536,
+        -0.32731443763893975,
+        -2.0856808862043947,
+        -1.5901470706257652,
+        0.31163398526851904,
+        -2.0635494483646615,
+        17.452725207051984,
+        2.7864857441504447
+      ],
+      "validation_loss": 0.6742863493001101,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 67,
+          "calls": 770
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 70,
+          "calls": 820
+        }
+      ],
+      "shallow_weight": 0.11269042792146343
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 64,
+      "parameters": [
+        -1.2367747684052768,
+        0.1701738353096811,
+        0.13230982594998464,
+        -2.088882003648835,
+        0.13971741955678305,
+        -0.37166126516446635,
+        -0.8816836532931278,
+        2.6362864194115834,
+        -0.6191263569427276
+      ],
+      "validation_loss": 0.5931171488047587,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 56,
+          "calls": 700
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 63,
+          "calls": 740
+        }
+      ],
+      "shallow_weight": 0.2928290061096264
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 128,
+      "parameters": [
+        -2.247844386275255,
+        -0.04449950569720724,
+        0.10493017466243564,
+        -2.1110868173724993,
+        1.603622992102,
+        -0.10723729953757188,
+        -2.133157304466348,
+        4.344375841625506,
+        -0.2779393345065252
+      ],
+      "validation_loss": 0.4692505548932175,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 53,
+          "calls": 600
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 56,
+          "calls": 630
+        }
+      ],
+      "shallow_weight": 0.1059156305749404
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "parameters": [
+        0.2782825201587326,
+        1.9308859130868505,
+        0.10254955512636323,
+        0.07378208517235522,
+        -0.4676178019440686,
+        -0.11455031206266228,
+        -0.9354959210256764,
+        0.8127314934662154,
+        -0.18473844205249076
+      ],
+      "validation_loss": 0.6701187968016133,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 55,
+          "calls": 670
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 85,
+          "calls": 1050
+        }
+      ],
+      "shallow_weight": 0.2818110427256643
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "parameters": [
+        -0.1414337236148729,
+        1.5105102809814235,
+        0.0608705213134806,
+        -0.15185901486341308,
+        0.0019971168102743825,
+        -0.10051843259519522,
+        -1.607564402491728,
+        1.5734153130372905,
+        -0.06761367108138303
+      ],
+      "validation_loss": 0.6481872265606317,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 38,
+          "calls": 490
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 31,
+          "calls": 400
+        }
+      ],
+      "shallow_weight": 0.16692703890805297
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "parameters": [
+        -1.1632621877694242,
+        1.341561097910783,
+        -0.031829544264163755,
+        -0.2552071171087435,
+        0.010711889248194419,
+        -0.12169896967621703,
+        -1.8094559778344401,
+        1.5037432882261925,
+        0.15308465267511948
+      ],
+      "validation_loss": 0.6562685502696821,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 22,
+          "calls": 250
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 20,
+          "calls": 250
+        }
+      ],
+      "shallow_weight": 0.14070388858768104
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 16,
+      "parameters": [
+        -0.5062776544985698,
+        0.559780259619319,
+        -0.44708888177743905,
+        0.5609337046931715,
+        -0.2039764526603282,
+        1.238433978137643,
+        -0.07066122965959354,
+        1.649345801787864,
+        0.011236625611215098
+      ],
+      "validation_loss": 0.6594746420641161,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 75,
+          "calls": 980
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 58,
+          "calls": 690
+        }
+      ],
+      "shallow_weight": 0.48234203917076385
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 64,
+      "parameters": [
+        -1.5555887955401368,
+        -1.5661550129167627,
+        -0.7732934978609938,
+        -0.32808594981583333,
+        -1.6820007345756394,
+        0.035716967466666874,
+        -1.1577668797187117,
+        5.273856177433171,
+        -0.10596506096597468
+      ],
+      "validation_loss": 0.47748827372086683,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 26,
+          "calls": 340
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 21,
+          "calls": 250
+        }
+      ],
+      "shallow_weight": 0.23907329152303397
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 128,
+      "parameters": [
+        -1.1954693215648773,
+        -1.8024788924596324,
+        -0.13777065146926792,
+        -0.4188576642074473,
+        -1.1370117645818005,
+        0.438758379546178,
+        -1.1151288920660982,
+        4.976256494362428,
+        0.26569002334523106
+      ],
+      "validation_loss": 0.44549022016616635,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 30,
+          "calls": 360
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 22,
+          "calls": 250
+        }
+      ],
+      "shallow_weight": 0.24691594151573237
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 16,
+      "parameters": [
+        0.035139132752341096,
+        2.0117413057300104,
+        -0.05254559443190693,
+        -1.15920508343203,
+        -1.798527116561218,
+        -0.09070753949240822,
+        6.6284794039070105,
+        19.462542691872397,
+        0.812132313399611
+      ],
+      "validation_loss": 0.10182447449149434,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 76,
+          "calls": 930
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 61,
+          "calls": 800
+        }
+      ],
+      "shallow_weight": 0.9986795737827617
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 64,
+      "parameters": [
+        0.01321714255891691,
+        0.439718253944008,
+        0.24808149112751743,
+        -2.01392333621299,
+        -1.8844856914791968,
+        -1.629735490139867,
+        7.020809123767586,
+        20.55001560680048,
+        -0.06493466411528337
+      ],
+      "validation_loss": 0.07126619685225546,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 94,
+          "calls": 1180
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 84,
+          "calls": 1040
+        }
+      ],
+      "shallow_weight": 0.9991076943505636
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 128,
+      "parameters": [
+        -0.01484021657462875,
+        1.2217871971771155,
+        -1.1549047539639525,
+        -0.047602517605552716,
+        -0.5737176577398917,
+        1.8512764894753857,
+        5.786891968817114,
+        19.575189815688155,
+        0.3584508515122276
+      ],
+      "validation_loss": 0.0851587811453996,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 65,
+          "calls": 810
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 79,
+          "calls": 990
+        }
+      ],
+      "shallow_weight": 0.9969418795228991
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 16,
+      "parameters": [
+        1.3094764881825196,
+        0.3417535754152777,
+        -0.5727406390252464,
+        -1.711279798223456,
+        -0.20771255927052854,
+        0.4711454534994955,
+        0.036121078067264105,
+        1.846332342861379,
+        0.2899108073098731
+      ],
+      "validation_loss": 0.68103836066415,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 68,
+          "calls": 760
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 107,
+          "calls": 1240
+        }
+      ],
+      "shallow_weight": 0.5090292878045578
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 64,
+      "parameters": [
+        2.168289055031114,
+        0.32919567386385,
+        -0.165849184059813,
+        -1.8846749081791787,
+        -1.8032368538241437,
+        0.7187182672858883,
+        -1.8439663164037619,
+        5.921210997488262,
+        1.5996258912087398
+      ],
+      "validation_loss": 0.47314673336146784,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 28,
+          "calls": 320
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 29,
+          "calls": 340
+        }
+      ],
+      "shallow_weight": 0.13658287826084342
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 128,
+      "parameters": [
+        2.9392819818582048,
+        0.1702002322899971,
+        -0.14297394849387818,
+        -1.8104663554264806,
+        -1.9782020203196538,
+        0.584165051967022,
+        -2.0928739761787116,
+        5.924507148474337,
+        1.74863365726518
+      ],
+      "validation_loss": 0.42363294295238274,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 46,
+          "calls": 550
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 45,
+          "calls": 580
+        }
+      ],
+      "shallow_weight": 0.10979136474859434
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "parameters": [
+        -0.6092397090709024,
+        1.1866625655638943,
+        -0.20267181649515667,
+        -1.0567459086119735,
+        -0.093571779870013,
+        0.509132052901563,
+        0.3073266132389035,
+        2.131707584514986,
+        0.7960592225357472
+      ],
+      "validation_loss": 0.7517951068258433,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 59,
+          "calls": 660
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 42,
+          "calls": 510
+        }
+      ],
+      "shallow_weight": 0.5762325839837289
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "parameters": [
+        -0.23381458504732722,
+        1.4993199132061665,
+        0.03410967547165113,
+        -0.04914581420617875,
+        0.023162213996611922,
+        -0.014854386495921551,
+        -1.606558991452148,
+        1.7000431559964801,
+        0.30680726436353256
+      ],
+      "validation_loss": 0.6793662075045106,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 36,
+          "calls": 490
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 38,
+          "calls": 530
+        }
+      ],
+      "shallow_weight": 0.16706690060724427
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "parameters": [
+        -1.5941503451626904,
+        1.8625645643044029,
+        0.010052380496587725,
+        -0.24572432118282925,
+        0.18282003083373463,
+        0.09722856819212322,
+        -1.3284921626089168,
+        1.2875443772932014,
+        0.08190316802582326
+      ],
+      "validation_loss": 0.6571773133558876,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 21,
+          "calls": 240
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 22,
+          "calls": 270
+        }
+      ],
+      "shallow_weight": 0.2094088885759738
+    }
+  ],
+  "pruned_rotation_errors": [
+    6.661338147750939e-16
+  ],
+  "decision": "Review performance task by task and branch weights. Mixture success is not automatically quantum-specific; test finite shots and calibration before calling it reliable."
+}

@@ -1,0 +1,471 @@
+{
+  "date": "2026-10-27",
+  "completed_experimental_cycles": 42,
+  "new_cycles": [
+    45,
+    46,
+    47,
+    48
+  ],
+  "review_before_each": [
+    "44_checkpoint and43_result before45",
+    "45_result before46",
+    "46_result before47",
+    "47_result before48"
+  ],
+  "independent_training": [
+    {
+      "budget": 256,
+      "model": "ideal",
+      "accuracy": 0.8441796875,
+      "cross_entropy": 0.5558553322877116,
+      "brier": 0.12626153472238796,
+      "confident_wrong_fraction": 0.084228515625,
+      "measurement_repeat_rows": 50
+    },
+    {
+      "budget": 256,
+      "model": "noise",
+      "accuracy": 0.87646484375,
+      "cross_entropy": 0.3018012480202378,
+      "brier": 0.09107411616278911,
+      "confident_wrong_fraction": 0.022744140625,
+      "measurement_repeat_rows": 50
+    },
+    {
+      "budget": 1024,
+      "model": "ideal",
+      "accuracy": 0.90828125,
+      "cross_entropy": 0.23919886030369678,
+      "brier": 0.06859837540566359,
+      "confident_wrong_fraction": 0.030400390625,
+      "measurement_repeat_rows": 50
+    },
+    {
+      "budget": 1024,
+      "model": "noise",
+      "accuracy": 0.9062890625,
+      "cross_entropy": 0.23754540734834875,
+      "brier": 0.07032690436427962,
+      "confident_wrong_fraction": 0.01779296875,
+      "measurement_repeat_rows": 50
+    }
+  ],
+  "primary_seed_level_CE": [
+    {
+      "seed": 10,
+      "ideal": 0.6151372420080886,
+      "noise": 0.2968942589566592,
+      "noise_minus_ideal": -0.3182429830514294
+    },
+    {
+      "seed": 11,
+      "ideal": 0.4415983093086978,
+      "noise": 0.2892015120500029,
+      "noise_minus_ideal": -0.15239679725869493
+    },
+    {
+      "seed": 12,
+      "ideal": 0.6723476031329986,
+      "noise": 0.3142731726523171,
+      "noise_minus_ideal": -0.3580744304806815
+    },
+    {
+      "seed": 13,
+      "ideal": 0.5071862700551055,
+      "noise": 0.2779309968775025,
+      "noise_minus_ideal": -0.22925527317760303
+    },
+    {
+      "seed": 14,
+      "ideal": 0.5430072369336673,
+      "noise": 0.3307062995647072,
+      "noise_minus_ideal": -0.21230093736896005
+    }
+  ],
+  "confidence_control": [
+    {
+      "budget": 256,
+      "model": "ideal",
+      "accuracy": 0.84125,
+      "cross_entropy": 0.5728556335937799,
+      "brier": 0.12921724132564044,
+      "confident_wrong_fraction": 0.087197265625,
+      "measurement_repeat_rows": 50
+    },
+    {
+      "budget": 256,
+      "model": "temperature",
+      "accuracy": 0.84125,
+      "cross_entropy": 0.34610476771827736,
+      "brier": 0.11076284133500972,
+      "confident_wrong_fraction": 0.01673828125,
+      "measurement_repeat_rows": 50
+    },
+    {
+      "budget": 256,
+      "model": "noise",
+      "accuracy": 0.872490234375,
+      "cross_entropy": 0.3101443082187132,
+      "brier": 0.09394203889795777,
+      "confident_wrong_fraction": 0.024267578125,
+      "measurement_repeat_rows": 50
+    },
+    {
+      "budget": 1024,
+      "model": "ideal",
+      "accuracy": 0.906904296875,
+      "cross_entropy": 0.24430781127419515,
+      "brier": 0.0698656499495471,
+      "confident_wrong_fraction": 0.031904296875,
+      "measurement_repeat_rows": 50
+    },
+    {
+      "budget": 1024,
+      "model": "temperature",
+      "accuracy": 0.906904296875,
+      "cross_entropy": 0.21832993750271662,
+      "brier": 0.06705583050920613,
+      "confident_wrong_fraction": 0.015107421875,
+      "measurement_repeat_rows": 50
+    },
+    {
+      "budget": 1024,
+      "model": "noise",
+      "accuracy": 0.901376953125,
+      "cross_entropy": 0.24249061329190738,
+      "brier": 0.07275894752799675,
+      "confident_wrong_fraction": 0.0175,
+      "measurement_repeat_rows": 50
+    }
+  ],
+  "device_stress_test": [
+    {
+      "budget": 256,
+      "depolarization": 0.0,
+      "readout_flip": 0.0,
+      "model": "ideal",
+      "accuracy": 0.8386328125,
+      "cross_entropy": 0.585916723184915,
+      "brier": 0.13149338335057967,
+      "confident_wrong_fraction": 0.0903125,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 256,
+      "depolarization": 0.0,
+      "readout_flip": 0.0,
+      "model": "temperature",
+      "accuracy": 0.8386328125,
+      "cross_entropy": 0.3514583834919317,
+      "brier": 0.11250224544271757,
+      "confident_wrong_fraction": 0.0183984375,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 256,
+      "depolarization": 0.0,
+      "readout_flip": 0.0,
+      "model": "noise",
+      "accuracy": 0.8726953125,
+      "cross_entropy": 0.30666121072844543,
+      "brier": 0.09356965074677599,
+      "confident_wrong_fraction": 0.02234375,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 256,
+      "depolarization": 0.02,
+      "readout_flip": 0.01,
+      "model": "ideal",
+      "accuracy": 0.8250390625,
+      "cross_entropy": 0.6381042451940655,
+      "brier": 0.14272765315473276,
+      "confident_wrong_fraction": 0.0980859375,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 256,
+      "depolarization": 0.02,
+      "readout_flip": 0.01,
+      "model": "temperature",
+      "accuracy": 0.8250390625,
+      "cross_entropy": 0.37235598821878535,
+      "brier": 0.12056794102698994,
+      "confident_wrong_fraction": 0.01953125,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 256,
+      "depolarization": 0.02,
+      "readout_flip": 0.01,
+      "model": "noise",
+      "accuracy": 0.8576953125,
+      "cross_entropy": 0.3276205452769997,
+      "brier": 0.10128309171072583,
+      "confident_wrong_fraction": 0.024609375,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 256,
+      "depolarization": 0.1,
+      "readout_flip": 0.03,
+      "model": "ideal",
+      "accuracy": 0.7769140625,
+      "cross_entropy": 0.9294883340538178,
+      "brier": 0.18726606033625995,
+      "confident_wrong_fraction": 0.1387109375,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 256,
+      "depolarization": 0.1,
+      "readout_flip": 0.03,
+      "model": "temperature",
+      "accuracy": 0.7769140625,
+      "cross_entropy": 0.4676171526704288,
+      "brier": 0.15301761606598732,
+      "confident_wrong_fraction": 0.03734375,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 256,
+      "depolarization": 0.1,
+      "readout_flip": 0.03,
+      "model": "noise",
+      "accuracy": 0.821171875,
+      "cross_entropy": 0.4052165986462011,
+      "brier": 0.1274147455198465,
+      "confident_wrong_fraction": 0.0352734375,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 1024,
+      "depolarization": 0.0,
+      "readout_flip": 0.0,
+      "model": "ideal",
+      "accuracy": 0.902421875,
+      "cross_entropy": 0.2571934069237613,
+      "brier": 0.07311817196310572,
+      "confident_wrong_fraction": 0.0323046875,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 1024,
+      "depolarization": 0.0,
+      "readout_flip": 0.0,
+      "model": "temperature",
+      "accuracy": 0.902421875,
+      "cross_entropy": 0.2276249551676762,
+      "brier": 0.06994420263699365,
+      "confident_wrong_fraction": 0.0159375,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 1024,
+      "depolarization": 0.0,
+      "readout_flip": 0.0,
+      "model": "noise",
+      "accuracy": 0.90140625,
+      "cross_entropy": 0.2441583524563595,
+      "brier": 0.07310156866166881,
+      "confident_wrong_fraction": 0.016953125,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 1024,
+      "depolarization": 0.02,
+      "readout_flip": 0.01,
+      "model": "ideal",
+      "accuracy": 0.8920703125,
+      "cross_entropy": 0.28486002938805366,
+      "brier": 0.08139013296547772,
+      "confident_wrong_fraction": 0.0394921875,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 1024,
+      "depolarization": 0.02,
+      "readout_flip": 0.01,
+      "model": "temperature",
+      "accuracy": 0.8920703125,
+      "cross_entropy": 0.24875555223612206,
+      "brier": 0.07744123548106921,
+      "confident_wrong_fraction": 0.0188671875,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 1024,
+      "depolarization": 0.02,
+      "readout_flip": 0.01,
+      "model": "noise",
+      "accuracy": 0.8943359375,
+      "cross_entropy": 0.258264352895244,
+      "brier": 0.07824810317486473,
+      "confident_wrong_fraction": 0.017890625,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 1024,
+      "depolarization": 0.1,
+      "readout_flip": 0.03,
+      "model": "ideal",
+      "accuracy": 0.8208203125,
+      "cross_entropy": 0.5191799305492392,
+      "brier": 0.13930911280524777,
+      "confident_wrong_fraction": 0.0834765625,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 1024,
+      "depolarization": 0.1,
+      "readout_flip": 0.03,
+      "model": "temperature",
+      "accuracy": 0.8208203125,
+      "cross_entropy": 0.4054738432702141,
+      "brier": 0.1277031187073993,
+      "confident_wrong_fraction": 0.046640625,
+      "measurement_repeat_rows": 25
+    },
+    {
+      "budget": 1024,
+      "depolarization": 0.1,
+      "readout_flip": 0.03,
+      "model": "noise",
+      "accuracy": 0.8416796875,
+      "cross_entropy": 0.3726651554328007,
+      "brier": 0.11371881268924101,
+      "confident_wrong_fraction": 0.03375,
+      "measurement_repeat_rows": 25
+    }
+  ],
+  "equal_shot_grouping": [
+    {
+      "model": "G1",
+      "accuracy": 0.855927734375,
+      "cross_entropy": 0.3388522415300719,
+      "brier": 0.10410599055023743,
+      "confident_wrong_fraction": 0.030703125,
+      "measurement_repeat_rows": 50
+    },
+    {
+      "model": "G2",
+      "accuracy": 0.86494140625,
+      "cross_entropy": 0.3191858135696029,
+      "brier": 0.09809144955408562,
+      "confident_wrong_fraction": 0.02439453125,
+      "measurement_repeat_rows": 50
+    },
+    {
+      "model": "G4",
+      "accuracy": 0.8732421875,
+      "cross_entropy": 0.3070061330210617,
+      "brier": 0.09323603320193445,
+      "confident_wrong_fraction": 0.023974609375,
+      "measurement_repeat_rows": 50
+    },
+    {
+      "model": "validation_selected",
+      "accuracy": 0.871416015625,
+      "cross_entropy": 0.306493839298038,
+      "brier": 0.09397489878626417,
+      "confident_wrong_fraction": 0.021279296875,
+      "measurement_repeat_rows": 50
+    }
+  ],
+  "group_selection": [
+    {
+      "seed": 10,
+      "selected_groups": 4,
+      "train_shots": 131072,
+      "validation_shots": 262144
+    },
+    {
+      "seed": 11,
+      "selected_groups": 4,
+      "train_shots": 131072,
+      "validation_shots": 262144
+    },
+    {
+      "seed": 12,
+      "selected_groups": 4,
+      "train_shots": 131072,
+      "validation_shots": 262144
+    },
+    {
+      "seed": 13,
+      "selected_groups": 4,
+      "train_shots": 131072,
+      "validation_shots": 262144
+    },
+    {
+      "seed": 14,
+      "selected_groups": 2,
+      "train_shots": 131072,
+      "validation_shots": 262144
+    }
+  ],
+  "interpretation": [
+    "Independent5 new training seeds confirm ring low-shot noise-refit improvement:accuracy84.42%->87.65%,CE .556->.302,confidently-wrong8.42%->2.27%. All5 seed-level CE differences favor noise refit.",
+    "Fresh46 cohort:temperature alone reduces overconfidence and CE substantially;noise refit additionally improves classification. At1024shots temperature outperforms noisy refit on CE and accuracy.",
+    "Toy channel test preserves relative benefits but worsens all models;not an IBM-calibrated channel.",
+    "Equal-shot ring training:4 groups of256shots perform better on mean fresh-test accuracy than averaging all1024shots into1 feature. Validation-selected grouping chooses4 for4seeds and2 for1seed; not universally optimal.",
+    "No novel method or quantum advantage established;known related work exists. This is a reproducible undergraduate research direction,not evidence of broad reasoning or a quantum transformer."
+  ],
+  "optimization": {
+    "encoder_candidates_converged": 10,
+    "encoder_runs": 20,
+    "note": "All retained;no seed exclusions. Readout/temperature outcomes saved in result files."
+  },
+  "validation": {
+    "passed": true,
+    "joint_gradient_error": 1.5781687068283645e-10,
+    "feature_derivative_errors": [
+      4.727169766738371e-10,
+      4.669100661658376e-10
+    ],
+    "learned_angle_Qiskit_error": 1.4988010832439613e-15,
+    "physical_circuits_checked": 32,
+    "device_channel_max_Qiskit_error": 5.551115123125783e-16,
+    "equal_shot_reconstruction_errors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "new_script_syntax": "passed"
+  },
+  "candidate_research_question": "When does finite-shot grouping improve small hybrid quantum classifier decisions beyond confidence calibration,at fixed measurement cost,and when do device errors erase the benefit?",
+  "next_actions": [
+    "Freeze current protocol and test new ring shapes and unrelated tasks at equal total measurement cost;avoid selecting a single favorable task.",
+    "Compare calibration and grouping matched to device-error distribution;then test asymmetric readout and drift,not just symmetric toy channels.",
+    "Read full related papers before a novelty claim or professor proposal;professor feedback can assess a replication/extension project now.",
+    "Only later design an explicit IBM hardware test with shot budget,backend noise characterization and classical controls."
+  ],
+  "limitations": [
+    "Only5 independent new training seeds,one synthetic ring task for continuation. Repeats share models and test points.",
+    "Trainable2qubit map has exact elementary classical equivalent;no quantum-only capability.",
+    "Ideal encoder fitting;sampled features only train readout. Four augmentations repeat128labels,not512 independent labels.",
+    "Temperature/control and grouping stages are exploratory after earlier outcomes;no preregistered statistical significance claim.",
+    "No IBM hardware,credentials,paid jobs,installs or background services used."
+  ],
+  "sources": [
+    {
+      "url": "https://proceedings.mlr.press/v70/guo17a.html",
+      "access": "Primary paper landing-page abstract;temperature scaling is established."
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.01639",
+      "access": "Primary abstract;variance regularization for finite sampling is existing work."
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.28160",
+      "access": "Primary preprint abstract only;shot grouping at fixed measurement budget already studied. Not a full-paper replication."
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.14654",
+      "access": "Primary abstract;sampling-noise learning theory/eigentasks existing work."
+    }
+  ]
+}

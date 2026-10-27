@@ -1,0 +1,66 @@
+{
+  "seed": 20261025,
+  "trials_per_estimator": 2000,
+  "rows": 4320,
+  "seconds": 1.556175791003625,
+  "python": "3.15.0",
+  "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.1",
+    "qiskit-aer": "0.18.0",
+    "qiskit-ibm-runtime": "0.51.0",
+    "matplotlib": "3.11.2"
+  },
+  "source_sha256": "1cb10ea12ed50bf8998d8a8d6b8196347ee491dcab478daee21fd0375de84b35",
+  "validation": {
+    "passed": true,
+    "state_error_halving_ratios": {
+      "1": 2.0010279537406923,
+      "2": 4.013333482492471
+    },
+    "checks": [
+      "Hermiticity",
+      "zero time",
+      "Aer versus statevector",
+      "trace and positivity",
+      "analytic depolarization",
+      "first/second-order convergence",
+      "little-endian observable indexing"
+    ]
+  },
+  "mc_mse_mismatches_at_6se": 0,
+  "zne_wins_at_fixed_steps": {
+    "200": {
+      "zne_equal": 27,
+      "zne_3to1": 36,
+      "settings": 480
+    },
+    "2000": {
+      "zne_equal": 108,
+      "zne_3to1": 122,
+      "settings": 480
+    },
+    "20000": {
+      "zne_equal": 194,
+      "zne_3to1": 199,
+      "settings": 480
+    }
+  },
+  "model": {
+    "H": "sum Z_i Z_(i+1) + 0.7 sum X_i",
+    "boundary": "open",
+    "initial_state": "all zero",
+    "hbar": 1,
+    "J": 1,
+    "noise": "two-qubit depolarizing channel after each abstract RZZ only",
+    "scales": [
+      1,
+      3
+    ],
+    "amplification": "oracle parameter scaling p -> 3p, not gate folding",
+    "budgets": "total shots per observable; not equal QPU duration",
+    "hardware": false
+  }
+}

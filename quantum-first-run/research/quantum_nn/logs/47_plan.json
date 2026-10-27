@@ -1,0 +1,22 @@
+{
+  "reviewed": "46_result: temperature lowers overconfidence without altering accuracy; noise refit improves low-shot decisions,but high-shot temperature has better CE.",
+  "hypothesis": "Shot-noise-trained readouts may fail when systematic device errors shift observable means.",
+  "design": "Freeze45 learned encoders,noise readouts and46 temperature scalars. Fresh1024test points per5 training seeds,5 paired measurement repeats at256/1024shots,three prelisted channels. No device-error-aware retraining/calibration.",
+  "channels": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.02,
+      0.01
+    ],
+    [
+      0.1,
+      0.03
+    ]
+  ],
+  "definition": "Global2qubit depolarization rho->(1-p)rho+pI/4 applied once afterCX;independent symmetric readout bit flip probability r perqubit. Ideal basis rotations. Exact Born probabilities transformed before grouped multinomial draws.",
+  "validation": "Independent Qiskit Aer density-matrix channel and basis rotations compared against fast probability transformation.",
+  "scope": "Hypothetical stress test,not IBM-calibrated device model;no depth dependence,crosstalk,drift or per-gate errors;no hardware extrapolation claim."
+}

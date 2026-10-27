@@ -1,0 +1,3730 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "ideal",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.984375,
+      "cross_entropy": 0.07496607809134492
+    },
+    {
+      "seed": 0,
+      "kind": "control",
+      "method": "majority_values",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.66015625
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 0,
+      "accuracy": 0.8359375,
+      "cross_entropy": 0.7229884843053274
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 0,
+      "accuracy": 0.89453125,
+      "cross_entropy": 0.4151963102111944
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 1,
+      "accuracy": 0.79296875,
+      "cross_entropy": 0.8417015135648571
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 1,
+      "accuracy": 0.87890625,
+      "cross_entropy": 0.5639956725952657
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 2,
+      "accuracy": 0.85546875,
+      "cross_entropy": 0.639870184349531
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 2,
+      "accuracy": 0.90234375,
+      "cross_entropy": 0.41473969694832746
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 3,
+      "accuracy": 0.83984375,
+      "cross_entropy": 0.6838063626868138
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 3,
+      "accuracy": 0.88671875,
+      "cross_entropy": 0.5369084944343125
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 4,
+      "accuracy": 0.828125,
+      "cross_entropy": 0.7234831701369503
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 4,
+      "accuracy": 0.90234375,
+      "cross_entropy": 0.47372746739376476
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 5,
+      "accuracy": 0.83984375,
+      "cross_entropy": 0.7039798043860449
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 5,
+      "accuracy": 0.87890625,
+      "cross_entropy": 0.5346665642735046
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 6,
+      "accuracy": 0.8359375,
+      "cross_entropy": 0.765476380023834
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 6,
+      "accuracy": 0.90625,
+      "cross_entropy": 0.42011784638652133
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 7,
+      "accuracy": 0.82421875,
+      "cross_entropy": 0.7500103165740892
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 7,
+      "accuracy": 0.87109375,
+      "cross_entropy": 0.5346386671966503
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 8,
+      "accuracy": 0.8515625,
+      "cross_entropy": 0.636906549459262
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 8,
+      "accuracy": 0.90625,
+      "cross_entropy": 0.4020185874278967
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 9,
+      "accuracy": 0.86328125,
+      "cross_entropy": 0.6702927136104605
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 9,
+      "accuracy": 0.890625,
+      "cross_entropy": 0.4537362365828908
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 10,
+      "accuracy": 0.8828125,
+      "cross_entropy": 0.5259739518928399
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 10,
+      "accuracy": 0.90234375,
+      "cross_entropy": 0.41526574737067723
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 11,
+      "accuracy": 0.8125,
+      "cross_entropy": 0.7917624965210723
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 11,
+      "accuracy": 0.86328125,
+      "cross_entropy": 0.5763242286041921
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 12,
+      "accuracy": 0.80859375,
+      "cross_entropy": 0.8289743294835741
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 12,
+      "accuracy": 0.87109375,
+      "cross_entropy": 0.5682801738593198
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 13,
+      "accuracy": 0.8359375,
+      "cross_entropy": 0.7421000457867557
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 13,
+      "accuracy": 0.88671875,
+      "cross_entropy": 0.4813721787873375
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 14,
+      "accuracy": 0.83203125,
+      "cross_entropy": 0.7259372850574798
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 14,
+      "accuracy": 0.88671875,
+      "cross_entropy": 0.5235727397487799
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 15,
+      "accuracy": 0.84375,
+      "cross_entropy": 0.7230143035110586
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 15,
+      "accuracy": 0.86328125,
+      "cross_entropy": 0.5855536695625859
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 16,
+      "accuracy": 0.828125,
+      "cross_entropy": 0.780851038818567
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 16,
+      "accuracy": 0.88671875,
+      "cross_entropy": 0.5028832767512941
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 17,
+      "accuracy": 0.796875,
+      "cross_entropy": 0.8882042432116022
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 17,
+      "accuracy": 0.9140625,
+      "cross_entropy": 0.31371658033559774
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 18,
+      "accuracy": 0.86328125,
+      "cross_entropy": 0.5849214673279416
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 18,
+      "accuracy": 0.8671875,
+      "cross_entropy": 0.5606112891118611
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 19,
+      "accuracy": 0.82421875,
+      "cross_entropy": 0.7472171865961053
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 19,
+      "accuracy": 0.86328125,
+      "cross_entropy": 0.6125406746277733
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 0,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.29859309073617024
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 0,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.18884864053117092
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 1,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.318146200402998
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 1,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.3268771827813734
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 2,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.34467079337884665
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 2,
+      "accuracy": 0.9296875,
+      "cross_entropy": 0.31410533474934743
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 3,
+      "accuracy": 0.90625,
+      "cross_entropy": 0.40252656768599315
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 3,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.23031235910094952
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 4,
+      "accuracy": 0.89453125,
+      "cross_entropy": 0.41938528482336407
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 4,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.258533541212841
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 5,
+      "accuracy": 0.8828125,
+      "cross_entropy": 0.530344455188487
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 5,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.21845984627588638
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 6,
+      "accuracy": 0.8984375,
+      "cross_entropy": 0.4664709337835601
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 6,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.3361636306269832
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 7,
+      "accuracy": 0.890625,
+      "cross_entropy": 0.42992691828357743
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 7,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.26039879482634437
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 8,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.3603955243443622
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 8,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.375507565620938
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 9,
+      "accuracy": 0.93359375,
+      "cross_entropy": 0.2463705682571652
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 9,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.23698919552848302
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 10,
+      "accuracy": 0.89453125,
+      "cross_entropy": 0.4133096082623873
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 10,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.22281463618021313
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 11,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.2514445294104807
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 11,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.1785774074970566
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 12,
+      "accuracy": 0.8984375,
+      "cross_entropy": 0.4170009736887748
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 12,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.22408081862467288
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 13,
+      "accuracy": 0.8984375,
+      "cross_entropy": 0.4101137899136048
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 13,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.25529966065188225
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 14,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.3158094156797815
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 14,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.25359716421278544
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 15,
+      "accuracy": 0.921875,
+      "cross_entropy": 0.3363574186678323
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 15,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.24309037655297872
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 16,
+      "accuracy": 0.8671875,
+      "cross_entropy": 0.4916568961986394
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 16,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.31390753862202786
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 17,
+      "accuracy": 0.93359375,
+      "cross_entropy": 0.3273669449840743
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 17,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.2833212173249813
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 18,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.33737429285141585
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 18,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.22946494291242892
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 19,
+      "accuracy": 0.921875,
+      "cross_entropy": 0.39549362989063996
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 19,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.18642453231925746
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 0,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.1994308520335359
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 0,
+      "accuracy": 0.98046875,
+      "cross_entropy": 0.07423632954713089
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 1,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.19996908479574346
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 1,
+      "accuracy": 0.96875,
+      "cross_entropy": 0.1346993467749386
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 2,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.16759753957795798
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 2,
+      "accuracy": 0.97265625,
+      "cross_entropy": 0.11184314838356044
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 3,
+      "accuracy": 0.96875,
+      "cross_entropy": 0.12986801830461953
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 3,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.12391048483688011
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 4,
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.1488486504397527
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 4,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.15181069436892403
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 5,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.16386786606842202
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 5,
+      "accuracy": 0.984375,
+      "cross_entropy": 0.07902000733882802
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 6,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.1754332991579759
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 6,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.17612034754980987
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 7,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.21362186312046408
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 7,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.17821582156020946
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 8,
+      "accuracy": 0.96875,
+      "cross_entropy": 0.1293580097159193
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 8,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.16867775339194635
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 9,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.1650689462154088
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 9,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.1422994084667303
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 10,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.2498610319692467
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 10,
+      "accuracy": 0.97265625,
+      "cross_entropy": 0.12199396956072688
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 11,
+      "accuracy": 0.96875,
+      "cross_entropy": 0.1576298589558097
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 11,
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.1340255342378077
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 12,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.16751437640709496
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 12,
+      "accuracy": 0.97265625,
+      "cross_entropy": 0.12041880752418985
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 13,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.16114508722210713
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 13,
+      "accuracy": 0.96875,
+      "cross_entropy": 0.12173367424518053
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 14,
+      "accuracy": 0.96875,
+      "cross_entropy": 0.14980705903349154
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 14,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.1833462226503126
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 15,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.25484528930541717
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 15,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.15940984815620868
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 16,
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.14347526711981723
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 16,
+      "accuracy": 0.984375,
+      "cross_entropy": 0.07189266021914684
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 17,
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.14405250220829502
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 17,
+      "accuracy": 0.98046875,
+      "cross_entropy": 0.09249480738010413
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 18,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.19409343649777758
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 18,
+      "accuracy": 0.97265625,
+      "cross_entropy": 0.128596893570964
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 19,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.19427510679225396
+    },
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 19,
+      "accuracy": 0.97265625,
+      "cross_entropy": 0.11473447505571581
+    },
+    {
+      "seed": 0,
+      "kind": "classical",
+      "method": "ideal",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.08348338091524621
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "ideal",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.98046875,
+      "cross_entropy": 0.189109380463363
+    },
+    {
+      "seed": 1,
+      "kind": "control",
+      "method": "majority_values",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.66015625
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 0,
+      "accuracy": 0.828125,
+      "cross_entropy": 1.655035748477066
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 0,
+      "accuracy": 0.859375,
+      "cross_entropy": 1.4291793572736704
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 1,
+      "accuracy": 0.8203125,
+      "cross_entropy": 1.8473608455716488
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 1,
+      "accuracy": 0.89453125,
+      "cross_entropy": 1.149533311372428
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 2,
+      "accuracy": 0.85546875,
+      "cross_entropy": 1.4093273104130033
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 2,
+      "accuracy": 0.89453125,
+      "cross_entropy": 1.0526840031210773
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 3,
+      "accuracy": 0.8515625,
+      "cross_entropy": 1.599910387951438
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 3,
+      "accuracy": 0.875,
+      "cross_entropy": 1.367047474039492
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 4,
+      "accuracy": 0.8125,
+      "cross_entropy": 1.9596961902064036
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 4,
+      "accuracy": 0.8671875,
+      "cross_entropy": 1.3391133784842202
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 5,
+      "accuracy": 0.84375,
+      "cross_entropy": 1.6882899978822579
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 5,
+      "accuracy": 0.890625,
+      "cross_entropy": 1.1733859549408898
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 6,
+      "accuracy": 0.85546875,
+      "cross_entropy": 1.4291854630383956
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 6,
+      "accuracy": 0.859375,
+      "cross_entropy": 1.4547988086863037
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 7,
+      "accuracy": 0.8046875,
+      "cross_entropy": 1.9163377241966313
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 7,
+      "accuracy": 0.8828125,
+      "cross_entropy": 1.1268351239435699
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 8,
+      "accuracy": 0.828125,
+      "cross_entropy": 1.751297188643802
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 8,
+      "accuracy": 0.87890625,
+      "cross_entropy": 1.1563137197061406
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 9,
+      "accuracy": 0.875,
+      "cross_entropy": 1.2405418356789932
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 9,
+      "accuracy": 0.89453125,
+      "cross_entropy": 1.0695642871783348
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 10,
+      "accuracy": 0.859375,
+      "cross_entropy": 1.3665790497333135
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 10,
+      "accuracy": 0.87109375,
+      "cross_entropy": 1.3991086557443349
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 11,
+      "accuracy": 0.83203125,
+      "cross_entropy": 1.643401594696365
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 11,
+      "accuracy": 0.89453125,
+      "cross_entropy": 1.2208538356940706
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 12,
+      "accuracy": 0.83984375,
+      "cross_entropy": 1.6179808345069833
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 12,
+      "accuracy": 0.859375,
+      "cross_entropy": 1.4574427642892664
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 13,
+      "accuracy": 0.828125,
+      "cross_entropy": 1.6718277325840656
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 13,
+      "accuracy": 0.89453125,
+      "cross_entropy": 1.0918374414298235
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 14,
+      "accuracy": 0.8515625,
+      "cross_entropy": 1.4165650261148062
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 14,
+      "accuracy": 0.87890625,
+      "cross_entropy": 1.3278830126663859
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 15,
+      "accuracy": 0.84765625,
+      "cross_entropy": 1.613914193777661
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 15,
+      "accuracy": 0.875,
+      "cross_entropy": 1.359051309072266
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 16,
+      "accuracy": 0.828125,
+      "cross_entropy": 1.6465343834775585
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 16,
+      "accuracy": 0.86328125,
+      "cross_entropy": 1.4694023214781784
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 17,
+      "accuracy": 0.828125,
+      "cross_entropy": 1.771193969552138
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 17,
+      "accuracy": 0.8671875,
+      "cross_entropy": 1.4616979732874542
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 18,
+      "accuracy": 0.83203125,
+      "cross_entropy": 1.6636766854084848
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 18,
+      "accuracy": 0.87890625,
+      "cross_entropy": 1.3606973039639998
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 19,
+      "accuracy": 0.84375,
+      "cross_entropy": 1.591345677857602
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 19,
+      "accuracy": 0.85546875,
+      "cross_entropy": 1.6321226941832283
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 0,
+      "accuracy": 0.9140625,
+      "cross_entropy": 0.9351220023565814
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 0,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.6515486520122632
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 1,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.6972814230239508
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 1,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.5449933814912971
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 2,
+      "accuracy": 0.8984375,
+      "cross_entropy": 1.1143360788401362
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 2,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.5858064083933431
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 3,
+      "accuracy": 0.91015625,
+      "cross_entropy": 0.9175022244763247
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 3,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.4661494357004245
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 4,
+      "accuracy": 0.89453125,
+      "cross_entropy": 1.2005891897365957
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 4,
+      "accuracy": 0.93359375,
+      "cross_entropy": 0.700001132194388
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 5,
+      "accuracy": 0.91015625,
+      "cross_entropy": 0.9595698936000109
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 5,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.6295167982670513
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 6,
+      "accuracy": 0.90625,
+      "cross_entropy": 0.9948540378395099
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 6,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.5532547294310127
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 7,
+      "accuracy": 0.890625,
+      "cross_entropy": 1.143315631050449
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 7,
+      "accuracy": 0.9296875,
+      "cross_entropy": 0.7763954012108193
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 8,
+      "accuracy": 0.91015625,
+      "cross_entropy": 0.9957428382918551
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 8,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.5524499304157153
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 9,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.9266859433148623
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 9,
+      "accuracy": 0.921875,
+      "cross_entropy": 0.7812612757247861
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 10,
+      "accuracy": 0.91015625,
+      "cross_entropy": 0.9486038096592357
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 10,
+      "accuracy": 0.9296875,
+      "cross_entropy": 0.7312023205258726
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 11,
+      "accuracy": 0.921875,
+      "cross_entropy": 0.8585712198975743
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 11,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.5374661550609682
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 12,
+      "accuracy": 0.8984375,
+      "cross_entropy": 1.05000191946746
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 12,
+      "accuracy": 0.921875,
+      "cross_entropy": 0.7965839354936695
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 13,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.7743773566400912
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 13,
+      "accuracy": 0.9296875,
+      "cross_entropy": 0.6288381067329643
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 14,
+      "accuracy": 0.89453125,
+      "cross_entropy": 1.040757865556123
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 14,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.7227861224436947
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 15,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.9054907044050445
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 15,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.5968613183046991
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 16,
+      "accuracy": 0.90625,
+      "cross_entropy": 0.9623295641570991
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 16,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.6466952204850145
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 17,
+      "accuracy": 0.8984375,
+      "cross_entropy": 1.0088364517454858
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 17,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.7684543305853189
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 18,
+      "accuracy": 0.921875,
+      "cross_entropy": 0.7594528956599476
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 18,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.576413853636095
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 19,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.801600096481334
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 19,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.8351124563468973
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 0,
+      "accuracy": 0.93359375,
+      "cross_entropy": 0.6453922261503401
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 0,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.44791103194186827
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 1,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.332530600324039
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 1,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.43155555001344104
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 2,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.5744099514928227
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 2,
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.3618534099132269
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 3,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.5925406384626488
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 3,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.40442371336365135
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 4,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.5789489170054037
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 4,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.4797606099484532
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 5,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.4098232758321769
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 5,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.39705049123931957
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 6,
+      "accuracy": 0.93359375,
+      "cross_entropy": 0.7155610558314287
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 6,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.5005890855657839
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 7,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.5311557833051467
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 7,
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.32306796278416616
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 8,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.6060367716441906
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 8,
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.3650405736301424
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 9,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.5000904289887773
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 9,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.33852017996239125
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 10,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.6313435270143593
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 10,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.3895154944749152
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 11,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.5916880611236176
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 11,
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.32270763909582434
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 12,
+      "accuracy": 0.96875,
+      "cross_entropy": 0.34092640687102527
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 12,
+      "accuracy": 0.96875,
+      "cross_entropy": 0.3480358038441833
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 13,
+      "accuracy": 0.9296875,
+      "cross_entropy": 0.7059814045612267
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 13,
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.3374037426659879
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 14,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.4170867548811756
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 14,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.3481196932498262
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 15,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.5194760182495611
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 15,
+      "accuracy": 0.9765625,
+      "cross_entropy": 0.2321558681686113
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 16,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.44196348706963506
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 16,
+      "accuracy": 0.97265625,
+      "cross_entropy": 0.26961305061416974
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 17,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.6361144316374391
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 17,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.43483854102312725
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 18,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.47169197371714133
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 18,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.48242164846429864
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 19,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.5680574530457064
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 19,
+      "accuracy": 0.96875,
+      "cross_entropy": 0.3020913236148449
+    },
+    {
+      "seed": 1,
+      "kind": "classical",
+      "method": "ideal",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.984375,
+      "cross_entropy": 0.1746462467571201
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "ideal",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.18533858315981616
+    },
+    {
+      "seed": 2,
+      "kind": "control",
+      "method": "majority_values",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.6015625
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 0,
+      "accuracy": 0.84765625,
+      "cross_entropy": 0.6883756746418973
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 0,
+      "accuracy": 0.91015625,
+      "cross_entropy": 0.4702532726006565
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 1,
+      "accuracy": 0.8046875,
+      "cross_entropy": 0.9106437848356151
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 1,
+      "accuracy": 0.87890625,
+      "cross_entropy": 0.6099605868445326
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 2,
+      "accuracy": 0.84765625,
+      "cross_entropy": 0.5664091141135309
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 2,
+      "accuracy": 0.88671875,
+      "cross_entropy": 0.5791511140138658
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 3,
+      "accuracy": 0.8671875,
+      "cross_entropy": 0.6364444268567135
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 3,
+      "accuracy": 0.8828125,
+      "cross_entropy": 0.5271356615524228
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 4,
+      "accuracy": 0.82421875,
+      "cross_entropy": 0.8142002189812672
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 4,
+      "accuracy": 0.91015625,
+      "cross_entropy": 0.4392466361034808
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 5,
+      "accuracy": 0.84765625,
+      "cross_entropy": 0.603425222634558
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 5,
+      "accuracy": 0.87109375,
+      "cross_entropy": 0.6087914014034628
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 6,
+      "accuracy": 0.80859375,
+      "cross_entropy": 0.8351613084712028
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 6,
+      "accuracy": 0.90625,
+      "cross_entropy": 0.41703936345738823
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 7,
+      "accuracy": 0.8359375,
+      "cross_entropy": 0.7499064518526634
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 7,
+      "accuracy": 0.87890625,
+      "cross_entropy": 0.5592136735286022
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 8,
+      "accuracy": 0.81640625,
+      "cross_entropy": 0.773517707022713
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 8,
+      "accuracy": 0.91015625,
+      "cross_entropy": 0.41003104852471295
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 9,
+      "accuracy": 0.84765625,
+      "cross_entropy": 0.7032869132456614
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 9,
+      "accuracy": 0.90234375,
+      "cross_entropy": 0.5034661376696591
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 10,
+      "accuracy": 0.82421875,
+      "cross_entropy": 0.7742437589232375
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 10,
+      "accuracy": 0.90234375,
+      "cross_entropy": 0.4641457778637057
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 11,
+      "accuracy": 0.80078125,
+      "cross_entropy": 0.9036106895996687
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 11,
+      "accuracy": 0.87109375,
+      "cross_entropy": 0.6378416202678785
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 12,
+      "accuracy": 0.8359375,
+      "cross_entropy": 0.7668778579431087
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 12,
+      "accuracy": 0.8828125,
+      "cross_entropy": 0.5687314293065996
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 13,
+      "accuracy": 0.796875,
+      "cross_entropy": 0.8956124053047111
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 13,
+      "accuracy": 0.8828125,
+      "cross_entropy": 0.5950086237022634
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 14,
+      "accuracy": 0.8046875,
+      "cross_entropy": 0.8408926241775946
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 14,
+      "accuracy": 0.88671875,
+      "cross_entropy": 0.5777243645445157
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 15,
+      "accuracy": 0.875,
+      "cross_entropy": 0.5951039256913779
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 15,
+      "accuracy": 0.89453125,
+      "cross_entropy": 0.5005744005659865
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 16,
+      "accuracy": 0.82421875,
+      "cross_entropy": 0.7842102927524555
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 16,
+      "accuracy": 0.87109375,
+      "cross_entropy": 0.6293688407521056
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 17,
+      "accuracy": 0.83984375,
+      "cross_entropy": 0.6906077178793018
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 17,
+      "accuracy": 0.88671875,
+      "cross_entropy": 0.5264715916896531
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 18,
+      "accuracy": 0.8203125,
+      "cross_entropy": 0.7278963092864719
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 18,
+      "accuracy": 0.8359375,
+      "cross_entropy": 0.7564866107669607
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 128,
+      "rounds": 1,
+      "repeat": 19,
+      "accuracy": 0.8359375,
+      "cross_entropy": 0.8369582015220791
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 128,
+      "rounds": 3,
+      "repeat": 19,
+      "accuracy": 0.8671875,
+      "cross_entropy": 0.6562692616178618
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 0,
+      "accuracy": 0.93359375,
+      "cross_entropy": 0.29910769936582116
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 0,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.20913390251172842
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 1,
+      "accuracy": 0.921875,
+      "cross_entropy": 0.3543618183069394
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 1,
+      "accuracy": 0.93359375,
+      "cross_entropy": 0.29177190720001017
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 2,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.4071869731906339
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 2,
+      "accuracy": 0.9296875,
+      "cross_entropy": 0.33812406521147764
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 3,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.2854069531835842
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 3,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.27530130420033566
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 4,
+      "accuracy": 0.90625,
+      "cross_entropy": 0.4856192906525161
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 4,
+      "accuracy": 0.93359375,
+      "cross_entropy": 0.31519999115687963
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 5,
+      "accuracy": 0.91015625,
+      "cross_entropy": 0.37793020353795836
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 5,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.26898425250001023
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 6,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.40681106711972514
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 6,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.35311585937815826
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 7,
+      "accuracy": 0.9140625,
+      "cross_entropy": 0.4344781615798372
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 7,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.26749485112267385
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 8,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.37940399272322434
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 8,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.3014534966921208
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 9,
+      "accuracy": 0.9140625,
+      "cross_entropy": 0.394594324429302
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 9,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.30909192659051443
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 10,
+      "accuracy": 0.89453125,
+      "cross_entropy": 0.4865015562225229
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 10,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.3000234367879946
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 11,
+      "accuracy": 0.90625,
+      "cross_entropy": 0.45373041874557174
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 11,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.3122322750288232
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 12,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.37330116924772394
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 12,
+      "accuracy": 0.93359375,
+      "cross_entropy": 0.3006762038074312
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 13,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.38952610236077057
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 13,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.22697647570727572
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 14,
+      "accuracy": 0.921875,
+      "cross_entropy": 0.37733671686451165
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 14,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.3301245135158074
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 15,
+      "accuracy": 0.921875,
+      "cross_entropy": 0.4180259949885475
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 15,
+      "accuracy": 0.91796875,
+      "cross_entropy": 0.42021158486523724
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 16,
+      "accuracy": 0.9296875,
+      "cross_entropy": 0.3361148235137544
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 16,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.31443947743043654
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 17,
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.374893756668523
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 17,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.30695315658949485
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 18,
+      "accuracy": 0.921875,
+      "cross_entropy": 0.368956269700867
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 18,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.24118475507650797
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 512,
+      "rounds": 1,
+      "repeat": 19,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.26925025647275774
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 512,
+      "rounds": 3,
+      "repeat": 19,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.18487754827724692
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 0,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.2755027241743336
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 0,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.2250057816528756
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 1,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.20338470006297693
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 1,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.2126724547261719
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 2,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.2396377436636807
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 2,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.16206344360069783
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 3,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.21533605716736193
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 3,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.17129843169620135
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 4,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.2623783249093045
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 4,
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.16153669216996275
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 5,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.24682570757126365
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 5,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.1694661248499231
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 6,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.17596030873535085
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 6,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.2706074513225891
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 7,
+      "accuracy": 0.96875,
+      "cross_entropy": 0.13772091836319195
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 7,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.20423517403534025
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 8,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.26241266198376995
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 8,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.2992553305182132
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 9,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.19920789482072102
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 9,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.20133049869102698
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 10,
+      "accuracy": 0.9296875,
+      "cross_entropy": 0.3365263725532794
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 10,
+      "accuracy": 0.9765625,
+      "cross_entropy": 0.10975650809252692
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 11,
+      "accuracy": 0.93359375,
+      "cross_entropy": 0.2827590442224116
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 11,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.21916294413270282
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 12,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.2550337522863785
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 12,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.22629374916698997
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 13,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.24490525731289112
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 13,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.1941157054693645
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 14,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.23777898961317315
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 14,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.23137040063858766
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 15,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.28609866144851387
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 15,
+      "accuracy": 0.96875,
+      "cross_entropy": 0.1339935025456698
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 16,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.27207716844831625
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 16,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.2604433980563245
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 17,
+      "accuracy": 0.921875,
+      "cross_entropy": 0.3671592593730803
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 17,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.2635504851050591
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 18,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.286453320955183
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 18,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.19464387614486328
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "budget": 2048,
+      "rounds": 1,
+      "repeat": 19,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.26442566379070986
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "budget": 2048,
+      "rounds": 3,
+      "repeat": 19,
+      "accuracy": 0.96875,
+      "cross_entropy": 0.1818333344970834
+    },
+    {
+      "seed": 2,
+      "kind": "classical",
+      "method": "ideal",
+      "budget": 0,
+      "repeat": 0,
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.07400779450449056
+    }
+  ],
+  "per_seed_gains": [
+    {
+      "seed": 0,
+      "budget": 128,
+      "mean_accuracy_gain": 0.0513671875
+    },
+    {
+      "seed": 0,
+      "budget": 512,
+      "mean_accuracy_gain": 0.03046875
+    },
+    {
+      "seed": 0,
+      "budget": 2048,
+      "mean_accuracy_gain": 0.009765625
+    },
+    {
+      "seed": 1,
+      "budget": 128,
+      "mean_accuracy_gain": 0.0384765625
+    },
+    {
+      "seed": 1,
+      "budget": 512,
+      "mean_accuracy_gain": 0.026953125
+    },
+    {
+      "seed": 1,
+      "budget": 2048,
+      "mean_accuracy_gain": 0.0140625
+    },
+    {
+      "seed": 2,
+      "budget": 128,
+      "mean_accuracy_gain": 0.0556640625
+    },
+    {
+      "seed": 2,
+      "budget": 512,
+      "mean_accuracy_gain": 0.0169921875
+    },
+    {
+      "seed": 2,
+      "budget": 2048,
+      "mean_accuracy_gain": 0.0095703125
+    }
+  ],
+  "decision": "Inspect whether improvement survives complete-block output. Keep uniform-dense and sparse heads labeled distinctly; no energy or latency savings implied by equal-shot accuracy."
+}

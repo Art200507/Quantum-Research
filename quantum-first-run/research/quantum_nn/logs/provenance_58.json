@@ -1,0 +1,20 @@
+{
+  "sha256": {
+    "quantum-first-run/research/quantum_nn/reference_monitor.py": "5b8a8ff0350d7e320d4c26843fefc8101828c36bd1cedac4ad5383be95486d32",
+    "quantum-first-run/research/quantum_nn/triggered_recalibration.py": "0666cd0af11a938df50c9766d4045997aa50dd7cf537d37e01f99f4a20b3a243",
+    "quantum-first-run/research/quantum_nn/randomized_monitoring.py": "d1e3347833e5fb03df356f1bd8c720e40a91260a0d9337ad7c38cea45fd0185d",
+    "quantum-first-run/research/quantum_nn/confidence_guard.py": "00f6522edd8088698188cfd9e6a821a1e1ece3d2ff367f0a3947a3887cbc3e1b",
+    "quantum-first-run/research/quantum_nn/continue.py": "1fe645c6226a1b4925e0d58aa9ff7efe8ae933897b9694ffca63a9e3f337c31e",
+    "quantum-first-run/research/quantum_nn/logs/54_plan.json": "9eab52fbc7927972edf1296f598be9810406e2c1528272621b18112b1cc3156b",
+    "quantum-first-run/research/quantum_nn/logs/54_result.json": "c138af968396d612668e32e0b2389b73f6001f0d781871ed5d863c6e32b9979a",
+    "quantum-first-run/research/quantum_nn/logs/55_plan.json": "4cbf45fbd75cd9cebebb8c8b3b6dd00eb06c0ddb3917de25dc9913f3ebd36b4a",
+    "quantum-first-run/research/quantum_nn/logs/55_result.json": "76de08672add02ca527d2fb1cc6ab2b8a63cded20dfac0a6908aa68a44b44e45",
+    "quantum-first-run/research/quantum_nn/logs/56_plan.json": "e45f14f5c44757cb0585378aacd669925c0cb9839b315780072ae03aee53b8ac",
+    "quantum-first-run/research/quantum_nn/logs/56_result.json": "093f12b81ac4a6d1d5073806d4e61ba41b687e54f7ac60c5dc68039b76daddc0",
+    "quantum-first-run/research/quantum_nn/logs/57_plan.json": "6e3b9164a5e85a44c05bd57a303f470aec2bfca1ea409d0611c23b48f8672d10",
+    "quantum-first-run/research/quantum_nn/logs/57_result.json": "74f017f89d8d2eda895d8c9b0a1dda4ef1178c35f64025705d4db6cc89855921",
+    "quantum-first-run/research/quantum_nn/logs/58_checkpoint.json": "600d1d4d3f9df12af023c2ceb777a85ca63061cfaea6fc336d4a7aec57b77777",
+    "quantum-first-run/research/quantum_nn/README.md": "d80f3b3cac8b3ad45bac86cf8feca7e5f8408b47a82234c79ee52281eb60cc8e",
+    "quantum-first-run/research/HANDOFF.md": "054db2b13e7018544137db85eb1fe69384a7937fef45afff93efeb7ca9e2a883"
+  }
+}

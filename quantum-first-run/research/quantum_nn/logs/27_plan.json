@@ -1,0 +1,17 @@
+{
+  "hypothesis": "Ideal multi-output capability may collapse when all quantum observables share a finite total measurement budget.",
+  "design": "Frozen feature-readout models from25/26;5 seeds,4 tasks,512 fresh test points, budgets256/1024/4096,10 measurement repeats.",
+  "measurement": "Actual joint categorical Born outcomes for each two-qubit basis; all Pauli features from a setting share those counts. Total shots exactly distributed over views/bases including remainders. No independent-binomial fiction for jointly measured features.",
+  "bases": [
+    "XX",
+    "XY",
+    "XZ",
+    "YX",
+    "YY",
+    "YZ",
+    "ZX",
+    "ZY",
+    "ZZ"
+  ],
+  "training": "Ideal-training readouts unchanged. No gate noise here. Classical computation of two-qubit Born probabilities independently validated against circuit feature expectations."
+}

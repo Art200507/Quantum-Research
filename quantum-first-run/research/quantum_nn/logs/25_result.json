@@ -1,0 +1,4548 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.04241746719491338,
+      "brier": 0.008888273616129885
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.10993087763084111,
+      "brier": 0.030558728511511014
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.962890625,
+      "cross_entropy": 0.11089992445845162,
+      "brier": 0.030982455414739898
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.859375,
+      "cross_entropy": 0.36221803736777713,
+      "brier": 0.11346781942091361
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.796875,
+      "cross_entropy": 0.44676912702623695,
+      "brier": 0.13966528905742048
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.779296875,
+      "cross_entropy": 0.4759789137229316,
+      "brier": 0.1516933142826884
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.00652773577398393,
+      "brier": 0.0006949865671137251
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 1.0,
+      "cross_entropy": 0.010175535769036646,
+      "brier": 0.0020136190733993672
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.9951171875,
+      "cross_entropy": 0.01680103586919355,
+      "brier": 0.00415422386107594
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.03420180107033813,
+      "brier": 0.006322495026299873
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.97265625,
+      "cross_entropy": 0.08019414135889319,
+      "brier": 0.022846399445753236
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.947265625,
+      "cross_entropy": 0.10178091628478161,
+      "brier": 0.03278126708101772
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.984375,
+      "cross_entropy": 0.07069343163310021,
+      "brier": 0.017209032381483344
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.98046875,
+      "cross_entropy": 0.07357728934806475,
+      "brier": 0.019631451447228422
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.9658203125,
+      "cross_entropy": 0.08936777157718959,
+      "brier": 0.025575779792042754
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.6484375,
+      "cross_entropy": 0.5523660180898567,
+      "brier": 0.1950116263017566
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.70703125,
+      "cross_entropy": 0.5729661092441636,
+      "brier": 0.19641860140419906
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.6669921875,
+      "cross_entropy": 0.6096853545404657,
+      "brier": 0.21023855755595516
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.04929055179194329,
+      "brier": 0.010846248402878633
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.984375,
+      "cross_entropy": 0.04301897596791528,
+      "brier": 0.013045152607369125
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.9873046875,
+      "cross_entropy": 0.04792715093645345,
+      "brier": 0.012372528751749741
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.796875,
+      "cross_entropy": 0.418926890179638,
+      "brier": 0.12840732940971258
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.765625,
+      "cross_entropy": 0.4279261185401121,
+      "brier": 0.14051085661378945
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.7392578125,
+      "cross_entropy": 0.4691907842384323,
+      "brier": 0.15296871866968736
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.8203125,
+      "cross_entropy": 0.38402374379654797,
+      "brier": 0.12117786266639624
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.76171875,
+      "cross_entropy": 0.4832541054931889,
+      "brier": 0.16166998105455027
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.7578125,
+      "cross_entropy": 0.506053376074202,
+      "brier": 0.16846775323345203
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.65625,
+      "cross_entropy": 0.6716292140457525,
+      "brier": 0.23924352212148509
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.57421875,
+      "cross_entropy": 0.7032391381838026,
+      "brier": 0.254814327066919
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.576171875,
+      "cross_entropy": 0.699706444986226,
+      "brier": 0.25306006683498805
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.578125,
+      "cross_entropy": 0.6553771552392071,
+      "brier": 0.2315907771617911
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.65234375,
+      "cross_entropy": 0.6504949154717687,
+      "brier": 0.22893005671600813
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.603515625,
+      "cross_entropy": 0.659173784957928,
+      "brier": 0.23310889919924363
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.9296875,
+      "cross_entropy": 0.2184117579493266,
+      "brier": 0.056079450301854045
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.28191240259840544,
+      "brier": 0.07066462196656655
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.908203125,
+      "cross_entropy": 0.29251438460560775,
+      "brier": 0.07684959543450073
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.96875,
+      "cross_entropy": 0.08648217575542405,
+      "brier": 0.024892752907306682
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.10789924583382039,
+      "brier": 0.03198911297194403
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.09850959089041292,
+      "brier": 0.029999583588939276
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.796875,
+      "cross_entropy": 0.45208113671057126,
+      "brier": 0.1476218512173438
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.82421875,
+      "cross_entropy": 0.42292408670011106,
+      "brier": 0.13568132817228762
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.7802734375,
+      "cross_entropy": 0.43300074687167284,
+      "brier": 0.13991670438726633
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.008062523393226889,
+      "brier": 0.0009723354812959107
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.027208760485936588,
+      "brier": 0.007620720484101673
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.98828125,
+      "cross_entropy": 0.025549773565513925,
+      "brier": 0.007509696829206213
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.11061309152454635,
+      "brier": 0.026751085813205497
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.1253857998367222,
+      "brier": 0.036464561531229456
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.939453125,
+      "cross_entropy": 0.14960812691584965,
+      "brier": 0.04504325950677485
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.984375,
+      "cross_entropy": 0.09219055268824347,
+      "brier": 0.023524004880732356
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 1.0,
+      "cross_entropy": 0.05368532177927625,
+      "brier": 0.011558795446970185
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.974609375,
+      "cross_entropy": 0.08686472797327263,
+      "brier": 0.02375163630957133
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.6953125,
+      "cross_entropy": 0.5590155750624841,
+      "brier": 0.18981647071080038
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.75,
+      "cross_entropy": 0.541207467672819,
+      "brier": 0.18090575786634644
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.728515625,
+      "cross_entropy": 0.5680196991224101,
+      "brier": 0.19354378486918533
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.9765625,
+      "cross_entropy": 0.04703820466795568,
+      "brier": 0.01239309736178774
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.98828125,
+      "cross_entropy": 0.05056367886314148,
+      "brier": 0.011896282247941786
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.9794921875,
+      "cross_entropy": 0.06494077691997338,
+      "brier": 0.01768920736713303
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.734375,
+      "cross_entropy": 0.45775657096054034,
+      "brier": 0.15556670940510575
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.78515625,
+      "cross_entropy": 0.4448321742547253,
+      "brier": 0.1418751350189421
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.7578125,
+      "cross_entropy": 0.4644835708237569,
+      "brier": 0.14844951980367305
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.859375,
+      "cross_entropy": 0.38989939975214577,
+      "brier": 0.12024517453842665
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.765625,
+      "cross_entropy": 0.48379502313872474,
+      "brier": 0.16096025648949883
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.734375,
+      "cross_entropy": 0.5427991879533584,
+      "brier": 0.18481074614385412
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.6953125,
+      "cross_entropy": 0.6567852671085017,
+      "brier": 0.2319438611802504
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.625,
+      "cross_entropy": 0.6951956063740395,
+      "brier": 0.25029576136676446
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.583984375,
+      "cross_entropy": 0.7056554306339148,
+      "brier": 0.2554348751872608
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.59375,
+      "cross_entropy": 0.6452583989217617,
+      "brier": 0.22704037017130613
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.58984375,
+      "cross_entropy": 0.6762265387319122,
+      "brier": 0.2414952884667304
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.6337890625,
+      "cross_entropy": 0.653358938304113,
+      "brier": 0.23034633922239867
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.6953125,
+      "cross_entropy": 0.5145715853799834,
+      "brier": 0.17358327144617125
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.6953125,
+      "cross_entropy": 0.49807765401567405,
+      "brier": 0.16641790835183756
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.6669921875,
+      "cross_entropy": 0.5089612169636052,
+      "brier": 0.171019011179556
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.984375,
+      "cross_entropy": 0.06200692777537887,
+      "brier": 0.016183657484001482
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.11280158947147044,
+      "brier": 0.03521478452339916
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.9462890625,
+      "cross_entropy": 0.11870610882960064,
+      "brier": 0.03797960609070809
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.8515625,
+      "cross_entropy": 0.3378772220479923,
+      "brier": 0.10668962849910488
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.734375,
+      "cross_entropy": 0.5217012151439268,
+      "brier": 0.17720490636188346
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.7880859375,
+      "cross_entropy": 0.4448247021962237,
+      "brier": 0.14592016372126015
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.007780202493726849,
+      "brier": 0.0009937655560117251
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.984375,
+      "cross_entropy": 0.034222567079296516,
+      "brier": 0.011100866221726778
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.98828125,
+      "cross_entropy": 0.02427725716948658,
+      "brier": 0.007476558451556712
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.03382646533116289,
+      "brier": 0.006339378621557977
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.09048940561478352,
+      "brier": 0.028317486384105375
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.9697265625,
+      "cross_entropy": 0.07398280007672307,
+      "brier": 0.02245971453306973
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.0728792909447107,
+      "brier": 0.016104939544411757
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.98046875,
+      "cross_entropy": 0.084082389609866,
+      "brier": 0.02230813157252844
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.9951171875,
+      "cross_entropy": 0.07137089017730774,
+      "brier": 0.0175663709252702
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.765625,
+      "cross_entropy": 0.517950640761339,
+      "brier": 0.17232102650930348
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.70703125,
+      "cross_entropy": 0.5922161188590811,
+      "brier": 0.19889842261991425
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.7080078125,
+      "cross_entropy": 0.5965935288436485,
+      "brier": 0.2012331118442647
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.0223512877018215,
+      "brier": 0.0025616359065152505
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.984375,
+      "cross_entropy": 0.04533324157011019,
+      "brier": 0.011350669698900678
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.9833984375,
+      "cross_entropy": 0.05508285913033817,
+      "brier": 0.014254634665267982
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.7578125,
+      "cross_entropy": 0.39773302962589197,
+      "brier": 0.13215157565453078
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.8125,
+      "cross_entropy": 0.3694917129052731,
+      "brier": 0.11947644194304465
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.7626953125,
+      "cross_entropy": 0.4392503112826893,
+      "brier": 0.1477934879700355
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.78125,
+      "cross_entropy": 0.44417141222989254,
+      "brier": 0.14659943268881365
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.8203125,
+      "cross_entropy": 0.43576164045318044,
+      "brier": 0.14022011704502335
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.748046875,
+      "cross_entropy": 0.5015137001136998,
+      "brier": 0.1705975663643708
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.6484375,
+      "cross_entropy": 0.6756602900134757,
+      "brier": 0.24127728047936822
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.546875,
+      "cross_entropy": 0.7063753194105573,
+      "brier": 0.2564262123705626
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.5380859375,
+      "cross_entropy": 0.706009700401292,
+      "brier": 0.25627717580855497
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.5859375,
+      "cross_entropy": 0.6684939573651109,
+      "brier": 0.2379371932902724
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.5546875,
+      "cross_entropy": 0.6932907153785252,
+      "brier": 0.24992416066866713
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.5673828125,
+      "cross_entropy": 0.67640507364499,
+      "brier": 0.2417426949147577
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.9140625,
+      "cross_entropy": 0.2702583247984821,
+      "brier": 0.07531782916543181
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.2904154614654683,
+      "brier": 0.07831860366609557
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.927734375,
+      "cross_entropy": 0.2714772780520338,
+      "brier": 0.07305719430327835
+    },
+    {
+      "seed": 3,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.08116290921288512,
+      "brier": 0.02198141168658213
+    },
+    {
+      "seed": 3,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.1266519802699939,
+      "brier": 0.04012764602731042
+    },
+    {
+      "seed": 3,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.958984375,
+      "cross_entropy": 0.09687681754334809,
+      "brier": 0.02963494308479637
+    },
+    {
+      "seed": 3,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.8125,
+      "cross_entropy": 0.407327990801414,
+      "brier": 0.13198650191627864
+    },
+    {
+      "seed": 3,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.80859375,
+      "cross_entropy": 0.42406707003988187,
+      "brier": 0.13917835924982536
+    },
+    {
+      "seed": 3,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.7822265625,
+      "cross_entropy": 0.46565360828982133,
+      "brier": 0.15260434936257997
+    },
+    {
+      "seed": 3,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.01609082821356478,
+      "brier": 0.003981151397104533
+    },
+    {
+      "seed": 3,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 1.0,
+      "cross_entropy": 0.014289270283399009,
+      "brier": 0.0032277558133089915
+    },
+    {
+      "seed": 3,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.998046875,
+      "cross_entropy": 0.014079261205031616,
+      "brier": 0.0032488345882711353
+    },
+    {
+      "seed": 3,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.04999232882619152,
+      "brier": 0.012194981400214598
+    },
+    {
+      "seed": 3,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.07970532426889351,
+      "brier": 0.025231725536229637
+    },
+    {
+      "seed": 3,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.9521484375,
+      "cross_entropy": 0.10153601971970119,
+      "brier": 0.031877145996936695
+    },
+    {
+      "seed": 3,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.07931734012900091,
+      "brier": 0.020194191313502308
+    },
+    {
+      "seed": 3,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.97265625,
+      "cross_entropy": 0.0845495308938331,
+      "brier": 0.02376250027810376
+    },
+    {
+      "seed": 3,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.9697265625,
+      "cross_entropy": 0.1057174764367691,
+      "brier": 0.029377011678956812
+    },
+    {
+      "seed": 3,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.703125,
+      "cross_entropy": 0.5888837933163715,
+      "brier": 0.20373528858632337
+    },
+    {
+      "seed": 3,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.73046875,
+      "cross_entropy": 0.5834676249326551,
+      "brier": 0.20067188102900768
+    },
+    {
+      "seed": 3,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.708984375,
+      "cross_entropy": 0.6095052242601039,
+      "brier": 0.21146778006422573
+    },
+    {
+      "seed": 3,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.035104785129138116,
+      "brier": 0.006263161148890737
+    },
+    {
+      "seed": 3,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.984375,
+      "cross_entropy": 0.054832769160141535,
+      "brier": 0.014061656405141449
+    },
+    {
+      "seed": 3,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.97265625,
+      "cross_entropy": 0.07097807352649063,
+      "brier": 0.02083781769537306
+    },
+    {
+      "seed": 3,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.8203125,
+      "cross_entropy": 0.35598153124206844,
+      "brier": 0.11484852957014802
+    },
+    {
+      "seed": 3,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.80078125,
+      "cross_entropy": 0.42740299897722267,
+      "brier": 0.1415225400887882
+    },
+    {
+      "seed": 3,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.78515625,
+      "cross_entropy": 0.4374994359981567,
+      "brier": 0.14659853444148746
+    },
+    {
+      "seed": 3,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.7890625,
+      "cross_entropy": 0.4586955324449925,
+      "brier": 0.15269710417270155
+    },
+    {
+      "seed": 3,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.73828125,
+      "cross_entropy": 0.4921955122517807,
+      "brier": 0.16800071457348467
+    },
+    {
+      "seed": 3,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.734375,
+      "cross_entropy": 0.5015549468593585,
+      "brier": 0.17164046795135837
+    },
+    {
+      "seed": 3,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.65625,
+      "cross_entropy": 0.6559612412717131,
+      "brier": 0.23164553432892904
+    },
+    {
+      "seed": 3,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.52734375,
+      "cross_entropy": 0.7002517052740865,
+      "brier": 0.25328655514957354
+    },
+    {
+      "seed": 3,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.5029296875,
+      "cross_entropy": 0.7091694363794475,
+      "brier": 0.2576731298549808
+    },
+    {
+      "seed": 3,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.5,
+      "cross_entropy": 0.6882644389989816,
+      "brier": 0.24746458786155115
+    },
+    {
+      "seed": 3,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.49609375,
+      "cross_entropy": 0.6935150274927999,
+      "brier": 0.2501142358346527
+    },
+    {
+      "seed": 3,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.5185546875,
+      "cross_entropy": 0.6926855792212203,
+      "brier": 0.24967367877585345
+    },
+    {
+      "seed": 3,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.6328125,
+      "cross_entropy": 0.5451976950926093,
+      "brier": 0.19158700535426632
+    },
+    {
+      "seed": 3,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.6640625,
+      "cross_entropy": 0.5827340457389525,
+      "brier": 0.20332715997122053
+    },
+    {
+      "seed": 3,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.6044921875,
+      "cross_entropy": 0.6451984498494158,
+      "brier": 0.21746372483203036
+    },
+    {
+      "seed": 4,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.984375,
+      "cross_entropy": 0.053275097911396556,
+      "brier": 0.012799314900871711
+    },
+    {
+      "seed": 4,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.9765625,
+      "cross_entropy": 0.06020921670690696,
+      "brier": 0.017208041784989504
+    },
+    {
+      "seed": 4,
+      "task": "linear",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.9638671875,
+      "cross_entropy": 0.10461162176370793,
+      "brier": 0.030751721717626038
+    },
+    {
+      "seed": 4,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.828125,
+      "cross_entropy": 0.3930594607013168,
+      "brier": 0.12617262653085848
+    },
+    {
+      "seed": 4,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.81640625,
+      "cross_entropy": 0.4228874366599985,
+      "brier": 0.1369193853746235
+    },
+    {
+      "seed": 4,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.8203125,
+      "cross_entropy": 0.42775278946823836,
+      "brier": 0.13608057163504558
+    },
+    {
+      "seed": 4,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.006931544859205773,
+      "brier": 0.0005316789551830608
+    },
+    {
+      "seed": 4,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.019865683391385176,
+      "brier": 0.005489964303647751
+    },
+    {
+      "seed": 4,
+      "task": "linear",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.9873046875,
+      "cross_entropy": 0.029464376233551817,
+      "brier": 0.009093162183624489
+    },
+    {
+      "seed": 4,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.05120663435532842,
+      "brier": 0.011615046657601833
+    },
+    {
+      "seed": 4,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.10937771760406009,
+      "brier": 0.035255520127564936
+    },
+    {
+      "seed": 4,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.974609375,
+      "cross_entropy": 0.07105774152896463,
+      "brier": 0.02141921939401321
+    },
+    {
+      "seed": 4,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.09999924616957537,
+      "brier": 0.026155294685332054
+    },
+    {
+      "seed": 4,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.11788043252666858,
+      "brier": 0.03217629119773009
+    },
+    {
+      "seed": 4,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.9931640625,
+      "cross_entropy": 0.08682809384969911,
+      "brier": 0.022771287044300686
+    },
+    {
+      "seed": 4,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.6484375,
+      "cross_entropy": 0.6012680246664731,
+      "brier": 0.20793233835071948
+    },
+    {
+      "seed": 4,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.6796875,
+      "cross_entropy": 0.6167924304307699,
+      "brier": 0.21384666688043766
+    },
+    {
+      "seed": 4,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.693359375,
+      "cross_entropy": 0.595801282777472,
+      "brier": 0.2048113329567362
+    },
+    {
+      "seed": 4,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.03113847955805951,
+      "brier": 0.006134189246019669
+    },
+    {
+      "seed": 4,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.07810483594876916,
+      "brier": 0.023761092361639938
+    },
+    {
+      "seed": 4,
+      "task": "radial",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.9775390625,
+      "cross_entropy": 0.06818214257612555,
+      "brier": 0.019858341215661886
+    },
+    {
+      "seed": 4,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.7890625,
+      "cross_entropy": 0.38027866117934106,
+      "brier": 0.1202925460503696
+    },
+    {
+      "seed": 4,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.75390625,
+      "cross_entropy": 0.4634920360922171,
+      "brier": 0.15402147505776154
+    },
+    {
+      "seed": 4,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.7783203125,
+      "cross_entropy": 0.43960873997529526,
+      "brier": 0.14292262643898
+    },
+    {
+      "seed": 4,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.78125,
+      "cross_entropy": 0.4581588555405558,
+      "brier": 0.15034096752030135
+    },
+    {
+      "seed": 4,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.7421875,
+      "cross_entropy": 0.5205526440247121,
+      "brier": 0.1771662408243447
+    },
+    {
+      "seed": 4,
+      "task": "radial",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.7705078125,
+      "cross_entropy": 0.4777606709834117,
+      "brier": 0.15965584726649393
+    },
+    {
+      "seed": 4,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "train",
+      "accuracy": 0.6015625,
+      "cross_entropy": 0.6733470936298589,
+      "brier": 0.24020965822220736
+    },
+    {
+      "seed": 4,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "validation",
+      "accuracy": 0.4765625,
+      "cross_entropy": 0.6983030293753499,
+      "brier": 0.25257194789797105
+    },
+    {
+      "seed": 4,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "split": "test",
+      "accuracy": 0.525390625,
+      "cross_entropy": 0.6978227344930292,
+      "brier": 0.2522591175826392
+    },
+    {
+      "seed": 4,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "train",
+      "accuracy": 0.7265625,
+      "cross_entropy": 0.6252231850318093,
+      "brier": 0.21487076464614036
+    },
+    {
+      "seed": 4,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "validation",
+      "accuracy": 0.64453125,
+      "cross_entropy": 0.6636195797243214,
+      "brier": 0.23349656143896305
+    },
+    {
+      "seed": 4,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "split": "test",
+      "accuracy": 0.6669921875,
+      "cross_entropy": 0.6758741925402398,
+      "brier": 0.2372276458126275
+    },
+    {
+      "seed": 4,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "train",
+      "accuracy": 0.765625,
+      "cross_entropy": 0.42967789423657515,
+      "brier": 0.14578669589931603
+    },
+    {
+      "seed": 4,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "validation",
+      "accuracy": 0.72265625,
+      "cross_entropy": 0.46868286274998716,
+      "brier": 0.1615207785528341
+    },
+    {
+      "seed": 4,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "split": "test",
+      "accuracy": 0.7236328125,
+      "cross_entropy": 0.4487548718777098,
+      "brier": 0.1534448350175289
+    }
+  ],
+  "fits": [
+    {
+      "seed": 0,
+      "task": "linear",
+      "model": "quantum_features",
+      "validation_loss": 0.10993087763084111,
+      "weights": [
+        0.5137304822909344,
+        0.03426941036495833,
+        6.005366083985435,
+        11.799738284167466,
+        4.331020030509139,
+        -6.185745509350433,
+        -0.5102566618535722,
+        -0.32084336669503655,
+        -1.056219029991368
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.043901928864355615,
+        -0.03228640054481134,
+        0.01914197090324143,
+        -0.12785333087272416,
+        0.0007839037960776785,
+        -0.043418018452797635,
+        0.10490493328716806,
+        -0.012567728044036774
+      ],
+      "scale": [
+        0.5332261909492655,
+        0.6914905897736231,
+        0.7102096740725329,
+        0.7102477584471046,
+        0.4674462874158258,
+        0.4823439418047519,
+        0.49968986006684946,
+        0.7036176916589983
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 21,
+          "validation_loss": 0.10993087763084111
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 15,
+          "validation_loss": 0.15652251822936047
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 9,
+          "validation_loss": 0.2498889233124561
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.4162365184395831
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "parameters": [
+        -2.0682674859584727,
+        -1.6931164539906058,
+        -0.11588653657543947,
+        -0.40592272933245477,
+        1.1246010089299452,
+        0.15647209042263938,
+        -1.5299056212125086,
+        5.959389529557185,
+        -0.003507730595544104
+      ],
+      "validation_loss": 0.44676912702623695,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 35
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 31
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "model": "MLP_2",
+      "validation_loss": 0.010175535769036646,
+      "parameters": [
+        6.912582139688033,
+        1.0014246977317187,
+        4.137878046589636,
+        0.21722222063672422,
+        -0.08550665179514835,
+        0.09813457544977902,
+        8.764464786099351,
+        0.29298471798907777,
+        0.15292382090317572
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 78,
+          "calls": 93
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 58,
+          "calls": 66
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "validation_loss": 0.08019414135889319,
+      "weights": [
+        0.1865365379062316,
+        0.2114038010124026,
+        -0.5047549395860459,
+        0.6366299895037378,
+        0.17339301571219157,
+        0.6452327973674585,
+        14.253727606140314,
+        -0.9688086275681337,
+        3.408621563508804
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.043901928864355615,
+        -0.03228640054481134,
+        0.01914197090324143,
+        -0.12785333087272416,
+        0.0007839037960776785,
+        -0.043418018452797635,
+        0.10490493328716806,
+        -0.012567728044036774
+      ],
+      "scale": [
+        0.5332261909492655,
+        0.6914905897736231,
+        0.7102096740725329,
+        0.7102477584471046,
+        0.4674462874158258,
+        0.4823439418047519,
+        0.49968986006684946,
+        0.7036176916589983
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 18,
+          "validation_loss": 0.08019414135889319
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 14,
+          "validation_loss": 0.12755106583401637
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 9,
+          "validation_loss": 0.23391001889621837
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.4275866791522048
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "parameters": [
+        0.02973386644767876,
+        0.5841475198312553,
+        -0.6573577918270299,
+        0.15354136332410748,
+        0.2601489876069146,
+        -0.32129894115007296,
+        4.511309602231984,
+        19.831212863703993,
+        -0.21780811323057123
+      ],
+      "validation_loss": 0.07357728934806475,
+      "runs": [
+        {
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "iterations": 120
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 104
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "validation_loss": 0.5729661092441636,
+      "parameters": [
+        -4.485299319730111,
+        7.811935235059715,
+        4.079456417416266,
+        -7.0446938924187155,
+        0.33103905666268507,
+        1.6626861912061988,
+        2.9832267110738884,
+        3.0606064951800342,
+        -0.38627145351134123
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 36,
+          "calls": 40
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 54,
+          "calls": 67
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "model": "quantum_features",
+      "validation_loss": 0.04301897596791528,
+      "weights": [
+        0.3677942212662143,
+        -9.56249541393487,
+        0.6304838155833485,
+        0.6791452909475437,
+        -0.03561166644459659,
+        0.09912470988134148,
+        -5.01203264881258,
+        -9.865542926606187,
+        -5.346798886177992
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.043901928864355615,
+        -0.03228640054481134,
+        0.01914197090324143,
+        -0.12785333087272416,
+        0.0007839037960776785,
+        -0.043418018452797635,
+        0.10490493328716806,
+        -0.012567728044036774
+      ],
+      "scale": [
+        0.5332261909492655,
+        0.6914905897736231,
+        0.7102096740725329,
+        0.7102477584471046,
+        0.4674462874158258,
+        0.4823439418047519,
+        0.49968986006684946,
+        0.7036176916589983
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 18,
+          "validation_loss": 0.04301897596791528
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 14,
+          "validation_loss": 0.08676850988217732
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 10,
+          "validation_loss": 0.20832069658219998
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.40569069354005405
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "parameters": [
+        1.5470308875572176,
+        3.162713799158192,
+        -0.048588519188496125,
+        0.8625822914961934,
+        -1.4938020390119346,
+        -0.22510717284941648,
+        -6.19573002444351,
+        3.887605091762381,
+        0.2590013489158443
+      ],
+      "validation_loss": 0.4279261185401121,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 67
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 56
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "model": "MLP_2",
+      "validation_loss": 0.4832541054931889,
+      "parameters": [
+        0.12116355468428394,
+        0.3710244673540111,
+        2.3700821907833878,
+        -2.605552023663577,
+        1.6564042080421426,
+        1.8050741757803888,
+        -4.433836758895955,
+        -4.08773842859899,
+        5.60382313563909
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 56,
+          "calls": 64
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 74,
+          "calls": 92
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "validation_loss": 0.7032391381838026,
+      "weights": [
+        0.03613931567774358,
+        -0.18290224254199283,
+        0.02913412321121973,
+        -0.0010174439731696257,
+        -0.06595544111395372,
+        -0.12131271287238925,
+        0.006661683856793428,
+        0.0829429463352202,
+        0.06660692065331611
+      ],
+      "lambda_": 1.0,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.043901928864355615,
+        -0.03228640054481134,
+        0.01914197090324143,
+        -0.12785333087272416,
+        0.0007839037960776785,
+        -0.043418018452797635,
+        0.10490493328716806,
+        -0.012567728044036774
+      ],
+      "scale": [
+        0.5332261909492655,
+        0.6914905897736231,
+        0.7102096740725329,
+        0.7102477584471046,
+        0.4674462874158258,
+        0.4823439418047519,
+        0.49968986006684946,
+        0.7036176916589983
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 6,
+          "validation_loss": 0.7325566058488207
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 6,
+          "validation_loss": 0.7317343289796893
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 6,
+          "validation_loss": 0.7249408570734326
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.7032391381838026
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "parameters": [
+        -1.0415200911044773,
+        1.8384672849032908,
+        0.030444339447830968,
+        -0.23232223837384186,
+        0.06265843486235001,
+        -0.09737007669735043,
+        -1.2391904249528256,
+        1.1799078281379727,
+        -0.18449475038494495
+      ],
+      "validation_loss": 0.6504949154717687,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 23
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 22
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "validation_loss": 0.28191240259840544,
+      "parameters": [
+        9.767046143234927,
+        1.621951283229439,
+        -0.10867999842779126,
+        -0.00979823121820917,
+        0.16050400433889433,
+        0.023441821160069,
+        10.178545950680558,
+        -15.008709423435944,
+        0.2428709251558713
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 50,
+          "calls": 58
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 83,
+          "calls": 101
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "model": "quantum_features",
+      "validation_loss": 0.10789924583382039,
+      "weights": [
+        0.10839160797879376,
+        -0.036228722428632336,
+        5.22357526234924,
+        11.024155063219562,
+        4.529617689272389,
+        -5.998594432197578,
+        -0.16982446486383143,
+        0.5357652907119816,
+        -0.38374221127241587
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.0543390129990735,
+        0.02002264823588874,
+        -0.06701405636284483,
+        -0.05012542572027561,
+        0.05067327722602727,
+        0.006134905614298681,
+        0.08849195418652611,
+        -0.01048896549200325
+      ],
+      "scale": [
+        0.5215137614489673,
+        0.7413215471721736,
+        0.7546591067368401,
+        0.6689760077553139,
+        0.5445219356388301,
+        0.4184190345510305,
+        0.49300689383789453,
+        0.652601509707003
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 24,
+          "validation_loss": 0.10789924583382039
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 14,
+          "validation_loss": 0.15717034738580044
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 9,
+          "validation_loss": 0.24718457048420645
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.42049437376407583
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "parameters": [
+        -1.2252902211564671,
+        -1.572243108835366,
+        0.3878512780557492,
+        -0.5399900661360809,
+        1.5306778969170634,
+        0.10308328222704553,
+        -2.440128082725987,
+        7.497774836278661,
+        -0.06993899297339772
+      ],
+      "validation_loss": 0.42292408670011106,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 30
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 30
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "model": "MLP_2",
+      "validation_loss": 0.027208760485936588,
+      "parameters": [
+        -7.011005518492827,
+        -2.612673119433608,
+        -3.951223422783131,
+        -0.19857668484119795,
+        -0.11437725816277565,
+        0.06271484209747544,
+        -7.333487323538488,
+        -0.5764055809392794,
+        -0.9830452064249567
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 74,
+          "calls": 81
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 67,
+          "calls": 78
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "validation_loss": 0.1253857998367222,
+      "weights": [
+        0.48047364513335566,
+        -0.3445159837017444,
+        0.41858412403647505,
+        0.31004518794378233,
+        -0.1886238097816465,
+        0.10755626234655402,
+        6.427377501893907,
+        -0.09515787376570779,
+        1.3200451519445717
+      ],
+      "lambda_": 0.01,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.0543390129990735,
+        0.02002264823588874,
+        -0.06701405636284483,
+        -0.05012542572027561,
+        0.05067327722602727,
+        0.006134905614298681,
+        0.08849195418652611,
+        -0.01048896549200325
+      ],
+      "scale": [
+        0.5215137614489673,
+        0.7413215471721736,
+        0.7546591067368401,
+        0.6689760077553139,
+        0.5445219356388301,
+        0.4184190345510305,
+        0.49300689383789453,
+        0.652601509707003
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 22,
+          "validation_loss": 0.13883497281448098
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 15,
+          "validation_loss": 0.1253857998367222
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 11,
+          "validation_loss": 0.22897796392015451
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.42297098469771444
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "parameters": [
+        -0.003022331977884512,
+        0.26198254324254877,
+        0.37812425776184877,
+        -0.1524958474323052,
+        0.4399521595166652,
+        -0.13404003959455857,
+        5.612994555768609,
+        20.49183180146278,
+        -0.301723680784354
+      ],
+      "validation_loss": 0.05368532177927625,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 104
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 93
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "validation_loss": 0.541207467672819,
+      "parameters": [
+        1.108020467079448,
+        3.4965038787213127,
+        1.3835397739509079,
+        4.329718551616993,
+        0.9910575563920145,
+        2.0943995913559035,
+        -7.108136296022732,
+        4.975622583172289,
+        1.7123406080296226
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 84,
+          "calls": 110
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 70,
+          "calls": 87
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "model": "quantum_features",
+      "validation_loss": 0.05056367886314148,
+      "weights": [
+        0.28039692632537033,
+        -9.07106075058777,
+        -0.38862288603889517,
+        -0.2603718621935401,
+        0.36779359162472197,
+        0.20835632778091043,
+        -3.070996715152651,
+        -8.24095044422779,
+        -3.8634861594486636
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.0543390129990735,
+        0.02002264823588874,
+        -0.06701405636284483,
+        -0.05012542572027561,
+        0.05067327722602727,
+        0.006134905614298681,
+        0.08849195418652611,
+        -0.01048896549200325
+      ],
+      "scale": [
+        0.5215137614489673,
+        0.7413215471721736,
+        0.7546591067368401,
+        0.6689760077553139,
+        0.5445219356388301,
+        0.4184190345510305,
+        0.49300689383789453,
+        0.652601509707003
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 18,
+          "validation_loss": 0.05056367886314148
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 15,
+          "validation_loss": 0.12134563888031395
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 10,
+          "validation_loss": 0.2487455662331005
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.43193197946630824
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "parameters": [
+        1.6591521797346702,
+        6.3404120922936364,
+        -0.3093497278712795,
+        3.9192909402317198,
+        -1.5055452763055612,
+        0.21821470247574337,
+        -5.1093207204823345,
+        4.696488897040997,
+        0.0978066845765549
+      ],
+      "validation_loss": 0.4448321742547253,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 55
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 64
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "model": "MLP_2",
+      "validation_loss": 0.48379502313872474,
+      "parameters": [
+        4.227386554886921,
+        -2.5100036988982217,
+        -0.2686120075890648,
+        4.0748935177539405,
+        2.92006221620401,
+        3.699832497391953,
+        -3.065049892355213,
+        -2.86974928516863,
+        4.134512771689703
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 50,
+          "calls": 61
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 51,
+          "calls": 65
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "validation_loss": 0.6951956063740395,
+      "weights": [
+        0.11193225693779743,
+        -0.1660652493186605,
+        0.1288109488493111,
+        0.07519634523107986,
+        -0.12790027136807508,
+        -0.042719265215817356,
+        -0.15113946442221243,
+        -0.07818015898323113,
+        0.0838257813453997
+      ],
+      "lambda_": 1.0,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.0543390129990735,
+        0.02002264823588874,
+        -0.06701405636284483,
+        -0.05012542572027561,
+        0.05067327722602727,
+        0.006134905614298681,
+        0.08849195418652611,
+        -0.01048896549200325
+      ],
+      "scale": [
+        0.5215137614489673,
+        0.7413215471721736,
+        0.7546591067368401,
+        0.6689760077553139,
+        0.5445219356388301,
+        0.4184190345510305,
+        0.49300689383789453,
+        0.652601509707003
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 7,
+          "validation_loss": 0.753151271312664
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 6,
+          "validation_loss": 0.7507188336124748
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 7,
+          "validation_loss": 0.7329930226646282
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.6951956063740395
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "parameters": [
+        0.448295582236135,
+        1.8746529090750155,
+        -0.03162071448783882,
+        0.2065049495929085,
+        0.042454892665498734,
+        -0.5876168300528204,
+        -1.8260318989715667,
+        1.0872017780217529,
+        0.15044443324823706
+      ],
+      "validation_loss": 0.6762265387319122,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 28
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 42
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "validation_loss": 0.49807765401567405,
+      "parameters": [
+        8.02125178127944,
+        9.00863741093995,
+        -0.04849881904584717,
+        -0.0676336326974549,
+        -4.857361764673266,
+        4.770372044808273,
+        -1.0169581527581224,
+        -1.4657366357406727,
+        0.29522130600654645
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 33,
+          "calls": 37
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 55,
+          "calls": 72
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "model": "quantum_features",
+      "validation_loss": 0.11280158947147044,
+      "weights": [
+        -0.4811082438423962,
+        -0.018299125713198926,
+        5.6645884819298455,
+        11.029187164886523,
+        4.0639809269501725,
+        -6.822731348262826,
+        -0.10298639597439543,
+        1.2876026841680377,
+        0.44790746256379116
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        0.05986009512443129,
+        0.014982640315345977,
+        -0.013817204605033315,
+        -0.06440487662757502,
+        0.03980425992550947,
+        0.005397253854102318,
+        -0.02071274067193043,
+        -0.008101141996528656
+      ],
+      "scale": [
+        0.49836633760908366,
+        0.6927114064088883,
+        0.7161496752874198,
+        0.718177164623596,
+        0.5094356249801927,
+        0.5176340986844262,
+        0.4674778276522634,
+        0.6977629245961539
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 23,
+          "validation_loss": 0.11280158947147044
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 16,
+          "validation_loss": 0.14648198719348682
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 9,
+          "validation_loss": 0.2434325926952859
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 4,
+          "validation_loss": 0.42515896034556944
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "parameters": [
+        -1.7815815991294828,
+        -1.7708407024021098,
+        0.37215249599576083,
+        -0.4080473543000136,
+        1.1170203810863253,
+        0.3554415065802159,
+        -1.070772260095388,
+        6.878437280439794,
+        0.3395803895861534
+      ],
+      "validation_loss": 0.5217012151439268,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 30
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 38
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "model": "MLP_2",
+      "validation_loss": 0.034222567079296516,
+      "parameters": [
+        -7.3158322637214095,
+        1.3516110199426978,
+        -4.198955133447006,
+        0.6472433923550086,
+        -0.2724222359496463,
+        3.1672213893180734,
+        -8.059708024006996,
+        -1.7858943312780902,
+        0.9072380298868957
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 93,
+          "calls": 111
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 114,
+          "calls": 132
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "validation_loss": 0.09048940561478352,
+      "weights": [
+        0.4128974630800539,
+        -0.03143526381220559,
+        -0.4524328929840807,
+        0.6316522074332342,
+        -0.05508883131419996,
+        -0.006185178889331855,
+        14.73887943936737,
+        0.07841882149254886,
+        -1.128530933774036
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        0.05986009512443129,
+        0.014982640315345977,
+        -0.013817204605033315,
+        -0.06440487662757502,
+        0.03980425992550947,
+        0.005397253854102318,
+        -0.02071274067193043,
+        -0.008101141996528656
+      ],
+      "scale": [
+        0.49836633760908366,
+        0.6927114064088883,
+        0.7161496752874198,
+        0.718177164623596,
+        0.5094356249801927,
+        0.5176340986844262,
+        0.4674778276522634,
+        0.6977629245961539
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 16,
+          "validation_loss": 0.09048940561478352
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 13,
+          "validation_loss": 0.1287632349317629
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 9,
+          "validation_loss": 0.2303398616035402
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.4249620361941976
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "parameters": [
+        0.013339701667187863,
+        0.08589158543582343,
+        0.2902893599457822,
+        -0.3309683714432703,
+        0.09675953301906147,
+        0.7664912459908617,
+        4.658361400974522,
+        20.0931684330405,
+        -0.10022877619159395
+      ],
+      "validation_loss": 0.084082389609866,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 81
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 70
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "validation_loss": 0.5922161188590811,
+      "parameters": [
+        3.594579927769341,
+        -1.2633692846158304,
+        -3.2525084156579918,
+        1.0915121055714407,
+        1.9174370752732333,
+        -0.9904342909985673,
+        6.698456992269272,
+        9.2890121335509,
+        1.942396320686635
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 57,
+          "calls": 66
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 65,
+          "calls": 76
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "model": "quantum_features",
+      "validation_loss": 0.04533324157011019,
+      "weights": [
+        0.23875430974649087,
+        -9.073549191164098,
+        0.2524678349269582,
+        0.19920763458872906,
+        0.038268595486497,
+        -0.12842254385161614,
+        -5.178102659868831,
+        -8.701943087103748,
+        -5.142101348430687
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        0.05986009512443129,
+        0.014982640315345977,
+        -0.013817204605033315,
+        -0.06440487662757502,
+        0.03980425992550947,
+        0.005397253854102318,
+        -0.02071274067193043,
+        -0.008101141996528656
+      ],
+      "scale": [
+        0.49836633760908366,
+        0.6927114064088883,
+        0.7161496752874198,
+        0.718177164623596,
+        0.5094356249801927,
+        0.5176340986844262,
+        0.4674778276522634,
+        0.6977629245961539
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 16,
+          "validation_loss": 0.04533324157011019
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 13,
+          "validation_loss": 0.09361440244253885
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 9,
+          "validation_loss": 0.2061571135009768
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 4,
+          "validation_loss": 0.40105096687120123
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "parameters": [
+        2.9775279077249506,
+        0.07967392782751714,
+        -0.202138969510725,
+        -2.0446629656022024,
+        -1.643410687017511,
+        0.4705133868814321,
+        -1.6515236246495246,
+        5.680267489007063,
+        1.2529008389606549
+      ],
+      "validation_loss": 0.3694917129052731,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 49
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 44
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "model": "MLP_2",
+      "validation_loss": 0.43576164045318044,
+      "parameters": [
+        -0.020017498294378575,
+        0.23611037297004364,
+        -4.523482532089815,
+        2.9888982828370683,
+        3.680197780540445,
+        2.286526686324478,
+        -4.564278059044296,
+        -3.2796293850463796,
+        6.250607703989803
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 56,
+          "calls": 62
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 58,
+          "calls": 70
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "validation_loss": 0.7063753194105573,
+      "weights": [
+        -0.06176089385962093,
+        -0.17622512951693692,
+        -0.10462204281722454,
+        -0.01850735314015456,
+        0.04269988631990938,
+        -0.004608411000225553,
+        -0.03327146205208413,
+        -0.02356104731830736,
+        0.03354824117415236
+      ],
+      "lambda_": 1.0,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        0.05986009512443129,
+        0.014982640315345977,
+        -0.013817204605033315,
+        -0.06440487662757502,
+        0.03980425992550947,
+        0.005397253854102318,
+        -0.02071274067193043,
+        -0.008101141996528656
+      ],
+      "scale": [
+        0.49836633760908366,
+        0.6927114064088883,
+        0.7161496752874198,
+        0.718177164623596,
+        0.5094356249801927,
+        0.5176340986844262,
+        0.4674778276522634,
+        0.6977629245961539
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.7323031723438214
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.7316792561857972
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.7263391751558501
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 4,
+          "validation_loss": 0.7063753194105573
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "parameters": [
+        1.0358326730614351,
+        1.458712159142185,
+        -0.1758604155544011,
+        -0.11666923845071941,
+        -0.22284892017666846,
+        0.0029354389875621,
+        0.23359739793310308,
+        0.8126407224350789,
+        0.10970159309700378
+      ],
+      "validation_loss": 0.6932907153785252,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 26
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 27
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "validation_loss": 0.2904154614654683,
+      "parameters": [
+        -9.323551088534064,
+        -2.1125939615497646,
+        0.32629926053492864,
+        0.03525407233479771,
+        -0.18431667307313448,
+        -0.15430587421995282,
+        -10.703537170536807,
+        14.096071042031282,
+        0.9791867808654772
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 116,
+          "calls": 148
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 77,
+          "calls": 92
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 3,
+      "task": "linear",
+      "model": "quantum_features",
+      "validation_loss": 0.1266519802699939,
+      "weights": [
+        0.07993806496533201,
+        0.4427779605082947,
+        5.1613223636324514,
+        11.584762127928132,
+        4.1669161634672855,
+        -7.4173542785703575,
+        -0.024700946821008547,
+        -0.3336925589979468,
+        -1.120064730555016
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.08709138986203421,
+        0.0638553781062806,
+        -0.10016574182438755,
+        -0.007501776176212643,
+        -0.05989840788328625,
+        -0.044865210380084265,
+        -0.011881003731102274,
+        -0.024751291480845247
+      ],
+      "scale": [
+        0.4520466623561519,
+        0.7347741410134937,
+        0.6705241911064094,
+        0.675257858702132,
+        0.4940819287241178,
+        0.4920218187711796,
+        0.5441733343401333,
+        0.7346778252240201
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 22,
+          "validation_loss": 0.1266519802699939
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 15,
+          "validation_loss": 0.18103293522779834
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 9,
+          "validation_loss": 0.27509154835370714
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.45229364196793387
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "parameters": [
+        -1.4932096398635495,
+        -1.8144330539583873,
+        0.08868095320157518,
+        -0.48057559668904615,
+        0.6291447438487452,
+        0.43820816996708856,
+        -1.0401987744251868,
+        5.520682113005957,
+        -0.06192809652533554
+      ],
+      "validation_loss": 0.42406707003988187,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 34
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 28
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "task": "linear",
+      "model": "MLP_2",
+      "validation_loss": 0.014289270283399009,
+      "parameters": [
+        -6.645985748120773,
+        1.7857955586930252,
+        -3.917993599099804,
+        1.068969171933904,
+        -0.16961365449031204,
+        -0.09861154485532375,
+        -9.691238329701822,
+        1.1436235050233892,
+        -1.5336616060852255
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 57,
+          "calls": 66
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 63,
+          "calls": 68
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 3,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "validation_loss": 0.07970532426889351,
+      "weights": [
+        0.12783753853281735,
+        -0.1767108175825732,
+        0.2240463734674546,
+        -0.09841193910157334,
+        -0.5436175838027578,
+        -0.35332352777159665,
+        14.246154305253414,
+        0.48235830455733747,
+        -0.8295398824533632
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.08709138986203421,
+        0.0638553781062806,
+        -0.10016574182438755,
+        -0.007501776176212643,
+        -0.05989840788328625,
+        -0.044865210380084265,
+        -0.011881003731102274,
+        -0.024751291480845247
+      ],
+      "scale": [
+        0.4520466623561519,
+        0.7347741410134937,
+        0.6705241911064094,
+        0.675257858702132,
+        0.4940819287241178,
+        0.4920218187711796,
+        0.5441733343401333,
+        0.7346778252240201
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 21,
+          "validation_loss": 0.07970532426889351
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 14,
+          "validation_loss": 0.15515843716012212
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 10,
+          "validation_loss": 0.25796062958467536
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.4292181521643855
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "parameters": [
+        -0.005165440661837339,
+        -0.3626491909094567,
+        -0.07844412912440454,
+        0.5808286561649859,
+        0.08583825192778903,
+        0.7395719870521298,
+        3.6736771292406574,
+        17.98577021319965,
+        -0.335973079098565
+      ],
+      "validation_loss": 0.0845495308938331,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 96
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 54
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "validation_loss": 0.5834676249326551,
+      "parameters": [
+        -2.924634998980947,
+        -0.9585736669470294,
+        -3.278170533087926,
+        -0.931851844599148,
+        1.520418238134176,
+        0.9634905395816128,
+        3.333094751009996,
+        -6.539561980398268,
+        2.4611551099670415
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 46,
+          "calls": 58
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 96,
+          "calls": 125
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 3,
+      "task": "radial",
+      "model": "quantum_features",
+      "validation_loss": 0.054832769160141535,
+      "weights": [
+        -0.41668299036806705,
+        -9.602002904928266,
+        -0.8675308738050721,
+        -0.4455505379889581,
+        0.4204826231432327,
+        -0.09031097800184681,
+        -5.530640081341146,
+        -9.164911457584548,
+        -5.452066420488913
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.08709138986203421,
+        0.0638553781062806,
+        -0.10016574182438755,
+        -0.007501776176212643,
+        -0.05989840788328625,
+        -0.044865210380084265,
+        -0.011881003731102274,
+        -0.024751291480845247
+      ],
+      "scale": [
+        0.4520466623561519,
+        0.7347741410134937,
+        0.6705241911064094,
+        0.675257858702132,
+        0.4940819287241178,
+        0.4920218187711796,
+        0.5441733343401333,
+        0.7346778252240201
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 20,
+          "validation_loss": 0.054832769160141535
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 15,
+          "validation_loss": 0.11185041749320077
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 10,
+          "validation_loss": 0.23072606365990045
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.43673645748359663
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "parameters": [
+        -2.6661807607735057,
+        -0.2778697074922761,
+        0.018209944069009654,
+        -1.9821754985832363,
+        1.9158735910482698,
+        0.6582515782861694,
+        -2.4632062008753968,
+        5.439940684509138,
+        1.6880879859606257
+      ],
+      "validation_loss": 0.42740299897722267,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 34
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 36
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "task": "radial",
+      "model": "MLP_2",
+      "validation_loss": 0.4921955122517807,
+      "parameters": [
+        -4.821359114544444,
+        4.423608010563067,
+        0.054035739725555004,
+        0.2383699064438348,
+        -4.001538104752412,
+        -3.4469104408670743,
+        4.678386934973957,
+        2.957264946179778,
+        6.488313062454301
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 92,
+          "calls": 114
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 69,
+          "calls": 77
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 3,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "validation_loss": 0.7002517052740865,
+      "weights": [
+        -0.07773498483958181,
+        -0.08357432970358282,
+        0.019082376994447335,
+        0.1387379864448932,
+        -0.11189818163232446,
+        -0.12382606415387519,
+        0.011368431591922188,
+        0.1329790795938716,
+        0.1679130139777046
+      ],
+      "lambda_": 1.0,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.08709138986203421,
+        0.0638553781062806,
+        -0.10016574182438755,
+        -0.007501776176212643,
+        -0.05989840788328625,
+        -0.044865210380084265,
+        -0.011881003731102274,
+        -0.024751291480845247
+      ],
+      "scale": [
+        0.4520466623561519,
+        0.7347741410134937,
+        0.6705241911064094,
+        0.675257858702132,
+        0.4940819287241178,
+        0.4920218187711796,
+        0.5441733343401333,
+        0.7346778252240201
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 7,
+          "validation_loss": 0.7334519549132924
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 7,
+          "validation_loss": 0.7324490780705843
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 7,
+          "validation_loss": 0.7243626147230195
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.7002517052740865
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "parameters": [
+        0.5583898530137242,
+        0.6729378445566925,
+        -0.36036088696784363,
+        0.5018647308076639,
+        0.6956374211343643,
+        0.02425843829790003,
+        0.2834091825277117,
+        0.5703943716745374,
+        0.19122914246943556
+      ],
+      "validation_loss": 0.6935150274927999,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 24
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 34
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "validation_loss": 0.5827340457389525,
+      "parameters": [
+        4.603398240998726,
+        0.12497718643628272,
+        -1.397387978885344,
+        -0.7409936178950812,
+        4.030714228386389,
+        1.5156053827742024,
+        -5.073148583898449,
+        7.837118961257802,
+        -2.241906584110939
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 57,
+          "calls": 68
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 66,
+          "calls": 74
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 4,
+      "task": "linear",
+      "model": "quantum_features",
+      "validation_loss": 0.06020921670690696,
+      "weights": [
+        0.1848735981544109,
+        0.5072081156977655,
+        5.784476802951716,
+        11.075998466371088,
+        4.4708977842232,
+        -6.949271995334371,
+        0.5276731158165974,
+        0.5325510627480047,
+        2.7704675713268467
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.01801021455415994,
+        -0.028184151339172445,
+        0.08241332187322453,
+        0.12169171550668381,
+        -0.026735236873470396,
+        0.011925245128420428,
+        0.02932422089053819,
+        -0.004289049818328752
+      ],
+      "scale": [
+        0.5169476230508597,
+        0.6878197311281863,
+        0.7215316061993372,
+        0.715053003252962,
+        0.5090440341167687,
+        0.5083387126773316,
+        0.4617248286854069,
+        0.6874458449106233
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 21,
+          "validation_loss": 0.06020921670690696
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 15,
+          "validation_loss": 0.10451637916802499
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 10,
+          "validation_loss": 0.20528594209368514
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.4092562558725134
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "parameters": [
+        -0.9526690033287893,
+        -1.6230934831065615,
+        0.6767548795691787,
+        -0.27590720774236316,
+        1.4238874537391613,
+        0.18728343924739624,
+        -1.6294389901213457,
+        7.420701487576455,
+        0.03507031224269282
+      ],
+      "validation_loss": 0.4228874366599985,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 32
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 24
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "task": "linear",
+      "model": "MLP_2",
+      "validation_loss": 0.019865683391385176,
+      "parameters": [
+        7.791946992191496,
+        -4.590881350361103,
+        4.626553394725628,
+        -3.1103803812509954,
+        -0.05235354178740104,
+        -0.1467584470556621,
+        4.708109483090425,
+        -3.4902338403481776,
+        0.816174929282256
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 57,
+          "calls": 64
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 57,
+          "calls": 64
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 4,
+      "task": "cos_product",
+      "model": "quantum_features",
+      "validation_loss": 0.10937771760406009,
+      "weights": [
+        -0.3901671799520532,
+        0.8122807152754876,
+        0.35330356773877303,
+        -0.08665275463472395,
+        0.35542542965639357,
+        0.5349793175254186,
+        15.321188563937929,
+        0.45591263056363357,
+        0.7875990699654869
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.01801021455415994,
+        -0.028184151339172445,
+        0.08241332187322453,
+        0.12169171550668381,
+        -0.026735236873470396,
+        0.011925245128420428,
+        0.02932422089053819,
+        -0.004289049818328752
+      ],
+      "scale": [
+        0.5169476230508597,
+        0.6878197311281863,
+        0.7215316061993372,
+        0.715053003252962,
+        0.5090440341167687,
+        0.5083387126773316,
+        0.4617248286854069,
+        0.6874458449106233
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 18,
+          "validation_loss": 0.10937771760406009
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 13,
+          "validation_loss": 0.16545470844821164
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 9,
+          "validation_loss": 0.2724273472843176
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.45584705947198845
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "parameters": [
+        0.0030471132263038946,
+        0.36632665050459323,
+        0.5784436552269484,
+        1.1350336920958082,
+        1.3025739881162157,
+        0.5958250988977907,
+        4.2968293679352145,
+        19.392835602999376,
+        -0.18924356200752213
+      ],
+      "validation_loss": 0.11788043252666858,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 103
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 115
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "validation_loss": 0.6167924304307699,
+      "parameters": [
+        -3.2844629468309683,
+        1.2449103315849168,
+        2.725241610767878,
+        -1.032818292672778,
+        1.9011686088675477,
+        -1.1878119441800872,
+        4.674213548785996,
+        7.2447445832134125,
+        2.2949283958527578
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 74,
+          "calls": 98
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 53,
+          "calls": 62
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 4,
+      "task": "radial",
+      "model": "quantum_features",
+      "validation_loss": 0.07810483594876916,
+      "weights": [
+        0.43056880938793035,
+        -9.030590557915936,
+        -0.2066137444435173,
+        -0.0830076803491461,
+        0.6483682974238459,
+        1.0850137316642188,
+        -4.069435876726778,
+        -8.973108015928709,
+        -3.7490313436472587
+      ],
+      "lambda_": 0.001,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.01801021455415994,
+        -0.028184151339172445,
+        0.08241332187322453,
+        0.12169171550668381,
+        -0.026735236873470396,
+        0.011925245128420428,
+        0.02932422089053819,
+        -0.004289049818328752
+      ],
+      "scale": [
+        0.5169476230508597,
+        0.6878197311281863,
+        0.7215316061993372,
+        0.715053003252962,
+        0.5090440341167687,
+        0.5083387126773316,
+        0.4617248286854069,
+        0.6874458449106233
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 17,
+          "validation_loss": 0.07810483594876916
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 13,
+          "validation_loss": 0.1273573313753457
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 9,
+          "validation_loss": 0.24059540174946076
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.4349442004261011
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "parameters": [
+        -0.015813998727048015,
+        0.13671188784013008,
+        0.15046450946333514,
+        -2.294484224455404,
+        1.4739505731293712,
+        0.380734432893441,
+        -3.997425082473513,
+        4.390733084463265,
+        0.641422184727798
+      ],
+      "validation_loss": 0.4634920360922171,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 69
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 70
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "task": "radial",
+      "model": "MLP_2",
+      "validation_loss": 0.5205526440247121,
+      "parameters": [
+        0.37874504962789085,
+        -0.43297538847138123,
+        4.6177373622093665,
+        -6.748727095254738,
+        3.815305809720433,
+        4.729079592640094,
+        -4.108359672695919,
+        -2.408813642553271,
+        5.420621084844932
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 59,
+          "calls": 69
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 75,
+          "calls": 102
+        }
+      ],
+      "parameter_count": 9
+    },
+    {
+      "seed": 4,
+      "task": "mixed_frequency",
+      "model": "quantum_features",
+      "validation_loss": 0.6983030293753499,
+      "weights": [
+        -0.04277634660357789,
+        0.05677007663057022,
+        -0.07265137002870886,
+        0.08423184718991737,
+        0.009219925507548186,
+        0.07996202272182187,
+        0.06355014342699693,
+        -0.04245778336615452,
+        0.16633010244596666
+      ],
+      "lambda_": 1.0,
+      "frequencies": [
+        1.0
+      ],
+      "mask": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true
+      ],
+      "mean": [
+        -0.01801021455415994,
+        -0.028184151339172445,
+        0.08241332187322453,
+        0.12169171550668381,
+        -0.026735236873470396,
+        0.011925245128420428,
+        0.02932422089053819,
+        -0.004289049818328752
+      ],
+      "scale": [
+        0.5169476230508597,
+        0.6878197311281863,
+        0.7215316061993372,
+        0.715053003252962,
+        0.5090440341167687,
+        0.5083387126773316,
+        0.4617248286854069,
+        0.6874458449106233
+      ],
+      "readout_parameters": 9,
+      "runs": [
+        {
+          "lambda": 0.001,
+          "success": true,
+          "iterations": 6,
+          "validation_loss": 0.7168593470250281
+        },
+        {
+          "lambda": 0.01,
+          "success": true,
+          "iterations": 6,
+          "validation_loss": 0.7163938343326637
+        },
+        {
+          "lambda": 0.1,
+          "success": true,
+          "iterations": 6,
+          "validation_loss": 0.7124232619993645
+        },
+        {
+          "lambda": 1.0,
+          "success": true,
+          "iterations": 5,
+          "validation_loss": 0.6983030293753499
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "parameters": [
+        1.3108996156350172,
+        0.8871596801803204,
+        -0.1290730962569739,
+        -0.19871028542469793,
+        -0.12278175925801837,
+        0.029264199889416757,
+        -0.7493993073047018,
+        1.713734095725047,
+        0.5144966499140639
+      ],
+      "validation_loss": 0.6636195797243214,
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "iterations": 23
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 13
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "validation_loss": 0.46868286274998716,
+      "parameters": [
+        -6.179115093120651,
+        -8.057773032947786,
+        0.12484210385303585,
+        -0.040935003813040285,
+        2.5397339247036763,
+        1.388822741728816,
+        6.546395448365399,
+        -5.053850571592126,
+        -1.2399661726357205
+      ],
+      "runs": [
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 83,
+          "calls": 101
+        },
+        {
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 53,
+          "calls": 61
+        }
+      ],
+      "parameter_count": 9
+    }
+  ],
+  "qiskit_feature_error": 1.1102230246251565e-16,
+  "decision": "Review breadth and matched-data controls, then test actual measurement budgets before claiming reliability or a useful quantum improvement."
+}

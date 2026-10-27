@@ -1,0 +1,7 @@
+{
+  "hypothesis": "Test the quantum head inside a complete small hybrid cross-attention block, rather than assuming isolated-head gains transfer through residuals, normalization and an FFN.",
+  "architecture": "4-dimensional tokens [key0,key1,value,role], fixed identity value/output maps, attention+residual+fixed LayerNorm, trainable4x4 tanh FFN+residual+fixed LayerNorm, binary readout. Quantum4 parameters+temperature or classical2x2 metric+temperature; 50 trainable parameters per model.",
+  "design": "3 seeds,64 train/64 validation/256 test episodes; warm-start both heads from prior trained retrieval maps; shared classical initialization within seed. Joint exact-expectation L-BFGS-B up to60 iterations, checkpoint selected on validation loss. Evaluate ideal and finite-shot quantum attention.",
+  "limits": "Warm-start transfer study, not from-scratch architecture comparison. Fixed projections/nontrainable normalization differ from standard Transformer. Classical optimizer steps do not equate wall-time or QPU training cost.",
+  "previous_rows_read": 1260
+}

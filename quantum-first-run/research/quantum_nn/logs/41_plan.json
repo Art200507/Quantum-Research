@@ -1,0 +1,12 @@
+{
+  "hypothesis": "Encoder learning may improve non-wave boundaries, or reveal specialization.",
+  "tasks": [
+    "rotated_ellipse",
+    "annulus",
+    "parabola",
+    "xor_quadrants"
+  ],
+  "design": "3 fresh seeds 128 train/256 validation/1024 test; frozen stage35 protocol; fixed/learned single or four-frequency candidates; validation-selected MLP3/MLP9/Fourier controls,200 iteration cap. Per-task fitting, unequal training budgets; no quantum advantage claim.",
+  "reviewed": "40_checkpoint: wave gains did not establish breadth; radial extrapolation fails majority control.",
+  "metrics": "accuracy,balanced accuracy,cross entropy and majority baseline; retain optimizer failures."
+}

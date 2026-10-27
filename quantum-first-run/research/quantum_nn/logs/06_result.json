@@ -1,0 +1,335 @@
+{
+  "rows": [
+    {
+      "model": "attention",
+      "seed": 0,
+      "p_cx": 0.0,
+      "exact_noisy_accuracy": 1.0,
+      "mean_abs_expectation_shift": 0.0,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 1,
+      "p_cx": 0.0,
+      "exact_noisy_accuracy": 0.9375,
+      "mean_abs_expectation_shift": 0.0,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 2,
+      "p_cx": 0.0,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.0,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 3,
+      "p_cx": 0.0,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.0,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 4,
+      "p_cx": 0.0,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.0,
+      "examples": 32
+    },
+    {
+      "model": "QNN",
+      "seed": 0,
+      "p_cx": 0.0,
+      "exact_noisy_accuracy": 0.953125,
+      "mean_abs_expectation_shift": 0.0,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 1,
+      "p_cx": 0.0,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.0,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 2,
+      "p_cx": 0.0,
+      "exact_noisy_accuracy": 0.984375,
+      "mean_abs_expectation_shift": 0.0,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 3,
+      "p_cx": 0.0,
+      "exact_noisy_accuracy": 0.953125,
+      "mean_abs_expectation_shift": 0.0,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 4,
+      "p_cx": 0.0,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.0,
+      "examples": 64
+    },
+    {
+      "model": "attention",
+      "seed": 0,
+      "p_cx": 0.001,
+      "exact_noisy_accuracy": 1.0,
+      "mean_abs_expectation_shift": 0.00085615871152563,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 1,
+      "p_cx": 0.001,
+      "exact_noisy_accuracy": 0.9375,
+      "mean_abs_expectation_shift": 0.0007623762052382163,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 2,
+      "p_cx": 0.001,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.0008104023857511116,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 3,
+      "p_cx": 0.001,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.0007778971279626286,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 4,
+      "p_cx": 0.001,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.0008383394845480254,
+      "examples": 32
+    },
+    {
+      "model": "QNN",
+      "seed": 0,
+      "p_cx": 0.001,
+      "exact_noisy_accuracy": 0.953125,
+      "mean_abs_expectation_shift": 0.0004967092317080302,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 1,
+      "p_cx": 0.001,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.0005371429490773831,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 2,
+      "p_cx": 0.001,
+      "exact_noisy_accuracy": 0.984375,
+      "mean_abs_expectation_shift": 0.0005006066677315526,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 3,
+      "p_cx": 0.001,
+      "exact_noisy_accuracy": 0.953125,
+      "mean_abs_expectation_shift": 0.000541809475421707,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 4,
+      "p_cx": 0.001,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.0005123108129107716,
+      "examples": 64
+    },
+    {
+      "model": "attention",
+      "seed": 0,
+      "p_cx": 0.01,
+      "exact_noisy_accuracy": 1.0,
+      "mean_abs_expectation_shift": 0.008501127527628029,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 1,
+      "p_cx": 0.01,
+      "exact_noisy_accuracy": 0.9375,
+      "mean_abs_expectation_shift": 0.00757050863563046,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 2,
+      "p_cx": 0.01,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.00804693749655042,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 3,
+      "p_cx": 0.01,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.00772439993790436,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 4,
+      "p_cx": 0.01,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.008324579074350679,
+      "examples": 32
+    },
+    {
+      "model": "QNN",
+      "seed": 0,
+      "p_cx": 0.01,
+      "exact_noisy_accuracy": 0.953125,
+      "mean_abs_expectation_shift": 0.0049557521166235605,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 1,
+      "p_cx": 0.01,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.005359165299225566,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 2,
+      "p_cx": 0.01,
+      "exact_noisy_accuracy": 0.984375,
+      "mean_abs_expectation_shift": 0.004994650619942701,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 3,
+      "p_cx": 0.01,
+      "exact_noisy_accuracy": 0.953125,
+      "mean_abs_expectation_shift": 0.005405722872195649,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 4,
+      "p_cx": 0.01,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.005111448454964533,
+      "examples": 64
+    },
+    {
+      "model": "attention",
+      "seed": 0,
+      "p_cx": 0.05,
+      "exact_noisy_accuracy": 1.0,
+      "mean_abs_expectation_shift": 0.04118130805132823,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 1,
+      "p_cx": 0.05,
+      "exact_noisy_accuracy": 0.9375,
+      "mean_abs_expectation_shift": 0.03668558047722729,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 2,
+      "p_cx": 0.05,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.0389842712068484,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 3,
+      "p_cx": 0.05,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.037426626398800615,
+      "examples": 32
+    },
+    {
+      "model": "attention",
+      "seed": 4,
+      "p_cx": 0.05,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.04033426488991052,
+      "examples": 32
+    },
+    {
+      "model": "QNN",
+      "seed": 0,
+      "p_cx": 0.05,
+      "exact_noisy_accuracy": 0.953125,
+      "mean_abs_expectation_shift": 0.02452791515577252,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 1,
+      "p_cx": 0.05,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.026524542466546147,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 2,
+      "p_cx": 0.05,
+      "exact_noisy_accuracy": 0.984375,
+      "mean_abs_expectation_shift": 0.02472072824857268,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 3,
+      "p_cx": 0.05,
+      "exact_noisy_accuracy": 0.9375,
+      "mean_abs_expectation_shift": 0.02675494834494961,
+      "examples": 64
+    },
+    {
+      "model": "QNN",
+      "seed": 4,
+      "p_cx": 0.05,
+      "exact_noisy_accuracy": 0.96875,
+      "mean_abs_expectation_shift": 0.02529932597804285,
+      "examples": 64
+    }
+  ],
+  "compiled_circuits": 1600,
+  "cx_range": [
+    1,
+    2
+  ],
+  "depth_range": [
+    3,
+    5
+  ],
+  "noisy_evolutions": 6400,
+  "decision": "Compare accuracy and expectation shifts with shot study; noise is modeled, exact density means exclude finite-shot error. Need larger new episodes before robust hardware claims. No IBM run warranted while classical task baseline remains stronger."
+}

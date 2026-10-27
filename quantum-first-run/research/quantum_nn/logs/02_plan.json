@@ -1,0 +1,3 @@
+{
+  "hypothesis": "Shared trainable gates after all data encoding cannot change fidelity attention; check before wasting training shots. Also check the QNN local-observable parameter null direction."
+}

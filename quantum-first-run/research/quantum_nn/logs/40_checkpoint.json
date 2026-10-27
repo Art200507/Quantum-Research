@@ -1,0 +1,605 @@
+{
+  "date": "2026-10-26",
+  "completed_experimental_cycles": 35,
+  "new_cycles": "35..39 (five cycles)",
+  "focus": "Capability,task-specific generalization and reliability of trainable quantum encoders,not speed.",
+  "paired_encoder_results": [
+    {
+      "task": "diagonal_wave",
+      "model": "fixed_inputs",
+      "accuracy": 0.7859375,
+      "cross_entropy": 0.5652017615626621
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "learned_inputs",
+      "accuracy": 0.9716796875,
+      "cross_entropy": 0.07592407466247311
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "fixed_inputs",
+      "accuracy": 0.8515625,
+      "cross_entropy": 0.3812226329678007
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "learned_inputs",
+      "accuracy": 0.8880859375,
+      "cross_entropy": 0.2930086776867194
+    },
+    {
+      "task": "cos_product",
+      "model": "fixed_inputs",
+      "accuracy": 0.9572265625,
+      "cross_entropy": 0.10028527399727005
+    },
+    {
+      "task": "cos_product",
+      "model": "learned_inputs",
+      "accuracy": 0.95625,
+      "cross_entropy": 0.10064447032734877
+    },
+    {
+      "task": "radial",
+      "model": "fixed_inputs",
+      "accuracy": 0.969140625,
+      "cross_entropy": 0.07886570372466675
+    },
+    {
+      "task": "radial",
+      "model": "learned_inputs",
+      "accuracy": 0.973046875,
+      "cross_entropy": 0.06451620913983128
+    }
+  ],
+  "new_wave_directions": [
+    {
+      "direction": 0,
+      "model": "fixed_inputs",
+      "accuracy": 0.9176432291666666
+    },
+    {
+      "direction": 0,
+      "model": "learned_inputs",
+      "accuracy": 0.9879557291666666
+    },
+    {
+      "direction": 0,
+      "model": "selected_classical",
+      "accuracy": 0.9811197916666666
+    },
+    {
+      "direction": 1,
+      "model": "fixed_inputs",
+      "accuracy": 0.7125651041666666
+    },
+    {
+      "direction": 1,
+      "model": "learned_inputs",
+      "accuracy": 0.951171875
+    },
+    {
+      "direction": 1,
+      "model": "selected_classical",
+      "accuracy": 0.9759114583333334
+    },
+    {
+      "direction": 2,
+      "model": "fixed_inputs",
+      "accuracy": 0.86328125
+    },
+    {
+      "direction": 2,
+      "model": "learned_inputs",
+      "accuracy": 0.9775390625
+    },
+    {
+      "direction": 2,
+      "model": "selected_classical",
+      "accuracy": 0.9599609375
+    },
+    {
+      "direction": 3,
+      "model": "fixed_inputs",
+      "accuracy": 0.7916666666666666
+    },
+    {
+      "direction": 3,
+      "model": "learned_inputs",
+      "accuracy": 0.943359375
+    },
+    {
+      "direction": 3,
+      "model": "selected_classical",
+      "accuracy": 0.9567057291666666
+    }
+  ],
+  "measurement_results": [
+    {
+      "task": "diagonal_wave",
+      "model": "fixed",
+      "budget": 0,
+      "accuracy": 0.7875,
+      "cross_entropy": 0.5294142464146147
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "fixed",
+      "budget": 1024,
+      "accuracy": 0.699375,
+      "cross_entropy": 0.7950797750170405
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "fixed",
+      "budget": 4096,
+      "accuracy": 0.754375,
+      "cross_entropy": 0.5994019047446245
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "learned",
+      "budget": 0,
+      "accuracy": 0.98046875,
+      "cross_entropy": 0.05657638376568948
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "learned",
+      "budget": 1024,
+      "accuracy": 0.9694140625,
+      "cross_entropy": 0.0775434795035922
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "learned",
+      "budget": 4096,
+      "accuracy": 0.9783984375,
+      "cross_entropy": 0.06106320274113559
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "fixed",
+      "budget": 0,
+      "accuracy": 0.856640625,
+      "cross_entropy": 0.36326615897052167
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "fixed",
+      "budget": 1024,
+      "accuracy": 0.844453125,
+      "cross_entropy": 0.3786994182130076
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "fixed",
+      "budget": 4096,
+      "accuracy": 0.852265625,
+      "cross_entropy": 0.36739670735913854
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "learned",
+      "budget": 0,
+      "accuracy": 0.896484375,
+      "cross_entropy": 0.28353874420423186
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "learned",
+      "budget": 1024,
+      "accuracy": 0.882734375,
+      "cross_entropy": 0.30006363953635307
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "learned",
+      "budget": 4096,
+      "accuracy": 0.892421875,
+      "cross_entropy": 0.2862525674416563
+    },
+    {
+      "task": "cos_product",
+      "model": "fixed",
+      "budget": 0,
+      "accuracy": 0.954296875,
+      "cross_entropy": 0.10593005890979432
+    },
+    {
+      "task": "cos_product",
+      "model": "fixed",
+      "budget": 1024,
+      "accuracy": 0.933203125,
+      "cross_entropy": 0.15329360013967908
+    },
+    {
+      "task": "cos_product",
+      "model": "fixed",
+      "budget": 4096,
+      "accuracy": 0.9458203125,
+      "cross_entropy": 0.11679556342674051
+    },
+    {
+      "task": "cos_product",
+      "model": "learned",
+      "budget": 0,
+      "accuracy": 0.953515625,
+      "cross_entropy": 0.10747310498603024
+    },
+    {
+      "task": "cos_product",
+      "model": "learned",
+      "budget": 1024,
+      "accuracy": 0.9314453125,
+      "cross_entropy": 0.1564150434158399
+    },
+    {
+      "task": "cos_product",
+      "model": "learned",
+      "budget": 4096,
+      "accuracy": 0.9448828125,
+      "cross_entropy": 0.11839794224856337
+    },
+    {
+      "task": "radial",
+      "model": "fixed",
+      "budget": 0,
+      "accuracy": 0.96796875,
+      "cross_entropy": 0.07066646044596706
+    },
+    {
+      "task": "radial",
+      "model": "fixed",
+      "budget": 1024,
+      "accuracy": 0.9660546875,
+      "cross_entropy": 0.08136844721222185
+    },
+    {
+      "task": "radial",
+      "model": "fixed",
+      "budget": 4096,
+      "accuracy": 0.9696875,
+      "cross_entropy": 0.0737306078318142
+    },
+    {
+      "task": "radial",
+      "model": "learned",
+      "budget": 0,
+      "accuracy": 0.976171875,
+      "cross_entropy": 0.05678018937382924
+    },
+    {
+      "task": "radial",
+      "model": "learned",
+      "budget": 1024,
+      "accuracy": 0.9697265625,
+      "cross_entropy": 0.06982903432797365
+    },
+    {
+      "task": "radial",
+      "model": "learned",
+      "budget": 4096,
+      "accuracy": 0.9746875,
+      "cross_entropy": 0.06033959399258983
+    }
+  ],
+  "domain_extrapolation": [
+    {
+      "task": "diagonal_wave",
+      "model": "fixed",
+      "scale": 1.0,
+      "accuracy": 0.7875,
+      "balanced_accuracy": 0.7873497288591571,
+      "majority_accuracy": 0.5146484375
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "learned",
+      "scale": 1.0,
+      "accuracy": 0.975,
+      "balanced_accuracy": 0.9748006961682231,
+      "majority_accuracy": 0.5146484375
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "fixed",
+      "scale": 1.5,
+      "accuracy": 0.6060546875,
+      "balanced_accuracy": 0.6066884517068838,
+      "majority_accuracy": 0.513671875
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "learned",
+      "scale": 1.5,
+      "accuracy": 0.9654296875,
+      "balanced_accuracy": 0.9662049107386028,
+      "majority_accuracy": 0.513671875
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "fixed",
+      "scale": 2.0,
+      "accuracy": 0.5396484375,
+      "balanced_accuracy": 0.5399211246152543,
+      "majority_accuracy": 0.5111328125
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "learned",
+      "scale": 2.0,
+      "accuracy": 0.96171875,
+      "balanced_accuracy": 0.9617830954097565,
+      "majority_accuracy": 0.5111328125
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "fixed",
+      "scale": 3.0,
+      "accuracy": 0.5408203125,
+      "balanced_accuracy": 0.5421660615663314,
+      "majority_accuracy": 0.509375
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "learned",
+      "scale": 3.0,
+      "accuracy": 0.947265625,
+      "balanced_accuracy": 0.9473579881287264,
+      "majority_accuracy": 0.509375
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "fixed",
+      "scale": 1.0,
+      "accuracy": 0.8498046875,
+      "balanced_accuracy": 0.8492904670284975,
+      "majority_accuracy": 0.518359375
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "learned",
+      "scale": 1.0,
+      "accuracy": 0.879296875,
+      "balanced_accuracy": 0.8792520701498778,
+      "majority_accuracy": 0.518359375
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "fixed",
+      "scale": 1.5,
+      "accuracy": 0.695703125,
+      "balanced_accuracy": 0.6956108946053386,
+      "majority_accuracy": 0.5123046875
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "learned",
+      "scale": 1.5,
+      "accuracy": 0.75703125,
+      "balanced_accuracy": 0.7567218999556558,
+      "majority_accuracy": 0.5123046875
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "fixed",
+      "scale": 2.0,
+      "accuracy": 0.6529296875,
+      "balanced_accuracy": 0.6525300336066213,
+      "majority_accuracy": 0.5072265625
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "learned",
+      "scale": 2.0,
+      "accuracy": 0.6791015625,
+      "balanced_accuracy": 0.6783836085401254,
+      "majority_accuracy": 0.5072265625
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "fixed",
+      "scale": 3.0,
+      "accuracy": 0.5416015625,
+      "balanced_accuracy": 0.5419277111506119,
+      "majority_accuracy": 0.5087890625
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "learned",
+      "scale": 3.0,
+      "accuracy": 0.5947265625,
+      "balanced_accuracy": 0.5947738861775393,
+      "majority_accuracy": 0.5087890625
+    },
+    {
+      "task": "cos_product",
+      "model": "fixed",
+      "scale": 1.0,
+      "accuracy": 0.9560546875,
+      "balanced_accuracy": 0.9562155506286892,
+      "majority_accuracy": 0.512890625
+    },
+    {
+      "task": "cos_product",
+      "model": "learned",
+      "scale": 1.0,
+      "accuracy": 0.9556640625,
+      "balanced_accuracy": 0.9558073873633832,
+      "majority_accuracy": 0.512890625
+    },
+    {
+      "task": "cos_product",
+      "model": "fixed",
+      "scale": 1.5,
+      "accuracy": 0.9615234375,
+      "balanced_accuracy": 0.96180294855141,
+      "majority_accuracy": 0.537890625
+    },
+    {
+      "task": "cos_product",
+      "model": "learned",
+      "scale": 1.5,
+      "accuracy": 0.9623046875,
+      "balanced_accuracy": 0.962570702870028,
+      "majority_accuracy": 0.537890625
+    },
+    {
+      "task": "cos_product",
+      "model": "fixed",
+      "scale": 2.0,
+      "accuracy": 0.955078125,
+      "balanced_accuracy": 0.9550777870542788,
+      "majority_accuracy": 0.5185546875
+    },
+    {
+      "task": "cos_product",
+      "model": "learned",
+      "scale": 2.0,
+      "accuracy": 0.9525390625,
+      "balanced_accuracy": 0.9525314801536726,
+      "majority_accuracy": 0.5185546875
+    },
+    {
+      "task": "cos_product",
+      "model": "fixed",
+      "scale": 3.0,
+      "accuracy": 0.951953125,
+      "balanced_accuracy": 0.9521203358268113,
+      "majority_accuracy": 0.5119140625
+    },
+    {
+      "task": "cos_product",
+      "model": "learned",
+      "scale": 3.0,
+      "accuracy": 0.94921875,
+      "balanced_accuracy": 0.949359509487139,
+      "majority_accuracy": 0.5119140625
+    },
+    {
+      "task": "radial",
+      "model": "fixed",
+      "scale": 1.0,
+      "accuracy": 0.969140625,
+      "balanced_accuracy": 0.9697410701909117,
+      "majority_accuracy": 0.514453125
+    },
+    {
+      "task": "radial",
+      "model": "learned",
+      "scale": 1.0,
+      "accuracy": 0.97265625,
+      "balanced_accuracy": 0.9729533126891082,
+      "majority_accuracy": 0.514453125
+    },
+    {
+      "task": "radial",
+      "model": "fixed",
+      "scale": 1.5,
+      "accuracy": 0.8779296875,
+      "balanced_accuracy": 0.906997671613578,
+      "majority_accuracy": 0.7654296875
+    },
+    {
+      "task": "radial",
+      "model": "learned",
+      "scale": 1.5,
+      "accuracy": 0.948046875,
+      "balanced_accuracy": 0.9574282926251894,
+      "majority_accuracy": 0.7654296875
+    },
+    {
+      "task": "radial",
+      "model": "fixed",
+      "scale": 2.0,
+      "accuracy": 0.6232421875,
+      "balanced_accuracy": 0.7686928872462213,
+      "majority_accuracy": 0.8681640625
+    },
+    {
+      "task": "radial",
+      "model": "learned",
+      "scale": 2.0,
+      "accuracy": 0.75546875,
+      "balanced_accuracy": 0.8500855558136898,
+      "majority_accuracy": 0.8681640625
+    },
+    {
+      "task": "radial",
+      "model": "fixed",
+      "scale": 3.0,
+      "accuracy": 0.5646484375,
+      "balanced_accuracy": 0.7589756593657383,
+      "majority_accuracy": 0.9455078125
+    },
+    {
+      "task": "radial",
+      "model": "learned",
+      "scale": 3.0,
+      "accuracy": 0.613671875,
+      "balanced_accuracy": 0.7880354016187019,
+      "majority_accuracy": 0.9455078125
+    }
+  ],
+  "review_by_cycle": [
+    {
+      "cycle": 35,
+      "finding": "Learning input matrix raises diagonal-wave ideal accuracy78.6->97.2% on new cohorts;tilted85.2->88.8%,cosine95.7->95.6%,radial96.9->97.3%.44/80 optimizer runs hit200-iteration cap.",
+      "next": "Freeze protocol and test new wave directions."
+    },
+    {
+      "cycle": 36,
+      "finding": "Four new directions show fixed71\u201392% versus learned94\u201399%.Classical controls competitive and win2/4 mean cases.16/48 encoder runs hit cap.",
+      "next": "Address convergence separately before interpreting ideal gains as fully optimized."
+    },
+    {
+      "cycle": 37,
+      "finding": "All10 targeted continuation runs converge;fresh diagonal accuracy96.7->97.2%,cosine unchanged95.3%.Extra optimization has modest predictive effect.",
+      "next": "Freeze validation-selected models and test physical grouped measurements."
+    },
+    {
+      "cycle": 38,
+      "finding": "Fresh diagonal1024-shot accuracy69.9%fixed versus96.9%learned;cosine and radial mostly preserved,tilted modest gain.",
+      "next": "Isolate domain extrapolation from sampling."
+    },
+    {
+      "cycle": 39,
+      "finding": "Tripled domain:diagonal learned94.7%versus fixed54.1%;tilted and radial still degrade.Quantitative balanced/majority controls prevent hiding radial failure behind label imbalance.",
+      "next": "Do not claim broad reasoning from learned periodic relation;new non-wave task families and noise-aware training are needed."
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "joint_gradient_error": 1.5781687068283645e-10,
+    "feature_derivative_errors": [
+      4.727169766738371e-10,
+      4.669100661658376e-10
+    ],
+    "learned_angle_Qiskit_error": 1.4988010832439613e-15,
+    "physical_circuits_checked": 32
+  },
+  "cost_and_scope": [
+    "4 new classical input coefficients control actual data-dependent quantum rotation angles;readout has9or33 parameters,total13or37.",
+    "Joint optimization uses exact analytic two-qubit simulation,not shot-noisy hardware training.",
+    "The model family still admits an exact elementary classical feature representation;no unique quantum advantage established.",
+    "Wave confirmation is within a known function family;per-task fitting,not one universal model.",
+    "Finite-shot tests include all view/basis shots and joint outcome covariance,but no gate noise.",
+    "Model selection uses validation only;new test cohorts and directions are disjoint from training.",
+    "Ten targeted convergence successes do not erase failed optimization runs in35/36.",
+    "Training-cost budgets/function classes are unequal despite available matched-count classical controls."
+  ],
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/2001.03622",
+      "access": "Primary search abstract only. Trainable quantum embeddings are existing work,not a novelty claim."
+    }
+  ],
+  "next_actions": [
+    "Test learned input encoders on independent non-wave tasks/transformations with frozen training protocol.",
+    "Test noise-aware training and recalibrate uncertainty for learned encoders rather than inheriting calibration from fixed ones.",
+    "Keep elementary classical feature and neural controls;only propose hardware when a specific scientifically justified question remains."
+  ],
+  "safeguards": "No hardware,credential access,paid jobs,package installations or background services. Existing logs preserved."
+}

@@ -1,0 +1,6 @@
+{
+  "hypothesis": "Stage42 ring-task probability improvement at256 shots may repeat on new samples.",
+  "reviewed": "42_result: annulus CE .5475 to .3386 at256shots; accuracy .8430 to .8517. At1024shots noise training slightly hurts. Other tasks mixed.",
+  "design": "Exploratory follow-up selected after42; freeze all3 ring encoders and noise-trained readouts. Fresh2048 test points per seed,10 measurement repeats at256 and1024shots. Paired identical measurements. No retuning. Report per-seed means and overconfidence errors; repeats are not independent training seeds.",
+  "scope": "Same synthetic distribution; not independent task-family replication,hardware noise or quantum advantage."
+}

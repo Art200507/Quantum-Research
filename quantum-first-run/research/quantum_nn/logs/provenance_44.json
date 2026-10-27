@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "nonwave_confirmation.py": "a559a4e480b0fd2e7b74e0040795352c8c9ef3d46f664577a5c3305a946bce26",
+    "noise_aware_readout.py": "27e8bdbb2128fc391adc7df3d5cc459c2b1ce02d7bb9306eb9db0efc261ebb89",
+    "noise_confirmation.py": "25640c0ee0e55ef171382a43f9f6530155b555bbd46472923cbcc4d8d15a41a2",
+    "continue.py": "116a504919eb3856692fecbce5dd649d431af3ec72b182723cde32cd11b56366",
+    "logs/41_plan.json": "c1e9302cd9c9e52994a5e003a52f717ebf7a9b97134b387a9a24d2990359c5cd",
+    "logs/41_result.json": "9cda869bdca169a7054e3a0175f0d9e033790ccf6f047572111422ba5a90a837",
+    "logs/42_plan.json": "8b80cbe62018a6d70455edbff37e89413b87a2a1ff749a0f05d7523bee5f2ac5",
+    "logs/42_result.json": "6fd8cc4c8589989211a5ab481234c93c8ac54dcc43e12884b52962355aff47f5",
+    "logs/43_plan.json": "b57ae56ec80ce9b8794eab87acf5604006ff66f897ecca2cb2ad7a2aa52e138f",
+    "logs/43_result.json": "7a707790625677e97023df783f2055dd86d1756754ac4e5daa108cc1952c67ec",
+    "logs/44_checkpoint.json": "e8b26065c3aae80d3de5a55da66fd2f4d0a904776de362ebd142a21793a7b436"
+  }
+}

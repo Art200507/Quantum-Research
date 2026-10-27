@@ -1,0 +1,139 @@
+[
+  {
+    "n": 5,
+    "barrier": false,
+    "optimization_level": 3,
+    "seed_transpiler": 17,
+    "depth": 1,
+    "ops": {
+      "measure": 5
+    },
+    "two_qubit_gates": 0
+  },
+  {
+    "n": 5,
+    "barrier": true,
+    "optimization_level": 3,
+    "seed_transpiler": 17,
+    "depth": 59,
+    "ops": {
+      "rz": 78,
+      "sx": 74,
+      "cz": 32,
+      "x": 7,
+      "measure": 5,
+      "barrier": 2
+    },
+    "two_qubit_gates": 32
+  },
+  {
+    "n": 20,
+    "barrier": false,
+    "optimization_level": 3,
+    "seed_transpiler": 17,
+    "depth": 2,
+    "ops": {
+      "measure": 20,
+      "rz": 4
+    },
+    "two_qubit_gates": 0
+  },
+  {
+    "n": 20,
+    "barrier": true,
+    "optimization_level": 3,
+    "seed_transpiler": 17,
+    "depth": 76,
+    "ops": {
+      "sx": 416,
+      "rz": 379,
+      "cz": 152,
+      "measure": 20,
+      "x": 7,
+      "barrier": 2
+    },
+    "two_qubit_gates": 152
+  },
+  {
+    "n": 50,
+    "barrier": false,
+    "optimization_level": 1,
+    "seed_transpiler": 17,
+    "depth": 67,
+    "ops": {
+      "rz": 1106,
+      "sx": 762,
+      "cz": 312,
+      "measure": 50,
+      "x": 27
+    },
+    "two_qubit_gates": 312
+  },
+  {
+    "n": 50,
+    "barrier": true,
+    "optimization_level": 1,
+    "seed_transpiler": 17,
+    "depth": 81,
+    "ops": {
+      "rz": 1458,
+      "sx": 1014,
+      "cz": 392,
+      "measure": 50,
+      "x": 16,
+      "barrier": 2
+    },
+    "two_qubit_gates": 392
+  },
+  {
+    "n": 100,
+    "barrier": false,
+    "optimization_level": 1,
+    "seed_transpiler": 17,
+    "depth": 70,
+    "ops": {
+      "rz": 2308,
+      "sx": 1646,
+      "cz": 644,
+      "measure": 100,
+      "x": 43
+    },
+    "two_qubit_gates": 644
+  },
+  {
+    "n": 100,
+    "barrier": true,
+    "optimization_level": 1,
+    "seed_transpiler": 17,
+    "depth": 84,
+    "ops": {
+      "rz": 2990,
+      "sx": 2116,
+      "cz": 792,
+      "measure": 100,
+      "x": 32,
+      "barrier": 2
+    },
+    "two_qubit_gates": 792
+  },
+  {
+    "n": 5,
+    "barrier": false,
+    "target": "all-to-all u/cx",
+    "depth": 0,
+    "ops": {},
+    "ideal_return_probability": 1.0
+  },
+  {
+    "n": 5,
+    "barrier": true,
+    "target": "all-to-all u/cx",
+    "depth": 34,
+    "ops": {
+      "u": 68,
+      "cx": 32,
+      "barrier": 1
+    },
+    "ideal_return_probability": 0.9999999999999996
+  }
+]

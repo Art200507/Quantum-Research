@@ -1,0 +1,6 @@
+{
+  "hypothesis": "Validation-based selection may retain single-scale strengths while using multi-scale features for tasks that need them. Test selection on fresh points, not a per-test oracle.",
+  "design": "Use only saved validation cross-entropy to choose one quantum model among25/26 and one classical control among MLP2/MLP8/Fourier. Fresh512 test points per seed/task;5 seeds,4 tasks.",
+  "measurements": "For chosen quantum head, ideal and total1024 shots over4 bases/view,10 repeats. All setting costs charged.",
+  "limits": "Per-task supervised model selection, not one jointly trained universal or task-agnostic QNN. Validation ideal, not finite-shot optimized. Does not establish quantum superiority."
+}

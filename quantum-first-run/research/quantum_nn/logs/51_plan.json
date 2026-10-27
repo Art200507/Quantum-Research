@@ -1,0 +1,7 @@
+{
+  "reviewed": "50_result: grouping ring gains modest;temperature usually stronger on other3 tasks. Temperature cannot move boundary,so affine logit correction is a missing cheap control.",
+  "hypothesis": "A positive scale plus intercept may explain decision improvements previously attributed to full noisy readout refitting.",
+  "design": "Freeze50 models andsame noisy validation measurements;fit a*z+b witha>0,compare ideal,temperature,affine,and50 validation-selected pipeline on fresh1024test points,5 paired256shot repeats for12models.",
+  "cost": "Affine uses262144 validation shots and no noisy training shots. Group candidates additionally need131072training shots. Two free affine parameters fit on256unique validation labels(4repeats).",
+  "scope": "All stages exploratory;validation used for encoder selection and calibration,not conformal coverage;test labels untouched. Affine calibration is an established classical baseline,not a new quantum method."
+}

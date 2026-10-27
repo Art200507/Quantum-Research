@@ -1,0 +1,6 @@
+{
+  "hypothesis": "Many encoder runs hit the iteration cap; continuing them may improve training without improving held-out predictions. Distinguish convergence from capability.",
+  "design": "Continue selected35 checkpoints for diagonal_wave/cos_product,5 seeds,400 additional iterations,unchanged objective/bounds. Original128 train/256 validation retained; test on an entirely new1024-point cohort.",
+  "selection": "Keep previous checkpoint unless validation loss improves; never select on new test. Log training/validation per iteration and final optimizer status.",
+  "limits": "Targeted convergence diagnostic, not matched optimization budget or new algorithm. Smaller loss is not automatically better generalization."
+}

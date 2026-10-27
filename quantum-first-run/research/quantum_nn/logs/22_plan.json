@@ -1,0 +1,6 @@
+{
+  "hypothesis": "Random-split accuracy can hide failure on unseen combinations. Test an entire held-out positive-positive quadrant, while validation remains in the training-support region.",
+  "design": "3 new data seeds;128 train/128 validation from other3 quadrants,512 seen-region test and512 held-out-region test. Cos-product/radial/mixed-frequency tasks only; linear target omitted because held-out quadrant has only one class.",
+  "models": "9-parameter quantum mixture,9-parameter MLP,33-parameter MLP,3-parameter encoding-matched classical feature control. Two restarts120 iterations where applicable.",
+  "fairness": "No labels from held-out quadrant are used in training, validation, checkpoint selection or temperature tuning. Architecture-informed control is explicit. No finite-shot inference in this test."
+}

@@ -1,0 +1,5 @@
+{
+  "hypothesis": "Adaptive sparse readout may improve actual hybrid-block classification, but sparsifying attention changes the distribution seen by the trained FFN and need not help.",
+  "design": "Freeze validation-selected quantum/classical block parameters from12. Three seeds x256 new test episodes,8 keys; B128/512/2048,20 shot repeats. No additional calibration or parameter fitting. Uniform dense vs adaptive two-survivor sparse; same total shots but not same control latency or attention semantics.",
+  "optimizer_qualification": "Two quantum runs in12 hit the60-iteration limit; these checkpoints are provisional, not proven converged. No new optimization is concealed in this readout study."
+}

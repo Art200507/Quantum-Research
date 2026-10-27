@@ -1,0 +1,6 @@
+{
+  "hypothesis": "Adaptive readout gains may survive more candidates but periodic quantum encoding may fail under input-domain shift. Freeze maps and classical metrics from experiment4.",
+  "design": "5 trained seeds x256 fresh episodes, m=4/8/16/32, input multiplier1/2/4, B512 shots/query,20 repeats. Learned target metric remains dx0\u00b2+.05dx1\u00b2. Common scaling leaves correct indices unchanged.",
+  "checks": "Generalized halving must reproduce old allocator for eight candidates with identical randomness. Costs include all screening shots; control rounds reported, not assumed free.",
+  "previous_checkpoint_read": "Actual trainable QNNs and quantum circuit attention; classical memory is no longer the main study."
+}

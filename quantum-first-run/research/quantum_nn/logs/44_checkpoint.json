@@ -1,0 +1,311 @@
+{
+  "date": "2026-10-26",
+  "completed_experimental_cycles": 38,
+  "new_cycles": [
+    41,
+    42,
+    43
+  ],
+  "review_before_each": [
+    "40_checkpoint ->41",
+    "41_result ->42",
+    "42_result ->43"
+  ],
+  "nonwave_results": [
+    {
+      "task": "rotated_ellipse",
+      "model": "fixed",
+      "accuracy": 0.9811197916666666,
+      "cross_entropy": 0.05470396358540219,
+      "brier": 0.015335662738757047,
+      "rows": 3
+    },
+    {
+      "task": "rotated_ellipse",
+      "model": "learned",
+      "accuracy": 0.9791666666666666,
+      "cross_entropy": 0.05176491089852108,
+      "brier": 0.014832798527675939,
+      "rows": 3
+    },
+    {
+      "task": "rotated_ellipse",
+      "model": "classical",
+      "accuracy": 0.9713541666666666,
+      "cross_entropy": 0.07706326363552675,
+      "brier": 0.023029753360237503,
+      "rows": 3
+    },
+    {
+      "task": "annulus",
+      "model": "fixed",
+      "accuracy": 0.9348958333333334,
+      "cross_entropy": 0.16127209937185202,
+      "brier": 0.048089935340810956,
+      "rows": 3
+    },
+    {
+      "task": "annulus",
+      "model": "learned",
+      "accuracy": 0.9303385416666666,
+      "cross_entropy": 0.16194140376079877,
+      "brier": 0.05029223500709761,
+      "rows": 3
+    },
+    {
+      "task": "annulus",
+      "model": "classical",
+      "accuracy": 0.9130859375,
+      "cross_entropy": 0.20312211050311402,
+      "brier": 0.06233844847838491,
+      "rows": 3
+    },
+    {
+      "task": "parabola",
+      "model": "fixed",
+      "accuracy": 0.9684244791666666,
+      "cross_entropy": 0.09688607609984697,
+      "brier": 0.02330927433193877,
+      "rows": 3
+    },
+    {
+      "task": "parabola",
+      "model": "learned",
+      "accuracy": 0.9820963541666666,
+      "cross_entropy": 0.04332474689635341,
+      "brier": 0.01274118393866272,
+      "rows": 3
+    },
+    {
+      "task": "parabola",
+      "model": "classical",
+      "accuracy": 0.9811197916666666,
+      "cross_entropy": 0.053994099064257554,
+      "brier": 0.014761987527331448,
+      "rows": 3
+    },
+    {
+      "task": "xor_quadrants",
+      "model": "fixed",
+      "accuracy": 0.9619140625,
+      "cross_entropy": 0.09461237174297414,
+      "brier": 0.02844705400696415,
+      "rows": 3
+    },
+    {
+      "task": "xor_quadrants",
+      "model": "learned",
+      "accuracy": 0.98828125,
+      "cross_entropy": 0.04970991840417658,
+      "brier": 0.013212063521662461,
+      "rows": 3
+    },
+    {
+      "task": "xor_quadrants",
+      "model": "classical",
+      "accuracy": 0.9713541666666666,
+      "cross_entropy": 0.06146138312103383,
+      "brier": 0.019033799561700523,
+      "rows": 3
+    }
+  ],
+  "noise_training_results": [
+    {
+      "task": "rotated_ellipse",
+      "budget": 256,
+      "model": "ideal_training",
+      "accuracy": 0.953125,
+      "cross_entropy": 0.11609450432341768,
+      "brier": 0.034747481466947575,
+      "rows": 15
+    },
+    {
+      "task": "rotated_ellipse",
+      "budget": 256,
+      "model": "noise_training",
+      "accuracy": 0.9537109375,
+      "cross_entropy": 0.11373794129137965,
+      "brier": 0.03429981797469637,
+      "rows": 15
+    },
+    {
+      "task": "rotated_ellipse",
+      "budget": 1024,
+      "model": "ideal_training",
+      "accuracy": 0.9674479166666666,
+      "cross_entropy": 0.07311928392003965,
+      "brier": 0.02250299616189432,
+      "rows": 15
+    },
+    {
+      "task": "rotated_ellipse",
+      "budget": 1024,
+      "model": "noise_training",
+      "accuracy": 0.9674479166666666,
+      "cross_entropy": 0.07427541634548986,
+      "brier": 0.022808369798536402,
+      "rows": 15
+    },
+    {
+      "task": "annulus",
+      "budget": 256,
+      "model": "ideal_training",
+      "accuracy": 0.84296875,
+      "cross_entropy": 0.547468857264711,
+      "brier": 0.12621059209844906,
+      "rows": 15
+    },
+    {
+      "task": "annulus",
+      "budget": 256,
+      "model": "noise_training",
+      "accuracy": 0.8516927083333333,
+      "cross_entropy": 0.33864384134010017,
+      "brier": 0.10668047404288734,
+      "rows": 15
+    },
+    {
+      "task": "annulus",
+      "budget": 1024,
+      "model": "ideal_training",
+      "accuracy": 0.903515625,
+      "cross_entropy": 0.24354937982692587,
+      "brier": 0.07068915430051012,
+      "rows": 15
+    },
+    {
+      "task": "annulus",
+      "budget": 1024,
+      "model": "noise_training",
+      "accuracy": 0.9002604166666667,
+      "cross_entropy": 0.2555302659379908,
+      "brier": 0.07357875179403836,
+      "rows": 15
+    },
+    {
+      "task": "parabola",
+      "budget": 256,
+      "model": "ideal_training",
+      "accuracy": 0.9638671875,
+      "cross_entropy": 0.08329236251534848,
+      "brier": 0.02589030583484442,
+      "rows": 15
+    },
+    {
+      "task": "parabola",
+      "budget": 256,
+      "model": "noise_training",
+      "accuracy": 0.9623046875,
+      "cross_entropy": 0.08421924492409681,
+      "brier": 0.0263129075000673,
+      "rows": 15
+    },
+    {
+      "task": "parabola",
+      "budget": 1024,
+      "model": "ideal_training",
+      "accuracy": 0.9736328125,
+      "cross_entropy": 0.0576224816075738,
+      "brier": 0.01827378919953421,
+      "rows": 15
+    },
+    {
+      "task": "parabola",
+      "budget": 1024,
+      "model": "noise_training",
+      "accuracy": 0.9711588541666667,
+      "cross_entropy": 0.06576824815395722,
+      "brier": 0.020767976263520272,
+      "rows": 15
+    },
+    {
+      "task": "xor_quadrants",
+      "budget": 256,
+      "model": "ideal_training",
+      "accuracy": 0.9490885416666667,
+      "cross_entropy": 0.1429958937977776,
+      "brier": 0.038412022003165826,
+      "rows": 15
+    },
+    {
+      "task": "xor_quadrants",
+      "budget": 256,
+      "model": "noise_training",
+      "accuracy": 0.946484375,
+      "cross_entropy": 0.12541659316154974,
+      "brier": 0.03846779440698253,
+      "rows": 15
+    },
+    {
+      "task": "xor_quadrants",
+      "budget": 1024,
+      "model": "ideal_training",
+      "accuracy": 0.9692057291666667,
+      "cross_entropy": 0.07472174195654624,
+      "brier": 0.02252850015211259,
+      "rows": 15
+    },
+    {
+      "task": "xor_quadrants",
+      "budget": 1024,
+      "model": "noise_training",
+      "accuracy": 0.9681640625,
+      "cross_entropy": 0.07158199405536737,
+      "brier": 0.022133584508165837,
+      "rows": 15
+    }
+  ],
+  "ring_confirmation": [
+    {
+      "budget": 256,
+      "model": "ideal_training",
+      "accuracy": 0.852685546875,
+      "cross_entropy": 0.505999077247769,
+      "brier": 0.1178507945479797,
+      "rows": 30
+    },
+    {
+      "budget": 256,
+      "model": "noise_training",
+      "accuracy": 0.85703125,
+      "cross_entropy": 0.3280037664696175,
+      "brier": 0.10284431692671059,
+      "rows": 30
+    },
+    {
+      "budget": 1024,
+      "model": "ideal_training",
+      "accuracy": 0.9108072916666666,
+      "cross_entropy": 0.2310239405082538,
+      "brier": 0.06688102293413807,
+      "rows": 30
+    },
+    {
+      "budget": 1024,
+      "model": "noise_training",
+      "accuracy": 0.9058430989583334,
+      "cross_entropy": 0.2401234893596817,
+      "brier": 0.06984228977434086,
+      "rows": 30
+    }
+  ],
+  "findings": [
+    "Encoder learning helps parabola and XOR; slightly regresses ellipse/ring. Classical controls remain competitive; per-task training,not one universal model.",
+    "Ring256shot fresh confirmation: confidently wrong predictions fall7.58% to2.28%;accuracy85.27% to85.70%;CE .506 to .328. CE improves in all3 existing training seeds.",
+    "At1024shots ring accuracy91.08% to90.58%;noise training not universally helpful.",
+    "20/48 stage41 encoder candidate runs hit optimization limits;96/96 noise readout fits converge."
+  ],
+  "limitations": [
+    "Only three training seeds; measurement repeats do not increase independent training-seed count.",
+    "43 is an exploratory follow-up selected after42, on same task distribution and frozen training seeds.",
+    "Extra training/validation measurements are charged in42 plan; no equal training cost claim.",
+    "Two-qubit model exactly classically reproducible; no unique quantum advantage.",
+    "Finite measurement sampling only,no gate noise or IBM hardware.",
+    "This branch studies QNN feature readouts,not a trained quantum transformer."
+  ],
+  "next_actions": [
+    "Independent new training seeds for ring reliability,predeclare both shot budgets and metrics.",
+    "Then test gate noise or compare noise-aware training against analytic regularization matched to its extra cost."
+  ],
+  "validation": "Existing gradient/Qiskit independent checks pass:gradient error1.58e-10;32 circuit comparisons max1.50e-15. New scripts parse; grouped shots and retained-observable coverage asserted during every draw."
+}

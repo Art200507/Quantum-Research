@@ -1,0 +1,6 @@
+{
+  "hypothesis": "Ideal encoder-learning gains may not survive finite measurements. Test frozen,validation-selected encoders with correct shared-basis outcome covariance.",
+  "design": "Models35/refinements37 frozen;5 seeds,4 tasks,512 new test points,1024/4096 total shots per prediction,10 measurement repeats. Four local bases per encoding scale.",
+  "fairness": "Same total shots for fixed/learned encoders,including all views and bases. No gate noise; ideal training may exploit features that are hard to measure.",
+  "selection": "All checkpoint choices already fixed; no use of this test for model tuning."
+}

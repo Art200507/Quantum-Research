@@ -1,0 +1,12 @@
+{
+  "hypothesis": "Learning four input-mixing coefficients may fix the diagonal-wave failure while retaining richer quantum outputs on other tasks.",
+  "tasks": [
+    "diagonal_wave",
+    "tilted_interaction",
+    "cos_product",
+    "radial"
+  ],
+  "design": "5 fresh data seeds,128 train/256 validation/1024 test, single or4-frequency views. Retrain frozen-encoder baseline, jointly learn W+readout from two starts/config,select checkpoints/configuration by validation only.",
+  "optimization": "Analytic simulator gradient checked by finite differences;200 L-BFGS-B iterations. Readout regularization from baseline validation; W regularized toward identity. All convergence outcomes logged.",
+  "scope": "Hybrid trainable encoder: data-dependent gate angles f*(x@W). Additional4 parameters and extra optimization; not a matched-training-cost comparison. No quantum-only expressivity claim."
+}

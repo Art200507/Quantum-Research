@@ -1,0 +1,5 @@
+{
+  "hypothesis": "Quantify whether native-basis modeled gate errors or finite-shot errors dominate our small trained models.",
+  "scope": "5 fitted seeds, 32 new attention episodes/seed, 64 new QNN examples/seed, p=.001,.01,.05 per CX, p/10 per U. Model p is mixing probability, not measured IBM infidelity.",
+  "resources": "1280 overlap and 320 QNN circuits compiled once to all-to-all U/CX; 4800 local density evolutions, 2 qubits; no hardware access."
+}

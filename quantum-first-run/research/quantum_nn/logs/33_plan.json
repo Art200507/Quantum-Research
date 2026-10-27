@@ -1,0 +1,12 @@
+{
+  "hypothesis": "The feature-bank design may have been adapted to the original benchmark. Test new task families with encoder frequencies frozen and no new basis engineering.",
+  "tasks": [
+    "rotated_ellipse",
+    "diagonal_wave",
+    "annulus",
+    "tilted_interaction"
+  ],
+  "design": "5 new seeds x4 tasks,128 train/256 validation/1024 test. Choose single/multi-scale readouts and classical MLP8/Fourier using validation only. Frequencies stay1 or.5/1/2/3; original regularization grid unchanged.",
+  "measurements": "Selected quantum readout also evaluated with1024 total shots over4 bases/view,5 repeats. No gate noise.",
+  "metrics": "Accuracy,balanced accuracy,majority baseline,probability loss. These are further synthetic tasks, not real-world capability validation."
+}

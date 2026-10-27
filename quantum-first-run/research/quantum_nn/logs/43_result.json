@@ -1,0 +1,1205 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 0,
+      "model": "ideal_training",
+      "accuracy": 0.8330078125,
+      "cross_entropy": 0.6001889182937412,
+      "brier": 0.13498773661824878,
+      "confident_wrong_fraction": 0.09033203125
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 0,
+      "model": "noise_training",
+      "accuracy": 0.8388671875,
+      "cross_entropy": 0.37565606340222124,
+      "brier": 0.1180627234872122,
+      "confident_wrong_fraction": 0.03271484375
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 1,
+      "model": "ideal_training",
+      "accuracy": 0.8349609375,
+      "cross_entropy": 0.5701003005345936,
+      "brier": 0.13030195589747118,
+      "confident_wrong_fraction": 0.0849609375
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 1,
+      "model": "noise_training",
+      "accuracy": 0.82861328125,
+      "cross_entropy": 0.37243540482029047,
+      "brier": 0.11915992318198029,
+      "confident_wrong_fraction": 0.03271484375
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 2,
+      "model": "ideal_training",
+      "accuracy": 0.837890625,
+      "cross_entropy": 0.5838832528676637,
+      "brier": 0.12992254434538744,
+      "confident_wrong_fraction": 0.0869140625
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 2,
+      "model": "noise_training",
+      "accuracy": 0.828125,
+      "cross_entropy": 0.3804497192880615,
+      "brier": 0.12156036245039825,
+      "confident_wrong_fraction": 0.02978515625
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 3,
+      "model": "ideal_training",
+      "accuracy": 0.853515625,
+      "cross_entropy": 0.5213711962152325,
+      "brier": 0.11735690599193027,
+      "confident_wrong_fraction": 0.07568359375
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 3,
+      "model": "noise_training",
+      "accuracy": 0.83935546875,
+      "cross_entropy": 0.3634596851960824,
+      "brier": 0.11547610769773582,
+      "confident_wrong_fraction": 0.03173828125
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 4,
+      "model": "ideal_training",
+      "accuracy": 0.84521484375,
+      "cross_entropy": 0.5290257825022331,
+      "brier": 0.12311449594246664,
+      "confident_wrong_fraction": 0.07958984375
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 4,
+      "model": "noise_training",
+      "accuracy": 0.8349609375,
+      "cross_entropy": 0.37824718850581496,
+      "brier": 0.12045384737201327,
+      "confident_wrong_fraction": 0.03369140625
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 5,
+      "model": "ideal_training",
+      "accuracy": 0.84033203125,
+      "cross_entropy": 0.6080990965584304,
+      "brier": 0.13157604225481467,
+      "confident_wrong_fraction": 0.08935546875
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 5,
+      "model": "noise_training",
+      "accuracy": 0.83984375,
+      "cross_entropy": 0.3591865040148513,
+      "brier": 0.11419126496095991,
+      "confident_wrong_fraction": 0.0302734375
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 6,
+      "model": "ideal_training",
+      "accuracy": 0.845703125,
+      "cross_entropy": 0.5446843314250182,
+      "brier": 0.1235335894846428,
+      "confident_wrong_fraction": 0.07958984375
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 6,
+      "model": "noise_training",
+      "accuracy": 0.83984375,
+      "cross_entropy": 0.37430377073464294,
+      "brier": 0.11764794198704571,
+      "confident_wrong_fraction": 0.03662109375
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 7,
+      "model": "ideal_training",
+      "accuracy": 0.83740234375,
+      "cross_entropy": 0.5943954795158879,
+      "brier": 0.12982977720433453,
+      "confident_wrong_fraction": 0.0830078125
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 7,
+      "model": "noise_training",
+      "accuracy": 0.83056640625,
+      "cross_entropy": 0.37708842066650283,
+      "brier": 0.11975589633065228,
+      "confident_wrong_fraction": 0.03076171875
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 8,
+      "model": "ideal_training",
+      "accuracy": 0.8525390625,
+      "cross_entropy": 0.5942245969213841,
+      "brier": 0.12416859586074425,
+      "confident_wrong_fraction": 0.09375
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 8,
+      "model": "noise_training",
+      "accuracy": 0.83154296875,
+      "cross_entropy": 0.3737346397071547,
+      "brier": 0.11905084681665141,
+      "confident_wrong_fraction": 0.02783203125
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 9,
+      "model": "ideal_training",
+      "accuracy": 0.84375,
+      "cross_entropy": 0.5567126200197587,
+      "brier": 0.1290633381517195,
+      "confident_wrong_fraction": 0.08642578125
+    },
+    {
+      "seed": 0,
+      "budget": 256,
+      "repeat": 9,
+      "model": "noise_training",
+      "accuracy": 0.83349609375,
+      "cross_entropy": 0.37686391565088717,
+      "brier": 0.11947715257305577,
+      "confident_wrong_fraction": 0.03466796875
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 0,
+      "model": "ideal_training",
+      "accuracy": 0.89599609375,
+      "cross_entropy": 0.27520426570183093,
+      "brier": 0.07944032292123973,
+      "confident_wrong_fraction": 0.0390625
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 0,
+      "model": "noise_training",
+      "accuracy": 0.896484375,
+      "cross_entropy": 0.28553117421119756,
+      "brier": 0.08045558387491573,
+      "confident_wrong_fraction": 0.0400390625
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 1,
+      "model": "ideal_training",
+      "accuracy": 0.89306640625,
+      "cross_entropy": 0.29261591888757343,
+      "brier": 0.08147201656252344,
+      "confident_wrong_fraction": 0.04150390625
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 1,
+      "model": "noise_training",
+      "accuracy": 0.888671875,
+      "cross_entropy": 0.29098559132070256,
+      "brier": 0.08312378105561523,
+      "confident_wrong_fraction": 0.0390625
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 2,
+      "model": "ideal_training",
+      "accuracy": 0.896484375,
+      "cross_entropy": 0.28250105194791636,
+      "brier": 0.08016163048897684,
+      "confident_wrong_fraction": 0.041015625
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 2,
+      "model": "noise_training",
+      "accuracy": 0.88818359375,
+      "cross_entropy": 0.2888957788946208,
+      "brier": 0.08448444144995843,
+      "confident_wrong_fraction": 0.04248046875
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 3,
+      "model": "ideal_training",
+      "accuracy": 0.89501953125,
+      "cross_entropy": 0.2843801807959223,
+      "brier": 0.0798984352476788,
+      "confident_wrong_fraction": 0.03955078125
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 3,
+      "model": "noise_training",
+      "accuracy": 0.8876953125,
+      "cross_entropy": 0.2813890996171927,
+      "brier": 0.08218670315188416,
+      "confident_wrong_fraction": 0.03857421875
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 4,
+      "model": "ideal_training",
+      "accuracy": 0.8984375,
+      "cross_entropy": 0.25839412349768887,
+      "brier": 0.07417614212353843,
+      "confident_wrong_fraction": 0.03564453125
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 4,
+      "model": "noise_training",
+      "accuracy": 0.896484375,
+      "cross_entropy": 0.27634902200573996,
+      "brier": 0.07904403226923486,
+      "confident_wrong_fraction": 0.03662109375
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 5,
+      "model": "ideal_training",
+      "accuracy": 0.89501953125,
+      "cross_entropy": 0.28480223590534115,
+      "brier": 0.07989389779080185,
+      "confident_wrong_fraction": 0.04541015625
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 5,
+      "model": "noise_training",
+      "accuracy": 0.8837890625,
+      "cross_entropy": 0.29575077579182907,
+      "brier": 0.08560670994872492,
+      "confident_wrong_fraction": 0.0419921875
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 6,
+      "model": "ideal_training",
+      "accuracy": 0.90234375,
+      "cross_entropy": 0.27486027106903743,
+      "brier": 0.07523085595458506,
+      "confident_wrong_fraction": 0.0400390625
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 6,
+      "model": "noise_training",
+      "accuracy": 0.8916015625,
+      "cross_entropy": 0.28280631413191876,
+      "brier": 0.08054577266660572,
+      "confident_wrong_fraction": 0.03857421875
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 7,
+      "model": "ideal_training",
+      "accuracy": 0.89306640625,
+      "cross_entropy": 0.27484605784226224,
+      "brier": 0.07835660360028665,
+      "confident_wrong_fraction": 0.03857421875
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 7,
+      "model": "noise_training",
+      "accuracy": 0.88916015625,
+      "cross_entropy": 0.28197934863483376,
+      "brier": 0.08229121398206057,
+      "confident_wrong_fraction": 0.0419921875
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 8,
+      "model": "ideal_training",
+      "accuracy": 0.90087890625,
+      "cross_entropy": 0.2598982884986095,
+      "brier": 0.07651800493412936,
+      "confident_wrong_fraction": 0.0390625
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 8,
+      "model": "noise_training",
+      "accuracy": 0.8974609375,
+      "cross_entropy": 0.27872298991254124,
+      "brier": 0.08052012632842515,
+      "confident_wrong_fraction": 0.041015625
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 9,
+      "model": "ideal_training",
+      "accuracy": 0.89990234375,
+      "cross_entropy": 0.2668294727372633,
+      "brier": 0.07610999583452328,
+      "confident_wrong_fraction": 0.03662109375
+    },
+    {
+      "seed": 0,
+      "budget": 1024,
+      "repeat": 9,
+      "model": "noise_training",
+      "accuracy": 0.89111328125,
+      "cross_entropy": 0.28429881554350794,
+      "brier": 0.08094485360344379,
+      "confident_wrong_fraction": 0.037109375
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 0,
+      "model": "ideal_training",
+      "accuracy": 0.85400390625,
+      "cross_entropy": 0.5187426125532514,
+      "brier": 0.11720979704720284,
+      "confident_wrong_fraction": 0.0771484375
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 0,
+      "model": "noise_training",
+      "accuracy": 0.86865234375,
+      "cross_entropy": 0.3094984225150216,
+      "brier": 0.09615818114411376,
+      "confident_wrong_fraction": 0.01953125
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 1,
+      "model": "ideal_training",
+      "accuracy": 0.841796875,
+      "cross_entropy": 0.5384537203646154,
+      "brier": 0.1258732889294898,
+      "confident_wrong_fraction": 0.08154296875
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 1,
+      "model": "noise_training",
+      "accuracy": 0.8671875,
+      "cross_entropy": 0.30227524217866425,
+      "brier": 0.09388739250605968,
+      "confident_wrong_fraction": 0.0166015625
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 2,
+      "model": "ideal_training",
+      "accuracy": 0.85498046875,
+      "cross_entropy": 0.4735526391620867,
+      "brier": 0.10964059937937853,
+      "confident_wrong_fraction": 0.06396484375
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 2,
+      "model": "noise_training",
+      "accuracy": 0.86767578125,
+      "cross_entropy": 0.30164571801082163,
+      "brier": 0.09532158558310938,
+      "confident_wrong_fraction": 0.01318359375
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 3,
+      "model": "ideal_training",
+      "accuracy": 0.85498046875,
+      "cross_entropy": 0.4982156178148638,
+      "brier": 0.11735513496054406,
+      "confident_wrong_fraction": 0.07666015625
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 3,
+      "model": "noise_training",
+      "accuracy": 0.86767578125,
+      "cross_entropy": 0.3008882628166841,
+      "brier": 0.09465483336570267,
+      "confident_wrong_fraction": 0.01318359375
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 4,
+      "model": "ideal_training",
+      "accuracy": 0.84619140625,
+      "cross_entropy": 0.5330401914910762,
+      "brier": 0.12150420189286658,
+      "confident_wrong_fraction": 0.0791015625
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 4,
+      "model": "noise_training",
+      "accuracy": 0.8671875,
+      "cross_entropy": 0.31186619166487306,
+      "brier": 0.09652953446890879,
+      "confident_wrong_fraction": 0.017578125
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 5,
+      "model": "ideal_training",
+      "accuracy": 0.8486328125,
+      "cross_entropy": 0.533028575915339,
+      "brier": 0.12220656955566855,
+      "confident_wrong_fraction": 0.07666015625
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 5,
+      "model": "noise_training",
+      "accuracy": 0.86767578125,
+      "cross_entropy": 0.3078339334113014,
+      "brier": 0.09654358506804636,
+      "confident_wrong_fraction": 0.01513671875
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 6,
+      "model": "ideal_training",
+      "accuracy": 0.85009765625,
+      "cross_entropy": 0.5179453676597614,
+      "brier": 0.1205160350983657,
+      "confident_wrong_fraction": 0.0810546875
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 6,
+      "model": "noise_training",
+      "accuracy": 0.86572265625,
+      "cross_entropy": 0.3049308312691872,
+      "brier": 0.09598437310091393,
+      "confident_wrong_fraction": 0.0146484375
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 7,
+      "model": "ideal_training",
+      "accuracy": 0.8544921875,
+      "cross_entropy": 0.5062116873594245,
+      "brier": 0.1178404591291525,
+      "confident_wrong_fraction": 0.07861328125
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 7,
+      "model": "noise_training",
+      "accuracy": 0.86279296875,
+      "cross_entropy": 0.30012721590227615,
+      "brier": 0.09451827061680655,
+      "confident_wrong_fraction": 0.015625
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 8,
+      "model": "ideal_training",
+      "accuracy": 0.85888671875,
+      "cross_entropy": 0.451600400776633,
+      "brier": 0.1113419295205294,
+      "confident_wrong_fraction": 0.07080078125
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 8,
+      "model": "noise_training",
+      "accuracy": 0.8837890625,
+      "cross_entropy": 0.2805341595617769,
+      "brier": 0.08644345622078607,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 9,
+      "model": "ideal_training",
+      "accuracy": 0.83349609375,
+      "cross_entropy": 0.5951204749922957,
+      "brier": 0.1343797018309992,
+      "confident_wrong_fraction": 0.08935546875
+    },
+    {
+      "seed": 1,
+      "budget": 256,
+      "repeat": 9,
+      "model": "noise_training",
+      "accuracy": 0.85009765625,
+      "cross_entropy": 0.3284893031637541,
+      "brier": 0.10429054975577484,
+      "confident_wrong_fraction": 0.01904296875
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 0,
+      "model": "ideal_training",
+      "accuracy": 0.9248046875,
+      "cross_entropy": 0.2047729774405685,
+      "brier": 0.06001425957311571,
+      "confident_wrong_fraction": 0.0234375
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 0,
+      "model": "noise_training",
+      "accuracy": 0.92431640625,
+      "cross_entropy": 0.2035691396032519,
+      "brier": 0.056713385450123374,
+      "confident_wrong_fraction": 0.02392578125
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 1,
+      "model": "ideal_training",
+      "accuracy": 0.91748046875,
+      "cross_entropy": 0.21551979675137678,
+      "brier": 0.0616367731556744,
+      "confident_wrong_fraction": 0.0263671875
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 1,
+      "model": "noise_training",
+      "accuracy": 0.9267578125,
+      "cross_entropy": 0.19728640125934688,
+      "brier": 0.0548430356325908,
+      "confident_wrong_fraction": 0.02001953125
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 2,
+      "model": "ideal_training",
+      "accuracy": 0.9140625,
+      "cross_entropy": 0.2373456002336879,
+      "brier": 0.06615524188208861,
+      "confident_wrong_fraction": 0.0302734375
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 2,
+      "model": "noise_training",
+      "accuracy": 0.9248046875,
+      "cross_entropy": 0.2140404540897466,
+      "brier": 0.05836171572290122,
+      "confident_wrong_fraction": 0.0224609375
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 3,
+      "model": "ideal_training",
+      "accuracy": 0.9208984375,
+      "cross_entropy": 0.19874888997394113,
+      "brier": 0.057408397708375344,
+      "confident_wrong_fraction": 0.02490234375
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 3,
+      "model": "noise_training",
+      "accuracy": 0.91845703125,
+      "cross_entropy": 0.2054149658246513,
+      "brier": 0.05835279353686977,
+      "confident_wrong_fraction": 0.0205078125
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 4,
+      "model": "ideal_training",
+      "accuracy": 0.91015625,
+      "cross_entropy": 0.23006795175705552,
+      "brier": 0.06546332113837898,
+      "confident_wrong_fraction": 0.02587890625
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 4,
+      "model": "noise_training",
+      "accuracy": 0.91943359375,
+      "cross_entropy": 0.21435398877940962,
+      "brier": 0.059733542357543835,
+      "confident_wrong_fraction": 0.0224609375
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 5,
+      "model": "ideal_training",
+      "accuracy": 0.92138671875,
+      "cross_entropy": 0.21780407826641945,
+      "brier": 0.06028687082630206,
+      "confident_wrong_fraction": 0.02880859375
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 5,
+      "model": "noise_training",
+      "accuracy": 0.9208984375,
+      "cross_entropy": 0.21401569138313015,
+      "brier": 0.059551940348524915,
+      "confident_wrong_fraction": 0.02392578125
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 6,
+      "model": "ideal_training",
+      "accuracy": 0.92236328125,
+      "cross_entropy": 0.20007121970656905,
+      "brier": 0.05664791255564427,
+      "confident_wrong_fraction": 0.02197265625
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 6,
+      "model": "noise_training",
+      "accuracy": 0.92626953125,
+      "cross_entropy": 0.19475010105988563,
+      "brier": 0.05505528716807723,
+      "confident_wrong_fraction": 0.01904296875
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 7,
+      "model": "ideal_training",
+      "accuracy": 0.9189453125,
+      "cross_entropy": 0.2093161476350256,
+      "brier": 0.06078451626829692,
+      "confident_wrong_fraction": 0.02490234375
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 7,
+      "model": "noise_training",
+      "accuracy": 0.92529296875,
+      "cross_entropy": 0.1986976164222279,
+      "brier": 0.056465441040992936,
+      "confident_wrong_fraction": 0.0234375
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 8,
+      "model": "ideal_training",
+      "accuracy": 0.92041015625,
+      "cross_entropy": 0.2050593563750436,
+      "brier": 0.06019970755472162,
+      "confident_wrong_fraction": 0.02490234375
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 8,
+      "model": "noise_training",
+      "accuracy": 0.92529296875,
+      "cross_entropy": 0.20097446422550364,
+      "brier": 0.05598420454098181,
+      "confident_wrong_fraction": 0.02392578125
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 9,
+      "model": "ideal_training",
+      "accuracy": 0.9140625,
+      "cross_entropy": 0.22288075845861788,
+      "brier": 0.06403293818107578,
+      "confident_wrong_fraction": 0.02880859375
+    },
+    {
+      "seed": 1,
+      "budget": 1024,
+      "repeat": 9,
+      "model": "noise_training",
+      "accuracy": 0.9248046875,
+      "cross_entropy": 0.19836345402701122,
+      "brier": 0.05554433504745143,
+      "confident_wrong_fraction": 0.01904296875
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 0,
+      "model": "ideal_training",
+      "accuracy": 0.85791015625,
+      "cross_entropy": 0.4671416295066021,
+      "brier": 0.11473338339318093,
+      "confident_wrong_fraction": 0.0703125
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 0,
+      "model": "noise_training",
+      "accuracy": 0.86767578125,
+      "cross_entropy": 0.3157153605990109,
+      "brier": 0.09828590146080203,
+      "confident_wrong_fraction": 0.02099609375
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 1,
+      "model": "ideal_training",
+      "accuracy": 0.8740234375,
+      "cross_entropy": 0.43350946904092125,
+      "brier": 0.10192576764676087,
+      "confident_wrong_fraction": 0.06396484375
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 1,
+      "model": "noise_training",
+      "accuracy": 0.87109375,
+      "cross_entropy": 0.30142885487645654,
+      "brier": 0.09292107691784847,
+      "confident_wrong_fraction": 0.017578125
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 2,
+      "model": "ideal_training",
+      "accuracy": 0.86865234375,
+      "cross_entropy": 0.4077383066850059,
+      "brier": 0.1024249673319067,
+      "confident_wrong_fraction": 0.0625
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 2,
+      "model": "noise_training",
+      "accuracy": 0.8662109375,
+      "cross_entropy": 0.3021460736688256,
+      "brier": 0.0945826222830134,
+      "confident_wrong_fraction": 0.02001953125
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 3,
+      "model": "ideal_training",
+      "accuracy": 0.861328125,
+      "cross_entropy": 0.4243571572778826,
+      "brier": 0.1100161842903405,
+      "confident_wrong_fraction": 0.064453125
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 3,
+      "model": "noise_training",
+      "accuracy": 0.87353515625,
+      "cross_entropy": 0.30026145096101026,
+      "brier": 0.09376788970062036,
+      "confident_wrong_fraction": 0.01708984375
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 4,
+      "model": "ideal_training",
+      "accuracy": 0.884765625,
+      "cross_entropy": 0.38543330822272054,
+      "brier": 0.09308353567425956,
+      "confident_wrong_fraction": 0.056640625
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 4,
+      "model": "noise_training",
+      "accuracy": 0.87890625,
+      "cross_entropy": 0.2916391507208459,
+      "brier": 0.08969202432278026,
+      "confident_wrong_fraction": 0.021484375
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 5,
+      "model": "ideal_training",
+      "accuracy": 0.8544921875,
+      "cross_entropy": 0.46881334046015327,
+      "brier": 0.11668893394571056,
+      "confident_wrong_fraction": 0.07177734375
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 5,
+      "model": "noise_training",
+      "accuracy": 0.86474609375,
+      "cross_entropy": 0.3169919638520129,
+      "brier": 0.09770767125810968,
+      "confident_wrong_fraction": 0.025390625
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 6,
+      "model": "ideal_training",
+      "accuracy": 0.8671875,
+      "cross_entropy": 0.40864462996954604,
+      "brier": 0.10317387266637318,
+      "confident_wrong_fraction": 0.0595703125
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 6,
+      "model": "noise_training",
+      "accuracy": 0.8662109375,
+      "cross_entropy": 0.3021596848591381,
+      "brier": 0.0928944678062239,
+      "confident_wrong_fraction": 0.0185546875
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 7,
+      "model": "ideal_training",
+      "accuracy": 0.8583984375,
+      "cross_entropy": 0.4424453059165154,
+      "brier": 0.11016728888867021,
+      "confident_wrong_fraction": 0.0654296875
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 7,
+      "model": "noise_training",
+      "accuracy": 0.86279296875,
+      "cross_entropy": 0.3164353047847715,
+      "brier": 0.09875873015639103,
+      "confident_wrong_fraction": 0.02099609375
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 8,
+      "model": "ideal_training",
+      "accuracy": 0.8681640625,
+      "cross_entropy": 0.42570087464945716,
+      "brier": 0.10370832992865936,
+      "confident_wrong_fraction": 0.06787109375
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 8,
+      "model": "noise_training",
+      "accuracy": 0.87890625,
+      "cross_entropy": 0.29983383331106084,
+      "brier": 0.0905123198653017,
+      "confident_wrong_fraction": 0.02392578125
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 9,
+      "model": "ideal_training",
+      "accuracy": 0.86376953125,
+      "cross_entropy": 0.44759143276097646,
+      "brier": 0.10787887357757177,
+      "confident_wrong_fraction": 0.06640625
+    },
+    {
+      "seed": 2,
+      "budget": 256,
+      "repeat": 9,
+      "model": "noise_training",
+      "accuracy": 0.8671875,
+      "cross_entropy": 0.31398672397452315,
+      "brier": 0.09703897534229991,
+      "confident_wrong_fraction": 0.02099609375
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 0,
+      "model": "ideal_training",
+      "accuracy": 0.91943359375,
+      "cross_entropy": 0.20299716017385175,
+      "brier": 0.06007239398200812,
+      "confident_wrong_fraction": 0.02587890625
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 0,
+      "model": "noise_training",
+      "accuracy": 0.90576171875,
+      "cross_entropy": 0.22939223018899696,
+      "brier": 0.06944438508926977,
+      "confident_wrong_fraction": 0.02734375
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 1,
+      "model": "ideal_training",
+      "accuracy": 0.92041015625,
+      "cross_entropy": 0.20279969195800268,
+      "brier": 0.06034328533903675,
+      "confident_wrong_fraction": 0.02587890625
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 1,
+      "model": "noise_training",
+      "accuracy": 0.90576171875,
+      "cross_entropy": 0.23102905893417508,
+      "brier": 0.07030969433555447,
+      "confident_wrong_fraction": 0.0302734375
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 2,
+      "model": "ideal_training",
+      "accuracy": 0.92138671875,
+      "cross_entropy": 0.19180778310683375,
+      "brier": 0.057322890724071554,
+      "confident_wrong_fraction": 0.02490234375
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 2,
+      "model": "noise_training",
+      "accuracy": 0.91064453125,
+      "cross_entropy": 0.21504003315710715,
+      "brier": 0.06626737162203686,
+      "confident_wrong_fraction": 0.0263671875
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 3,
+      "model": "ideal_training",
+      "accuracy": 0.9169921875,
+      "cross_entropy": 0.19349203032000845,
+      "brier": 0.05852243108416173,
+      "confident_wrong_fraction": 0.02392578125
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 3,
+      "model": "noise_training",
+      "accuracy": 0.9111328125,
+      "cross_entropy": 0.222017923046952,
+      "brier": 0.06626316571967218,
+      "confident_wrong_fraction": 0.02734375
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 4,
+      "model": "ideal_training",
+      "accuracy": 0.91943359375,
+      "cross_entropy": 0.201116565599399,
+      "brier": 0.06118155196681129,
+      "confident_wrong_fraction": 0.0234375
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 4,
+      "model": "noise_training",
+      "accuracy": 0.8974609375,
+      "cross_entropy": 0.2326376020214879,
+      "brier": 0.07232186373441261,
+      "confident_wrong_fraction": 0.02587890625
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 5,
+      "model": "ideal_training",
+      "accuracy": 0.91064453125,
+      "cross_entropy": 0.21391915871152278,
+      "brier": 0.06527522507344824,
+      "confident_wrong_fraction": 0.025390625
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 5,
+      "model": "noise_training",
+      "accuracy": 0.89990234375,
+      "cross_entropy": 0.24074056010232064,
+      "brier": 0.07311781734525244,
+      "confident_wrong_fraction": 0.02734375
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 6,
+      "model": "ideal_training",
+      "accuracy": 0.9169921875,
+      "cross_entropy": 0.2020501657380072,
+      "brier": 0.059802401405309444,
+      "confident_wrong_fraction": 0.0234375
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 6,
+      "model": "noise_training",
+      "accuracy": 0.904296875,
+      "cross_entropy": 0.22655028414096623,
+      "brier": 0.06799680416498025,
+      "confident_wrong_fraction": 0.02197265625
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 7,
+      "model": "ideal_training",
+      "accuracy": 0.91748046875,
+      "cross_entropy": 0.20541562642924138,
+      "brier": 0.06182669467741113,
+      "confident_wrong_fraction": 0.0224609375
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 7,
+      "model": "noise_training",
+      "accuracy": 0.90478515625,
+      "cross_entropy": 0.23862731078654115,
+      "brier": 0.0711847047471575,
+      "confident_wrong_fraction": 0.0302734375
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 8,
+      "model": "ideal_training",
+      "accuracy": 0.9189453125,
+      "cross_entropy": 0.20614619732958697,
+      "brier": 0.06186045615771629,
+      "confident_wrong_fraction": 0.0283203125
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 8,
+      "model": "noise_training",
+      "accuracy": 0.89404296875,
+      "cross_entropy": 0.2348302306912117,
+      "brier": 0.07326161402345008,
+      "confident_wrong_fraction": 0.02685546875
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 9,
+      "model": "ideal_training",
+      "accuracy": 0.90771484375,
+      "cross_entropy": 0.21505519239940882,
+      "brier": 0.06633551331221055,
+      "confident_wrong_fraction": 0.02587890625
+    },
+    {
+      "seed": 2,
+      "budget": 1024,
+      "repeat": 9,
+      "model": "noise_training",
+      "accuracy": 0.89453125,
+      "cross_entropy": 0.24466426098244293,
+      "brier": 0.07529237327151359,
+      "confident_wrong_fraction": 0.03076171875
+    }
+  ],
+  "decision": "Judge probability reliability and accuracy separately, retain high-shot regression, and seek larger independent task/seed replication before recommending noise-aware training generally."
+}

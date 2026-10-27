@@ -1,0 +1,8 @@
+{
+  "hypothesis": "High average accuracy need not mean trustworthy confidence. Test calibration, selective prediction, input corruption and actual finite-measurement uncertainty.",
+  "design": "Frozen128-sample models,3 seeds x4 tasks. Temperature fit and confidence threshold selected only on128 validation points.512 test points.",
+  "selective_rule": "Choose greatest validation coverage among thresholds.5..99 with>=90% validation accuracy and>=16 accepted examples; otherwise abstain on everything. This is a heuristic, not a certified guarantee.",
+  "corruption": "Gaussian input noise sigma0/.3/.8 radians; labels remain those of clean inputs. Noisy observations can cross true boundaries; not all resulting error is model failure.",
+  "measurements": "QNN mixture measured on two circuits, total256/1024 shots split equally. Fits were trained on ideal expectations; temperature also from ideal validation.",
+  "models": "QNN mixture,9-parameter MLP,33-parameter MLP,exact-feature classical control; same labels/inputs, no transformer or general intelligence claim."
+}

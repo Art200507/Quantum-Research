@@ -1,0 +1,392 @@
+{
+  "date": "2026-10-26",
+  "focus": "User explicitly prioritizes capability, generalization, reliability and task breadth over speed. Actual QNN circuits remain the study.",
+  "completed_experimental_cycles": 21,
+  "new_cycles": "16..23 (8 cycles), each planned and reviewed before next decision.",
+  "IID_test_results_128_train": [
+    {
+      "stage": 16,
+      "task": "linear",
+      "model": "QNN_basic",
+      "accuracy": 0.5930989583333334,
+      "seed_sd": 0.05989229495889024
+    },
+    {
+      "stage": 16,
+      "task": "linear",
+      "model": "linear",
+      "accuracy": 0.9895833333333334,
+      "seed_sd": 0.008807128423482215
+    },
+    {
+      "stage": 16,
+      "task": "linear",
+      "model": "MLP_2",
+      "accuracy": 0.998046875,
+      "seed_sd": 0.001953125
+    },
+    {
+      "stage": 16,
+      "task": "linear",
+      "model": "MLP_8",
+      "accuracy": 0.9973958333333334,
+      "seed_sd": 0.002983447718070208
+    },
+    {
+      "stage": 16,
+      "task": "linear",
+      "model": "fourier",
+      "accuracy": 0.9622395833333334,
+      "seed_sd": 0.012707826364546312
+    },
+    {
+      "stage": 16,
+      "task": "cos_product",
+      "model": "QNN_basic",
+      "accuracy": 0.9791666666666666,
+      "seed_sd": 0.006278418464188122
+    },
+    {
+      "stage": 16,
+      "task": "cos_product",
+      "model": "linear",
+      "accuracy": 0.5162760416666666,
+      "seed_sd": 0.015170807549128962
+    },
+    {
+      "stage": 16,
+      "task": "cos_product",
+      "model": "MLP_2",
+      "accuracy": 0.71484375,
+      "seed_sd": 0.03585460888805824
+    },
+    {
+      "stage": 16,
+      "task": "cos_product",
+      "model": "MLP_8",
+      "accuracy": 0.861328125,
+      "seed_sd": 0.023680382134730744
+    },
+    {
+      "stage": 16,
+      "task": "cos_product",
+      "model": "fourier",
+      "accuracy": 0.8854166666666666,
+      "seed_sd": 0.016611133883037858
+    },
+    {
+      "stage": 16,
+      "task": "radial",
+      "model": "QNN_basic",
+      "accuracy": 0.544921875,
+      "seed_sd": 0.03802328580846052
+    },
+    {
+      "stage": 16,
+      "task": "radial",
+      "model": "linear",
+      "accuracy": 0.5026041666666666,
+      "seed_sd": 0.00406575390520729
+    },
+    {
+      "stage": 16,
+      "task": "radial",
+      "model": "MLP_2",
+      "accuracy": 0.7408854166666666,
+      "seed_sd": 0.005966895436140416
+    },
+    {
+      "stage": 16,
+      "task": "radial",
+      "model": "MLP_8",
+      "accuracy": 0.9505208333333334,
+      "seed_sd": 0.007893460711576915
+    },
+    {
+      "stage": 16,
+      "task": "radial",
+      "model": "fourier",
+      "accuracy": 0.953125,
+      "seed_sd": 0.012807497117777344
+    },
+    {
+      "stage": 16,
+      "task": "mixed_frequency",
+      "model": "QNN_basic",
+      "accuracy": 0.4934895833333333,
+      "seed_sd": 0.021425107645708766
+    },
+    {
+      "stage": 16,
+      "task": "mixed_frequency",
+      "model": "linear",
+      "accuracy": 0.5514322916666666,
+      "seed_sd": 0.02263715970145014
+    },
+    {
+      "stage": 16,
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "accuracy": 0.630859375,
+      "seed_sd": 0.10012504389043982
+    },
+    {
+      "stage": 16,
+      "task": "mixed_frequency",
+      "model": "MLP_8",
+      "accuracy": 0.8873697916666666,
+      "seed_sd": 0.019563775001714478
+    },
+    {
+      "stage": 16,
+      "task": "mixed_frequency",
+      "model": "fourier",
+      "accuracy": 0.8841145833333334,
+      "seed_sd": 0.013294647042097745
+    },
+    {
+      "stage": 17,
+      "task": "linear",
+      "model": "QNN_reupload",
+      "accuracy": 0.75,
+      "seed_sd": 0.024394523431243743
+    },
+    {
+      "stage": 17,
+      "task": "cos_product",
+      "model": "QNN_reupload",
+      "accuracy": 0.49609375,
+      "seed_sd": 0.015625
+    },
+    {
+      "stage": 17,
+      "task": "radial",
+      "model": "QNN_reupload",
+      "accuracy": 0.7415364583333334,
+      "seed_sd": 0.01127637244510988
+    },
+    {
+      "stage": 17,
+      "task": "mixed_frequency",
+      "model": "QNN_reupload",
+      "accuracy": 0.630859375,
+      "seed_sd": 0.0225245363177164
+    },
+    {
+      "stage": 18,
+      "task": "linear",
+      "model": "exact_feature_classical",
+      "accuracy": 0.5885416666666666,
+      "seed_sd": 0.06693075642482281
+    },
+    {
+      "stage": 18,
+      "task": "cos_product",
+      "model": "exact_feature_classical",
+      "accuracy": 0.9791666666666666,
+      "seed_sd": 0.013718299157360338
+    },
+    {
+      "stage": 18,
+      "task": "radial",
+      "model": "exact_feature_classical",
+      "accuracy": 0.5651041666666666,
+      "seed_sd": 0.029318568357285683
+    },
+    {
+      "stage": 18,
+      "task": "mixed_frequency",
+      "model": "exact_feature_classical",
+      "accuracy": 0.4895833333333333,
+      "seed_sd": 0.03139209232094061
+    },
+    {
+      "stage": 20,
+      "task": "linear",
+      "model": "QNN_mixture",
+      "accuracy": 0.8046875,
+      "seed_sd": 0.02376079113397742
+    },
+    {
+      "stage": 20,
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "accuracy": 0.9772135416666666,
+      "seed_sd": 0.007394411908594106
+    },
+    {
+      "stage": 20,
+      "task": "radial",
+      "model": "QNN_mixture",
+      "accuracy": 0.7109375,
+      "seed_sd": 0.034053897996411515
+    },
+    {
+      "stage": 20,
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "accuracy": 0.6119791666666666,
+      "seed_sd": 0.03858760810608709
+    }
+  ],
+  "held_out_region_results": [
+    {
+      "task": "cos_product",
+      "model": "QNN_mixture",
+      "accuracy": 0.9798177083333334,
+      "seed_sd": 0.011444268119301397
+    },
+    {
+      "task": "cos_product",
+      "model": "MLP_2",
+      "accuracy": 0.5279947916666666,
+      "seed_sd": 0.005966895436140416
+    },
+    {
+      "task": "cos_product",
+      "model": "MLP_8",
+      "accuracy": 0.6477864583333334,
+      "seed_sd": 0.09699646912535764
+    },
+    {
+      "task": "cos_product",
+      "model": "feature_control",
+      "accuracy": 0.9869791666666666,
+      "seed_sd": 0.005966895436140417
+    },
+    {
+      "task": "radial",
+      "model": "QNN_mixture",
+      "accuracy": 0.693359375,
+      "seed_sd": 0.05108084699461727
+    },
+    {
+      "task": "radial",
+      "model": "MLP_2",
+      "accuracy": 0.5182291666666666,
+      "seed_sd": 0.021952754296988754
+    },
+    {
+      "task": "radial",
+      "model": "MLP_8",
+      "accuracy": 0.5319010416666666,
+      "seed_sd": 0.032349630856262614
+    },
+    {
+      "task": "radial",
+      "model": "feature_control",
+      "accuracy": 0.4928385416666667,
+      "seed_sd": 0.024884784965646344
+    },
+    {
+      "task": "mixed_frequency",
+      "model": "QNN_mixture",
+      "accuracy": 0.5188802083333334,
+      "seed_sd": 0.038339666313373585
+    },
+    {
+      "task": "mixed_frequency",
+      "model": "MLP_2",
+      "accuracy": 0.6028645833333334,
+      "seed_sd": 0.19185746136590787
+    },
+    {
+      "task": "mixed_frequency",
+      "model": "MLP_8",
+      "accuracy": 0.7291666666666666,
+      "seed_sd": 0.19638701820951393
+    },
+    {
+      "task": "mixed_frequency",
+      "model": "feature_control",
+      "accuracy": 0.5104166666666666,
+      "seed_sd": 0.011933790872280834
+    },
+    {
+      "task": "cos_product",
+      "model": "fourier",
+      "accuracy": 0.5826822916666666,
+      "seed_sd": 0.06681666982524989
+    },
+    {
+      "task": "radial",
+      "model": "fourier",
+      "accuracy": 0.66015625,
+      "seed_sd": 0.05589487508302416
+    },
+    {
+      "task": "mixed_frequency",
+      "model": "fourier",
+      "accuracy": 0.6184895833333334,
+      "seed_sd": 0.0414473803187422
+    }
+  ],
+  "review_by_cycle": [
+    {
+      "cycle": 16,
+      "finding": "Basic QNN specializes in cosine interaction; poor breadth. Generic baselines differ greatly by task.",
+      "next": "Test data re-uploading across all tasks."
+    },
+    {
+      "cycle": 17,
+      "finding": "Two-layer re-uploading improves some tasks but destroys cosine result; all optimization runs report convergence.",
+      "next": "Challenge original win and inspect circuit structure."
+    },
+    {
+      "cycle": 18,
+      "finding": "Exact3-parameter classical feature model reproduces basic QNN logits within1.07e-14 and matches cosine learning.",
+      "next": "Do not claim unique quantum capability."
+    },
+    {
+      "cycle": 19,
+      "finding": "Random-circuit Fourier diagnostic finds re-uploaded odd/odd power below3e-32; basic model has that sector.",
+      "next": "Retain shallow readout via measured mixture; numerical evidence, not a general expressivity theorem."
+    },
+    {
+      "cycle": 20,
+      "finding": "Two-circuit9-parameter mixture retains cosine skill and improves linear boundary but not all tasks.",
+      "next": "Test reliability, not accuracy alone."
+    },
+    {
+      "cycle": 21,
+      "finding": "Temperature scaling sometimes improves probability calibration; empirical validation abstention fails to maintain90% reliability under corruption.",
+      "next": "Measure structured generalization instead of IID only."
+    },
+    {
+      "cycle": 22,
+      "finding": "Quantum mixture extrapolates cosine and partly radial relationships better than raw MLPs, but fails mixed-frequency corner shift. Exact-feature classical control also extrapolates cosine.",
+      "next": "Challenge with a stronger generic periodic-feature baseline."
+    },
+    {
+      "cycle": 23,
+      "finding": "Generic Fourier model improves some controls; no model dominates tasks, quantum-specific general intelligence not supported.",
+      "next": "Preserve full task matrix and design further controlled feature/shift studies."
+    }
+  ],
+  "reliability_caution": "Clean-data calibration does not certify corrupted-input performance. Thresholds chosen on128 validation points can be optimistic. Coverage comparisons raw/calibrated use different predeclared rules, so not a pure temperature treatment estimate.",
+  "optimizer_caution": "59 of288 individual optimization runs in16 hit limits; all results/selection retained. Re-uploading and mixture each used72 runs and reported convergence. No exhaustive classical hyperparameter tuning, no optimality claim.",
+  "parameter_caution": "9 retained trainable mixture parameters after removing known null rotations; full functional independence not proved. Two quantum circuit branches incur separate measurement settings.",
+  "validation": {
+    "mixture_circuit_error": 5.551115123125783e-16,
+    "MLP_gradient_error": 1.1377482289631757e-11,
+    "disjoint_IID_points": 768,
+    "passed": true
+  },
+  "sources": [
+    {
+      "url": "https://www.nature.com/articles/s41467-022-32550-3",
+      "access": "Primary search excerpt/abstract only; full-text retrieval failed. No theorem independently used or verified."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-024-45882-z",
+      "access": "Primary search excerpt only; full-text access failed. Supports review direction, not a reproduced finding."
+    }
+  ],
+  "next_actions": [
+    "Repeat promising held-out-region effects on more fresh seeds with validation-only hyperparameter search and matched function-family controls.",
+    "Study circuit readouts that preserve useful frequency components across tasks rather than assuming depth improves breadth.",
+    "Evaluate noise-aware calibration and abstention on separately held-out corruption families; no blanket reliability guarantee.",
+    "Test broader independent task families before integrating a larger quantum transformer."
+  ],
+  "hardware": "None; all local ideal/shot simulations. No keys read, packages installed or paid jobs submitted."
+}

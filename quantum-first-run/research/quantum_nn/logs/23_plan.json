@@ -1,0 +1,6 @@
+{
+  "hypothesis": "A QNN beating raw-input MLPs on a withheld region may reflect a useful periodic-feature prior rather than quantum-specific generalization. Test generic Fourier features on identical splits.",
+  "design": "Same3 seeds/3 tasks from22; reuse the already defined generic frequency0..3 basis and regularizer from16, no new hyperparameter choices or held-out-region tuning.",
+  "limits": "51-parameter Fourier control versus9-parameter QNN mixture is a stronger unequal-size baseline; report counts, not capacity matching. Its inclusion is motivated by observed outcomes and remains exploratory.",
+  "reviewed_previous_rows": 144
+}

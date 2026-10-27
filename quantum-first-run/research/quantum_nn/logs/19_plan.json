@@ -1,0 +1,5 @@
+{
+  "hypothesis": "The re-uploading circuit may have a structural blind spot, rather than merely insufficient training, on the original cosine-product task.",
+  "design": "32 random parameter settings,32x32 full angular grid, inspect Fourier power in odd/odd frequency sector required by cosine-product labels; test single-coordinate pi-shift symmetries. Compare basic QNN.",
+  "limits": "Numerical diagnostics of this small architecture, not a general QNN expressivity theorem."
+}

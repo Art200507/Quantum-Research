@@ -1,0 +1,19 @@
+{
+  "hypothesis": "Measure learning/generalization across four tasks and sample sizes; success on one quantum-friendly task is not broad capability.",
+  "models": [
+    "QNN_basic",
+    "linear",
+    "MLP_2",
+    "MLP_8",
+    "fourier"
+  ],
+  "design": "3 independent data seeds, nested16/64/128 training points;128 disjoint validation and512 test points. Validation selects checkpoints/restarts; test never used for fitting.",
+  "tasks": [
+    "linear",
+    "cos_product",
+    "radial",
+    "mixed_frequency"
+  ],
+  "optimizer": "L-BFGS-B120 iterations,2 restarts for QNN/MLP,one convex fit for linear/Fourier; report all failures.",
+  "fairness": "Same data. Unequal parameter/function classes and simulator costs reported. Fourier baseline intentionally strong generic nonlinear control. Not a quantum advantage test or full language task."
+}

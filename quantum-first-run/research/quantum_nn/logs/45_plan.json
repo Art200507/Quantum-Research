@@ -1,0 +1,8 @@
+{
+  "reviewed": "44_checkpoint and43_result: ring low-shot confidence improvement used only3 original training seeds; high-shot regression retained.",
+  "hypothesis": "Low-shot ring reliability improvement survives independent retraining.",
+  "design": "5 new training/encoder-start seeds 10..14;128train/256validation; original frequency choices,two starts,200 iterations; choose learned encoder by validation only. Refit noisy readout with4 measurement draws per point at256/1024shots; fresh2048test,10 paired measurement repeats.",
+  "primary": "Paired cross entropy per training seed at256shots; also Brier,accuracy and confidently-wrong fraction,plus1024shot condition. No seed exclusions.",
+  "cost": "Per seed/budget:512*B train,1024*B validation,20480*B test shots. Encoder training ideal. Repeated measurements are not independent training seeds.",
+  "scope": "Same synthetic ring distribution,2qubits,classically reproducible,no gate noise."
+}

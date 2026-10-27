@@ -1,0 +1,7 @@
+{
+  "reviewed": "56_result:triggeredaccuracy competitive,butabruptCE .289 worse thannever .277;XOR outliers dominate,alloptimizersconverged. Hypothesis:small noisy calibration sets permit extremeconfidence,not proven numericalfailure.",
+  "hypothesis": "A fixed prediction-confidence cap may reduce occasional extreme errors afterrecalibration without alteringlabels orquantummeasurement cost.",
+  "design": "12fresh stationary/pulse/ramp trajectories,new reference/calibration/testrandomness;12oldencoders. Same64calibrationlabels,24x32testpoints,512shotmonitor. Never,periodic6,triggered. Compare identicallogits raw andclipped[-4,4](probabilitiesabout1.8%..98.2%). Capfixedbeforetesting,notselectedontest. Same cap appliedtoallpolicies.",
+  "cost": "Identical quantumcost forraw/cappedpredictions. Sameinitial/inference/update/referencechargingas56.",
+  "scope": "A classical safeguard control,notquantumadvance;capchosenexploratorilyafter56mustbefurtherchecked. Noassuranceofcalibratedprobabilities orcoverage. Smallcalibrationoverfit remainsahypothesis untiltracesreviewed."
+}

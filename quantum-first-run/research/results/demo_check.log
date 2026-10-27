@@ -1,0 +1,42 @@
+Mode: DRY RUN (FakeTorino)
+Experiments: ['bell_ghz', 'mirror', 'qrng']
+Shots per circuit: 128
+Backend: fake_torino
+
+--- Quantum (QPU/simulator): frequency / chi-square check (128 shots, 8 bits) ---
+  bit 0: P(1)=0.531  chi2=0.500  p=0.480  [not rejected]
+  bit 1: P(1)=0.562  chi2=2.000  p=0.157  [not rejected]
+  bit 2: P(1)=0.484  chi2=0.125  p=0.724  [not rejected]
+  bit 3: P(1)=0.500  chi2=0.000  p=1.000  [not rejected]
+  bit 4: P(1)=0.461  chi2=0.781  p=0.377  [not rejected]
+  bit 5: P(1)=0.562  chi2=2.000  p=0.157  [not rejected]
+  bit 6: P(1)=0.547  chi2=1.125  p=0.289  [not rejected]
+  bit 7: P(1)=0.516  chi2=0.125  p=0.724  [not rejected]
+  whole stream (1024 bits): chi2=1.723  p=0.189
+
+--- Classical (Python random): frequency / chi-square check (128 shots, 8 bits) ---
+  bit 0: P(1)=0.430  chi2=2.531  p=0.112  [not rejected]
+  bit 1: P(1)=0.500  chi2=0.000  p=1.000  [not rejected]
+  bit 2: P(1)=0.500  chi2=0.000  p=1.000  [not rejected]
+  bit 3: P(1)=0.430  chi2=2.531  p=0.112  [not rejected]
+  bit 4: P(1)=0.500  chi2=0.000  p=1.000  [not rejected]
+  bit 5: P(1)=0.508  chi2=0.031  p=0.860  [not rejected]
+  bit 6: P(1)=0.516  chi2=0.125  p=0.724  [not rejected]
+  bit 7: P(1)=0.547  chi2=1.125  p=0.289  [not rejected]
+  whole stream (1024 bits): chi2=0.316  p=0.574
+Saved plot: quantum-first-run/research/results/demo_check/qrng_frequency.png
+
+--- Bell / GHZ sanity check ---
+bell: backend counts={'11': 68, '00': 59, '10': 1}
+bell: ideal (Aer) counts={'11': 75, '00': 53}
+bell: fraction in {00,11} -> backend=0.992  ideal=1.000
+ghz3: backend counts={'000': 60, '111': 64, '010': 3, '001': 1}
+ghz3: ideal (Aer) counts={'000': 68, '111': 60}
+ghz3: fraction in {000,111} -> backend=0.969  ideal=1.000
+Saved plot: quantum-first-run/research/results/demo_check/bell_ghz_counts.png
+
+--- Mirror circuit return diagnostic ---
+N=3: all-zero fraction=0.8984  avg Hamming weight=0.148  [ideal/noiseless check: 1.000]
+Saved plot: quantum-first-run/research/results/demo_check/mirror_fidelity_vs_n.png
+
+Saved results: quantum-first-run/research/results/demo_check/20261025T050346Z.json

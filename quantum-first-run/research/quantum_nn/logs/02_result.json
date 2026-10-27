@@ -1,0 +1,20 @@
+{
+  "shared_tail_max_changes": [
+    7.771561172376096e-16,
+    8.881784197001252e-16
+  ],
+  "shared_tail_gradient_norms": [
+    5.979056081666727e-11,
+    4.140328157163621e-11
+  ],
+  "interleaved_max_gradient_components": [
+    0.3141934053924045,
+    0.3971994599283324
+  ],
+  "QNN_unused_parameter_change": 4.440892098500626e-16,
+  "compute_uncompute_probability_error": 4.440892098500626e-16,
+  "kernel_cx": 2,
+  "kernel_depth": 5,
+  "explanation": "<U phi(q)|U phi(k)> = <phi(q)|phi(k)>; a common final unitary cancels. Local QNN rotation on unmeasured qubit also does not change this observable.",
+  "decision": "Use interleaved data encoding for trainable attention; remove unobservable parameters in later QNNs. This is known algebra, now verified in our implementation."
+}

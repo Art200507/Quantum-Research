@@ -1,0 +1,14 @@
+# Verified primary-source leads — searched 26 October 2026
+
+1. Tony Plate, [Holographic Reduced Representations](https://redwood.berkeley.edu/wp-content/uploads/2020/08/Plate-HRR-IEEE-TransNN.pdf), IEEE Transactions on Neural Networks (1995). Search-accessed paper excerpt: superposed binding/decoding and capacity are established classical methods. No novelty asserted from our binding implementation; full mathematical treatment not audited here.
+2. Danihelka, Wayne, Uria, Kalchbrenner and Graves, [Associative Long Short-Term Memory](https://proceedings.mlr.press/v48/danihelka16.html), ICML/PMLR 48, 1986–1994 (2016). Primary abstract accessed: complex-valued associative memory, interference and redundant copies. This directly precedes much of our intuition; not reproduced end-to-end.
+3. Katharopoulos, Vyas, Pappas and Fleuret, [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://proceedings.mlr.press/v119/katharopoulos20a.html), ICML/PMLR 119, 5156–5165 (2020). Primary abstract accessed: associative rearrangement yields linear attention; efficient recurrent memory is not uniquely quantum. Their full model/performance was not replicated here, and our linear class memory is not their complete method.
+4. Vishwakarma and Agostino, [Phase-Associative Memory: Sequence Modeling in Complex Hilbert Space](https://arxiv.org/abs/2604.05030v2), preprint (28 April 2026 revision). Current primary abstract accessed. Reports a complex matrix-state model and a matched real ablation; real model has lower absolute loss at every measured scale, while authors discuss scaling hypotheses. Highly relevant overlap, not evidence complex models outperform transformers. Code link declared, not executed. Initial search snippets reflected a different presentation; use the verified v2 abstract.
+5. Trugenberger, [Probabilistic Quantum Memories](https://arxiv.org/abs/quant-ph/0012100), original preprint. Search abstract only: proposed probabilistic retrieval/postselection. Claims are contested; not taken as demonstrated exponential usable memory.
+6. Brun, Klauck, Nayak, Rötteler and Zalka, [Comment on “Probabilistic Quantum Memories”](https://www.microsoft.com/en-us/research/uploads/prod/2016/11/Comment-on-Probabilistic-Quantum-Memories.pdf), arXiv:quant-ph/0303091v2 (2004). Full one-page primary comment accessed. Challenges the claimed storage/retrieval advantage; reinforces counting retrieval access and resources rather than amplitudes alone.
+
+No systematic review or comprehensive prior-art proof was completed. The literature
+is sufficient to reject novelty based simply on phases, binding or compressed
+matrix memory. Fresh searches of quantized associative memory, modern Hopfield
+networks and learned linear memories are necessary before a publication claim.
+No third-party claims of dramatic power reduction were used as measured evidence.

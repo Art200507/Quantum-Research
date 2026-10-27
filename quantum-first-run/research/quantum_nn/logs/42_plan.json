@@ -1,0 +1,7 @@
+{
+  "hypothesis": "Measured-feature readout training may reduce shot noise failures on non-wave tasks without changing the encoder.",
+  "reviewed": "41_result; all four non-wave tasks retained, no selection by best test result.",
+  "design": "Frozen stage41 learned encoders; reuse original128train/256validation points with independent measurement draws. Four augmentation draws per point at256 or1024 total shots each; lambda selected on augmented validation CE. Fresh1024test points,5 paired measurement repeats. Same measured test features for ideal-trained and noise-trained readouts.",
+  "cost": "Per model/budget:512*budget training shots and1024*budget validation shots, additional to earlier ideal encoder training. Test5120*budget shots. Augmentations are repeated observations, not independent labeled examples; encoder remains ideal-trained.",
+  "scope": "Sampling noise only; no gate noise,hardware,uncertainty-coverage or quantum advantage claims."
+}

@@ -1,0 +1,7322 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.7734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.7734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.78125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.8046875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.765625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.609375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.765625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.765625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.7734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.921875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.8984375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.8984375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.8046875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.8046875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.765625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.8203125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.921875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.9609375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.8984375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.9296875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.9140625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.953125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.9296875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.90625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.9140625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.9296875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.90625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.90625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.9296875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.90625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.921875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.9453125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.90625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.953125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.953125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.9453125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.9375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.8984375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.8984375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.9609375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.8984375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.6640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.6171875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.6328125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.6640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.5859375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.8046875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.765625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.6640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.765625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.78125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.78125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.78125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.78125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.7734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.7734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.765625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.9140625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.9140625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.8984375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.765625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.8046875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.8046875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.765625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.78125,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.7734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.765625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 128,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.9140625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.9140625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.9140625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "budget": 512,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.5625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.609375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.5625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.5859375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.6015625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.6328125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.53125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.5625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.6171875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.6328125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.6171875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.53125,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.6171875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.7265625,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.71875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.6875,
+      "shots_used": 512
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.6171875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.5625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.6015625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.765625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.6328125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.7734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.765625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.5390625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 128
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.90625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.765625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.765625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.6015625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.609375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.5390625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.6640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.59375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.6328125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.5390625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.6640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.59375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.6015625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.609375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.59375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.609375,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.6875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.75,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.6953125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.6953125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.765625,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.6953125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.6875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.7421875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.703125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.7421875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.703125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.71875,
+      "shots_used": 512
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.6015625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.6328125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.6171875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.6640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.671875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.6640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.6171875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.6875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.5703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.75,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.6484375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.6953125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.6171875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.609375,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.6640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.7109375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.8828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.765625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.8671875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.765625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.71875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.6015625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.6171875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.59375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.5859375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.7421875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.5859375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.7265625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.6015625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.7109375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.6015625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.59375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.71875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.5703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.6640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.546875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.5859375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.734375,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.7578125,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.65625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.7890625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.640625,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.703125,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.6171875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 128,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.6796875,
+      "shots_used": 128
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 0,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 0,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 1,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 1,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 2,
+      "method": "uniform",
+      "accuracy": 0.7421875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 2,
+      "method": "adaptive",
+      "accuracy": 0.8203125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 3,
+      "method": "uniform",
+      "accuracy": 0.734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 3,
+      "method": "adaptive",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 4,
+      "method": "uniform",
+      "accuracy": 0.7578125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 4,
+      "method": "adaptive",
+      "accuracy": 0.84375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 5,
+      "method": "uniform",
+      "accuracy": 0.75,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 5,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 6,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 6,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 7,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 7,
+      "method": "adaptive",
+      "accuracy": 0.796875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 8,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 8,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 9,
+      "method": "uniform",
+      "accuracy": 0.7890625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 9,
+      "method": "adaptive",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 10,
+      "method": "uniform",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 10,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 11,
+      "method": "uniform",
+      "accuracy": 0.8046875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 11,
+      "method": "adaptive",
+      "accuracy": 0.8515625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 12,
+      "method": "uniform",
+      "accuracy": 0.71875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 12,
+      "method": "adaptive",
+      "accuracy": 0.875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 13,
+      "method": "uniform",
+      "accuracy": 0.7421875,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 13,
+      "method": "adaptive",
+      "accuracy": 0.828125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 14,
+      "method": "uniform",
+      "accuracy": 0.7734375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 14,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 15,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 15,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 16,
+      "method": "uniform",
+      "accuracy": 0.78125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 16,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 17,
+      "method": "uniform",
+      "accuracy": 0.7265625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 17,
+      "method": "adaptive",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 18,
+      "method": "uniform",
+      "accuracy": 0.8359375,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 18,
+      "method": "adaptive",
+      "accuracy": 0.8125,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 19,
+      "method": "uniform",
+      "accuracy": 0.765625,
+      "shots_used": 512
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "budget": 512,
+      "repeat": 19,
+      "method": "adaptive",
+      "accuracy": 0.859375,
+      "shots_used": 512
+    }
+  ],
+  "margins": [
+    {
+      "seed": 0,
+      "pCX": 0.0,
+      "mean_top_gap": 0.10107009230459031,
+      "exact_rank_accuracy": 0.9453125
+    },
+    {
+      "seed": 1,
+      "pCX": 0.0,
+      "mean_top_gap": 0.12452437965211605,
+      "exact_rank_accuracy": 0.9765625
+    },
+    {
+      "seed": 2,
+      "pCX": 0.0,
+      "mean_top_gap": 0.10261338710842338,
+      "exact_rank_accuracy": 0.9140625
+    },
+    {
+      "seed": 3,
+      "pCX": 0.0,
+      "mean_top_gap": 0.12146172978727478,
+      "exact_rank_accuracy": 0.9453125
+    },
+    {
+      "seed": 4,
+      "pCX": 0.0,
+      "mean_top_gap": 0.11538335603024114,
+      "exact_rank_accuracy": 0.9375
+    },
+    {
+      "seed": 0,
+      "pCX": 0.05,
+      "mean_top_gap": 0.08918735136316222,
+      "exact_rank_accuracy": 0.9453125
+    },
+    {
+      "seed": 1,
+      "pCX": 0.05,
+      "mean_top_gap": 0.10990530541537591,
+      "exact_rank_accuracy": 0.9765625
+    },
+    {
+      "seed": 2,
+      "pCX": 0.05,
+      "mean_top_gap": 0.09058863533331263,
+      "exact_rank_accuracy": 0.9140625
+    },
+    {
+      "seed": 3,
+      "pCX": 0.05,
+      "mean_top_gap": 0.10722551912906081,
+      "exact_rank_accuracy": 0.9453125
+    },
+    {
+      "seed": 4,
+      "pCX": 0.05,
+      "mean_top_gap": 0.10178657317716129,
+      "exact_rank_accuracy": 0.9375
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "pCX": 0.0,
+      "budget": 128,
+      "seed_accuracy_differences": [
+        0.06914062500000007,
+        0.10312500000000002,
+        0.053906250000000044,
+        0.052734375,
+        0.04335937499999998
+      ],
+      "mean_gain": 0.06445312500000003,
+      "between_seed_se": 0.010514272526324045
+    },
+    {
+      "pCX": 0.0,
+      "budget": 512,
+      "seed_accuracy_differences": [
+        0.04375000000000007,
+        0.048046875000000044,
+        0.032421875000000044,
+        0.04921875000000009,
+        0.040234375000000044
+      ],
+      "mean_gain": 0.04273437500000006,
+      "between_seed_se": 0.0030323169836055284
+    },
+    {
+      "pCX": 0.05,
+      "budget": 128,
+      "seed_accuracy_differences": [
+        0.08125000000000004,
+        0.07929687500000004,
+        0.07539062500000004,
+        0.055859375000000044,
+        0.09804687499999998
+      ],
+      "mean_gain": 0.07796875000000003,
+      "between_seed_se": 0.006749565958267232
+    },
+    {
+      "pCX": 0.05,
+      "budget": 512,
+      "seed_accuracy_differences": [
+        0.059765625000000044,
+        0.0546875,
+        0.05039062500000002,
+        0.046093750000000044,
+        0.053515624999999956
+      ],
+      "mean_gain": 0.05289062500000001,
+      "between_seed_se": 0.0022730213321837727
+    }
+  ],
+  "density_evolutions": 10240,
+  "decision": "Retain this as an engineering baseline for budgeted quantum attention if gain survives noise; investigate prior adaptive measurement work before novelty claims. Still compare to stronger classical trained metric; no advantage established."
+}

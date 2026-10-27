@@ -1,0 +1,6 @@
+{
+  "hypothesis": "The basic QNN cosine-task advantage may be entirely due to its fixed feature family. Test an exact classical representation, not only a generic NN trained on raw features.",
+  "derivation": "Z1 expectation = cos(theta1)*cos(x0)*cos(x1) - sin(theta1)*sin(x1). theta0 has no effect. Classical logit A*cos(x0)*cos(x1)+B*sin(x1)+bias reproduces any fitted basic QNN.",
+  "design": "Verify identity for every saved basic-QNN fit on independent points; train3-parameter convex feature control on identical splits across all4 tasks and3 sample sizes.",
+  "fairness": "Architecture-derived features, no additional labels. This is a diagnostic control and does not show all larger QNNs can be emulated efficiently."
+}

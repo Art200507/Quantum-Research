@@ -1,0 +1,7 @@
+{
+  "reviewed": "49_checkpoint and48_result: grouping benefits established mainly on ring;temperature competitive and training cost must remain visible.",
+  "hypothesis": "Grouping benefits may extend to other boundaries,but a validation-selected pipeline may need to retain temperature/ideal options.",
+  "design": "All12 frozen stage41 learned encoders(3 original training seeds,4 tasks). Reuse original128train/256validation labels;new measurement records,4x256shots per point. G1/G2/G4 reuse identical1024-shot training record;validation4 independent256shot observations/point. Positive temperature and ideal controls. Choose entire pipeline by noisy validation CE. Fresh1024test points,5 paired256shot measurement repeats.",
+  "cost": "Grouping methods each131072training shots+262144validation shots/model;temperature and ideal need zero extra noisy training shots. Encoder fitting ideal and shared.",
+  "scope": "Fresh measurement/test samples,not new encoders;per-task models,2qubits,no gate noise,no uniquely quantum capability. No extra labels from repeats."
+}

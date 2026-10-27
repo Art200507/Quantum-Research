@@ -1,0 +1,228 @@
+{
+  "validation_statevector_max_error": 1.3092278833360675e-16,
+  "rows": [
+    {
+      "seed": 0,
+      "model": "raw_linear",
+      "test_accuracy": 0.455078125
+    },
+    {
+      "seed": 0,
+      "model": "matched_classical",
+      "test_accuracy": 0.96875
+    },
+    {
+      "seed": 0,
+      "model": "trained_QNN_ideal",
+      "test_accuracy": 0.982421875,
+      "validation_accuracy": 0.984375
+    },
+    {
+      "seed": 0,
+      "model": "trained_QNN_32_shots",
+      "test_accuracy": 0.896484375
+    },
+    {
+      "seed": 0,
+      "model": "trained_QNN_128_shots",
+      "test_accuracy": 0.912109375
+    },
+    {
+      "seed": 0,
+      "model": "trained_QNN_1024_shots",
+      "test_accuracy": 0.970703125
+    },
+    {
+      "seed": 1,
+      "model": "raw_linear",
+      "test_accuracy": 0.4921875
+    },
+    {
+      "seed": 1,
+      "model": "matched_classical",
+      "test_accuracy": 0.982421875
+    },
+    {
+      "seed": 1,
+      "model": "trained_QNN_ideal",
+      "test_accuracy": 0.970703125,
+      "validation_accuracy": 0.984375
+    },
+    {
+      "seed": 1,
+      "model": "trained_QNN_32_shots",
+      "test_accuracy": 0.89453125
+    },
+    {
+      "seed": 1,
+      "model": "trained_QNN_128_shots",
+      "test_accuracy": 0.916015625
+    },
+    {
+      "seed": 1,
+      "model": "trained_QNN_1024_shots",
+      "test_accuracy": 0.9765625
+    },
+    {
+      "seed": 2,
+      "model": "raw_linear",
+      "test_accuracy": 0.47265625
+    },
+    {
+      "seed": 2,
+      "model": "matched_classical",
+      "test_accuracy": 0.978515625
+    },
+    {
+      "seed": 2,
+      "model": "trained_QNN_ideal",
+      "test_accuracy": 0.978515625,
+      "validation_accuracy": 0.96875
+    },
+    {
+      "seed": 2,
+      "model": "trained_QNN_32_shots",
+      "test_accuracy": 0.876953125
+    },
+    {
+      "seed": 2,
+      "model": "trained_QNN_128_shots",
+      "test_accuracy": 0.9296875
+    },
+    {
+      "seed": 2,
+      "model": "trained_QNN_1024_shots",
+      "test_accuracy": 0.96875
+    },
+    {
+      "seed": 3,
+      "model": "raw_linear",
+      "test_accuracy": 0.552734375
+    },
+    {
+      "seed": 3,
+      "model": "matched_classical",
+      "test_accuracy": 0.95703125
+    },
+    {
+      "seed": 3,
+      "model": "trained_QNN_ideal",
+      "test_accuracy": 0.95703125,
+      "validation_accuracy": 0.9609375
+    },
+    {
+      "seed": 3,
+      "model": "trained_QNN_32_shots",
+      "test_accuracy": 0.89453125
+    },
+    {
+      "seed": 3,
+      "model": "trained_QNN_128_shots",
+      "test_accuracy": 0.91796875
+    },
+    {
+      "seed": 3,
+      "model": "trained_QNN_1024_shots",
+      "test_accuracy": 0.951171875
+    },
+    {
+      "seed": 4,
+      "model": "raw_linear",
+      "test_accuracy": 0.53125
+    },
+    {
+      "seed": 4,
+      "model": "matched_classical",
+      "test_accuracy": 0.962890625
+    },
+    {
+      "seed": 4,
+      "model": "trained_QNN_ideal",
+      "test_accuracy": 0.97265625,
+      "validation_accuracy": 0.9765625
+    },
+    {
+      "seed": 4,
+      "model": "trained_QNN_32_shots",
+      "test_accuracy": 0.908203125
+    },
+    {
+      "seed": 4,
+      "model": "trained_QNN_128_shots",
+      "test_accuracy": 0.91796875
+    },
+    {
+      "seed": 4,
+      "model": "trained_QNN_1024_shots",
+      "test_accuracy": 0.966796875
+    }
+  ],
+  "fits": [
+    {
+      "seed": 0,
+      "parameters": [
+        0.07096389192077693,
+        -0.021457737625289817,
+        18.298541970363903,
+        -0.2737465069125265
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 14,
+      "function_calls": 80
+    },
+    {
+      "seed": 1,
+      "parameters": [
+        -0.11319190235996833,
+        -0.011294289581997989,
+        18.744377532846418,
+        -0.2817804683192269
+      ],
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "iterations": 13,
+      "function_calls": 75
+    },
+    {
+      "seed": 2,
+      "parameters": [
+        -0.23958744342800517,
+        0.017575462066881833,
+        18.568430430048895,
+        -0.19704356339224147
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 14,
+      "function_calls": 85
+    },
+    {
+      "seed": 3,
+      "parameters": [
+        0.26275190294303974,
+        0.027600064622344714,
+        18.04768933873138,
+        -0.11935640549771338
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 15,
+      "function_calls": 85
+    },
+    {
+      "seed": 4,
+      "parameters": [
+        -0.12266358046406975,
+        0.019046588023803674,
+        17.202516277992657,
+        -0.13827631143467703
+      ],
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "iterations": 15,
+      "function_calls": 90
+    }
+  ],
+  "decision": "Review mean accuracy against matched-classical and finite-shot costs before moving to quantum attention. This task is constructed to match the encoding, not a natural benchmark or advantage test."
+}

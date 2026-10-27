@@ -1,0 +1,7 @@
+{
+  "reviewed": "45_result: all5 independent seeds improve low-shot CE;mean accuracy84.4->87.6%,confidently-wrong8.4->2.3%. High-shot mixed.",
+  "hypothesis": "A cheaper confidence-only adjustment might explain most reliability gains.",
+  "design": "Freeze45 models. Fit one positive inverse-temperature scalar on exactly the saved noisy validation observations used by noisy refit. Compare ideal,temperature and noise readouts on new2048test points per seed,10 identical paired measurement draws,256/1024shots. No retraining or test tuning.",
+  "cost": "Temperature uses same1024*B validation shots,zero noisy training shots versus512*B for noisy readout. Shares already ideal-trained encoder. Validation labels were also used in encoder selection,so this is model selection,not an independent calibration guarantee.",
+  "metrics": "CE,Brier,accuracy,confidently wrong;temperature cannot change positive/negative classification."
+}

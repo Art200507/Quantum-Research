@@ -1,0 +1,11 @@
+{
+  "hypothesis": "Our readout may discard useful quantum features: compare multiple Pauli outputs with the prior single-scalar mixture.",
+  "architecture": "Fixed two-qubit RY encoding+CX,measure all15 nonidentity Pauli observables,train classical readout. Hybrid quantum feature model, not end-to-end trained quantum gates.",
+  "frequencies": [
+    1.0
+  ],
+  "design": "5 fresh seeds,4 tasks,128 training/256 validation/1024 test. Regularization selected only on validation. Known-zero feature coordinates removed using training variance.",
+  "measurement_cost": "Up to9 local Pauli measurement settings per frequency, shared shots within settings; ideal expectations here. Additional outputs are not free.",
+  "controls": "Retrain9-parameter QNN mixture and9-parameter MLP on same data in25. Multi-frequency model in26 has more features, so compare to matched-count MLP8 and generic Fourier as well.",
+  "novelty": "Multiple observables/encoding frequencies are established quantum-feature ideas, not a novelty claim."
+}

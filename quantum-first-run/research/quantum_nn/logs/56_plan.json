@@ -1,0 +1,8 @@
+{
+  "reviewed": "55_result:abrupt triggered90.92% accuracy vsalways90.91%,365568vs606208shots;gradual small accuracy loss;stationary monitorpureoverhead. Missingperiodic comparator andnewtimings.",
+  "hypothesis": "Triggered recalibration provides a better accuracy/cost tradeoff than fixed periodicupdates underunseenchange timings,butneednotdominatecheap schedules.",
+  "design": "12new24batch device trajectories:4stationary,4random abruptpulses,4random ramps. Change times/magnitudes not supplied todetector orpolicies.12frozen encoders,32fresh testinputs/batch,64fresh knowncalibrationlabels/model independenttrain/validation/test. Policiesnever,always,periodic3/6/8,and512shot monitor. Periodic updates beforebatches3/6/etc,excluding0(initialfitshared). Allmethods useidentical batch measurement/calibration outcomes.",
+  "cost": "196608inference+16384initialcalibration shots;16384perupdate. Monitoralso4096initialreference+24*512checks+4096peralarmbaseline refresh. No cost-sharing acrosspolicies assumed.",
+  "selection": "All schedules/budgets frozenbeforetest;nooracle changepointupdates orchoosingbestperiodontest.",
+  "scope": "Unseen times/magnitudes onpreviousA->Bchannelaxis,not unseen noise mechanism.12device trajectories sharedacrossmodels;3oldtrainingseeds/task. NoIBMdevice claim."
+}

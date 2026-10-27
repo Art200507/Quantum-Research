@@ -1,0 +1,6 @@
+{
+  "feature_error": 4.440892098500626e-16,
+  "logit_error": 3.552713678800501e-14,
+  "models_checked": 40,
+  "decision": "Retain improved observable/readout architecture as a QNN benchmark, but its gains are not uniquely quantum. Test fixed architecture on new task families without changing its frequencies."
+}

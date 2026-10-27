@@ -1,0 +1,4 @@
+{
+  "hypothesis": "A trained two-qubit QNN learns nonlinear angular parity; compare raw linear and encoding-matched classical features on disjoint inputs.",
+  "bounds": "5 seeds, 128 train/128 validation/512 test points, ideal local simulation; max80 QNN iterations."
+}

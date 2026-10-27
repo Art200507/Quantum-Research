@@ -1,0 +1,7 @@
+{
+  "hypothesis": "Calibration representative of corrupted deployment may restore prediction-set coverage by producing more ambiguous answers, without recovering lost classification information.",
+  "design": "Freeze selected models. Gaussian sigma.8 corruption of observed inputs, clean-input labels.5 fitted seeds x4 tasks x10 independently generated calibration/test cohorts,256 calibration and512 test. Quantum1024-shot grouped measurement both calibration/test; selected classical control too.",
+  "cost": "256*1024 calibration shots per fitted quantum predictor in each replicate;10 calibration replicates are research overhead, not a free deployment procedure.",
+  "limit": "This assumes the corruption distribution is represented in calibration. It does not solve unknown future shifts. Sets containing both labels are explicitly counted as ambiguity.",
+  "previous_result_rows_read": 480
+}

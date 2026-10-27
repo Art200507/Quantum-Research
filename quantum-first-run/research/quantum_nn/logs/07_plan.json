@@ -1,0 +1,5 @@
+{
+  "hypothesis": "Even when depolarization preserves rank, compressed probability margins can damage finite-shot attention. Test whether adaptive measurements retain their benefit on fresh episodes.",
+  "budget": "5 trained seeds, 128 fresh episodes each, 8 candidates, ideal vs pCX=.05,pU=.005; 128/512 total shots; 20 synthetic measurement repeats; actual local noisy circuit density probabilities.",
+  "limits": "Adaptive rounds require extra classical feedback/control latency; matched shots is not matched wall time. No quantum hardware or full transformer claim."
+}

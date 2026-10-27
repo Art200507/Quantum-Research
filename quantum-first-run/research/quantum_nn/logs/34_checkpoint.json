@@ -1,0 +1,332 @@
+{
+  "date": "2026-10-26",
+  "completed_experimental_cycles": 30,
+  "new_cycles": "25..33 (nine cycles), each logged and reviewed.",
+  "focus": "Capability/generalization/reliability of actual QNN circuits; speed is not the main objective.",
+  "selected_original_tasks": [
+    {
+      "task": "linear",
+      "model": "selected_quantum",
+      "budget": 0,
+      "accuracy": 0.965625,
+      "brier": 0.023694376141324403
+    },
+    {
+      "task": "linear",
+      "model": "selected_classical",
+      "budget": 0,
+      "accuracy": 0.992578125,
+      "brier": 0.004821102886381048
+    },
+    {
+      "task": "linear",
+      "model": "selected_quantum",
+      "budget": 1024,
+      "accuracy": 0.9616015625,
+      "brier": 0.028046245233311885
+    },
+    {
+      "task": "cos_product",
+      "model": "selected_quantum",
+      "budget": 0,
+      "accuracy": 0.954296875,
+      "brier": 0.03147763233494473
+    },
+    {
+      "task": "cos_product",
+      "model": "selected_classical",
+      "budget": 0,
+      "accuracy": 0.908984375,
+      "brier": 0.0629651336957023
+    },
+    {
+      "task": "cos_product",
+      "model": "selected_quantum",
+      "budget": 1024,
+      "accuracy": 0.9347265625,
+      "brier": 0.046328932288574466
+    },
+    {
+      "task": "radial",
+      "model": "selected_quantum",
+      "budget": 0,
+      "accuracy": 0.979296875,
+      "brier": 0.017280836011167647
+    },
+    {
+      "task": "radial",
+      "model": "selected_classical",
+      "budget": 0,
+      "accuracy": 0.960546875,
+      "brier": 0.02984076741185849
+    },
+    {
+      "task": "radial",
+      "model": "selected_quantum",
+      "budget": 1024,
+      "accuracy": 0.970703125,
+      "brier": 0.021403359546253213
+    },
+    {
+      "task": "mixed_frequency",
+      "model": "selected_quantum",
+      "budget": 0,
+      "accuracy": 0.93515625,
+      "brier": 0.04379987913898038
+    },
+    {
+      "task": "mixed_frequency",
+      "model": "selected_classical",
+      "budget": 0,
+      "accuracy": 0.9109375,
+      "brier": 0.06847397371532178
+    },
+    {
+      "task": "mixed_frequency",
+      "model": "selected_quantum",
+      "budget": 1024,
+      "accuracy": 0.9335546875,
+      "brier": 0.048650129527264635
+    }
+  ],
+  "new_task_family_challenge": [
+    {
+      "task": "rotated_ellipse",
+      "model": "selected_quantum",
+      "budget": 0,
+      "accuracy": 0.973046875,
+      "balanced_accuracy": 0.9652644326622484
+    },
+    {
+      "task": "rotated_ellipse",
+      "model": "selected_classical",
+      "budget": 0,
+      "accuracy": 0.958984375,
+      "balanced_accuracy": 0.9492716490671796
+    },
+    {
+      "task": "rotated_ellipse",
+      "model": "selected_quantum",
+      "budget": 1024,
+      "accuracy": 0.9699609375,
+      "balanced_accuracy": 0.9629435210026742
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "selected_quantum",
+      "budget": 0,
+      "accuracy": 0.776953125,
+      "balanced_accuracy": 0.7776823248782802
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "selected_classical",
+      "budget": 0,
+      "accuracy": 0.95703125,
+      "balanced_accuracy": 0.957941300544207
+    },
+    {
+      "task": "diagonal_wave",
+      "model": "selected_quantum",
+      "budget": 1024,
+      "accuracy": 0.680390625,
+      "balanced_accuracy": 0.681297556072969
+    },
+    {
+      "task": "annulus",
+      "model": "selected_quantum",
+      "budget": 0,
+      "accuracy": 0.9146484375,
+      "balanced_accuracy": 0.9124787907693935
+    },
+    {
+      "task": "annulus",
+      "model": "selected_classical",
+      "budget": 0,
+      "accuracy": 0.925,
+      "balanced_accuracy": 0.917587331039965
+    },
+    {
+      "task": "annulus",
+      "model": "selected_quantum",
+      "budget": 1024,
+      "accuracy": 0.8819140625,
+      "balanced_accuracy": 0.8781654612689104
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "selected_quantum",
+      "budget": 0,
+      "accuracy": 0.8298828125,
+      "balanced_accuracy": 0.8297343614936008
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "selected_classical",
+      "budget": 0,
+      "accuracy": 0.8998046875,
+      "balanced_accuracy": 0.9002214532910144
+    },
+    {
+      "task": "tilted_interaction",
+      "model": "selected_quantum",
+      "budget": 1024,
+      "accuracy": 0.8221484375,
+      "balanced_accuracy": 0.8219846776055807
+    }
+  ],
+  "representative_corruption_calibration": [
+    {
+      "task": "linear",
+      "model": "quantum_measured",
+      "marginal_coverage": 0.90203125,
+      "singleton_rate": 0.8187109375,
+      "ambiguous_rate": 0.18125,
+      "accuracy": 0.8318359375
+    },
+    {
+      "task": "linear",
+      "model": "classical",
+      "marginal_coverage": 0.898828125,
+      "singleton_rate": 0.94625,
+      "ambiguous_rate": 0.0490234375,
+      "accuracy": 0.8791796875
+    },
+    {
+      "task": "cos_product",
+      "model": "quantum_measured",
+      "marginal_coverage": 0.9044140625,
+      "singleton_rate": 0.45859375,
+      "ambiguous_rate": 0.54140625,
+      "accuracy": 0.6755078125
+    },
+    {
+      "task": "cos_product",
+      "model": "classical",
+      "marginal_coverage": 0.9023046875,
+      "singleton_rate": 0.360625,
+      "ambiguous_rate": 0.639375,
+      "accuracy": 0.668828125
+    },
+    {
+      "task": "radial",
+      "model": "quantum_measured",
+      "marginal_coverage": 0.901796875,
+      "singleton_rate": 0.6126953125,
+      "ambiguous_rate": 0.3873046875,
+      "accuracy": 0.7480859375
+    },
+    {
+      "task": "radial",
+      "model": "classical",
+      "marginal_coverage": 0.9021875,
+      "singleton_rate": 0.633671875,
+      "ambiguous_rate": 0.366328125,
+      "accuracy": 0.763046875
+    },
+    {
+      "task": "mixed_frequency",
+      "model": "quantum_measured",
+      "marginal_coverage": 0.90421875,
+      "singleton_rate": 0.2876953125,
+      "ambiguous_rate": 0.7123046875,
+      "accuracy": 0.60984375
+    },
+    {
+      "task": "mixed_frequency",
+      "model": "classical",
+      "marginal_coverage": 0.9038671875,
+      "singleton_rate": 0.3074609375,
+      "ambiguous_rate": 0.6925390625,
+      "accuracy": 0.6118359375
+    }
+  ],
+  "review_by_cycle": [
+    {
+      "cycle": 25,
+      "finding": "Multiple measured outputs improve breadth without deeper gates: radial~98%,linear~96%,but mixed frequency~55%.",
+      "next": "Add several fixed encoding scales and matched-count controls."
+    },
+    {
+      "cycle": 26,
+      "finding": "Frequency bank learns mixed-frequency~94%,but cosine drops~89%; more features can overfit or dilute inductive bias.",
+      "next": "Charge measurement settings and test finite shots."
+    },
+    {
+      "cycle": 27,
+      "finding": "Joint-outcome measurement at finite total budget reduces accuracy. Correlations within a measurement setting modeled correctly.",
+      "next": "Remove settings unused by retained features."
+    },
+    {
+      "cycle": 28,
+      "finding": "Four settings cover all retained features; some tasks improve, others do not. Fewer settings is not automatically lower estimator risk.",
+      "next": "Choose feature model using validation only."
+    },
+    {
+      "cycle": 29,
+      "finding": "Selected per-task models reach~94\u201398% ideal and~93\u201397% at1024 shots on fresh data across original tasks. Generic classical controls remain competitive.",
+      "next": "Evaluate uncertainty on entirely separate calibration samples."
+    },
+    {
+      "cycle": 30,
+      "finding": "Matching clean calibration/test yields approximately nominal empirical set coverage; corruption severely breaks it.",
+      "next": "Test representative corrupted calibration and count ambiguous outputs."
+    },
+    {
+      "cycle": 31,
+      "finding": "Representative corrupted calibration restores~90% set coverage but mixed-frequency returns both labels~71% of the time. Classification remains~61%.",
+      "next": "Do not call ambiguity improved intelligence; audit quantum uniqueness."
+    },
+    {
+      "cycle": 32,
+      "finding": "Elementary classical trigonometric formula reproduces full features within4.45e-16 and logits within3.56e-14.",
+      "next": "No unique quantum capability; challenge encoder on untouched task families."
+    },
+    {
+      "cycle": 33,
+      "finding": "Frozen architecture handles rotated ellipse~97% measured,but diagonal wave only~68% vs classical~96%; annulus~88%,tilted interaction~82%.",
+      "next": "Investigate learned input mixing/directions with separate new task cohorts and preserved controls."
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "exact_group_reconstruction_errors": [
+      4.440892098500626e-16,
+      4.440892098500626e-16
+    ],
+    "elementary_classical_feature_error": 3.3306690738754696e-16,
+    "Monte_Carlo_replicates": 500,
+    "measurement_mean_check": "all covered features within6 exact-marginal Monte Carlo SE",
+    "validation_refinement": "Initially using empirical SE falsely failed a nearly deterministic observable:500 replicates saw no rare flips, yielding zero sample variance. Use the known Born marginal variance for this simulation check; estimator and experiment results unchanged.",
+    "budgets": [
+      256,
+      1024
+    ],
+    "set_bookkeeping": "all/empty/monotone cases pass"
+  },
+  "important_limits": [
+    "All2-qubit computations locally simulated and classically tractable. No hardware jobs, keys, paid workloads or new packages.",
+    "Readout weights learned; new encoder gates are fixed. Improvements attributed to accessible features, not greater quantum intelligence.",
+    "Per-task model selection is not one universal/multitask model.",
+    "Finite-shot tests here exclude physical gate errors; grouped measurement captures sampling only.",
+    "Calibration samples and labels cost resources. Set coverage is marginal, not conditional single-answer correctness.",
+    "Five fitted seeds; measurement/calibration repeats are nested, not extra independent model trainings.",
+    "Synthetic task families guide architecture; no novelty or real-world advantage claim."
+  ],
+  "source_notes": [
+    {
+      "url": "https://arxiv.org/abs/2008.08605",
+      "access": "Primary search abstract only; encoding-frequency interpretation is established, no new theorem claimed."
+    },
+    {
+      "url": "https://tqe.ieee.org/2023/11/17/quantum-conformal-prediction-for-reliable-uncertainty-quantification-in-quantum-machine-learning-2/",
+      "access": "Primary publication page excerpt; quantum conformal prediction already exists. Our wrapper is ordinary split conformal on measured probabilities, not an independent reproduction of the full paper."
+    }
+  ],
+  "next_actions": [
+    "Train input-mixing/scaling parameters while retaining useful multi-output readouts; avoid merely adding depths that erase features.",
+    "Use new task families or hold-out transformations for confirmation after encoder design changes.",
+    "Compare exact elementary classical feature controls and strong learned classical baselines.",
+    "If noise robustness is studied, add physical channel models to the new multi-setting architecture rather than borrowing earlier results."
+  ]
+}

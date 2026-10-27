@@ -1,0 +1,2515 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 0,
+      "model": "ideal",
+      "accuracy": 0.93359375,
+      "cross_entropy": 0.18835337873702337,
+      "brier": 0.05340020729034309,
+      "confident_wrong_fraction": 0.0244140625
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 0,
+      "model": "temperature",
+      "accuracy": 0.93359375,
+      "cross_entropy": 0.17922448028102805,
+      "brier": 0.05282353179073556,
+      "confident_wrong_fraction": 0.01953125
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 0,
+      "model": "affine",
+      "accuracy": 0.9326171875,
+      "cross_entropy": 0.18031005624955526,
+      "brier": 0.05345171653677504,
+      "confident_wrong_fraction": 0.0205078125
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 0,
+      "model": "prior_selected",
+      "accuracy": 0.9345703125,
+      "cross_entropy": 0.1652540128588328,
+      "brier": 0.04829921775911655,
+      "confident_wrong_fraction": 0.0166015625
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 1,
+      "model": "ideal",
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.1765767912523123,
+      "brier": 0.052071241501603395,
+      "confident_wrong_fraction": 0.0205078125
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 1,
+      "model": "temperature",
+      "accuracy": 0.92578125,
+      "cross_entropy": 0.1692659615156326,
+      "brier": 0.050974736769451114,
+      "confident_wrong_fraction": 0.013671875
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 1,
+      "model": "affine",
+      "accuracy": 0.927734375,
+      "cross_entropy": 0.16953862478562626,
+      "brier": 0.051186582643713785,
+      "confident_wrong_fraction": 0.017578125
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 1,
+      "model": "prior_selected",
+      "accuracy": 0.9365234375,
+      "cross_entropy": 0.15255169745403968,
+      "brier": 0.046259946419459776,
+      "confident_wrong_fraction": 0.0146484375
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 2,
+      "model": "ideal",
+      "accuracy": 0.935546875,
+      "cross_entropy": 0.1738214814559152,
+      "brier": 0.04945234979909589,
+      "confident_wrong_fraction": 0.0244140625
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 2,
+      "model": "temperature",
+      "accuracy": 0.935546875,
+      "cross_entropy": 0.16659839961183343,
+      "brier": 0.04900312220978065,
+      "confident_wrong_fraction": 0.0146484375
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 2,
+      "model": "affine",
+      "accuracy": 0.9345703125,
+      "cross_entropy": 0.16764071413989592,
+      "brier": 0.04994390854216605,
+      "confident_wrong_fraction": 0.013671875
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 2,
+      "model": "prior_selected",
+      "accuracy": 0.939453125,
+      "cross_entropy": 0.15352925418283875,
+      "brier": 0.04498944241395858,
+      "confident_wrong_fraction": 0.013671875
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 3,
+      "model": "ideal",
+      "accuracy": 0.9375,
+      "cross_entropy": 0.15163746814837434,
+      "brier": 0.04510317069910841,
+      "confident_wrong_fraction": 0.015625
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 3,
+      "model": "temperature",
+      "accuracy": 0.9375,
+      "cross_entropy": 0.1496234957017123,
+      "brier": 0.0448808905481851,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 3,
+      "model": "affine",
+      "accuracy": 0.9345703125,
+      "cross_entropy": 0.1512860040859207,
+      "brier": 0.0454666086952052,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 3,
+      "model": "prior_selected",
+      "accuracy": 0.9365234375,
+      "cross_entropy": 0.13796995632835343,
+      "brier": 0.042733902886075925,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 4,
+      "model": "ideal",
+      "accuracy": 0.9326171875,
+      "cross_entropy": 0.18191882186950264,
+      "brier": 0.05248411285700631,
+      "confident_wrong_fraction": 0.0244140625
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 4,
+      "model": "temperature",
+      "accuracy": 0.9326171875,
+      "cross_entropy": 0.17118075365242338,
+      "brier": 0.051226774811741975,
+      "confident_wrong_fraction": 0.017578125
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 4,
+      "model": "affine",
+      "accuracy": 0.9306640625,
+      "cross_entropy": 0.171667741406417,
+      "brier": 0.05176911784900186,
+      "confident_wrong_fraction": 0.0166015625
+    },
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "repeat": 4,
+      "model": "prior_selected",
+      "accuracy": 0.9375,
+      "cross_entropy": 0.15987670720708022,
+      "brier": 0.04900262358640599,
+      "confident_wrong_fraction": 0.015625
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 0,
+      "model": "ideal",
+      "accuracy": 0.8349609375,
+      "cross_entropy": 0.6222396943645657,
+      "brier": 0.13581419051068444,
+      "confident_wrong_fraction": 0.091796875
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 0,
+      "model": "temperature",
+      "accuracy": 0.8349609375,
+      "cross_entropy": 0.37216477945208853,
+      "brier": 0.11762799302456838,
+      "confident_wrong_fraction": 0.033203125
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 0,
+      "model": "affine",
+      "accuracy": 0.837890625,
+      "cross_entropy": 0.37157098794610455,
+      "brier": 0.11672748086193177,
+      "confident_wrong_fraction": 0.037109375
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 0,
+      "model": "prior_selected",
+      "accuracy": 0.833984375,
+      "cross_entropy": 0.3856073325815046,
+      "brier": 0.11873386797297442,
+      "confident_wrong_fraction": 0.0458984375
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 1,
+      "model": "ideal",
+      "accuracy": 0.8193359375,
+      "cross_entropy": 0.659513408925978,
+      "brier": 0.1489331657788488,
+      "confident_wrong_fraction": 0.1005859375
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 1,
+      "model": "temperature",
+      "accuracy": 0.8193359375,
+      "cross_entropy": 0.3893296377747595,
+      "brier": 0.12576579481110411,
+      "confident_wrong_fraction": 0.0283203125
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 1,
+      "model": "affine",
+      "accuracy": 0.8173828125,
+      "cross_entropy": 0.387136908410763,
+      "brier": 0.12473368052401136,
+      "confident_wrong_fraction": 0.03125
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 1,
+      "model": "prior_selected",
+      "accuracy": 0.833984375,
+      "cross_entropy": 0.38628288157448887,
+      "brier": 0.12034814034580138,
+      "confident_wrong_fraction": 0.0390625
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 2,
+      "model": "ideal",
+      "accuracy": 0.828125,
+      "cross_entropy": 0.6880673324248764,
+      "brier": 0.14265028779470107,
+      "confident_wrong_fraction": 0.099609375
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 2,
+      "model": "temperature",
+      "accuracy": 0.828125,
+      "cross_entropy": 0.39602963142677766,
+      "brier": 0.12314455155338683,
+      "confident_wrong_fraction": 0.0390625
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 2,
+      "model": "affine",
+      "accuracy": 0.8291015625,
+      "cross_entropy": 0.39366130112629244,
+      "brier": 0.12253020910795884,
+      "confident_wrong_fraction": 0.0380859375
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 2,
+      "model": "prior_selected",
+      "accuracy": 0.8271484375,
+      "cross_entropy": 0.4054477813348446,
+      "brier": 0.12463257792200856,
+      "confident_wrong_fraction": 0.05078125
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 3,
+      "model": "ideal",
+      "accuracy": 0.8203125,
+      "cross_entropy": 0.6527454348031576,
+      "brier": 0.14573226481564303,
+      "confident_wrong_fraction": 0.0966796875
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 3,
+      "model": "temperature",
+      "accuracy": 0.8203125,
+      "cross_entropy": 0.39362516702230055,
+      "brier": 0.12548928691909406,
+      "confident_wrong_fraction": 0.0302734375
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 3,
+      "model": "affine",
+      "accuracy": 0.8251953125,
+      "cross_entropy": 0.38982491795198826,
+      "brier": 0.12362514073181965,
+      "confident_wrong_fraction": 0.0322265625
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 3,
+      "model": "prior_selected",
+      "accuracy": 0.83203125,
+      "cross_entropy": 0.3859363295393036,
+      "brier": 0.12012872139795638,
+      "confident_wrong_fraction": 0.0390625
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 4,
+      "model": "ideal",
+      "accuracy": 0.8310546875,
+      "cross_entropy": 0.5886211125102951,
+      "brier": 0.1371215362972129,
+      "confident_wrong_fraction": 0.0888671875
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 4,
+      "model": "temperature",
+      "accuracy": 0.8310546875,
+      "cross_entropy": 0.35818650028762283,
+      "brier": 0.11552608955186822,
+      "confident_wrong_fraction": 0.025390625
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 4,
+      "model": "affine",
+      "accuracy": 0.82421875,
+      "cross_entropy": 0.3554857920861772,
+      "brier": 0.1146878661922719,
+      "confident_wrong_fraction": 0.0244140625
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "repeat": 4,
+      "model": "prior_selected",
+      "accuracy": 0.8408203125,
+      "cross_entropy": 0.3780878617207166,
+      "brier": 0.116542093794128,
+      "confident_wrong_fraction": 0.0380859375
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 0,
+      "model": "ideal",
+      "accuracy": 0.962890625,
+      "cross_entropy": 0.10385956875743986,
+      "brier": 0.030275664842180892,
+      "confident_wrong_fraction": 0.0146484375
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 0,
+      "model": "temperature",
+      "accuracy": 0.962890625,
+      "cross_entropy": 0.09363375317116697,
+      "brier": 0.029232637065309423,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 0,
+      "model": "affine",
+      "accuracy": 0.962890625,
+      "cross_entropy": 0.09404243880804672,
+      "brier": 0.02923582551890798,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 0,
+      "model": "prior_selected",
+      "accuracy": 0.962890625,
+      "cross_entropy": 0.09363375317116697,
+      "brier": 0.029232637065309423,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 1,
+      "model": "ideal",
+      "accuracy": 0.9638671875,
+      "cross_entropy": 0.0943874827792733,
+      "brier": 0.027842169194941736,
+      "confident_wrong_fraction": 0.009765625
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 1,
+      "model": "temperature",
+      "accuracy": 0.9638671875,
+      "cross_entropy": 0.09045069232705019,
+      "brier": 0.02781869668625744,
+      "confident_wrong_fraction": 0.00390625
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 1,
+      "model": "affine",
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.09031345510884897,
+      "brier": 0.027671960591929376,
+      "confident_wrong_fraction": 0.00390625
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 1,
+      "model": "prior_selected",
+      "accuracy": 0.9638671875,
+      "cross_entropy": 0.09045069232705019,
+      "brier": 0.02781869668625744,
+      "confident_wrong_fraction": 0.00390625
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 2,
+      "model": "ideal",
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.12160297570123993,
+      "brier": 0.03480937720935576,
+      "confident_wrong_fraction": 0.01953125
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 2,
+      "model": "temperature",
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.10574956282616524,
+      "brier": 0.033157142462379025,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 2,
+      "model": "affine",
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.105749359687598,
+      "brier": 0.03315825142814017,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 2,
+      "model": "prior_selected",
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.10574956282616524,
+      "brier": 0.033157142462379025,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 3,
+      "model": "ideal",
+      "accuracy": 0.951171875,
+      "cross_entropy": 0.12174781579051823,
+      "brier": 0.03615007347306916,
+      "confident_wrong_fraction": 0.0166015625
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 3,
+      "model": "temperature",
+      "accuracy": 0.951171875,
+      "cross_entropy": 0.10591063494338147,
+      "brier": 0.03362073327491461,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 3,
+      "model": "affine",
+      "accuracy": 0.951171875,
+      "cross_entropy": 0.106242297047164,
+      "brier": 0.03367095644471387,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 3,
+      "model": "prior_selected",
+      "accuracy": 0.951171875,
+      "cross_entropy": 0.10591063494338147,
+      "brier": 0.03362073327491461,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 4,
+      "model": "ideal",
+      "accuracy": 0.9521484375,
+      "cross_entropy": 0.09908131945417593,
+      "brier": 0.030873012570252323,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 4,
+      "model": "temperature",
+      "accuracy": 0.9521484375,
+      "cross_entropy": 0.09248562050679182,
+      "brier": 0.029655483158449222,
+      "confident_wrong_fraction": 0.00390625
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 4,
+      "model": "affine",
+      "accuracy": 0.955078125,
+      "cross_entropy": 0.09301770786130314,
+      "brier": 0.02983198546196021,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "repeat": 4,
+      "model": "prior_selected",
+      "accuracy": 0.9521484375,
+      "cross_entropy": 0.09248562050679182,
+      "brier": 0.029655483158449222,
+      "confident_wrong_fraction": 0.00390625
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 0,
+      "model": "ideal",
+      "accuracy": 0.9345703125,
+      "cross_entropy": 0.12748308306880174,
+      "brier": 0.0401886468417748,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 0,
+      "model": "temperature",
+      "accuracy": 0.9345703125,
+      "cross_entropy": 0.12916682683431868,
+      "brier": 0.04068180874057259,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 0,
+      "model": "affine",
+      "accuracy": 0.943359375,
+      "cross_entropy": 0.13129160471490364,
+      "brier": 0.040654026498925175,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 0,
+      "model": "prior_selected",
+      "accuracy": 0.9345703125,
+      "cross_entropy": 0.12916682683431868,
+      "brier": 0.04068180874057259,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 1,
+      "model": "ideal",
+      "accuracy": 0.9365234375,
+      "cross_entropy": 0.12853566408366487,
+      "brier": 0.041623965323899934,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 1,
+      "model": "temperature",
+      "accuracy": 0.9365234375,
+      "cross_entropy": 0.1305512332629012,
+      "brier": 0.04239994562937781,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 1,
+      "model": "affine",
+      "accuracy": 0.9375,
+      "cross_entropy": 0.13320822186740977,
+      "brier": 0.04353691185425684,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 1,
+      "model": "prior_selected",
+      "accuracy": 0.9365234375,
+      "cross_entropy": 0.1305512332629012,
+      "brier": 0.04239994562937781,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 2,
+      "model": "ideal",
+      "accuracy": 0.9560546875,
+      "cross_entropy": 0.10367298873630906,
+      "brier": 0.03148376401211227,
+      "confident_wrong_fraction": 0.00390625
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 2,
+      "model": "temperature",
+      "accuracy": 0.9560546875,
+      "cross_entropy": 0.10144587241193137,
+      "brier": 0.031236337895713413,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 2,
+      "model": "affine",
+      "accuracy": 0.955078125,
+      "cross_entropy": 0.10225882560698088,
+      "brier": 0.03149272041453153,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 2,
+      "model": "prior_selected",
+      "accuracy": 0.9560546875,
+      "cross_entropy": 0.10144587241193137,
+      "brier": 0.031236337895713413,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 3,
+      "model": "ideal",
+      "accuracy": 0.958984375,
+      "cross_entropy": 0.10344058156921997,
+      "brier": 0.031319122842702614,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 3,
+      "model": "temperature",
+      "accuracy": 0.958984375,
+      "cross_entropy": 0.10252103876195857,
+      "brier": 0.031255815651082014,
+      "confident_wrong_fraction": 0.0107421875
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 3,
+      "model": "affine",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.10283500387538078,
+      "brier": 0.030714165947341963,
+      "confident_wrong_fraction": 0.0107421875
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 3,
+      "model": "prior_selected",
+      "accuracy": 0.958984375,
+      "cross_entropy": 0.10252103876195857,
+      "brier": 0.031255815651082014,
+      "confident_wrong_fraction": 0.0107421875
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 4,
+      "model": "ideal",
+      "accuracy": 0.9482421875,
+      "cross_entropy": 0.11084333929406771,
+      "brier": 0.03486804793934675,
+      "confident_wrong_fraction": 0.00390625
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 4,
+      "model": "temperature",
+      "accuracy": 0.9482421875,
+      "cross_entropy": 0.11078485941726866,
+      "brier": 0.035172118703678895,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 4,
+      "model": "affine",
+      "accuracy": 0.9501953125,
+      "cross_entropy": 0.11074602142705137,
+      "brier": 0.034924003948749935,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "repeat": 4,
+      "model": "prior_selected",
+      "accuracy": 0.9482421875,
+      "cross_entropy": 0.11078485941726866,
+      "brier": 0.035172118703678895,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 0,
+      "model": "ideal",
+      "accuracy": 0.9638671875,
+      "cross_entropy": 0.10271453463020391,
+      "brier": 0.031113340528165917,
+      "confident_wrong_fraction": 0.013671875
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 0,
+      "model": "temperature",
+      "accuracy": 0.9638671875,
+      "cross_entropy": 0.09672564271236428,
+      "brier": 0.030219593872863642,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 0,
+      "model": "affine",
+      "accuracy": 0.958984375,
+      "cross_entropy": 0.09733757612579126,
+      "brier": 0.029942504988122384,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 0,
+      "model": "prior_selected",
+      "accuracy": 0.9638671875,
+      "cross_entropy": 0.09672564271236428,
+      "brier": 0.030219593872863642,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 1,
+      "model": "ideal",
+      "accuracy": 0.9599609375,
+      "cross_entropy": 0.09572683286582521,
+      "brier": 0.027853818821642735,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 1,
+      "model": "temperature",
+      "accuracy": 0.9599609375,
+      "cross_entropy": 0.09088348834888602,
+      "brier": 0.027200865217113644,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 1,
+      "model": "affine",
+      "accuracy": 0.9619140625,
+      "cross_entropy": 0.09070411194777914,
+      "brier": 0.027489957132793175,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 1,
+      "model": "prior_selected",
+      "accuracy": 0.9599609375,
+      "cross_entropy": 0.09088348834888602,
+      "brier": 0.027200865217113644,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 2,
+      "model": "ideal",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.10014978805223775,
+      "brier": 0.029787009090609207,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 2,
+      "model": "temperature",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.09389863005694196,
+      "brier": 0.028786809557977654,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 2,
+      "model": "affine",
+      "accuracy": 0.958984375,
+      "cross_entropy": 0.09575323853731624,
+      "brier": 0.029472597360336944,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 2,
+      "model": "prior_selected",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.09389863005694196,
+      "brier": 0.028786809557977654,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 3,
+      "model": "ideal",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.10392735346729814,
+      "brier": 0.028933403035130735,
+      "confident_wrong_fraction": 0.013671875
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 3,
+      "model": "temperature",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.0987927578702771,
+      "brier": 0.02896190223543651,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 3,
+      "model": "affine",
+      "accuracy": 0.9658203125,
+      "cross_entropy": 0.10028884129661128,
+      "brier": 0.029086622758983837,
+      "confident_wrong_fraction": 0.0107421875
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 3,
+      "model": "prior_selected",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.0987927578702771,
+      "brier": 0.02896190223543651,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 4,
+      "model": "ideal",
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.08796589615501818,
+      "brier": 0.026986310423273187,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 4,
+      "model": "temperature",
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.08642265434271355,
+      "brier": 0.026713048134205213,
+      "confident_wrong_fraction": 0.0048828125
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 4,
+      "model": "affine",
+      "accuracy": 0.966796875,
+      "cross_entropy": 0.08837881182090833,
+      "brier": 0.027407729247298958,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "repeat": 4,
+      "model": "prior_selected",
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.08642265434271355,
+      "brier": 0.026713048134205213,
+      "confident_wrong_fraction": 0.0048828125
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 0,
+      "model": "ideal",
+      "accuracy": 0.8623046875,
+      "cross_entropy": 0.457551648380568,
+      "brier": 0.11192148548258751,
+      "confident_wrong_fraction": 0.0703125
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 0,
+      "model": "temperature",
+      "accuracy": 0.8623046875,
+      "cross_entropy": 0.31414206378031995,
+      "brier": 0.09953922339455684,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 0,
+      "model": "affine",
+      "accuracy": 0.8525390625,
+      "cross_entropy": 0.3269744562765953,
+      "brier": 0.10369984872010732,
+      "confident_wrong_fraction": 0.01953125
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 0,
+      "model": "prior_selected",
+      "accuracy": 0.876953125,
+      "cross_entropy": 0.28228904800446414,
+      "brier": 0.08881161676491692,
+      "confident_wrong_fraction": 0.0146484375
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 1,
+      "model": "ideal",
+      "accuracy": 0.84765625,
+      "cross_entropy": 0.5112823875320307,
+      "brier": 0.12051133898446376,
+      "confident_wrong_fraction": 0.0791015625
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 1,
+      "model": "temperature",
+      "accuracy": 0.84765625,
+      "cross_entropy": 0.33091568763745427,
+      "brier": 0.10577413306149891,
+      "confident_wrong_fraction": 0.017578125
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 1,
+      "model": "affine",
+      "accuracy": 0.8486328125,
+      "cross_entropy": 0.3557038310632369,
+      "brier": 0.11195778621589025,
+      "confident_wrong_fraction": 0.0283203125
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 1,
+      "model": "prior_selected",
+      "accuracy": 0.880859375,
+      "cross_entropy": 0.2811258415618693,
+      "brier": 0.08578072011193902,
+      "confident_wrong_fraction": 0.0146484375
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 2,
+      "model": "ideal",
+      "accuracy": 0.8232421875,
+      "cross_entropy": 0.5667320352988101,
+      "brier": 0.1361146545749469,
+      "confident_wrong_fraction": 0.0869140625
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 2,
+      "model": "temperature",
+      "accuracy": 0.8232421875,
+      "cross_entropy": 0.34939291804590644,
+      "brier": 0.11373874347132566,
+      "confident_wrong_fraction": 0.0166015625
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 2,
+      "model": "affine",
+      "accuracy": 0.826171875,
+      "cross_entropy": 0.3677612521633161,
+      "brier": 0.11946220282325548,
+      "confident_wrong_fraction": 0.02734375
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 2,
+      "model": "prior_selected",
+      "accuracy": 0.865234375,
+      "cross_entropy": 0.29274975217918786,
+      "brier": 0.0922545597979471,
+      "confident_wrong_fraction": 0.0107421875
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 3,
+      "model": "ideal",
+      "accuracy": 0.8408203125,
+      "cross_entropy": 0.5594563632964875,
+      "brier": 0.1278073262824874,
+      "confident_wrong_fraction": 0.0888671875
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 3,
+      "model": "temperature",
+      "accuracy": 0.8408203125,
+      "cross_entropy": 0.34087556280459397,
+      "brier": 0.10892902357643662,
+      "confident_wrong_fraction": 0.0234375
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 3,
+      "model": "affine",
+      "accuracy": 0.8408203125,
+      "cross_entropy": 0.3619683373356737,
+      "brier": 0.11433805200170444,
+      "confident_wrong_fraction": 0.033203125
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 3,
+      "model": "prior_selected",
+      "accuracy": 0.84765625,
+      "cross_entropy": 0.3093787430806224,
+      "brier": 0.09927313797044116,
+      "confident_wrong_fraction": 0.0146484375
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 4,
+      "model": "ideal",
+      "accuracy": 0.8505859375,
+      "cross_entropy": 0.5641459094454349,
+      "brier": 0.12234237468686138,
+      "confident_wrong_fraction": 0.0810546875
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 4,
+      "model": "temperature",
+      "accuracy": 0.8505859375,
+      "cross_entropy": 0.34101109338439495,
+      "brier": 0.10637835501768472,
+      "confident_wrong_fraction": 0.01953125
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 4,
+      "model": "affine",
+      "accuracy": 0.8603515625,
+      "cross_entropy": 0.35404559775010647,
+      "brier": 0.1074950356757769,
+      "confident_wrong_fraction": 0.0263671875
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "repeat": 4,
+      "model": "prior_selected",
+      "accuracy": 0.8759765625,
+      "cross_entropy": 0.2894173164429973,
+      "brier": 0.08919785404977998,
+      "confident_wrong_fraction": 0.015625
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 0,
+      "model": "ideal",
+      "accuracy": 0.958984375,
+      "cross_entropy": 0.08272119251755382,
+      "brier": 0.026736680150506283,
+      "confident_wrong_fraction": 0.0029296875
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 0,
+      "model": "temperature",
+      "accuracy": 0.958984375,
+      "cross_entropy": 0.0833670881525901,
+      "brier": 0.026487985861039613,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 0,
+      "model": "affine",
+      "accuracy": 0.9658203125,
+      "cross_entropy": 0.0776049445033053,
+      "brier": 0.024463211209635752,
+      "confident_wrong_fraction": 0.0009765625
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 0,
+      "model": "prior_selected",
+      "accuracy": 0.958984375,
+      "cross_entropy": 0.0833670881525901,
+      "brier": 0.026487985861039613,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 1,
+      "model": "ideal",
+      "accuracy": 0.947265625,
+      "cross_entropy": 0.11048546703339651,
+      "brier": 0.035925076535332404,
+      "confident_wrong_fraction": 0.009765625
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 1,
+      "model": "temperature",
+      "accuracy": 0.947265625,
+      "cross_entropy": 0.10568215452796031,
+      "brier": 0.034728854027439235,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 1,
+      "model": "affine",
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.1008722667896422,
+      "brier": 0.033062375879468434,
+      "confident_wrong_fraction": 0.0048828125
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 1,
+      "model": "prior_selected",
+      "accuracy": 0.947265625,
+      "cross_entropy": 0.10568215452796031,
+      "brier": 0.034728854027439235,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 2,
+      "model": "ideal",
+      "accuracy": 0.943359375,
+      "cross_entropy": 0.10998787120656554,
+      "brier": 0.03584145533077897,
+      "confident_wrong_fraction": 0.009765625
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 2,
+      "model": "temperature",
+      "accuracy": 0.943359375,
+      "cross_entropy": 0.10555849339681649,
+      "brier": 0.03464122456546023,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 2,
+      "model": "affine",
+      "accuracy": 0.9501953125,
+      "cross_entropy": 0.10151066120756672,
+      "brier": 0.03303207414309557,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 2,
+      "model": "prior_selected",
+      "accuracy": 0.943359375,
+      "cross_entropy": 0.10555849339681649,
+      "brier": 0.03464122456546023,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 3,
+      "model": "ideal",
+      "accuracy": 0.9501953125,
+      "cross_entropy": 0.09643607095533839,
+      "brier": 0.032423303733825945,
+      "confident_wrong_fraction": 0.00390625
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 3,
+      "model": "temperature",
+      "accuracy": 0.9501953125,
+      "cross_entropy": 0.09497527611616932,
+      "brier": 0.031544542247302985,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 3,
+      "model": "affine",
+      "accuracy": 0.9541015625,
+      "cross_entropy": 0.08985495593986599,
+      "brier": 0.02976217490503926,
+      "confident_wrong_fraction": 0.0029296875
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 3,
+      "model": "prior_selected",
+      "accuracy": 0.9501953125,
+      "cross_entropy": 0.09497527611616932,
+      "brier": 0.031544542247302985,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 4,
+      "model": "ideal",
+      "accuracy": 0.953125,
+      "cross_entropy": 0.10410831411495655,
+      "brier": 0.03368919967953993,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 4,
+      "model": "temperature",
+      "accuracy": 0.953125,
+      "cross_entropy": 0.10089896141626993,
+      "brier": 0.03284596868448916,
+      "confident_wrong_fraction": 0.0048828125
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 4,
+      "model": "affine",
+      "accuracy": 0.9521484375,
+      "cross_entropy": 0.09533300096386513,
+      "brier": 0.030880196408827335,
+      "confident_wrong_fraction": 0.0048828125
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "repeat": 4,
+      "model": "prior_selected",
+      "accuracy": 0.953125,
+      "cross_entropy": 0.10089896141626993,
+      "brier": 0.03284596868448916,
+      "confident_wrong_fraction": 0.0048828125
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 0,
+      "model": "ideal",
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.14981684415705465,
+      "brier": 0.0405463052510609,
+      "confident_wrong_fraction": 0.01953125
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 0,
+      "model": "temperature",
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.12162710086505521,
+      "brier": 0.03760480710337034,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 0,
+      "model": "affine",
+      "accuracy": 0.943359375,
+      "cross_entropy": 0.12443267885394094,
+      "brier": 0.03818158142876412,
+      "confident_wrong_fraction": 0.009765625
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 0,
+      "model": "prior_selected",
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.12162710086505521,
+      "brier": 0.03760480710337034,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 1,
+      "model": "ideal",
+      "accuracy": 0.9404296875,
+      "cross_entropy": 0.16793184036476866,
+      "brier": 0.04514121995598107,
+      "confident_wrong_fraction": 0.0224609375
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 1,
+      "model": "temperature",
+      "accuracy": 0.9404296875,
+      "cross_entropy": 0.13314946280441176,
+      "brier": 0.04152883043884158,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 1,
+      "model": "affine",
+      "accuracy": 0.939453125,
+      "cross_entropy": 0.13653177451512957,
+      "brier": 0.04189208871593464,
+      "confident_wrong_fraction": 0.009765625
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 1,
+      "model": "prior_selected",
+      "accuracy": 0.9404296875,
+      "cross_entropy": 0.13314946280441176,
+      "brier": 0.04152883043884158,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 2,
+      "model": "ideal",
+      "accuracy": 0.943359375,
+      "cross_entropy": 0.17103075837358042,
+      "brier": 0.04463709896825048,
+      "confident_wrong_fraction": 0.0302734375
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 2,
+      "model": "temperature",
+      "accuracy": 0.943359375,
+      "cross_entropy": 0.1303434257397313,
+      "brier": 0.04052894032795451,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 2,
+      "model": "affine",
+      "accuracy": 0.9482421875,
+      "cross_entropy": 0.13059202018092783,
+      "brier": 0.040233243004235975,
+      "confident_wrong_fraction": 0.0107421875
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 2,
+      "model": "prior_selected",
+      "accuracy": 0.943359375,
+      "cross_entropy": 0.1303434257397313,
+      "brier": 0.04052894032795451,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 3,
+      "model": "ideal",
+      "accuracy": 0.947265625,
+      "cross_entropy": 0.1561090651591566,
+      "brier": 0.04128694263996076,
+      "confident_wrong_fraction": 0.0244140625
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 3,
+      "model": "temperature",
+      "accuracy": 0.947265625,
+      "cross_entropy": 0.1258373468723089,
+      "brier": 0.03868213423023863,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 3,
+      "model": "affine",
+      "accuracy": 0.947265625,
+      "cross_entropy": 0.13017770350391533,
+      "brier": 0.03981837295863879,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 3,
+      "model": "prior_selected",
+      "accuracy": 0.947265625,
+      "cross_entropy": 0.1258373468723089,
+      "brier": 0.03868213423023863,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 4,
+      "model": "ideal",
+      "accuracy": 0.939453125,
+      "cross_entropy": 0.15783207236962918,
+      "brier": 0.0446720054205041,
+      "confident_wrong_fraction": 0.0205078125
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 4,
+      "model": "temperature",
+      "accuracy": 0.939453125,
+      "cross_entropy": 0.12324404601867142,
+      "brier": 0.03944333854668509,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 4,
+      "model": "affine",
+      "accuracy": 0.9384765625,
+      "cross_entropy": 0.12998600354001383,
+      "brier": 0.042069826124014095,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "repeat": 4,
+      "model": "prior_selected",
+      "accuracy": 0.939453125,
+      "cross_entropy": 0.12324404601867142,
+      "brier": 0.03944333854668509,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 0,
+      "model": "ideal",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.1110421273618986,
+      "brier": 0.03261384927825367,
+      "confident_wrong_fraction": 0.015625
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 0,
+      "model": "temperature",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.10794844660480217,
+      "brier": 0.032318095692699375,
+      "confident_wrong_fraction": 0.015625
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 0,
+      "model": "affine",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.10777296347158671,
+      "brier": 0.03227642959499642,
+      "confident_wrong_fraction": 0.015625
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 0,
+      "model": "prior_selected",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.10794844660480217,
+      "brier": 0.032318095692699375,
+      "confident_wrong_fraction": 0.015625
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 1,
+      "model": "ideal",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.0906508095901066,
+      "brier": 0.02858935715530779,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 1,
+      "model": "temperature",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.08916925968500049,
+      "brier": 0.028331814647814174,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 1,
+      "model": "affine",
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.08901093164352708,
+      "brier": 0.028260165669779708,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 1,
+      "model": "prior_selected",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.08916925968500049,
+      "brier": 0.028331814647814174,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 2,
+      "model": "ideal",
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.0833999863562672,
+      "brier": 0.025379108789865983,
+      "confident_wrong_fraction": 0.009765625
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 2,
+      "model": "temperature",
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.08216662834697,
+      "brier": 0.02521328518902796,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 2,
+      "model": "affine",
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.08207455932714,
+      "brier": 0.025182800093985942,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 2,
+      "model": "prior_selected",
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.08216662834697,
+      "brier": 0.02521328518902796,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 3,
+      "model": "ideal",
+      "accuracy": 0.9599609375,
+      "cross_entropy": 0.09391617259636431,
+      "brier": 0.02856348865228319,
+      "confident_wrong_fraction": 0.0146484375
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 3,
+      "model": "temperature",
+      "accuracy": 0.9599609375,
+      "cross_entropy": 0.09213347132410887,
+      "brier": 0.02832665155097403,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 3,
+      "model": "affine",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.0919494318457112,
+      "brier": 0.028271867278062777,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 3,
+      "model": "prior_selected",
+      "accuracy": 0.9599609375,
+      "cross_entropy": 0.09213347132410887,
+      "brier": 0.02832665155097403,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 4,
+      "model": "ideal",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.09610147343410819,
+      "brier": 0.029541876129053624,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 4,
+      "model": "temperature",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.09403476229733848,
+      "brier": 0.029223532700154667,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 4,
+      "model": "affine",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.09394147294317512,
+      "brier": 0.0292162488197954,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "repeat": 4,
+      "model": "prior_selected",
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.09403476229733848,
+      "brier": 0.029223532700154667,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 0,
+      "model": "ideal",
+      "accuracy": 0.8623046875,
+      "cross_entropy": 0.4451884415487535,
+      "brier": 0.11366068456647345,
+      "confident_wrong_fraction": 0.0732421875
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 0,
+      "model": "temperature",
+      "accuracy": 0.8623046875,
+      "cross_entropy": 0.3014068888413314,
+      "brier": 0.09806804451480863,
+      "confident_wrong_fraction": 0.0107421875
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 0,
+      "model": "affine",
+      "accuracy": 0.857421875,
+      "cross_entropy": 0.299897610730974,
+      "brier": 0.09719617218012261,
+      "confident_wrong_fraction": 0.0166015625
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 0,
+      "model": "prior_selected",
+      "accuracy": 0.8623046875,
+      "cross_entropy": 0.3014068888413314,
+      "brier": 0.09806804451480863,
+      "confident_wrong_fraction": 0.0107421875
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 1,
+      "model": "ideal",
+      "accuracy": 0.8564453125,
+      "cross_entropy": 0.4498520271632622,
+      "brier": 0.10965648670155244,
+      "confident_wrong_fraction": 0.0693359375
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 1,
+      "model": "temperature",
+      "accuracy": 0.8564453125,
+      "cross_entropy": 0.3085866513328209,
+      "brier": 0.09824656545477951,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 1,
+      "model": "affine",
+      "accuracy": 0.87109375,
+      "cross_entropy": 0.30908347020103394,
+      "brier": 0.09739355649726836,
+      "confident_wrong_fraction": 0.0185546875
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 1,
+      "model": "prior_selected",
+      "accuracy": 0.8564453125,
+      "cross_entropy": 0.3085866513328209,
+      "brier": 0.09824656545477951,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 2,
+      "model": "ideal",
+      "accuracy": 0.859375,
+      "cross_entropy": 0.42473238511932493,
+      "brier": 0.10800936882828299,
+      "confident_wrong_fraction": 0.0654296875
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 2,
+      "model": "temperature",
+      "accuracy": 0.859375,
+      "cross_entropy": 0.2969547680824904,
+      "brier": 0.0948541540173686,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 2,
+      "model": "affine",
+      "accuracy": 0.8603515625,
+      "cross_entropy": 0.296968369538213,
+      "brier": 0.09502102763487497,
+      "confident_wrong_fraction": 0.015625
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 2,
+      "model": "prior_selected",
+      "accuracy": 0.859375,
+      "cross_entropy": 0.2969547680824904,
+      "brier": 0.0948541540173686,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 3,
+      "model": "ideal",
+      "accuracy": 0.8544921875,
+      "cross_entropy": 0.5128479778563033,
+      "brier": 0.11586136157782673,
+      "confident_wrong_fraction": 0.076171875
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 3,
+      "model": "temperature",
+      "accuracy": 0.8544921875,
+      "cross_entropy": 0.3240406251232095,
+      "brier": 0.10165912688469962,
+      "confident_wrong_fraction": 0.0244140625
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 3,
+      "model": "affine",
+      "accuracy": 0.861328125,
+      "cross_entropy": 0.3253521220924277,
+      "brier": 0.10217172000330207,
+      "confident_wrong_fraction": 0.0224609375
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 3,
+      "model": "prior_selected",
+      "accuracy": 0.8544921875,
+      "cross_entropy": 0.3240406251232095,
+      "brier": 0.10165912688469962,
+      "confident_wrong_fraction": 0.0244140625
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 4,
+      "model": "ideal",
+      "accuracy": 0.857421875,
+      "cross_entropy": 0.45455505850921707,
+      "brier": 0.11259166270129223,
+      "confident_wrong_fraction": 0.0634765625
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 4,
+      "model": "temperature",
+      "accuracy": 0.857421875,
+      "cross_entropy": 0.312896743946798,
+      "brier": 0.09884224012479549,
+      "confident_wrong_fraction": 0.0146484375
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 4,
+      "model": "affine",
+      "accuracy": 0.8544921875,
+      "cross_entropy": 0.3138463165315984,
+      "brier": 0.09884409255068735,
+      "confident_wrong_fraction": 0.0166015625
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "repeat": 4,
+      "model": "prior_selected",
+      "accuracy": 0.857421875,
+      "cross_entropy": 0.312896743946798,
+      "brier": 0.09884224012479549,
+      "confident_wrong_fraction": 0.0146484375
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 0,
+      "model": "ideal",
+      "accuracy": 0.9658203125,
+      "cross_entropy": 0.08071012587698226,
+      "brier": 0.025386570135150156,
+      "confident_wrong_fraction": 0.009765625
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 0,
+      "model": "temperature",
+      "accuracy": 0.9658203125,
+      "cross_entropy": 0.08068972095647461,
+      "brier": 0.024729675476693705,
+      "confident_wrong_fraction": 0.0009765625
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 0,
+      "model": "affine",
+      "accuracy": 0.9619140625,
+      "cross_entropy": 0.08261464371867273,
+      "brier": 0.025391170120196038,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 0,
+      "model": "prior_selected",
+      "accuracy": 0.9658203125,
+      "cross_entropy": 0.08068972095647461,
+      "brier": 0.024729675476693705,
+      "confident_wrong_fraction": 0.0009765625
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 1,
+      "model": "ideal",
+      "accuracy": 0.97265625,
+      "cross_entropy": 0.06956112861451591,
+      "brier": 0.020080377415102116,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 1,
+      "model": "temperature",
+      "accuracy": 0.97265625,
+      "cross_entropy": 0.07313832784511987,
+      "brier": 0.021065798983964396,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 1,
+      "model": "affine",
+      "accuracy": 0.9716796875,
+      "cross_entropy": 0.07477209403164826,
+      "brier": 0.022247456275544274,
+      "confident_wrong_fraction": 0.0009765625
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 1,
+      "model": "prior_selected",
+      "accuracy": 0.97265625,
+      "cross_entropy": 0.07313832784511987,
+      "brier": 0.021065798983964396,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 2,
+      "model": "ideal",
+      "accuracy": 0.9658203125,
+      "cross_entropy": 0.07594674044567026,
+      "brier": 0.02380470615703824,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 2,
+      "model": "temperature",
+      "accuracy": 0.9658203125,
+      "cross_entropy": 0.07841323852851048,
+      "brier": 0.023888709354607907,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 2,
+      "model": "affine",
+      "accuracy": 0.9658203125,
+      "cross_entropy": 0.08038159375063253,
+      "brier": 0.02475684866457059,
+      "confident_wrong_fraction": 0.0029296875
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 2,
+      "model": "prior_selected",
+      "accuracy": 0.9658203125,
+      "cross_entropy": 0.07841323852851048,
+      "brier": 0.023888709354607907,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 3,
+      "model": "ideal",
+      "accuracy": 0.9716796875,
+      "cross_entropy": 0.07495010370185724,
+      "brier": 0.022500996927330333,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 3,
+      "model": "temperature",
+      "accuracy": 0.9716796875,
+      "cross_entropy": 0.07750041023081636,
+      "brier": 0.02292743339448813,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 3,
+      "model": "affine",
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.07940049488689285,
+      "brier": 0.023708406231208894,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 3,
+      "model": "prior_selected",
+      "accuracy": 0.9716796875,
+      "cross_entropy": 0.07750041023081636,
+      "brier": 0.02292743339448813,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 4,
+      "model": "ideal",
+      "accuracy": 0.966796875,
+      "cross_entropy": 0.08050307924567748,
+      "brier": 0.024379309401840042,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 4,
+      "model": "temperature",
+      "accuracy": 0.966796875,
+      "cross_entropy": 0.08045551695542692,
+      "brier": 0.024218607526813964,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 4,
+      "model": "affine",
+      "accuracy": 0.962890625,
+      "cross_entropy": 0.08287259484804887,
+      "brier": 0.025327998839710396,
+      "confident_wrong_fraction": 0.00390625
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "repeat": 4,
+      "model": "prior_selected",
+      "accuracy": 0.966796875,
+      "cross_entropy": 0.08045551695542692,
+      "brier": 0.024218607526813964,
+      "confident_wrong_fraction": 0.001953125
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 0,
+      "model": "ideal",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.1358797289860797,
+      "brier": 0.03150925791288153,
+      "confident_wrong_fraction": 0.0205078125
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 0,
+      "model": "temperature",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.09936894186195375,
+      "brier": 0.029887625899976566,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 0,
+      "model": "affine",
+      "accuracy": 0.962890625,
+      "cross_entropy": 0.10174293171034614,
+      "brier": 0.0307167839208836,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 0,
+      "model": "prior_selected",
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.09936894186195375,
+      "brier": 0.029887625899976566,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 1,
+      "model": "ideal",
+      "accuracy": 0.947265625,
+      "cross_entropy": 0.14619181960096272,
+      "brier": 0.03913953279577345,
+      "confident_wrong_fraction": 0.0234375
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 1,
+      "model": "temperature",
+      "accuracy": 0.947265625,
+      "cross_entropy": 0.10688450421076279,
+      "brier": 0.03403070308210644,
+      "confident_wrong_fraction": 0.0029296875
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 1,
+      "model": "affine",
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.11087918163658483,
+      "brier": 0.03588477622979357,
+      "confident_wrong_fraction": 0.0029296875
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 1,
+      "model": "prior_selected",
+      "accuracy": 0.947265625,
+      "cross_entropy": 0.10688450421076279,
+      "brier": 0.03403070308210644,
+      "confident_wrong_fraction": 0.0029296875
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 2,
+      "model": "ideal",
+      "accuracy": 0.9541015625,
+      "cross_entropy": 0.1544551462091605,
+      "brier": 0.03763778236638779,
+      "confident_wrong_fraction": 0.0244140625
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 2,
+      "model": "temperature",
+      "accuracy": 0.9541015625,
+      "cross_entropy": 0.10519645210230527,
+      "brier": 0.03268829802205221,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 2,
+      "model": "affine",
+      "accuracy": 0.953125,
+      "cross_entropy": 0.10837181257898434,
+      "brier": 0.033416763657551446,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 2,
+      "model": "prior_selected",
+      "accuracy": 0.9541015625,
+      "cross_entropy": 0.10519645210230527,
+      "brier": 0.03268829802205221,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 3,
+      "model": "ideal",
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.17711806651265588,
+      "brier": 0.04360296823828183,
+      "confident_wrong_fraction": 0.0283203125
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 3,
+      "model": "temperature",
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.11862843446246366,
+      "brier": 0.037591276583935254,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 3,
+      "model": "affine",
+      "accuracy": 0.9404296875,
+      "cross_entropy": 0.1224681389558625,
+      "brier": 0.0385806651836303,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 3,
+      "model": "prior_selected",
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.11862843446246366,
+      "brier": 0.037591276583935254,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 4,
+      "model": "ideal",
+      "accuracy": 0.9462890625,
+      "cross_entropy": 0.1744843578008222,
+      "brier": 0.04277841115270196,
+      "confident_wrong_fraction": 0.0263671875
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 4,
+      "model": "temperature",
+      "accuracy": 0.9462890625,
+      "cross_entropy": 0.11533057077254513,
+      "brier": 0.03662241505351386,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 4,
+      "model": "affine",
+      "accuracy": 0.9482421875,
+      "cross_entropy": 0.11982672105980158,
+      "brier": 0.03788477033723464,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "repeat": 4,
+      "model": "prior_selected",
+      "accuracy": 0.9462890625,
+      "cross_entropy": 0.11533057077254513,
+      "brier": 0.03662241505351386,
+      "confident_wrong_fraction": 0.005859375
+    }
+  ],
+  "fits": [
+    {
+      "seed": 0,
+      "task": "rotated_ellipse",
+      "scale": 0.7952315862611402,
+      "bias": -0.16615482151964517,
+      "validation_loss": 0.1716116906701013,
+      "success": true,
+      "iterations": 8
+    },
+    {
+      "seed": 0,
+      "task": "annulus",
+      "scale": 0.3934814804042067,
+      "bias": 0.16643405565236036,
+      "validation_loss": 0.28212902409973684,
+      "success": true,
+      "iterations": 9
+    },
+    {
+      "seed": 0,
+      "task": "parabola",
+      "scale": 0.6749777095041933,
+      "bias": 0.06963244903411198,
+      "validation_loss": 0.07849836550356853,
+      "success": true,
+      "iterations": 9
+    },
+    {
+      "seed": 0,
+      "task": "xor_quadrants",
+      "scale": 1.1617371375353154,
+      "bias": 0.2548853493182986,
+      "validation_loss": 0.11450255593595275,
+      "success": true,
+      "iterations": 5
+    },
+    {
+      "seed": 1,
+      "task": "rotated_ellipse",
+      "scale": 0.788899708824404,
+      "bias": -0.5168696486395103,
+      "validation_loss": 0.10129183709705644,
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 1,
+      "task": "annulus",
+      "scale": 0.3686606932460904,
+      "bias": 0.8000973071370133,
+      "validation_loss": 0.30788965676771946,
+      "success": true,
+      "iterations": 8
+    },
+    {
+      "seed": 1,
+      "task": "parabola",
+      "scale": 0.8555429928527458,
+      "bias": -0.3482837675102403,
+      "validation_loss": 0.10353863387523657,
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 1,
+      "task": "xor_quadrants",
+      "scale": 0.5226141062640691,
+      "bias": 0.454133147330665,
+      "validation_loss": 0.10437154313269065,
+      "success": true,
+      "iterations": 8
+    },
+    {
+      "seed": 2,
+      "task": "rotated_ellipse",
+      "scale": 0.9328392290459196,
+      "bias": 0.017568279495546874,
+      "validation_loss": 0.05644616837670269,
+      "success": true,
+      "iterations": 5
+    },
+    {
+      "seed": 2,
+      "task": "annulus",
+      "scale": 0.4043793934606627,
+      "bias": 0.5321707514384714,
+      "validation_loss": 0.28028169359380234,
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 2,
+      "task": "parabola",
+      "scale": 0.6183745150823486,
+      "bias": 0.36909138558252447,
+      "validation_loss": 0.10525383457588589,
+      "success": true,
+      "iterations": 8
+    },
+    {
+      "seed": 2,
+      "task": "xor_quadrants",
+      "scale": 0.39070669563696286,
+      "bias": 0.2915256827092206,
+      "validation_loss": 0.11508757887879612,
+      "success": true,
+      "iterations": 11
+    }
+  ],
+  "decision": "Retain affine calibration as a serious low-cost comparator. Next test asymmetric device/readout errors and whether recalibration transfers across drift."
+}

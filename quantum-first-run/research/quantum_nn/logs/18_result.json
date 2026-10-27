@@ -1,0 +1,1520 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.625,
+      "cross_entropy": 0.6109975274110537,
+      "brier": 0.21124299703582788
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.5625,
+      "cross_entropy": 0.6957408628515306,
+      "brier": 0.25057296283308694
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.486328125,
+      "cross_entropy": 0.8188219148614404,
+      "brier": 0.3013573131390183
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.609375,
+      "cross_entropy": 0.6579658603249539,
+      "brier": 0.23265654547812858
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.5390625,
+      "cross_entropy": 0.651356690867477,
+      "brier": 0.22986686419424185
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.453125,
+      "cross_entropy": 0.708104034127708,
+      "brier": 0.25709053620655486
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.6015625,
+      "cross_entropy": 0.6555519834074166,
+      "brier": 0.23148655500435006
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.625,
+      "cross_entropy": 0.6425219445756402,
+      "brier": 0.2255623664457968
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.513671875,
+      "cross_entropy": 0.7034018873425951,
+      "brier": 0.2546441095287265
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.10678081417749266,
+      "brier": 0.02364572600919828
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.09747016548769838,
+      "brier": 0.028323339324456312
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.958984375,
+      "cross_entropy": 0.11899100490745029,
+      "brier": 0.031458508447300026
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.10866388878716166,
+      "brier": 0.025325262306092368
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.9765625,
+      "cross_entropy": 0.09053517626719533,
+      "brier": 0.023339863617486023
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.978515625,
+      "cross_entropy": 0.122677805630102,
+      "brier": 0.03196080364630014
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.12937457782605016,
+      "brier": 0.0333356151689892
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.9765625,
+      "cross_entropy": 0.09121684099347886,
+      "brier": 0.023380181507199144
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.98046875,
+      "cross_entropy": 0.12348547456003134,
+      "brier": 0.031908913009351725
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.625,
+      "cross_entropy": 0.6443179428139478,
+      "brier": 0.22509274463476425
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.53125,
+      "cross_entropy": 0.748772596921653,
+      "brier": 0.2754436228035264
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.498046875,
+      "cross_entropy": 0.7466875577204221,
+      "brier": 0.2750132038203822
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.546875,
+      "cross_entropy": 0.6829871060197727,
+      "brier": 0.24492976120900892
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.4375,
+      "cross_entropy": 0.7224560836307821,
+      "brier": 0.2644453986458333
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.521484375,
+      "cross_entropy": 0.7081712719276196,
+      "brier": 0.25733819221169585
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.546875,
+      "cross_entropy": 0.6874245965743083,
+      "brier": 0.24713864758851384
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.609375,
+      "cross_entropy": 0.6829606547699469,
+      "brier": 0.24490826855658737
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.58203125,
+      "cross_entropy": 0.6831878444350356,
+      "brier": 0.24501143804981346
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.625,
+      "cross_entropy": 0.6555185088810337,
+      "brier": 0.23166407583725543
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.484375,
+      "cross_entropy": 0.7189736779090341,
+      "brier": 0.2623989841690477
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.548828125,
+      "cross_entropy": 0.7044916854071541,
+      "brier": 0.25514244057960556
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.609375,
+      "cross_entropy": 0.6816106448175531,
+      "brier": 0.24412409924576228
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.4375,
+      "cross_entropy": 0.7106320996965331,
+      "brier": 0.2586040014223471
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.541015625,
+      "cross_entropy": 0.6922442528438515,
+      "brier": 0.24951610033556942
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.5390625,
+      "cross_entropy": 0.6874271949495889,
+      "brier": 0.24714288442412766
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.453125,
+      "cross_entropy": 0.7018210448799901,
+      "brier": 0.25431659611428503
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.525390625,
+      "cross_entropy": 0.6913493248258187,
+      "brier": 0.24910654316753117
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.6875,
+      "cross_entropy": 0.47873877693588585,
+      "brier": 0.16516123531942717
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.4765625,
+      "cross_entropy": 1.2111859089479518,
+      "brier": 0.38726453478297906
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.521484375,
+      "cross_entropy": 1.1637779187505233,
+      "brier": 0.36455030185006093
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.5625,
+      "cross_entropy": 0.6648561644564831,
+      "brier": 0.23612026317387153
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.5390625,
+      "cross_entropy": 0.690376413650209,
+      "brier": 0.24840489149933173
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.599609375,
+      "cross_entropy": 0.6678430853758621,
+      "brier": 0.2373670073373192
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.6328125,
+      "cross_entropy": 0.6521132374028824,
+      "brier": 0.22990804453171937
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.5546875,
+      "cross_entropy": 0.6899860548148639,
+      "brier": 0.24814188542152474
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.609375,
+      "cross_entropy": 0.6644214256039573,
+      "brier": 0.2357199245512338
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.05423458914023016,
+      "brier": 0.005222422206340623
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.953125,
+      "cross_entropy": 0.09763387087591996,
+      "brier": 0.029664969748547935
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.9296875,
+      "cross_entropy": 0.15032507873036804,
+      "brier": 0.047473747846687515
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.09706076483337706,
+      "brier": 0.019252915066460676
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.9765625,
+      "cross_entropy": 0.07266375797142521,
+      "brier": 0.018766169619272636
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.982421875,
+      "cross_entropy": 0.10763402993267131,
+      "brier": 0.027623821666152192
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.10124441852639493,
+      "brier": 0.02187732314466656
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.984375,
+      "cross_entropy": 0.07460082449543101,
+      "brier": 0.01904914852645403
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.9921875,
+      "cross_entropy": 0.10842558664688304,
+      "brier": 0.027546043030843997
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.875,
+      "cross_entropy": 0.3960868936348212,
+      "brier": 0.12614225905282506
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.4921875,
+      "cross_entropy": 1.3223703900010353,
+      "brier": 0.4078414142517206
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.46484375,
+      "cross_entropy": 1.458558501908486,
+      "brier": 0.4292035886780091
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.578125,
+      "cross_entropy": 0.6670945371051511,
+      "brier": 0.23718640847066452
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.4921875,
+      "cross_entropy": 0.7135036192845529,
+      "brier": 0.2599788025767209
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.458984375,
+      "cross_entropy": 0.7317213903390045,
+      "brier": 0.2687634850182752
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.59375,
+      "cross_entropy": 0.6784498090947207,
+      "brier": 0.24268408510222605
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.578125,
+      "cross_entropy": 0.6728032403758858,
+      "brier": 0.23999745515424134
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.53125,
+      "cross_entropy": 0.6933806551199266,
+      "brier": 0.25017186598038244
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.6875,
+      "cross_entropy": 0.46759722181196217,
+      "brier": 0.15285332042415906
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.515625,
+      "cross_entropy": 1.2395364006286709,
+      "brier": 0.37071967878264944
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.474609375,
+      "cross_entropy": 1.2779444843353671,
+      "brier": 0.3894137608107898
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.703125,
+      "cross_entropy": 0.643689362326783,
+      "brier": 0.22485249234872612
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.5234375,
+      "cross_entropy": 0.7536083172363317,
+      "brier": 0.27543366316406126
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.4609375,
+      "cross_entropy": 0.7894088073072457,
+      "brier": 0.2919336882039939
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.6328125,
+      "cross_entropy": 0.6682454165202547,
+      "brier": 0.23747179770700663
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.5078125,
+      "cross_entropy": 0.708005861673751,
+      "brier": 0.2569588911559417
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.4765625,
+      "cross_entropy": 0.7251024708426326,
+      "brier": 0.2653218229383887
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.6875,
+      "cross_entropy": 0.5861160392278983,
+      "brier": 0.2025715976375165
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.6015625,
+      "cross_entropy": 0.816989452329049,
+      "brier": 0.2816346164967337
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.5859375,
+      "cross_entropy": 0.7886623398572818,
+      "brier": 0.2746902872096344
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.625,
+      "cross_entropy": 0.642483972766499,
+      "brier": 0.2255401001546155
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.7109375,
+      "cross_entropy": 0.6503511506963222,
+      "brier": 0.22835633442334283
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.640625,
+      "cross_entropy": 0.6531262683223595,
+      "brier": 0.23006594287502405
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.65625,
+      "cross_entropy": 0.632119713623134,
+      "brier": 0.22005568339793347
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.65625,
+      "cross_entropy": 0.6388265901791186,
+      "brier": 0.22308545284602588
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.642578125,
+      "cross_entropy": 0.6529011677620968,
+      "brier": 0.23003596154444675
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 1.0,
+      "cross_entropy": 0.17128085289141565,
+      "brier": 0.050058902957982855
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.9296875,
+      "cross_entropy": 0.1836177986422544,
+      "brier": 0.05733688586771961
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.931640625,
+      "cross_entropy": 0.16802238218337362,
+      "brier": 0.05424956144627523
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.96875,
+      "cross_entropy": 0.15657899034460163,
+      "brier": 0.04259221060085803
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.9765625,
+      "cross_entropy": 0.11418780122135841,
+      "brier": 0.028131143595939854
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.9765625,
+      "cross_entropy": 0.11436491502297741,
+      "brier": 0.030236954580838905
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.9765625,
+      "cross_entropy": 0.1333223379886911,
+      "brier": 0.035419648788548676
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.96875,
+      "cross_entropy": 0.12756492850023024,
+      "brier": 0.03304104106278939
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.96484375,
+      "cross_entropy": 0.125490852684974,
+      "brier": 0.03453524152403039
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.875,
+      "cross_entropy": 0.48955585171178245,
+      "brier": 0.15249701192079534
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.4453125,
+      "cross_entropy": 1.0200055130125247,
+      "brier": 0.36872060790158473
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.5390625,
+      "cross_entropy": 0.9211746592033911,
+      "brier": 0.32585970219083993
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.640625,
+      "cross_entropy": 0.6410667700671308,
+      "brier": 0.22333171736260454
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.4921875,
+      "cross_entropy": 0.7440243474667956,
+      "brier": 0.2728421245068454
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.5625,
+      "cross_entropy": 0.6941274002426325,
+      "brier": 0.24923226134101673
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.625,
+      "cross_entropy": 0.6729181164532481,
+      "brier": 0.23964274783414632
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.5546875,
+      "cross_entropy": 0.7008475487446014,
+      "brier": 0.253225574207994
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.58203125,
+      "cross_entropy": 0.6841607439160802,
+      "brier": 0.2452784946551772
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.6875,
+      "cross_entropy": 0.5880189907162516,
+      "brier": 0.2020871828602048
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.5078125,
+      "cross_entropy": 0.7560099032850285,
+      "brier": 0.2771179006109781
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.484375,
+      "cross_entropy": 0.8078383627294098,
+      "brier": 0.29786174028892326
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.53125,
+      "cross_entropy": 0.6779804187055907,
+      "brier": 0.242588010237516
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.5703125,
+      "cross_entropy": 0.6904175267640298,
+      "brier": 0.24850871118754175
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.45703125,
+      "cross_entropy": 0.7218196021769496,
+      "brier": 0.2639849825614049
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "train",
+      "accuracy": 0.5625,
+      "cross_entropy": 0.6825746639827381,
+      "brier": 0.2447748070707041
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "validation",
+      "accuracy": 0.5546875,
+      "cross_entropy": 0.6887106388592685,
+      "brier": 0.24773853505779406
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "model": "exact_feature_classical",
+      "split": "test",
+      "accuracy": 0.466796875,
+      "cross_entropy": 0.7131423267429181,
+      "brier": 0.2598627761732274
+    }
+  ],
+  "fits": [
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 16,
+      "parameters": [
+        1.1336419403493405,
+        0.7289809661212099,
+        -0.7145414941229005
+      ],
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 64,
+      "parameters": [
+        -0.025995117960082977,
+        0.4288836655681256,
+        -0.4310524107252674
+      ],
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 0,
+      "task": "linear",
+      "n_train": 128,
+      "parameters": [
+        0.06683868937358718,
+        0.5167188266609475,
+        -0.39765515653304473
+      ],
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 16,
+      "parameters": [
+        13.137923898365948,
+        -0.5590957775076834,
+        0.09816358533463004
+      ],
+      "success": true,
+      "iterations": 12
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 64,
+      "parameters": [
+        12.455779519081576,
+        -0.27991174976545274,
+        -0.26173304141660986
+      ],
+      "success": true,
+      "iterations": 13
+    },
+    {
+      "seed": 0,
+      "task": "cos_product",
+      "n_train": 128,
+      "parameters": [
+        12.258960310073729,
+        -0.2501123215236707,
+        -0.21247512196923407
+      ],
+      "success": true,
+      "iterations": 11
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 16,
+      "parameters": [
+        0.030287696566871317,
+        0.5028581359481981,
+        -0.567204011691277
+      ],
+      "success": true,
+      "iterations": 8
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 64,
+      "parameters": [
+        0.11846012658665216,
+        0.3839624649804455,
+        0.07843041238033396
+      ],
+      "success": true,
+      "iterations": 6
+    },
+    {
+      "seed": 0,
+      "task": "radial",
+      "n_train": 128,
+      "parameters": [
+        -0.39264535929213995,
+        -0.04755850862912372,
+        -0.087599380645602
+      ],
+      "success": true,
+      "iterations": 5
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "parameters": [
+        -0.06882561456518893,
+        -0.29167943341518265,
+        -0.4896065740126238
+      ],
+      "success": true,
+      "iterations": 8
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "parameters": [
+        0.4946584980294991,
+        -0.027373495301550664,
+        -0.20916540161047836
+      ],
+      "success": true,
+      "iterations": 5
+    },
+    {
+      "seed": 0,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "parameters": [
+        0.4016336962561568,
+        -0.02632483899129456,
+        -0.10558211977777217
+      ],
+      "success": true,
+      "iterations": 5
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 16,
+      "parameters": [
+        4.416695467683726,
+        0.3854275705899934,
+        0.22475233512371376
+      ],
+      "success": true,
+      "iterations": 8
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 64,
+      "parameters": [
+        0.4770233014516821,
+        0.5704189724688862,
+        0.13153048349947588
+      ],
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 1,
+      "task": "linear",
+      "n_train": 128,
+      "parameters": [
+        0.486813501123361,
+        0.7109231887564006,
+        0.06289816130887775
+      ],
+      "success": true,
+      "iterations": 6
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 16,
+      "parameters": [
+        13.336217366430994,
+        0.4333348007747633,
+        -1.1325922684265557
+      ],
+      "success": true,
+      "iterations": 11
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 64,
+      "parameters": [
+        13.477072172707452,
+        -0.06233412315520165,
+        -0.1532072941362592
+      ],
+      "success": true,
+      "iterations": 10
+    },
+    {
+      "seed": 1,
+      "task": "cos_product",
+      "n_train": 128,
+      "parameters": [
+        13.053743018700617,
+        0.028487602056314315,
+        -0.06564887371175199
+      ],
+      "success": true,
+      "iterations": 12
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 16,
+      "parameters": [
+        3.861025288547966,
+        1.9432085497090414,
+        1.020627929525957
+      ],
+      "success": true,
+      "iterations": 10
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 64,
+      "parameters": [
+        0.34915805560832,
+        0.5419321350312991,
+        -0.010076050114371297
+      ],
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 1,
+      "task": "radial",
+      "n_train": 128,
+      "parameters": [
+        -0.5784399101716744,
+        0.3272796818464393,
+        0.04769402110421403
+      ],
+      "success": true,
+      "iterations": 6
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "parameters": [
+        -4.8401939051702305,
+        0.4465586380315958,
+        -0.09653416664859896
+      ],
+      "success": true,
+      "iterations": 9
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "parameters": [
+        -1.5498342301799208,
+        0.2928557235463323,
+        -0.12706251381836162
+      ],
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 1,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "parameters": [
+        -0.707832914905407,
+        0.453561971042397,
+        0.03316688985693007
+      ],
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 16,
+      "parameters": [
+        -1.568588229372218,
+        1.333762492446165,
+        -0.7626487367224118
+      ],
+      "success": true,
+      "iterations": 8
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 64,
+      "parameters": [
+        -0.021561602642530375,
+        0.9228207638811607,
+        -0.10983320755250413
+      ],
+      "success": true,
+      "iterations": 5
+    },
+    {
+      "seed": 2,
+      "task": "linear",
+      "n_train": 128,
+      "parameters": [
+        0.4128929646990947,
+        0.9677171655143166,
+        0.10080428522331138
+      ],
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 16,
+      "parameters": [
+        11.845311380332312,
+        -0.9893221699086753,
+        1.0283153632930546
+      ],
+      "success": true,
+      "iterations": 12
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 64,
+      "parameters": [
+        12.46071915302781,
+        -0.23069486725214547,
+        0.07661773350085575
+      ],
+      "success": true,
+      "iterations": 12
+    },
+    {
+      "seed": 2,
+      "task": "cos_product",
+      "n_train": 128,
+      "parameters": [
+        11.871542416183292,
+        -0.0019040601844450295,
+        0.3353511253747674
+      ],
+      "success": true,
+      "iterations": 11
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 16,
+      "parameters": [
+        1.2124259553663994,
+        -2.1063417490612375,
+        0.21150006043595052
+      ],
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 64,
+      "parameters": [
+        -0.8332874765662658,
+        -0.5121705163005909,
+        -0.3737747673460497
+      ],
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 2,
+      "task": "radial",
+      "n_train": 128,
+      "parameters": [
+        -0.7798801043352687,
+        -0.03348755148446175,
+        -0.17468314631863868
+      ],
+      "success": true,
+      "iterations": 6
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 16,
+      "parameters": [
+        0.9719343389264771,
+        0.6925228601264702,
+        0.558925936035073
+      ],
+      "success": true,
+      "iterations": 7
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 64,
+      "parameters": [
+        -0.509967757971932,
+        0.2945462136698584,
+        0.14637449200012884
+      ],
+      "success": true,
+      "iterations": 5
+    },
+    {
+      "seed": 2,
+      "task": "mixed_frequency",
+      "n_train": 128,
+      "parameters": [
+        -0.2061987724697016,
+        0.2895321301368566,
+        0.15386648008552706
+      ],
+      "success": true,
+      "iterations": 5
+    }
+  ],
+  "maximum_QNN_classical_logit_error": 1.0658141036401503e-14,
+  "decision": "Any advantage over generic baselines in this basic QNN is not unique quantum capability. Next investigate why re-uploading broadens some tasks while losing the cosine interaction."
+}

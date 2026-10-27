@@ -1,0 +1,88 @@
+{
+  "permutation_checks": [
+    {
+      "seed": 0,
+      "kind": "quantum",
+      "candidate_permutation_error": 2.6645352591003757e-15
+    },
+    {
+      "seed": 0,
+      "kind": "classical",
+      "candidate_permutation_error": 0.0
+    },
+    {
+      "seed": 1,
+      "kind": "quantum",
+      "candidate_permutation_error": 1.4210854715202004e-14
+    },
+    {
+      "seed": 1,
+      "kind": "classical",
+      "candidate_permutation_error": 1.7763568394002505e-15
+    },
+    {
+      "seed": 2,
+      "kind": "quantum",
+      "candidate_permutation_error": 1.7763568394002505e-15
+    },
+    {
+      "seed": 2,
+      "kind": "classical",
+      "candidate_permutation_error": 0.0
+    }
+  ],
+  "exact_periodic_collisions": [
+    {
+      "seed": 0,
+      "query": [
+        0.0,
+        0.0
+      ],
+      "far_key": [
+        3.141592653589793,
+        0.0
+      ],
+      "target_squared_distance": 9.869604401089358,
+      "kernel_probabilities": [
+        1.0,
+        1.0
+      ],
+      "Qiskit_far_overlap": 1.0
+    },
+    {
+      "seed": 1,
+      "query": [
+        0.0,
+        0.0
+      ],
+      "far_key": [
+        3.141592653589793,
+        0.0
+      ],
+      "target_squared_distance": 9.869604401089358,
+      "kernel_probabilities": [
+        0.9999999999999996,
+        0.9999999999999996
+      ],
+      "Qiskit_far_overlap": 0.9999999999999998
+    },
+    {
+      "seed": 2,
+      "query": [
+        0.0,
+        0.0
+      ],
+      "far_key": [
+        3.142767332468754,
+        0.0
+      ],
+      "target_squared_distance": 9.876986506032768,
+      "kernel_probabilities": [
+        0.9999999999999993,
+        0.9999999999999996
+      ],
+      "Qiskit_far_overlap": 0.9999999999999996
+    }
+  ],
+  "decision": "Encoding maps a nonzero-distance key to exactly the same state as query. More shots cannot resolve this constructed case. Future model must control input range or change feature map; permutation invariance and budgets pass."
+}

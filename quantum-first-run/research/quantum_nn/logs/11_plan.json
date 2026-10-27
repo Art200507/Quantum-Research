@@ -1,0 +1,7 @@
+{
+  "hypothesis": "Smaller data-encoding frequencies may improve exact ranking under shifted input ranges while shrinking measurable probability gaps.",
+  "choice_origin": "Frequency grid1/.5/.25/.125 chosen after seeing scale4 failure in experiment10; this is an exploratory intervention, not pre-existing confirmation.",
+  "design": "Freeze five circuit fits; new 128-episode datasets,16 candidates; input scales1/2/4; 512 and8192 total shots/query;10 repeats. Evaluate full grid, not a selected winner.",
+  "scope": "No train/test-informed retraining or oracle range normalization; external frequency multiplier applies equally to query and key. Sampling from verified ideal two-qubit Born probabilities.",
+  "reviewed_previous_rows": 2520
+}

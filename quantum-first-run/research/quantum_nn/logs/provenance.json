@@ -1,0 +1,32 @@
+{
+  "python": "3.15.0",
+  "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.1",
+    "qiskit-aer": "0.18.0",
+    "qiskit-ibm-runtime": "0.51.0"
+  },
+  "source_sha256": {
+    "shots.py": "deafa3e0f7f5fa8cfee10932db6ca18a4ff9e3ec411575894af41cea0535fb66",
+    "attention.py": "7c44018c1047d22698ac7e76daf9b1aa8bb9c9a9aa36c7e917d32f0e2783b234",
+    "core.py": "398405fca65cdfc9673f4c49250410502e7e8f7b3d65db5448fce4cfd03f96a3",
+    "experiments.py": "67b4879df9f7ed47c7915b6fbeb5edb5395595ae925039aad03ed6e51a5af3c4",
+    "continue.py": "72e2c4c7143b9a20276c83042cf14bb38ace9adb4bc659a28d2c0f93f0bd26ca",
+    "value_attention.py": "1fbe2544efea8c275423b375eafab781417d3acb6d096c73ea1ee53668c79fa8",
+    "noise.py": "244d33d995f624735b4793d7f26e7e6a323581cb6195051f596e590b1999ef98",
+    "noisy_shots.py": "a60a624a24e4e1b578c0c69bb99f571cdf1cbdef786d9ec929ee07151246da3f"
+  },
+  "result_sha256": {
+    "07_result.json": "8e9a15f7c86e2094bb3be8ccafe1c229f2bdd68f2132f486bc8faddf338748d6",
+    "02_result.json": "de74785a77056f3d149f63a35ec4c9a3310a5775d98843dcb694dd5d685a25cd",
+    "08_result.json": "d199653a211fa8509142d84ec5814e42947a4866f35547ad0e4d6c93f8d8d950",
+    "01_result.json": "ebe9180d0ac180f201a7264d18c914370e33f5b9f5df88d09ceefeefbf827f4e",
+    "04_result.json": "d0c8410d26d036d73604542ae2ac6943573320f5f3b5ceef15cd352eb75f78d5",
+    "03_result.json": "095dfc25f7bb894ad08895833b20054ad4471abb1267ce98c007f96331a971c8",
+    "06_result.json": "5454545af28f151a0a5fcdcdc12ad964f9a7fb4aa9dc7e763e464c913eb42303",
+    "05_result.json": "e6ae3dd84db7e4e2d8e4abc706408a8081a488feaa73a9d6167f232b26d7661b"
+  },
+  "log_policy": "Plans/results are write-once; replay to a new directory. Train seeds, parameters, convergence and split seeds are preserved in code/results."
+}

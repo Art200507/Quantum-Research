@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-26",
+  "completed_experimental_cycles": 13,
+  "focus": "Actual QNN and quantum-attention hybrid Transformer blocks; no hardware.",
+  "read_first": [
+    "14_result.json",
+    "13_result.json",
+    "12_result.json",
+    "11_result.json",
+    "10_result.json"
+  ],
+  "new_findings": [
+    "Adaptive top-one readout gains grow with candidate count at fixed512 shots in the trained input range.",
+    "Range shift breaks even ideal quantum rankings; exact periodic input collisions independently verified by Qiskit.",
+    "Weaker encoding can restore exact ranking yet reduce finite-shot distinguishability; increasing shots helps but incurs cost.",
+    "A complete minimal50-parameter hybrid cross-attention block trains and generalizes on synthetic8-key value retrieval.",
+    "Adaptive sparse readout improves frozen-block classification on new inputs; matched-count classical block remains stronger."
+  ],
+  "block_readout": [
+    {
+      "kind": "quantum",
+      "method": "ideal",
+      "shots": 0,
+      "mean_accuracy": 0.9739583333333334
+    },
+    {
+      "kind": "control",
+      "method": "majority_values",
+      "shots": 0,
+      "mean_accuracy": 0.640625
+    },
+    {
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "shots": 128,
+      "mean_accuracy": 0.8344401041666667
+    },
+    {
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "shots": 128,
+      "mean_accuracy": 0.8829427083333333
+    },
+    {
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "shots": 512,
+      "mean_accuracy": 0.913671875
+    },
+    {
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "shots": 512,
+      "mean_accuracy": 0.9384765625
+    },
+    {
+      "kind": "quantum",
+      "method": "uniform_dense",
+      "shots": 2048,
+      "mean_accuracy": 0.9505208333333334
+    },
+    {
+      "kind": "quantum",
+      "method": "adaptive_sparse",
+      "shots": 2048,
+      "mean_accuracy": 0.9616536458333333
+    },
+    {
+      "kind": "classical",
+      "method": "ideal",
+      "shots": 0,
+      "mean_accuracy": 0.9895833333333334
+    }
+  ],
+  "optimizer_limits": "Quantum seed0 and2 hit60 iterations. Validation checkpoints selected without test feedback; further optimization/convergence not established. Classical3/3 converged. Same parameter count does not guarantee equal function class or training cost.",
+  "domain_result": "At16 candidates/input multiplier4, raw exact retrieval~26%; frequency.25 restores~94% exact but~79% with512 adaptive shots on fresh dataset. Frequency chosen after earlier failure; exploratory.",
+  "latency_ledger": {
+    "uniform_rounds": 1,
+    "adaptive_rounds_8_candidates": 3,
+    "model": "time = shots*t_shot + rounds*t_feedback; backend scheduling and batching can alter this model.",
+    "example_observed_grid": "At target93% in experiment13, uniform reaches target at2048 tested shots; adaptive at512. These are grid points, not measured minimal budgets.",
+    "break_even": "If all other costs equal, saved1536 shots offset2 extra rounds only when t_feedback <768*t_shot. No backend timings/energy/usage were measured."
+  },
+  "literature_read": [
+    {
+      "url": "https://arxiv.org/html/2504.05336v4",
+      "access": "Full text retrieved; relevant architecture and capacity-control result sections inspected, not independently reproduced.",
+      "relevance": "Classical bottleneck controls matter; quantum parameter budget alone is insufficient."
+    },
+    {
+      "url": "https://arxiv.org/html/2605.14672v2",
+      "access": "Full text retrieved; adaptive scheduling/caveats and method sections inspected, not independently reproduced.",
+      "relevance": "Shot-budget gains may be offset by adaptive job queue/feedback overhead. Generic adaptive allocation is already studied."
+    }
+  ],
+  "next_action": [
+    "Do not keep raising qubit count or using ideal accuracy as a benefit claim.",
+    "Investigate a range-aware encoding or alternative feature map with explicit preprocessing costs and new held-out domains.",
+    "Add parameter-matched task controls and test noisy training and nonlinear noise, not just ideal training/noisy inference.",
+    "Check optimization convergence on new validation cohorts before publication claims.",
+    "Before hardware, resolve stronger classical baseline and actual scheduling cost."
+  ],
+  "checks": [
+    "Generalized allocator reproduces old8-candidate behavior",
+    "All shot-budget bounds pass",
+    "Hybrid trained feature map checked by Qiskit",
+    "Candidate permutation invariance passes",
+    "Exact periodic collision checked independently",
+    "Python syntax checks"
+  ],
+  "safeguards": "No service initialized, credentials read, packages installed or hardware/paid jobs submitted. Original demos and prior logs preserved."
+}

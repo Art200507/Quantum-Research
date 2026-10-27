@@ -1,0 +1,7 @@
+{
+  "hypothesis": "Retaining a shallow branch may preserve earlier useful features while allowing learned re-uploaded features for other tasks.",
+  "architecture": "Two separately measured two-qubit circuits, classical sigmoid-weighted combination, classical gain/bias. Remove unobservable rotations:9 effective trainable parameters, same count as MLP_2. Not a single deeper circuit or unique quantum operation.",
+  "design": "Same3 data seeds and4 tasks,16/64/128 training points, independent validation/test. Two restarts,120 optimization iterations, train all9 parameters. Compare saved baselines and independently fit identical-data MLP_2 already in16.",
+  "cost": "Two circuit settings per prediction versus one; total inference shots must be split between branches. Training uses ideal simulated expectations.",
+  "reviewed_structural_tests": 64
+}
