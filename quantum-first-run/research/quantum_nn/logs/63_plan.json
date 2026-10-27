@@ -1,0 +1,8 @@
+{
+  "reviewed": "62_result: all12 fresh encoders retained;26/48 optimizer runs converged,Qiskit max error3.33e-16.61/60: larger calibration budgets help static mean error;temporal behavior unconfirmed.",
+  "hypothesis": "More calibration labels may stabilize temporal correction,but adaptation cost may erase monitoring advantage.",
+  "design": "12fresh62 models,6new24batch trajectories(two each stationary,pulse,ramp),32fresh test inputs/batch.256new labeled calibration points/model/trajectory independent encoder training/selection/test. Nested64/256 prefixes;256shots/point. All methods/budgets share calibration/test measurement records and monitoring schedules.",
+  "policies": "Never,periodic6,always,512shot triggered. All initial fits precede batch0. Always refreshes only batches1..23,removing duplicate initial refresh. Same affineMLE fitting;raw/cap4 predictions both retained,cap not selected on test.",
+  "cost": "Inference196608shots;initialN*256;N*256 per policy update. Triggered reference4096+24*512+4096peralarm. Equal methods within budget;different budgets explicitly costed. No pooling/amortization across model deployments.",
+  "scope": "Fresh encoder seeds improve independence,but only3newtrainingseeds/task and2trajectories/kind. Same homogeneous hypothetical channel axis;not hardware or unseen noise mechanisms."
+}

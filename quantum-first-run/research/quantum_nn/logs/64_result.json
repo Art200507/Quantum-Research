@@ -1,0 +1,1241 @@
+{
+  "monitor": [
+    {
+      "panel": "limited",
+      "fault": 0.0,
+      "alert_rate": 0.003,
+      "threshold": 45.07769549885853
+    },
+    {
+      "panel": "limited",
+      "fault": 0.4,
+      "alert_rate": 0.002,
+      "threshold": 45.07769549885853
+    },
+    {
+      "panel": "expanded",
+      "fault": 0.0,
+      "alert_rate": 0.009,
+      "threshold": 61.56585421969892
+    },
+    {
+      "panel": "expanded",
+      "fault": 0.4,
+      "alert_rate": 0.039,
+      "threshold": 61.56585421969892
+    }
+  ],
+  "rows": [
+    {
+      "seed": 200,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 0,
+      "accuracy": 0.94921875,
+      "cross_entropy": 0.13111094811182866,
+      "brier": 0.03906333280444668,
+      "confident_wrong_fraction": 0.01220703125
+    },
+    {
+      "seed": 200,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 1,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.1356242647215888,
+      "brier": 0.04217046239626207,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 200,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 2,
+      "accuracy": 0.95068359375,
+      "cross_entropy": 0.11928890505124307,
+      "brier": 0.03667442686146816,
+      "confident_wrong_fraction": 0.00830078125
+    },
+    {
+      "seed": 200,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 3,
+      "accuracy": 0.94384765625,
+      "cross_entropy": 0.13330095002641185,
+      "brier": 0.040411944920333946,
+      "confident_wrong_fraction": 0.01025390625
+    },
+    {
+      "seed": 200,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 4,
+      "accuracy": 0.943359375,
+      "cross_entropy": 0.13252309490667963,
+      "brier": 0.04044183049406823,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 200,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 0,
+      "accuracy": 0.9501953125,
+      "cross_entropy": 0.1310367016187875,
+      "brier": 0.038801327871380506,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 200,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 1,
+      "accuracy": 0.94189453125,
+      "cross_entropy": 0.13618950924148,
+      "brier": 0.042229948555341956,
+      "confident_wrong_fraction": 0.01220703125
+    },
+    {
+      "seed": 200,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 2,
+      "accuracy": 0.94873046875,
+      "cross_entropy": 0.12059861536443266,
+      "brier": 0.03709525913502375,
+      "confident_wrong_fraction": 0.00830078125
+    },
+    {
+      "seed": 200,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 3,
+      "accuracy": 0.94482421875,
+      "cross_entropy": 0.13316013901986032,
+      "brier": 0.040704910612628084,
+      "confident_wrong_fraction": 0.01123046875
+    },
+    {
+      "seed": 200,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 4,
+      "accuracy": 0.9423828125,
+      "cross_entropy": 0.13205436628345552,
+      "brier": 0.040454255696390766,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 200,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 0,
+      "accuracy": 0.7958984375,
+      "cross_entropy": 0.4320630171660731,
+      "brier": 0.14125780869574567,
+      "confident_wrong_fraction": 0.02197265625
+    },
+    {
+      "seed": 200,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 1,
+      "accuracy": 0.796875,
+      "cross_entropy": 0.42813265793333033,
+      "brier": 0.14012621040989665,
+      "confident_wrong_fraction": 0.02294921875
+    },
+    {
+      "seed": 200,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 2,
+      "accuracy": 0.80126953125,
+      "cross_entropy": 0.3979125547507153,
+      "brier": 0.1303407807988936,
+      "confident_wrong_fraction": 0.01611328125
+    },
+    {
+      "seed": 200,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 3,
+      "accuracy": 0.80029296875,
+      "cross_entropy": 0.39945329923901385,
+      "brier": 0.1308807360766729,
+      "confident_wrong_fraction": 0.01416015625
+    },
+    {
+      "seed": 200,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 4,
+      "accuracy": 0.8046875,
+      "cross_entropy": 0.39627815628451213,
+      "brier": 0.13021653934886207,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 200,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 0,
+      "accuracy": 0.79638671875,
+      "cross_entropy": 0.4302934991141314,
+      "brier": 0.14069868087007015,
+      "confident_wrong_fraction": 0.0224609375
+    },
+    {
+      "seed": 200,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 1,
+      "accuracy": 0.79833984375,
+      "cross_entropy": 0.42750876322231907,
+      "brier": 0.13990402845075678,
+      "confident_wrong_fraction": 0.0205078125
+    },
+    {
+      "seed": 200,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 2,
+      "accuracy": 0.80126953125,
+      "cross_entropy": 0.39748854870011197,
+      "brier": 0.13019270121087648,
+      "confident_wrong_fraction": 0.013671875
+    },
+    {
+      "seed": 200,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 3,
+      "accuracy": 0.8056640625,
+      "cross_entropy": 0.39880975776237365,
+      "brier": 0.13061216565518596,
+      "confident_wrong_fraction": 0.013671875
+    },
+    {
+      "seed": 200,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 4,
+      "accuracy": 0.80859375,
+      "cross_entropy": 0.39510959828160114,
+      "brier": 0.12964605753293665,
+      "confident_wrong_fraction": 0.013671875
+    },
+    {
+      "seed": 200,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 0,
+      "accuracy": 0.9541015625,
+      "cross_entropy": 0.10682213521754445,
+      "brier": 0.03270600440062426,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 200,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 1,
+      "accuracy": 0.9560546875,
+      "cross_entropy": 0.10195579488726236,
+      "brier": 0.03158073200902796,
+      "confident_wrong_fraction": 0.0048828125
+    },
+    {
+      "seed": 200,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 2,
+      "accuracy": 0.95751953125,
+      "cross_entropy": 0.10063955092599645,
+      "brier": 0.031076028116691513,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 200,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 3,
+      "accuracy": 0.9521484375,
+      "cross_entropy": 0.11194627400285782,
+      "brier": 0.03471523603593708,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 200,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 4,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.09825389763476328,
+      "brier": 0.030153013947043145,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 200,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 0,
+      "accuracy": 0.95458984375,
+      "cross_entropy": 0.10648525047670088,
+      "brier": 0.032597661880204645,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 200,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 1,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.1020630029735571,
+      "brier": 0.031592828057887656,
+      "confident_wrong_fraction": 0.0048828125
+    },
+    {
+      "seed": 200,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 2,
+      "accuracy": 0.95751953125,
+      "cross_entropy": 0.10062008591654951,
+      "brier": 0.031062330790994658,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 200,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 3,
+      "accuracy": 0.953125,
+      "cross_entropy": 0.11172146045783614,
+      "brier": 0.03466214195223085,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 200,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 4,
+      "accuracy": 0.95703125,
+      "cross_entropy": 0.09831403738116104,
+      "brier": 0.03017316398293698,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 200,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 0,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.15484374990671995,
+      "brier": 0.04699131532530394,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 200,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 1,
+      "accuracy": 0.92919921875,
+      "cross_entropy": 0.15793663594677362,
+      "brier": 0.05058103882193737,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 200,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 2,
+      "accuracy": 0.931640625,
+      "cross_entropy": 0.14487930392106918,
+      "brier": 0.04568658983587996,
+      "confident_wrong_fraction": 0.0048828125
+    },
+    {
+      "seed": 200,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 3,
+      "accuracy": 0.935546875,
+      "cross_entropy": 0.14664553124139174,
+      "brier": 0.04614402520890213,
+      "confident_wrong_fraction": 0.00830078125
+    },
+    {
+      "seed": 200,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 4,
+      "accuracy": 0.9365234375,
+      "cross_entropy": 0.14632474218332517,
+      "brier": 0.04555628278845365,
+      "confident_wrong_fraction": 0.00927734375
+    },
+    {
+      "seed": 200,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 0,
+      "accuracy": 0.9375,
+      "cross_entropy": 0.154727328575529,
+      "brier": 0.046943536938209546,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 200,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 1,
+      "accuracy": 0.93017578125,
+      "cross_entropy": 0.15785614285380375,
+      "brier": 0.050531877879468445,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 200,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 2,
+      "accuracy": 0.93212890625,
+      "cross_entropy": 0.14485904595655796,
+      "brier": 0.045665079164218345,
+      "confident_wrong_fraction": 0.0048828125
+    },
+    {
+      "seed": 200,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 3,
+      "accuracy": 0.9345703125,
+      "cross_entropy": 0.1467559006414419,
+      "brier": 0.046185608816507226,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 200,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 4,
+      "accuracy": 0.93603515625,
+      "cross_entropy": 0.14637616616635055,
+      "brier": 0.04556004688299144,
+      "confident_wrong_fraction": 0.00927734375
+    },
+    {
+      "seed": 201,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 0,
+      "accuracy": 0.9609375,
+      "cross_entropy": 0.11395542844431009,
+      "brier": 0.03157317019846915,
+      "confident_wrong_fraction": 0.00439453125
+    },
+    {
+      "seed": 201,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 1,
+      "accuracy": 0.962890625,
+      "cross_entropy": 0.1131195137010145,
+      "brier": 0.03139738217145428,
+      "confident_wrong_fraction": 0.00244140625
+    },
+    {
+      "seed": 201,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 2,
+      "accuracy": 0.95947265625,
+      "cross_entropy": 0.11126045205797493,
+      "brier": 0.031104530348571597,
+      "confident_wrong_fraction": 0.0029296875
+    },
+    {
+      "seed": 201,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 3,
+      "accuracy": 0.95458984375,
+      "cross_entropy": 0.11121136227715994,
+      "brier": 0.031181181750247634,
+      "confident_wrong_fraction": 0.00244140625
+    },
+    {
+      "seed": 201,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 4,
+      "accuracy": 0.95849609375,
+      "cross_entropy": 0.10865329805331657,
+      "brier": 0.030123058824412713,
+      "confident_wrong_fraction": 0.00146484375
+    },
+    {
+      "seed": 201,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 0,
+      "accuracy": 0.96142578125,
+      "cross_entropy": 0.11402692293112349,
+      "brier": 0.0315982642196902,
+      "confident_wrong_fraction": 0.00439453125
+    },
+    {
+      "seed": 201,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 1,
+      "accuracy": 0.96240234375,
+      "cross_entropy": 0.11315886057282096,
+      "brier": 0.031378351345935473,
+      "confident_wrong_fraction": 0.00244140625
+    },
+    {
+      "seed": 201,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 2,
+      "accuracy": 0.9599609375,
+      "cross_entropy": 0.11126647041246956,
+      "brier": 0.0310814075073484,
+      "confident_wrong_fraction": 0.0029296875
+    },
+    {
+      "seed": 201,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 3,
+      "accuracy": 0.955078125,
+      "cross_entropy": 0.11130525576016863,
+      "brier": 0.03118154049392899,
+      "confident_wrong_fraction": 0.00244140625
+    },
+    {
+      "seed": 201,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 4,
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.10876833575049191,
+      "brier": 0.030184446331154212,
+      "confident_wrong_fraction": 0.00146484375
+    },
+    {
+      "seed": 201,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 0,
+      "accuracy": 0.80322265625,
+      "cross_entropy": 0.41087288578362924,
+      "brier": 0.13471887656194503,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 201,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 1,
+      "accuracy": 0.7919921875,
+      "cross_entropy": 0.4154157963916156,
+      "brier": 0.13723479369485742,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 201,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 2,
+      "accuracy": 0.8076171875,
+      "cross_entropy": 0.39873582325442125,
+      "brier": 0.12972293327915174,
+      "confident_wrong_fraction": 0.00830078125
+    },
+    {
+      "seed": 201,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 3,
+      "accuracy": 0.806640625,
+      "cross_entropy": 0.40485086893103933,
+      "brier": 0.13212163605327112,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 201,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 4,
+      "accuracy": 0.80322265625,
+      "cross_entropy": 0.41494180516181167,
+      "brier": 0.13568940107693428,
+      "confident_wrong_fraction": 0.00830078125
+    },
+    {
+      "seed": 201,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 0,
+      "accuracy": 0.8046875,
+      "cross_entropy": 0.41130562712938823,
+      "brier": 0.1348500066010334,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 201,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 1,
+      "accuracy": 0.7890625,
+      "cross_entropy": 0.41577357711378216,
+      "brier": 0.13748383644462928,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 201,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 2,
+      "accuracy": 0.81005859375,
+      "cross_entropy": 0.39877209664329133,
+      "brier": 0.129742645606065,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 201,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 3,
+      "accuracy": 0.8046875,
+      "cross_entropy": 0.40484230280074734,
+      "brier": 0.13219643271140166,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 201,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 4,
+      "accuracy": 0.80615234375,
+      "cross_entropy": 0.4151113184448304,
+      "brier": 0.13577225797353956,
+      "confident_wrong_fraction": 0.00830078125
+    },
+    {
+      "seed": 201,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 0,
+      "accuracy": 0.95458984375,
+      "cross_entropy": 0.10671513155401803,
+      "brier": 0.03366821222515015,
+      "confident_wrong_fraction": 0.00341796875
+    },
+    {
+      "seed": 201,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 1,
+      "accuracy": 0.9521484375,
+      "cross_entropy": 0.10179684454228881,
+      "brier": 0.03196544279943209,
+      "confident_wrong_fraction": 0.0029296875
+    },
+    {
+      "seed": 201,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 2,
+      "accuracy": 0.9521484375,
+      "cross_entropy": 0.11021124008385594,
+      "brier": 0.03508524584278866,
+      "confident_wrong_fraction": 0.00341796875
+    },
+    {
+      "seed": 201,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 3,
+      "accuracy": 0.95166015625,
+      "cross_entropy": 0.10432108853540578,
+      "brier": 0.03300910221892671,
+      "confident_wrong_fraction": 0.00537109375
+    },
+    {
+      "seed": 201,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 4,
+      "accuracy": 0.94970703125,
+      "cross_entropy": 0.10613990826730534,
+      "brier": 0.03276442460016597,
+      "confident_wrong_fraction": 0.00830078125
+    },
+    {
+      "seed": 201,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 0,
+      "accuracy": 0.9501953125,
+      "cross_entropy": 0.10720657480252518,
+      "brier": 0.034091553561412954,
+      "confident_wrong_fraction": 0.0048828125
+    },
+    {
+      "seed": 201,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 1,
+      "accuracy": 0.95263671875,
+      "cross_entropy": 0.10301759078886458,
+      "brier": 0.03247029334363845,
+      "confident_wrong_fraction": 0.00390625
+    },
+    {
+      "seed": 201,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 2,
+      "accuracy": 0.9482421875,
+      "cross_entropy": 0.11210079513978229,
+      "brier": 0.035770602288370715,
+      "confident_wrong_fraction": 0.00439453125
+    },
+    {
+      "seed": 201,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 3,
+      "accuracy": 0.9521484375,
+      "cross_entropy": 0.10414822940352947,
+      "brier": 0.03303050107969111,
+      "confident_wrong_fraction": 0.00537109375
+    },
+    {
+      "seed": 201,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 4,
+      "accuracy": 0.94970703125,
+      "cross_entropy": 0.10748118875687326,
+      "brier": 0.03337578915719646,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 201,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 0,
+      "accuracy": 0.9404296875,
+      "cross_entropy": 0.1436805095180886,
+      "brier": 0.044125315887121264,
+      "confident_wrong_fraction": 0.01220703125
+    },
+    {
+      "seed": 201,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 1,
+      "accuracy": 0.94287109375,
+      "cross_entropy": 0.14331733047237363,
+      "brier": 0.04378794424589462,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 201,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 2,
+      "accuracy": 0.94775390625,
+      "cross_entropy": 0.12859039065123667,
+      "brier": 0.040141814466010714,
+      "confident_wrong_fraction": 0.00830078125
+    },
+    {
+      "seed": 201,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 3,
+      "accuracy": 0.9384765625,
+      "cross_entropy": 0.14069403813161402,
+      "brier": 0.0437916319121456,
+      "confident_wrong_fraction": 0.01220703125
+    },
+    {
+      "seed": 201,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 4,
+      "accuracy": 0.93505859375,
+      "cross_entropy": 0.1501773153117073,
+      "brier": 0.0463626445412552,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 201,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 0,
+      "accuracy": 0.93896484375,
+      "cross_entropy": 0.14319550997442085,
+      "brier": 0.04401878813574271,
+      "confident_wrong_fraction": 0.0126953125
+    },
+    {
+      "seed": 201,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 1,
+      "accuracy": 0.94189453125,
+      "cross_entropy": 0.1437462058078608,
+      "brier": 0.043899019655654334,
+      "confident_wrong_fraction": 0.01318359375
+    },
+    {
+      "seed": 201,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 2,
+      "accuracy": 0.947265625,
+      "cross_entropy": 0.12832838666781118,
+      "brier": 0.03999514963267526,
+      "confident_wrong_fraction": 0.00830078125
+    },
+    {
+      "seed": 201,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 3,
+      "accuracy": 0.93896484375,
+      "cross_entropy": 0.1407480923754904,
+      "brier": 0.04383380466104974,
+      "confident_wrong_fraction": 0.01171875
+    },
+    {
+      "seed": 201,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 4,
+      "accuracy": 0.93603515625,
+      "cross_entropy": 0.15057115021419146,
+      "brier": 0.04644192029296153,
+      "confident_wrong_fraction": 0.01318359375
+    },
+    {
+      "seed": 202,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 0,
+      "accuracy": 0.9130859375,
+      "cross_entropy": 0.21978056177080751,
+      "brier": 0.06455292477912339,
+      "confident_wrong_fraction": 0.0244140625
+    },
+    {
+      "seed": 202,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 1,
+      "accuracy": 0.9169921875,
+      "cross_entropy": 0.22296601102830552,
+      "brier": 0.06410125446605969,
+      "confident_wrong_fraction": 0.02587890625
+    },
+    {
+      "seed": 202,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 2,
+      "accuracy": 0.9150390625,
+      "cross_entropy": 0.21979115960923593,
+      "brier": 0.06197999112132665,
+      "confident_wrong_fraction": 0.025390625
+    },
+    {
+      "seed": 202,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 3,
+      "accuracy": 0.90869140625,
+      "cross_entropy": 0.2232405847484964,
+      "brier": 0.0680097020392294,
+      "confident_wrong_fraction": 0.02490234375
+    },
+    {
+      "seed": 202,
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "repeat": 4,
+      "accuracy": 0.91259765625,
+      "cross_entropy": 0.2267367701284136,
+      "brier": 0.06581693321959989,
+      "confident_wrong_fraction": 0.0244140625
+    },
+    {
+      "seed": 202,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 0,
+      "accuracy": 0.91455078125,
+      "cross_entropy": 0.21620894992330902,
+      "brier": 0.06364091564469514,
+      "confident_wrong_fraction": 0.0244140625
+    },
+    {
+      "seed": 202,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 1,
+      "accuracy": 0.9189453125,
+      "cross_entropy": 0.21924219231068226,
+      "brier": 0.06367508268778771,
+      "confident_wrong_fraction": 0.025390625
+    },
+    {
+      "seed": 202,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 2,
+      "accuracy": 0.91748046875,
+      "cross_entropy": 0.21723259994329508,
+      "brier": 0.06156069246950546,
+      "confident_wrong_fraction": 0.025390625
+    },
+    {
+      "seed": 202,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 3,
+      "accuracy": 0.90869140625,
+      "cross_entropy": 0.2208418558579582,
+      "brier": 0.06732062922617989,
+      "confident_wrong_fraction": 0.02490234375
+    },
+    {
+      "seed": 202,
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "repeat": 4,
+      "accuracy": 0.91162109375,
+      "cross_entropy": 0.22200861726350773,
+      "brier": 0.06440523401277953,
+      "confident_wrong_fraction": 0.02197265625
+    },
+    {
+      "seed": 202,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 0,
+      "accuracy": 0.81005859375,
+      "cross_entropy": 0.4154553365404098,
+      "brier": 0.13390495238698344,
+      "confident_wrong_fraction": 0.013671875
+    },
+    {
+      "seed": 202,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 1,
+      "accuracy": 0.80908203125,
+      "cross_entropy": 0.4127017575685876,
+      "brier": 0.13266154055706886,
+      "confident_wrong_fraction": 0.013671875
+    },
+    {
+      "seed": 202,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 2,
+      "accuracy": 0.806640625,
+      "cross_entropy": 0.4192637991920021,
+      "brier": 0.13597310385216058,
+      "confident_wrong_fraction": 0.0107421875
+    },
+    {
+      "seed": 202,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 3,
+      "accuracy": 0.80615234375,
+      "cross_entropy": 0.4248003307584826,
+      "brier": 0.13707150550365022,
+      "confident_wrong_fraction": 0.01416015625
+    },
+    {
+      "seed": 202,
+      "task": "annulus",
+      "fault": 0.0,
+      "repeat": 4,
+      "accuracy": 0.8046875,
+      "cross_entropy": 0.41126935952335475,
+      "brier": 0.13346634051467432,
+      "confident_wrong_fraction": 0.00830078125
+    },
+    {
+      "seed": 202,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 0,
+      "accuracy": 0.8125,
+      "cross_entropy": 0.4145109597429123,
+      "brier": 0.13373868407813472,
+      "confident_wrong_fraction": 0.01416015625
+    },
+    {
+      "seed": 202,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 1,
+      "accuracy": 0.810546875,
+      "cross_entropy": 0.41153564815689103,
+      "brier": 0.13234697853649457,
+      "confident_wrong_fraction": 0.01416015625
+    },
+    {
+      "seed": 202,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 2,
+      "accuracy": 0.80615234375,
+      "cross_entropy": 0.4184108624988904,
+      "brier": 0.1357342053045118,
+      "confident_wrong_fraction": 0.009765625
+    },
+    {
+      "seed": 202,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 3,
+      "accuracy": 0.8076171875,
+      "cross_entropy": 0.4244353413206709,
+      "brier": 0.136994095292922,
+      "confident_wrong_fraction": 0.013671875
+    },
+    {
+      "seed": 202,
+      "task": "annulus",
+      "fault": 0.4,
+      "repeat": 4,
+      "accuracy": 0.8076171875,
+      "cross_entropy": 0.4096580165335262,
+      "brier": 0.13282048747068897,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 202,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 0,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.10954819169816757,
+      "brier": 0.0352513208293949,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 202,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 1,
+      "accuracy": 0.95849609375,
+      "cross_entropy": 0.10069452047737702,
+      "brier": 0.030822860410596536,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 202,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 2,
+      "accuracy": 0.955078125,
+      "cross_entropy": 0.10227292373076335,
+      "brier": 0.031863585627976455,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 202,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 3,
+      "accuracy": 0.9599609375,
+      "cross_entropy": 0.09192117455498051,
+      "brier": 0.028433824918788292,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 202,
+      "task": "parabola",
+      "fault": 0.0,
+      "repeat": 4,
+      "accuracy": 0.95654296875,
+      "cross_entropy": 0.09627350494705925,
+      "brier": 0.02987635998939872,
+      "confident_wrong_fraction": 0.00732421875
+    },
+    {
+      "seed": 202,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 0,
+      "accuracy": 0.94677734375,
+      "cross_entropy": 0.1120700562090258,
+      "brier": 0.035969057835349226,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 202,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 1,
+      "accuracy": 0.9560546875,
+      "cross_entropy": 0.10599829666849953,
+      "brier": 0.032216405998739615,
+      "confident_wrong_fraction": 0.01025390625
+    },
+    {
+      "seed": 202,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 2,
+      "accuracy": 0.955078125,
+      "cross_entropy": 0.10574095404128853,
+      "brier": 0.03278344729197265,
+      "confident_wrong_fraction": 0.00927734375
+    },
+    {
+      "seed": 202,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 3,
+      "accuracy": 0.9580078125,
+      "cross_entropy": 0.0969353870279811,
+      "brier": 0.029695668350851096,
+      "confident_wrong_fraction": 0.0078125
+    },
+    {
+      "seed": 202,
+      "task": "parabola",
+      "fault": 0.4,
+      "repeat": 4,
+      "accuracy": 0.95556640625,
+      "cross_entropy": 0.09969371258476682,
+      "brier": 0.031271699136097994,
+      "confident_wrong_fraction": 0.0087890625
+    },
+    {
+      "seed": 202,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 0,
+      "accuracy": 0.94384765625,
+      "cross_entropy": 0.1279316721367326,
+      "brier": 0.03920310831942048,
+      "confident_wrong_fraction": 0.00390625
+    },
+    {
+      "seed": 202,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 1,
+      "accuracy": 0.94677734375,
+      "cross_entropy": 0.1321718785680373,
+      "brier": 0.0404021846145062,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 202,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 2,
+      "accuracy": 0.94140625,
+      "cross_entropy": 0.1262689453335902,
+      "brier": 0.03882890124968422,
+      "confident_wrong_fraction": 0.00341796875
+    },
+    {
+      "seed": 202,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 3,
+      "accuracy": 0.9482421875,
+      "cross_entropy": 0.12465082732441204,
+      "brier": 0.037639464530322395,
+      "confident_wrong_fraction": 0.00634765625
+    },
+    {
+      "seed": 202,
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "repeat": 4,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.12902342154749213,
+      "brier": 0.03940489330090106,
+      "confident_wrong_fraction": 0.0048828125
+    },
+    {
+      "seed": 202,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 0,
+      "accuracy": 0.9443359375,
+      "cross_entropy": 0.12801197127360878,
+      "brier": 0.03922626061711432,
+      "confident_wrong_fraction": 0.00390625
+    },
+    {
+      "seed": 202,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 1,
+      "accuracy": 0.9462890625,
+      "cross_entropy": 0.1322038302072214,
+      "brier": 0.040410309048572776,
+      "confident_wrong_fraction": 0.005859375
+    },
+    {
+      "seed": 202,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 2,
+      "accuracy": 0.94189453125,
+      "cross_entropy": 0.12629197689836544,
+      "brier": 0.038831728378574196,
+      "confident_wrong_fraction": 0.00341796875
+    },
+    {
+      "seed": 202,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 3,
+      "accuracy": 0.94873046875,
+      "cross_entropy": 0.12468417189293614,
+      "brier": 0.03766179552678762,
+      "confident_wrong_fraction": 0.0068359375
+    },
+    {
+      "seed": 202,
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "repeat": 4,
+      "accuracy": 0.9453125,
+      "cross_entropy": 0.12902565182022604,
+      "brier": 0.0394023737581506,
+      "confident_wrong_fraction": 0.0048828125
+    }
+  ],
+  "coverage_checks": [
+    {
+      "panel": "limited",
+      "probability_change": 0.0
+    },
+    {
+      "panel": "expanded",
+      "probability_change": 0.06378602506139297
+    }
+  ],
+  "decision": "Reference coverage must be specified and challenged. Do not claim universal detection or recommend hardware monitoring from shared-channel toy success;next prioritize robust independent calibration and circuit-representative panels."
+}

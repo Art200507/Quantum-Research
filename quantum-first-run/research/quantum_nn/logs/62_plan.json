@@ -1,0 +1,6 @@
+{
+  "reviewed": "61_checkpoint and60_result: calibration budgets affect probability error; temporal continuation still reused old encoders.",
+  "hypothesis": "Retraining on independent data/start seeds provides a stronger basis for testing calibration budgets under drift.",
+  "design": "Three new training seeds, all four non-wave tasks. 128 train,256 encoder-selection validation,1024 held-out ideal test points. Frozen stage35 single/four-frequency protocol,two starts,200 iterations. Select fixed/learned models by validation CE only. No test-dependent exclusions.",
+  "scope": "These are genuinely new encoder training cohorts,not merely new measurement draws. Still synthetic two-qubit models with exact classical equivalents. Calibration and drift test data will be generated independently in63."
+}

@@ -1,0 +1,986 @@
+{
+  "date": "2026-10-27",
+  "completed_experimental_cycles": 54,
+  "new_cycles": [
+    62,
+    63,
+    64
+  ],
+  "review_before_each": [
+    "61_checkpoint/60_result before62",
+    "62_result before63",
+    "63_result before64"
+  ],
+  "fresh_encoder_results": [
+    {
+      "task": "rotated_ellipse",
+      "model": "fixed",
+      "accuracy": 0.9690755208333334,
+      "cross_entropy": 0.07170089996442183,
+      "brier": 0.02259052606794566,
+      "confident_wrong_fraction": 0.00390625,
+      "evaluation_rows": 3
+    },
+    {
+      "task": "rotated_ellipse",
+      "model": "learned",
+      "accuracy": 0.9694010416666666,
+      "cross_entropy": 0.08012032851867396,
+      "brier": 0.023515913508101383,
+      "confident_wrong_fraction": 0.0087890625,
+      "evaluation_rows": 3
+    },
+    {
+      "task": "annulus",
+      "model": "fixed",
+      "accuracy": 0.9111328125,
+      "cross_entropy": 0.23046417512769354,
+      "brier": 0.06704161891383244,
+      "confident_wrong_fraction": 0.031901041666666664,
+      "evaluation_rows": 3
+    },
+    {
+      "task": "annulus",
+      "model": "learned",
+      "accuracy": 0.9130859375,
+      "cross_entropy": 0.220816763825494,
+      "brier": 0.0647487568660906,
+      "confident_wrong_fraction": 0.030598958333333332,
+      "evaluation_rows": 3
+    },
+    {
+      "task": "parabola",
+      "model": "fixed",
+      "accuracy": 0.9554036458333334,
+      "cross_entropy": 0.1063503981992223,
+      "brier": 0.03193836443583517,
+      "confident_wrong_fraction": 0.006510416666666667,
+      "evaluation_rows": 3
+    },
+    {
+      "task": "parabola",
+      "model": "learned",
+      "accuracy": 0.9778645833333334,
+      "cross_entropy": 0.053351377957129735,
+      "brier": 0.016763253451332352,
+      "confident_wrong_fraction": 0.0022786458333333335,
+      "evaluation_rows": 3
+    },
+    {
+      "task": "xor_quadrants",
+      "model": "fixed",
+      "accuracy": 0.958984375,
+      "cross_entropy": 0.10318931838340556,
+      "brier": 0.030592892389926588,
+      "confident_wrong_fraction": 0.006184895833333333,
+      "evaluation_rows": 3
+    },
+    {
+      "task": "xor_quadrants",
+      "model": "learned",
+      "accuracy": 0.9830729166666666,
+      "cross_entropy": 0.04588401176525625,
+      "brier": 0.013053107961243204,
+      "confident_wrong_fraction": 0.0,
+      "evaluation_rows": 3
+    }
+  ],
+  "temporal_budget": [
+    {
+      "calibration_labels": 64,
+      "policy": "never",
+      "guard": "raw",
+      "accuracy": 0.9063585069444444,
+      "cross_entropy": 0.2860983529996303,
+      "brier": 0.06834908144008014,
+      "confident_wrong_fraction": 0.020417390046296294,
+      "total_shots": 212992.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 64,
+      "policy": "never",
+      "guard": "cap4",
+      "accuracy": 0.9063585069444444,
+      "cross_entropy": 0.23063983308165734,
+      "brier": 0.0683271153643679,
+      "confident_wrong_fraction": 0.020417390046296294,
+      "total_shots": 212992.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 64,
+      "policy": "always",
+      "guard": "raw",
+      "accuracy": 0.9076967592592593,
+      "cross_entropy": 0.2718187294468955,
+      "brier": 0.0676359147975271,
+      "confident_wrong_fraction": 0.01978443287037037,
+      "total_shots": 589824.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 64,
+      "policy": "always",
+      "guard": "cap4",
+      "accuracy": 0.9076967592592593,
+      "cross_entropy": 0.22821907378126718,
+      "brier": 0.06760665243586345,
+      "confident_wrong_fraction": 0.01978443287037037,
+      "total_shots": 589824.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 64,
+      "policy": "periodic6",
+      "guard": "raw",
+      "accuracy": 0.905617042824074,
+      "cross_entropy": 0.27437375400437775,
+      "brier": 0.06840747450804373,
+      "confident_wrong_fraction": 0.019694010416666668,
+      "total_shots": 262144.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 64,
+      "policy": "periodic6",
+      "guard": "cap4",
+      "accuracy": 0.905617042824074,
+      "cross_entropy": 0.23043677124136958,
+      "brier": 0.06838191267473372,
+      "confident_wrong_fraction": 0.019694010416666668,
+      "total_shots": 262144.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 64,
+      "policy": "triggered",
+      "guard": "raw",
+      "accuracy": 0.9047309027777778,
+      "cross_entropy": 0.27754867237769043,
+      "brier": 0.06849711554814553,
+      "confident_wrong_fraction": 0.018699363425925927,
+      "total_shots": 249856.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 64,
+      "policy": "triggered",
+      "guard": "cap4",
+      "accuracy": 0.9047309027777778,
+      "cross_entropy": 0.23033872692687987,
+      "brier": 0.0684745531664085,
+      "confident_wrong_fraction": 0.018699363425925927,
+      "total_shots": 249856.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 256,
+      "policy": "never",
+      "guard": "raw",
+      "accuracy": 0.907859519675926,
+      "cross_entropy": 0.20544467416248127,
+      "brier": 0.06484136082448502,
+      "confident_wrong_fraction": 0.012044270833333334,
+      "total_shots": 262144.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 256,
+      "policy": "never",
+      "guard": "cap4",
+      "accuracy": 0.907859519675926,
+      "cross_entropy": 0.2128553743720979,
+      "brier": 0.06498283452404335,
+      "confident_wrong_fraction": 0.012044270833333334,
+      "total_shots": 262144.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 256,
+      "policy": "always",
+      "guard": "raw",
+      "accuracy": 0.9098668981481483,
+      "cross_entropy": 0.19988552370894863,
+      "brier": 0.06307552645360663,
+      "confident_wrong_fraction": 0.01050708912037037,
+      "total_shots": 1769472.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 256,
+      "policy": "always",
+      "guard": "cap4",
+      "accuracy": 0.9098668981481483,
+      "cross_entropy": 0.2075708625840365,
+      "brier": 0.0632237953813116,
+      "confident_wrong_fraction": 0.01050708912037037,
+      "total_shots": 1769472.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 256,
+      "policy": "periodic6",
+      "guard": "raw",
+      "accuracy": 0.9085828993055556,
+      "cross_entropy": 0.20392091125886286,
+      "brier": 0.06428534572067748,
+      "confident_wrong_fraction": 0.011375144675925925,
+      "total_shots": 458752.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 256,
+      "policy": "periodic6",
+      "guard": "cap4",
+      "accuracy": 0.9085828993055556,
+      "cross_entropy": 0.21126667364717222,
+      "brier": 0.06442765469890116,
+      "confident_wrong_fraction": 0.011375144675925925,
+      "total_shots": 458752.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 256,
+      "policy": "triggered",
+      "guard": "raw",
+      "accuracy": 0.9077690972222222,
+      "cross_entropy": 0.20585606741112242,
+      "brier": 0.06477381362498007,
+      "confident_wrong_fraction": 0.012008101851851853,
+      "total_shots": 348160.0,
+      "evaluation_rows": 72
+    },
+    {
+      "calibration_labels": 256,
+      "policy": "triggered",
+      "guard": "cap4",
+      "accuracy": 0.9077690972222222,
+      "cross_entropy": 0.2130139254563849,
+      "brier": 0.06491041926981188,
+      "confident_wrong_fraction": 0.012008101851851853,
+      "total_shots": 348160.0,
+      "evaluation_rows": 72
+    }
+  ],
+  "temporal_budget_by_kind": [
+    {
+      "kind": "stationary",
+      "calibration_labels": 64,
+      "policy": "never",
+      "guard": "raw",
+      "accuracy": 0.9094509548611112,
+      "cross_entropy": 0.293976831935341,
+      "brier": 0.06576859970162822,
+      "confident_wrong_fraction": 0.01605902777777778,
+      "total_shots": 212992.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 64,
+      "policy": "never",
+      "guard": "cap4",
+      "accuracy": 0.9094509548611112,
+      "cross_entropy": 0.22222554685916265,
+      "brier": 0.06575367663986273,
+      "confident_wrong_fraction": 0.01605902777777778,
+      "total_shots": 212992.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 64,
+      "policy": "always",
+      "guard": "raw",
+      "accuracy": 0.9089626736111112,
+      "cross_entropy": 0.260184646979293,
+      "brier": 0.0662924788969086,
+      "confident_wrong_fraction": 0.017903645833333332,
+      "total_shots": 589824.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 64,
+      "policy": "always",
+      "guard": "cap4",
+      "accuracy": 0.9089626736111112,
+      "cross_entropy": 0.22329429581834428,
+      "brier": 0.06628505608542894,
+      "confident_wrong_fraction": 0.017903645833333332,
+      "total_shots": 589824.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 64,
+      "policy": "periodic6",
+      "guard": "raw",
+      "accuracy": 0.9075520833333334,
+      "cross_entropy": 0.2707260358945159,
+      "brier": 0.06648975880879361,
+      "confident_wrong_fraction": 0.018717447916666668,
+      "total_shots": 262144.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 64,
+      "policy": "periodic6",
+      "guard": "cap4",
+      "accuracy": 0.9075520833333334,
+      "cross_entropy": 0.2248277041827077,
+      "brier": 0.06646965634320369,
+      "confident_wrong_fraction": 0.018717447916666668,
+      "total_shots": 262144.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 64,
+      "policy": "triggered",
+      "guard": "raw",
+      "accuracy": 0.9083116319444445,
+      "cross_entropy": 0.3043198790779623,
+      "brier": 0.06597567135935901,
+      "confident_wrong_fraction": 0.016764322916666668,
+      "total_shots": 239616.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 64,
+      "policy": "triggered",
+      "guard": "cap4",
+      "accuracy": 0.9083116319444445,
+      "cross_entropy": 0.22336922033647558,
+      "brier": 0.06593744832918995,
+      "confident_wrong_fraction": 0.016764322916666668,
+      "total_shots": 239616.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 256,
+      "policy": "never",
+      "guard": "raw",
+      "accuracy": 0.9112955729166666,
+      "cross_entropy": 0.19840124969161085,
+      "brier": 0.06250432084658433,
+      "confident_wrong_fraction": 0.011284722222222222,
+      "total_shots": 262144.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 256,
+      "policy": "never",
+      "guard": "cap4",
+      "accuracy": 0.9112955729166666,
+      "cross_entropy": 0.20617366707503818,
+      "brier": 0.06265349778027292,
+      "confident_wrong_fraction": 0.011284722222222222,
+      "total_shots": 262144.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 256,
+      "policy": "always",
+      "guard": "raw",
+      "accuracy": 0.9115668402777778,
+      "cross_entropy": 0.19770203359016655,
+      "brier": 0.06254558696266417,
+      "confident_wrong_fraction": 0.01025390625,
+      "total_shots": 1769472.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 256,
+      "policy": "always",
+      "guard": "cap4",
+      "accuracy": 0.9115668402777778,
+      "cross_entropy": 0.20593800181131153,
+      "brier": 0.06270088122856066,
+      "confident_wrong_fraction": 0.01025390625,
+      "total_shots": 1769472.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 256,
+      "policy": "periodic6",
+      "guard": "raw",
+      "accuracy": 0.9114583333333334,
+      "cross_entropy": 0.1985918903728712,
+      "brier": 0.06264066698977115,
+      "confident_wrong_fraction": 0.011935763888888888,
+      "total_shots": 458752.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 256,
+      "policy": "periodic6",
+      "guard": "cap4",
+      "accuracy": 0.9114583333333334,
+      "cross_entropy": 0.20670815814281815,
+      "brier": 0.06279383231978176,
+      "confident_wrong_fraction": 0.011935763888888888,
+      "total_shots": 458752.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 256,
+      "policy": "triggered",
+      "guard": "raw",
+      "accuracy": 0.9108615451388888,
+      "cross_entropy": 0.19913119355053388,
+      "brier": 0.06267003449640472,
+      "confident_wrong_fraction": 0.01171875,
+      "total_shots": 313344.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "stationary",
+      "calibration_labels": 256,
+      "policy": "triggered",
+      "guard": "cap4",
+      "accuracy": 0.9108615451388888,
+      "cross_entropy": 0.20692642958300658,
+      "brier": 0.062818745488107,
+      "confident_wrong_fraction": 0.01171875,
+      "total_shots": 313344.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 64,
+      "policy": "never",
+      "guard": "raw",
+      "accuracy": 0.90625,
+      "cross_entropy": 0.3170709151351597,
+      "brier": 0.06856526116884333,
+      "confident_wrong_fraction": 0.02056206597222222,
+      "total_shots": 212992.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 64,
+      "policy": "never",
+      "guard": "cap4",
+      "accuracy": 0.90625,
+      "cross_entropy": 0.23110047904364484,
+      "brier": 0.0685356795022693,
+      "confident_wrong_fraction": 0.02056206597222222,
+      "total_shots": 212992.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 64,
+      "policy": "always",
+      "guard": "raw",
+      "accuracy": 0.9083116319444445,
+      "cross_entropy": 0.268810814441294,
+      "brier": 0.06739473005454913,
+      "confident_wrong_fraction": 0.018880208333333332,
+      "total_shots": 589824.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 64,
+      "policy": "always",
+      "guard": "cap4",
+      "accuracy": 0.9083116319444445,
+      "cross_entropy": 0.22662566996302472,
+      "brier": 0.06738181683820753,
+      "confident_wrong_fraction": 0.018880208333333332,
+      "total_shots": 589824.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 64,
+      "policy": "periodic6",
+      "guard": "raw",
+      "accuracy": 0.9045138888888888,
+      "cross_entropy": 0.29133842773885194,
+      "brier": 0.06943408930394586,
+      "confident_wrong_fraction": 0.019911024305555556,
+      "total_shots": 262144.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 64,
+      "policy": "periodic6",
+      "guard": "cap4",
+      "accuracy": 0.9045138888888888,
+      "cross_entropy": 0.23318134565315507,
+      "brier": 0.06940442306123414,
+      "confident_wrong_fraction": 0.019911024305555556,
+      "total_shots": 262144.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 64,
+      "policy": "triggered",
+      "guard": "raw",
+      "accuracy": 0.9016384548611112,
+      "cross_entropy": 0.2837754991435862,
+      "brier": 0.07065224388803869,
+      "confident_wrong_fraction": 0.01812065972222222,
+      "total_shots": 249856.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 64,
+      "policy": "triggered",
+      "guard": "cap4",
+      "accuracy": 0.9016384548611112,
+      "cross_entropy": 0.2363814988234831,
+      "brier": 0.07062678408582333,
+      "confident_wrong_fraction": 0.01812065972222222,
+      "total_shots": 249856.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 256,
+      "policy": "never",
+      "guard": "raw",
+      "accuracy": 0.9073350694444445,
+      "cross_entropy": 0.2051159963569014,
+      "brier": 0.06492918656677872,
+      "confident_wrong_fraction": 0.011555989583333334,
+      "total_shots": 262144.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 256,
+      "policy": "never",
+      "guard": "cap4",
+      "accuracy": 0.9073350694444445,
+      "cross_entropy": 0.21291623941055948,
+      "brier": 0.06507750953402053,
+      "confident_wrong_fraction": 0.011555989583333334,
+      "total_shots": 262144.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 256,
+      "policy": "always",
+      "guard": "raw",
+      "accuracy": 0.9080946180555555,
+      "cross_entropy": 0.20096639308504527,
+      "brier": 0.06355207202353398,
+      "confident_wrong_fraction": 0.010199652777777778,
+      "total_shots": 1769472.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 256,
+      "policy": "always",
+      "guard": "cap4",
+      "accuracy": 0.9080946180555555,
+      "cross_entropy": 0.20865368084828897,
+      "brier": 0.06370322444567918,
+      "confident_wrong_fraction": 0.010199652777777778,
+      "total_shots": 1769472.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 256,
+      "policy": "periodic6",
+      "guard": "raw",
+      "accuracy": 0.9064127604166666,
+      "cross_entropy": 0.2089938198058564,
+      "brier": 0.06581577242399926,
+      "confident_wrong_fraction": 0.011501736111111112,
+      "total_shots": 458752.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 256,
+      "policy": "periodic6",
+      "guard": "cap4",
+      "accuracy": 0.9064127604166666,
+      "cross_entropy": 0.21598261777234173,
+      "brier": 0.0659540294028217,
+      "confident_wrong_fraction": 0.011501736111111112,
+      "total_shots": 458752.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 256,
+      "policy": "triggered",
+      "guard": "raw",
+      "accuracy": 0.9039171006944445,
+      "cross_entropy": 0.21500459210111433,
+      "brier": 0.0673391752415213,
+      "confident_wrong_fraction": 0.013346354166666666,
+      "total_shots": 348160.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "pulse",
+      "calibration_labels": 256,
+      "policy": "triggered",
+      "guard": "cap4",
+      "accuracy": 0.9039171006944445,
+      "cross_entropy": 0.22132982976700277,
+      "brier": 0.06746223996470126,
+      "confident_wrong_fraction": 0.013346354166666666,
+      "total_shots": 348160.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 64,
+      "policy": "never",
+      "guard": "raw",
+      "accuracy": 0.9033745659722222,
+      "cross_entropy": 0.24724731192839033,
+      "brier": 0.07071338344976888,
+      "confident_wrong_fraction": 0.02463107638888889,
+      "total_shots": 212992.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 64,
+      "policy": "never",
+      "guard": "cap4",
+      "accuracy": 0.9033745659722222,
+      "cross_entropy": 0.23859347334216452,
+      "brier": 0.07069198995097166,
+      "confident_wrong_fraction": 0.02463107638888889,
+      "total_shots": 212992.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 64,
+      "policy": "always",
+      "guard": "raw",
+      "accuracy": 0.9058159722222222,
+      "cross_entropy": 0.28646072692009944,
+      "brier": 0.06922053544112358,
+      "confident_wrong_fraction": 0.022569444444444444,
+      "total_shots": 589824.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 64,
+      "policy": "always",
+      "guard": "cap4",
+      "accuracy": 0.9058159722222222,
+      "cross_entropy": 0.2347372555624326,
+      "brier": 0.06915308438395389,
+      "confident_wrong_fraction": 0.022569444444444444,
+      "total_shots": 589824.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 64,
+      "policy": "periodic6",
+      "guard": "raw",
+      "accuracy": 0.90478515625,
+      "cross_entropy": 0.26105679837976536,
+      "brier": 0.06929857541139173,
+      "confident_wrong_fraction": 0.02045355902777778,
+      "total_shots": 262144.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 64,
+      "policy": "periodic6",
+      "guard": "cap4",
+      "accuracy": 0.90478515625,
+      "cross_entropy": 0.2333012638882459,
+      "brier": 0.06927165861976332,
+      "confident_wrong_fraction": 0.02045355902777778,
+      "total_shots": 262144.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 64,
+      "policy": "triggered",
+      "guard": "raw",
+      "accuracy": 0.9042426215277778,
+      "cross_entropy": 0.24455063891152282,
+      "brier": 0.06886343139703886,
+      "confident_wrong_fraction": 0.02121310763888889,
+      "total_shots": 260096.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 64,
+      "policy": "triggered",
+      "guard": "cap4",
+      "accuracy": 0.9042426215277778,
+      "cross_entropy": 0.23126546162068104,
+      "brier": 0.06885942708421224,
+      "confident_wrong_fraction": 0.02121310763888889,
+      "total_shots": 260096.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 256,
+      "policy": "never",
+      "guard": "raw",
+      "accuracy": 0.9049479166666666,
+      "cross_entropy": 0.2128167764389316,
+      "brier": 0.06709057506009201,
+      "confident_wrong_fraction": 0.013292100694444446,
+      "total_shots": 262144.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 256,
+      "policy": "never",
+      "guard": "cap4",
+      "accuracy": 0.9049479166666666,
+      "cross_entropy": 0.21947621663069605,
+      "brier": 0.0672174962578366,
+      "confident_wrong_fraction": 0.013292100694444446,
+      "total_shots": 262144.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 256,
+      "policy": "always",
+      "guard": "raw",
+      "accuracy": 0.9099392361111112,
+      "cross_entropy": 0.20098814445163415,
+      "brier": 0.06312892037462171,
+      "confident_wrong_fraction": 0.011067708333333334,
+      "total_shots": 1769472.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 256,
+      "policy": "always",
+      "guard": "cap4",
+      "accuracy": 0.9099392361111112,
+      "cross_entropy": 0.20812090509250894,
+      "brier": 0.06326728046969499,
+      "confident_wrong_fraction": 0.011067708333333334,
+      "total_shots": 1769472.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 256,
+      "policy": "periodic6",
+      "guard": "raw",
+      "accuracy": 0.9078776041666666,
+      "cross_entropy": 0.20417702359786097,
+      "brier": 0.06439959774826201,
+      "confident_wrong_fraction": 0.010687934027777778,
+      "total_shots": 458752.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 256,
+      "policy": "periodic6",
+      "guard": "cap4",
+      "accuracy": 0.9078776041666666,
+      "cross_entropy": 0.21110924502635678,
+      "brier": 0.06453510237409998,
+      "confident_wrong_fraction": 0.010687934027777778,
+      "total_shots": 458752.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 256,
+      "policy": "triggered",
+      "guard": "raw",
+      "accuracy": 0.9085286458333334,
+      "cross_entropy": 0.20343241658171907,
+      "brier": 0.06431223113701418,
+      "confident_wrong_fraction": 0.010959201388888888,
+      "total_shots": 382976.0,
+      "evaluation_rows": 24
+    },
+    {
+      "kind": "ramp",
+      "calibration_labels": 256,
+      "policy": "triggered",
+      "guard": "cap4",
+      "accuracy": 0.9085286458333334,
+      "cross_entropy": 0.21078551701914539,
+      "brier": 0.06445027235662738,
+      "confident_wrong_fraction": 0.010959201388888888,
+      "total_shots": 382976.0,
+      "evaluation_rows": 24
+    }
+  ],
+  "blindspot_monitor": [
+    {
+      "panel": "limited",
+      "fault": 0.0,
+      "alert_rate": 0.003,
+      "threshold": 45.07769549885853
+    },
+    {
+      "panel": "limited",
+      "fault": 0.4,
+      "alert_rate": 0.002,
+      "threshold": 45.07769549885853
+    },
+    {
+      "panel": "expanded",
+      "fault": 0.0,
+      "alert_rate": 0.009,
+      "threshold": 61.56585421969892
+    },
+    {
+      "panel": "expanded",
+      "fault": 0.4,
+      "alert_rate": 0.039,
+      "threshold": 61.56585421969892
+    }
+  ],
+  "blindspot_predictions": [
+    {
+      "task": "rotated_ellipse",
+      "fault": 0.0,
+      "accuracy": 0.9394205729166667,
+      "cross_entropy": 0.15483755364245247,
+      "brier": 0.045240141759671566,
+      "confident_wrong_fraction": 0.012923177083333333,
+      "evaluation_rows": 15
+    },
+    {
+      "task": "rotated_ellipse",
+      "fault": 0.4,
+      "accuracy": 0.93974609375,
+      "cross_entropy": 0.15380662615025617,
+      "brier": 0.04502081772065134,
+      "confident_wrong_fraction": 0.012727864583333333,
+      "evaluation_rows": 15
+    },
+    {
+      "task": "annulus",
+      "fault": 0.0,
+      "accuracy": 0.80322265625,
+      "cross_entropy": 0.41214316323193323,
+      "brier": 0.13435914392071785,
+      "confident_wrong_fraction": 0.01240234375,
+      "evaluation_rows": 15
+    },
+    {
+      "task": "annulus",
+      "fault": 0.4,
+      "accuracy": 0.8046223958333333,
+      "cross_entropy": 0.4115710611643645,
+      "brier": 0.13418221758261648,
+      "confident_wrong_fraction": 0.011946614583333333,
+      "evaluation_rows": 15
+    },
+    {
+      "task": "parabola",
+      "fault": 0.0,
+      "accuracy": 0.9541666666666667,
+      "cross_entropy": 0.10330081207064307,
+      "brier": 0.03219809293146283,
+      "confident_wrong_fraction": 0.00634765625,
+      "evaluation_rows": 15
+    },
+    {
+      "task": "parabola",
+      "fault": 0.4,
+      "accuracy": 0.9535807291666667,
+      "cross_entropy": 0.10490644150859608,
+      "brier": 0.032717542980505006,
+      "confident_wrong_fraction": 0.006998697916666667,
+      "evaluation_rows": 15
+    },
+    {
+      "task": "xor_quadrants",
+      "fault": 0.0,
+      "accuracy": 0.9400390625,
+      "cross_entropy": 0.13980908614630427,
+      "brier": 0.04324314366984926,
+      "confident_wrong_fraction": 0.008072916666666667,
+      "evaluation_rows": 15
+    },
+    {
+      "task": "xor_quadrants",
+      "fault": 0.4,
+      "accuracy": 0.9400065104166667,
+      "cross_entropy": 0.13982543542172104,
+      "brier": 0.04324048662591187,
+      "confident_wrong_fraction": 0.008203125,
+      "evaluation_rows": 15
+    }
+  ],
+  "findings": [
+    "Fresh3encoderseeds/task confirm learnedinputgains mainlyonparabola/XOR;ellipse/ringlittlechange.26/48encoderoptimizationrunsconverged;noexclusions.",
+    "Freshtemporalbudgettestdoesnotconfirm universalmonitoringbenefit.256labels never90.786%accuracy/CE.20544/262144shots vs triggered90.777%/CE.20586/348160shots. Neveratleastcompetitiveandcheaperinthissample.",
+    "Largercalibrationprefixreducesmeanprobabilityerrors. Caphelps64labelCEbutworsens256labelCE. All3600affinefitsconverged;optimizersuccessdoesnotguaranteeusefuladaptation.",
+    "YY-onlyfault leavesZZ/XXreferenceprobabilitiesexactlyunchanged;limitedpanelalert.3%nominalvs.2%fault(samplingfluctuation). Expandedpanel.9%nominalvs3.9%faultat768shots,eventdetectabilitystillweak.",
+    "TheconstructedYYfaultbarelychangespredictionaccuracy/CE. Thereforethisisacoveragecounterexample,notdemonstratedharmfulmisseddrift. Addingbasisaloneisnotvalidatedaspracticalsolution."
+  ],
+  "optimization": {
+    "encoder_converged": 26,
+    "encoder_runs": 48,
+    "affine_converged": 3600,
+    "affine_runs": 3600
+  },
+  "validation": {
+    "passed": true,
+    "joint_gradient_error": 1.5781687068283645e-10,
+    "feature_derivative_errors": [
+      4.727169766738371e-10,
+      4.669100661658376e-10
+    ],
+    "learned_angle_Qiskit_error": 1.4988010832439613e-15,
+    "physical_circuits_checked": 32,
+    "fresh_trained_circuit_max_error": 3.3306690738754696e-16,
+    "setting_fault_serial_Aer_error": 3.885780586188048e-16,
+    "temporal_costs": "Everycostsumverified;always23updates,periodic6three,neverzero;raw/capaccuracyandcostequal.",
+    "syntax": "Allnewrunnersandreplayparsed."
+  },
+  "next_actions": [
+    "Prioritizewhichreferencemeasurementscorrelatewithpredictionlossratherthanmaximizinggenericchangealerts. Assesswhetheranycounterexampleisactuallyharmful.",
+    "Consolidateacontrolledcost/qualitybenchmarkwithfreshtrainingseedsandindependentcalibrationlabels;avoidrecommendingmonitoringbasedonoldfavorabletrajectories.",
+    "Varyerrorfamiliesanddeploymenthorizons;comparestrongnever/periodicpoliciesandlargerinitialcalibrationbudget.",
+    "Professor/hardwareproposalshouldinclude nullresultsandclaimboundaries;noquantumadvantageoruniversalmonitorclaim."
+  ],
+  "limitations": [
+    "Threefreshtrainingseeds/taskandonlytwotrajectoriesperkind. Multipleevaluationrowsarenotindependenttrainingreplications.",
+    "HypotheticalhomogeneousA/Bchannelaxisfortemporaltest;YYsettingfaultisadeliberateconstructedstresscase,notIBMcalibration.",
+    "64/256calibrationprefixesandtestmeasurementsarepaired;higherbudgetcostmore,notafreegain.",
+    "Synchronouscalibrationstillignoreslatency. Alwaysduplicatebatch0refreshremovedin63.",
+    "Noquantumadvantage:twoqubitfeaturemapadmitsclassicalequivalent. Notquantumtransformerwork."
+  ],
+  "repository": "https://github.com/Art200507/Quantum-Research",
+  "safeguards": "Localonly;noIBMjobs,paidcompute,credentialaccessorinstalls."
+}

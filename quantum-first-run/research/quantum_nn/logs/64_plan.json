@@ -1,0 +1,8 @@
+{
+  "reviewed": "63_result: fresh-model monitoring does not consistently beat never/periodic policies;larger calibration budget improves probabilities. Previous monitor assumes reference and task settings share errors.",
+  "hypothesis": "A ZZ/XX reference panel cannot detect a fault confined to YY measurements,even if predictions degrade. Adding YY may restore detection at the same monitoring budget.",
+  "fault": "Extra40% global depolarization only in YY measurement settings,on top of fixedA channel. Other settings unchanged. This deliberately constructed setting-dependent stress test is not a measured IBM fault.",
+  "design": "Compare4referencepoints with ZZ/XX versus ZZ/XX/YY,6144baseline shots and768/event for both. Threshold99th percentile bootstrap4000 using only baseline.1000fresh events,extraYYfault0/.4. Separately evaluate12fresh62 models,128independent labeled calibration examples measured inA once,2048testpoints,5measurement repeats per fault. Affine correction frozen across fault conditions.",
+  "cost": "Same6144initialreference+768/event;expanded panel divides768over12groups rather than8. Prediction experiment:32768calibration+2048*256shots pertestrepeat. No monitor-triggered repair assumed.",
+  "scope": "Coverage counterexample,not an unbiased survey of hardware fault frequencies. No automatic guarantee that adding one basis solves arbitrary circuit-dependent errors."
+}

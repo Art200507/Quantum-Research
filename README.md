@@ -4,7 +4,7 @@ An ongoing, AI-assisted experimental project investigating small quantum neural 
 
 Our aim is to develop a reproducible research question that can be discussed with university researchers and, when justified, tested on IBM quantum hardware. We care about capability, generalization, and reliability—not just speed.
 
-**Current status:** 51 logged exploratory experimental cycles through [checkpoint 61](quantum-first-run/research/quantum_nn/logs/61_checkpoint.json). These are iterative toy studies, not 49 independent replications. Research continues after this repository snapshot.
+**Current status:** 54 logged exploratory experimental cycles through [checkpoint 65](quantum-first-run/research/quantum_nn/logs/65_checkpoint.json). These are iterative toy studies, not 49 independent replications. Research continues after this repository snapshot.
 
 ## What we are trying to find
 
@@ -36,7 +36,15 @@ Experiments 59–60 were run after the initial GitHub push. They compare regular
 
 In a paired calibration-budget test, ordinary recalibration's mean cross-entropy fell from **0.279 with 64 calibration examples to 0.197 with 256**, with the same test measurements. Calibration measurement cost increased from 16,384 to 65,536 shots per model/cohort. A fixed confidence cap helped cross-entropy at the smaller budget but hurt at 256 examples; Brier error did not improve with the cap. The 128-example cap result also differed across the two experiment batches, so we retain the uncertainty rather than declaring a universal rule.
 
-Regularization selected using held-out calibration examples was not consistently better. These static-channel results still need temporal confirmation and fresh encoder-training seeds. See [experiment 60](quantum-first-run/research/quantum_nn/logs/60_result.json) and [checkpoint 61](quantum-first-run/research/quantum_nn/logs/61_checkpoint.json).
+Regularization selected using held-out calibration examples was not consistently better. These static-channel results still need temporal confirmation and fresh encoder-training seeds. See [experiment 60](quantum-first-run/research/quantum_nn/logs/60_result.json) and [checkpoint 61](quantum-first-run/research/quantum_nn/logs/65_checkpoint.json).
+
+## Fresh-encoder check: an important negative result
+
+Experiments 62–64 retrained all four non-wave tasks on three new encoder-training seeds. In a subsequent paired temporal test, 256 calibration examples reduced probability errors relative to 64, but triggered updates **did not consistently beat never updating**. At the larger budget, never updating averaged 90.79% accuracy and 0.2054 cross-entropy for 262,144 shots; triggered updating averaged 90.78% and 0.2059 for 348,160 shots. These are averages over this particular synthetic trajectory set, not a universal ranking.
+
+A deliberately setting-dependent fault also exposed the reference panel's limited coverage: ZZ/XX references cannot detect a YY-only fault. Adding YY gave only weak detection at the same monitoring budget, and the fault barely changed these classifiers' predictions. This is a structural blind-spot example, **not evidence of a practically harmful missed event**.
+
+The next research priority is to identify measurements that track prediction quality and to establish when recalibration pays for itself. Earlier promising monitoring results remain in the logs, but this fresh-model test weakens the case for recommending the method. See [checkpoint 65](quantum-first-run/research/quantum_nn/logs/65_checkpoint.json).
 
 ## What we have not established
 
@@ -58,7 +66,7 @@ The JSON logs retain the original exploratory sequence, including imperfect prot
 ## Repository map
 
 - [Quantum learning experiments and logs](quantum-first-run/research/quantum_nn/): QNNs, attention prototypes, feature/readout controls, finite-shot measurements, calibration, and monitoring.
-- [Latest research checkpoint](quantum-first-run/research/quantum_nn/logs/61_checkpoint.json): findings, caveats, verification, and next actions.
+- [Latest research checkpoint](quantum-first-run/research/quantum_nn/logs/65_checkpoint.json): findings, caveats, verification, and next actions.
 - [Research handoff](quantum-first-run/research/HANDOFF.md): cumulative continuation notes.
 - [Earlier research overview](quantum-first-run/research/README.md): original audit, circuit/spin studies, literature, and roadmap. Some documents describe earlier project stages; the latest checkpoint is the continuation guide.
 - [Local circuit demonstrations](quantum-first-run/README.md): bit-frequency, Bell/GHZ population, and mirror diagnostics. Their outputs are not evidence of certified randomness or measured entanglement.

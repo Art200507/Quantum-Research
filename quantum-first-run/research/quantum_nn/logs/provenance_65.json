@@ -1,0 +1,18 @@
+{
+  "sha256": {
+    "quantum-first-run/research/quantum_nn/fresh_encoders.py": "406123c62644df555de04fa28b0ccfaf50d89e9f073538715235923cd0645696",
+    "quantum-first-run/research/quantum_nn/temporal_budget.py": "cb360ce5779969e353d7a0602c6012345b69d39f2ab4a17c7d2a85aac0933d7a",
+    "quantum-first-run/research/quantum_nn/monitor_blindspot.py": "ba850783056fefeaece767fc9cf896d423160a66fa6206e1011d4f6f85dc9026",
+    "quantum-first-run/research/quantum_nn/continue.py": "7c0e1a07f449805aa11259a682b83bbd4f4fd8aebb608c8710e40f69d695c07f",
+    "quantum-first-run/research/quantum_nn/logs/62_plan.json": "5bbf480f6e53018803a027a962b6a9bc45800c82bdde9a848bd009facdd0da6d",
+    "quantum-first-run/research/quantum_nn/logs/62_result.json": "619a8a8fe7d439c91dd95d3795569ed0cbea1ffc66917b3e92eda4d84e4bc3d6",
+    "quantum-first-run/research/quantum_nn/logs/63_plan.json": "bf49bfd197477c2aaa57ad5be5881a7e2b34c4e32b2c14fe6fd577a55060373d",
+    "quantum-first-run/research/quantum_nn/logs/63_result.json": "091e7be3c97edb769b51bc0e8ad7f3c69021ecdb2620e2ef9216760bd483f60a",
+    "quantum-first-run/research/quantum_nn/logs/64_plan.json": "1abe91da2d5f90d24f6b6336d7560a336e310bb5557182b9b35613f07f963534",
+    "quantum-first-run/research/quantum_nn/logs/64_result.json": "08a8e5006f7d1d77c7ee8f37bf03a6e81e00d23c4f3a497e07feafefca208f78",
+    "quantum-first-run/research/quantum_nn/logs/65_checkpoint.json": "358988d671f5d3a943f77f0be4c82103ee6a79c311dfc4b88d769b0b4717ed6e",
+    "quantum-first-run/research/quantum_nn/README.md": "1d40f1634557e24304290af0a7f08305cc2bf1b5fd3038606954d5f882b8012c",
+    "quantum-first-run/research/HANDOFF.md": "e4f3532015c2d24d92c5736414bd71c47463620587b3297b874a7268e6f54fdf",
+    "README.md": "01fd5edb165d0f80a2ac9cb748936d56c103458712a0fe1c6632c4be370a937e"
+  }
+}
