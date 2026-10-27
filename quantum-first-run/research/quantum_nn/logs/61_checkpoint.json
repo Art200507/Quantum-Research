@@ -1,0 +1,744 @@
+{
+  "date": "2026-10-27",
+  "completed_experimental_cycles": 51,
+  "new_cycles": [
+    59,
+    60
+  ],
+  "review_before_each": [
+    "58_checkpoint/57_result before59",
+    "59_result before60"
+  ],
+  "publication": {
+    "repository": "https://github.com/Art200507/Quantum-Research",
+    "initial_commit": "82d7ff5",
+    "initial_files": 234,
+    "exclusions": "Localvirtualenvironment,caches,credentialfilepatterns,assistantstate. Researchsource/results/provenanceandhistoricalartifactsincluded.",
+    "sequence": "InitialpushverifiedthroughGitHubconnector,thenexperiments59/60run;publicationwasnotendpoint."
+  },
+  "independent_holdout_calibration": [
+    {
+      "model": "MLE",
+      "accuracy": 0.9100667317708333,
+      "cross_entropy": 0.2035168154325987,
+      "brier": 0.06338871905807485,
+      "confident_wrong_fraction": 0.013370768229166666,
+      "total_shots": 557056.0,
+      "cohort_rows": 120
+    },
+    {
+      "model": "MLE_cap4",
+      "accuracy": 0.9100667317708333,
+      "cross_entropy": 0.20967405937457914,
+      "brier": 0.06351923461007972,
+      "confident_wrong_fraction": 0.013370768229166666,
+      "total_shots": 557056.0,
+      "cohort_rows": 120
+    },
+    {
+      "model": "regularized",
+      "accuracy": 0.9085693359375,
+      "cross_entropy": 0.20384353274482017,
+      "brier": 0.06406808362145475,
+      "confident_wrong_fraction": 0.011991373697916667,
+      "total_shots": 557056.0,
+      "cohort_rows": 120
+    },
+    {
+      "model": "regularized_cap4",
+      "accuracy": 0.9085693359375,
+      "cross_entropy": 0.2107998590953367,
+      "brier": 0.06420676953768102,
+      "confident_wrong_fraction": 0.011991373697916667,
+      "total_shots": 557056.0,
+      "cohort_rows": 120
+    }
+  ],
+  "paired_budget_results": [
+    {
+      "calibration_labels": 64,
+      "model": "MLE",
+      "accuracy": 0.907568359375,
+      "cross_entropy": 0.278975183654815,
+      "brier": 0.06657168143138667,
+      "confident_wrong_fraction": 0.016861979166666666,
+      "total_shots": 540672.0,
+      "cohort_rows": 120
+    },
+    {
+      "calibration_labels": 64,
+      "model": "MLE_cap4",
+      "accuracy": 0.907568359375,
+      "cross_entropy": 0.22317154703237835,
+      "brier": 0.06657508070934047,
+      "confident_wrong_fraction": 0.016861979166666666,
+      "total_shots": 540672.0,
+      "cohort_rows": 120
+    },
+    {
+      "calibration_labels": 64,
+      "model": "regularized",
+      "accuracy": 0.905615234375,
+      "cross_entropy": 0.26378179666322554,
+      "brier": 0.06738968155175673,
+      "confident_wrong_fraction": 0.01524658203125,
+      "total_shots": 540672.0,
+      "cohort_rows": 120
+    },
+    {
+      "calibration_labels": 64,
+      "model": "regularized_cap4",
+      "accuracy": 0.905615234375,
+      "cross_entropy": 0.2237826355390907,
+      "brier": 0.06743872631190029,
+      "confident_wrong_fraction": 0.01524658203125,
+      "total_shots": 540672.0,
+      "cohort_rows": 120
+    },
+    {
+      "calibration_labels": 128,
+      "model": "MLE",
+      "accuracy": 0.9100545247395834,
+      "cross_entropy": 0.22714737209683777,
+      "brier": 0.06357019174761054,
+      "confident_wrong_fraction": 0.012190755208333333,
+      "total_shots": 557056.0,
+      "cohort_rows": 120
+    },
+    {
+      "calibration_labels": 128,
+      "model": "MLE_cap4",
+      "accuracy": 0.9100545247395834,
+      "cross_entropy": 0.21023998638360644,
+      "brier": 0.06368543783497091,
+      "confident_wrong_fraction": 0.012190755208333333,
+      "total_shots": 557056.0,
+      "cohort_rows": 120
+    },
+    {
+      "calibration_labels": 128,
+      "model": "regularized",
+      "accuracy": 0.9078572591145834,
+      "cross_entropy": 0.21308219294795494,
+      "brier": 0.06498089666197432,
+      "confident_wrong_fraction": 0.012443033854166667,
+      "total_shots": 557056.0,
+      "cohort_rows": 120
+    },
+    {
+      "calibration_labels": 128,
+      "model": "regularized_cap4",
+      "accuracy": 0.9078572591145834,
+      "cross_entropy": 0.21413609045138088,
+      "brier": 0.06509909220654723,
+      "confident_wrong_fraction": 0.012443033854166667,
+      "total_shots": 557056.0,
+      "cohort_rows": 120
+    },
+    {
+      "calibration_labels": 256,
+      "model": "MLE",
+      "accuracy": 0.9112711588541667,
+      "cross_entropy": 0.1967440429738768,
+      "brier": 0.06222125674927124,
+      "confident_wrong_fraction": 0.009794108072916667,
+      "total_shots": 589824.0,
+      "cohort_rows": 120
+    },
+    {
+      "calibration_labels": 256,
+      "model": "MLE_cap4",
+      "accuracy": 0.9112711588541667,
+      "cross_entropy": 0.2046723211432444,
+      "brier": 0.062371584774868455,
+      "confident_wrong_fraction": 0.009794108072916667,
+      "total_shots": 589824.0,
+      "cohort_rows": 120
+    },
+    {
+      "calibration_labels": 256,
+      "model": "regularized",
+      "accuracy": 0.91005859375,
+      "cross_entropy": 0.19951438410792868,
+      "brier": 0.06304369657305918,
+      "confident_wrong_fraction": 0.009737141927083333,
+      "total_shots": 589824.0,
+      "cohort_rows": 120
+    },
+    {
+      "calibration_labels": 256,
+      "model": "regularized_cap4",
+      "accuracy": 0.91005859375,
+      "cross_entropy": 0.2071943690246368,
+      "brier": 0.06319049789876263,
+      "confident_wrong_fraction": 0.009737141927083333,
+      "total_shots": 589824.0,
+      "cohort_rows": 120
+    }
+  ],
+  "paired_budget_by_task": [
+    {
+      "task": "rotated_ellipse",
+      "calibration_labels": 64,
+      "model": "MLE",
+      "accuracy": 0.931640625,
+      "cross_entropy": 0.21888303476028534,
+      "brier": 0.05050427192498127,
+      "confident_wrong_fraction": 0.017041015625,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "rotated_ellipse",
+      "calibration_labels": 64,
+      "model": "MLE_cap4",
+      "accuracy": 0.931640625,
+      "cross_entropy": 0.17774031170343832,
+      "brier": 0.05053570432837294,
+      "confident_wrong_fraction": 0.017041015625,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "rotated_ellipse",
+      "calibration_labels": 64,
+      "model": "regularized",
+      "accuracy": 0.9316569010416667,
+      "cross_entropy": 0.1759013242391159,
+      "brier": 0.050072441725631404,
+      "confident_wrong_fraction": 0.014632161458333333,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "rotated_ellipse",
+      "calibration_labels": 64,
+      "model": "regularized_cap4",
+      "accuracy": 0.9316569010416667,
+      "cross_entropy": 0.1741779098301933,
+      "brier": 0.05018027330616002,
+      "confident_wrong_fraction": 0.014632161458333333,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "rotated_ellipse",
+      "calibration_labels": 128,
+      "model": "MLE",
+      "accuracy": 0.9366536458333333,
+      "cross_entropy": 0.15325962899749143,
+      "brier": 0.04611228806389502,
+      "confident_wrong_fraction": 0.011800130208333334,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "rotated_ellipse",
+      "calibration_labels": 128,
+      "model": "MLE_cap4",
+      "accuracy": 0.9366536458333333,
+      "cross_entropy": 0.16078123629710486,
+      "brier": 0.04626007472453754,
+      "confident_wrong_fraction": 0.011800130208333334,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "rotated_ellipse",
+      "calibration_labels": 128,
+      "model": "regularized",
+      "accuracy": 0.9354654947916666,
+      "cross_entropy": 0.1558176637655696,
+      "brier": 0.046914631451601206,
+      "confident_wrong_fraction": 0.011702473958333333,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "rotated_ellipse",
+      "calibration_labels": 128,
+      "model": "regularized_cap4",
+      "accuracy": 0.9354654947916666,
+      "cross_entropy": 0.1631441383806112,
+      "brier": 0.04706203646773836,
+      "confident_wrong_fraction": 0.011702473958333333,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "rotated_ellipse",
+      "calibration_labels": 256,
+      "model": "MLE",
+      "accuracy": 0.9381998697916667,
+      "cross_entropy": 0.14965882089492874,
+      "brier": 0.04513161292155239,
+      "confident_wrong_fraction": 0.011360677083333333,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "rotated_ellipse",
+      "calibration_labels": 256,
+      "model": "MLE_cap4",
+      "accuracy": 0.9381998697916667,
+      "cross_entropy": 0.15776729381798796,
+      "brier": 0.045287993552083204,
+      "confident_wrong_fraction": 0.011360677083333333,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "rotated_ellipse",
+      "calibration_labels": 256,
+      "model": "regularized",
+      "accuracy": 0.9379069010416666,
+      "cross_entropy": 0.15019405602014543,
+      "brier": 0.04527707284217484,
+      "confident_wrong_fraction": 0.011197916666666667,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "rotated_ellipse",
+      "calibration_labels": 256,
+      "model": "regularized_cap4",
+      "accuracy": 0.9379069010416666,
+      "cross_entropy": 0.15831467845503402,
+      "brier": 0.045433721707512205,
+      "confident_wrong_fraction": 0.011197916666666667,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "annulus",
+      "calibration_labels": 64,
+      "model": "MLE",
+      "accuracy": 0.8077799479166666,
+      "cross_entropy": 0.40778508541177777,
+      "brier": 0.1326922400661258,
+      "confident_wrong_fraction": 0.015836588541666665,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "annulus",
+      "calibration_labels": 64,
+      "model": "MLE_cap4",
+      "accuracy": 0.8077799479166666,
+      "cross_entropy": 0.40948032697244635,
+      "brier": 0.1327253047105547,
+      "confident_wrong_fraction": 0.015836588541666665,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "annulus",
+      "calibration_labels": 64,
+      "model": "regularized",
+      "accuracy": 0.804248046875,
+      "cross_entropy": 0.41313773832116574,
+      "brier": 0.1348196402519052,
+      "confident_wrong_fraction": 0.015283203125,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "annulus",
+      "calibration_labels": 64,
+      "model": "regularized_cap4",
+      "accuracy": 0.804248046875,
+      "cross_entropy": 0.4146728918346118,
+      "brier": 0.13485007444593997,
+      "confident_wrong_fraction": 0.015283203125,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "annulus",
+      "calibration_labels": 128,
+      "model": "MLE",
+      "accuracy": 0.8093912760416667,
+      "cross_entropy": 0.40193236163697066,
+      "brier": 0.13096354945344263,
+      "confident_wrong_fraction": 0.013297526041666667,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "annulus",
+      "calibration_labels": 128,
+      "model": "MLE_cap4",
+      "accuracy": 0.8093912760416667,
+      "cross_entropy": 0.4038065971758547,
+      "brier": 0.13100041041776733,
+      "confident_wrong_fraction": 0.013297526041666667,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "annulus",
+      "calibration_labels": 128,
+      "model": "regularized",
+      "accuracy": 0.8070475260416666,
+      "cross_entropy": 0.4052056031676147,
+      "brier": 0.13225522788120556,
+      "confident_wrong_fraction": 0.012923177083333333,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "annulus",
+      "calibration_labels": 128,
+      "model": "regularized_cap4",
+      "accuracy": 0.8070475260416666,
+      "cross_entropy": 0.4070642144892183,
+      "brier": 0.13229157549589599,
+      "confident_wrong_fraction": 0.012923177083333333,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "annulus",
+      "calibration_labels": 256,
+      "model": "MLE",
+      "accuracy": 0.8112467447916667,
+      "cross_entropy": 0.3983356108252486,
+      "brier": 0.12980097405477925,
+      "confident_wrong_fraction": 0.011018880208333333,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "annulus",
+      "calibration_labels": 256,
+      "model": "MLE_cap4",
+      "accuracy": 0.8112467447916667,
+      "cross_entropy": 0.40029074240453355,
+      "brier": 0.12983969129111012,
+      "confident_wrong_fraction": 0.011018880208333333,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "annulus",
+      "calibration_labels": 256,
+      "model": "regularized",
+      "accuracy": 0.81064453125,
+      "cross_entropy": 0.39951301839650577,
+      "brier": 0.13025994141763625,
+      "confident_wrong_fraction": 0.010465494791666667,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "annulus",
+      "calibration_labels": 256,
+      "model": "regularized_cap4",
+      "accuracy": 0.81064453125,
+      "cross_entropy": 0.40146370942523973,
+      "brier": 0.13029869945971462,
+      "confident_wrong_fraction": 0.010465494791666667,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "parabola",
+      "calibration_labels": 64,
+      "model": "MLE",
+      "accuracy": 0.953662109375,
+      "cross_entropy": 0.2081565583797924,
+      "brier": 0.03539712523260453,
+      "confident_wrong_fraction": 0.015445963541666666,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "parabola",
+      "calibration_labels": 64,
+      "model": "MLE_cap4",
+      "accuracy": 0.953662109375,
+      "cross_entropy": 0.1334540371549332,
+      "brier": 0.03538967723502735,
+      "confident_wrong_fraction": 0.015445963541666666,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "parabola",
+      "calibration_labels": 64,
+      "model": "regularized",
+      "accuracy": 0.9504069010416667,
+      "cross_entropy": 0.19983655295954814,
+      "brier": 0.036982719358803526,
+      "confident_wrong_fraction": 0.013899739583333333,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "parabola",
+      "calibration_labels": 64,
+      "model": "regularized_cap4",
+      "accuracy": 0.9504069010416667,
+      "cross_entropy": 0.13661183226105827,
+      "brier": 0.03702350950182377,
+      "confident_wrong_fraction": 0.013899739583333333,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "parabola",
+      "calibration_labels": 128,
+      "model": "MLE",
+      "accuracy": 0.9553873697916667,
+      "cross_entropy": 0.1085011689443547,
+      "brier": 0.03214479771933777,
+      "confident_wrong_fraction": 0.009293619791666667,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "parabola",
+      "calibration_labels": 128,
+      "model": "MLE_cap4",
+      "accuracy": 0.9553873697916667,
+      "cross_entropy": 0.11742618799857815,
+      "brier": 0.03233779777510164,
+      "confident_wrong_fraction": 0.009293619791666667,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "parabola",
+      "calibration_labels": 128,
+      "model": "regularized",
+      "accuracy": 0.9515299479166667,
+      "cross_entropy": 0.11499517748847214,
+      "brier": 0.03459046286011759,
+      "confident_wrong_fraction": 0.009700520833333334,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "parabola",
+      "calibration_labels": 128,
+      "model": "regularized_cap4",
+      "accuracy": 0.9515299479166667,
+      "cross_entropy": 0.1242103660010822,
+      "brier": 0.03478506077344305,
+      "confident_wrong_fraction": 0.009700520833333334,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "parabola",
+      "calibration_labels": 256,
+      "model": "MLE",
+      "accuracy": 0.9555826822916667,
+      "cross_entropy": 0.10143621137944998,
+      "brier": 0.03136286615155452,
+      "confident_wrong_fraction": 0.0067708333333333336,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "parabola",
+      "calibration_labels": 256,
+      "model": "MLE_cap4",
+      "accuracy": 0.9555826822916667,
+      "cross_entropy": 0.1131123374874681,
+      "brier": 0.031582513187551293,
+      "confident_wrong_fraction": 0.0067708333333333336,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "parabola",
+      "calibration_labels": 256,
+      "model": "regularized",
+      "accuracy": 0.9541341145833333,
+      "cross_entropy": 0.10429539317850774,
+      "brier": 0.03222462290787411,
+      "confident_wrong_fraction": 0.005891927083333333,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "parabola",
+      "calibration_labels": 256,
+      "model": "regularized_cap4",
+      "accuracy": 0.9541341145833333,
+      "cross_entropy": 0.11565973111737694,
+      "brier": 0.03243982849337156,
+      "confident_wrong_fraction": 0.005891927083333333,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "xor_quadrants",
+      "calibration_labels": 64,
+      "model": "MLE",
+      "accuracy": 0.9371907552083333,
+      "cross_entropy": 0.28107605606740443,
+      "brier": 0.04769308850183508,
+      "confident_wrong_fraction": 0.019124348958333332,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "xor_quadrants",
+      "calibration_labels": 64,
+      "model": "MLE_cap4",
+      "accuracy": 0.9371907552083333,
+      "cross_entropy": 0.17201151229869555,
+      "brier": 0.04764963656340691,
+      "confident_wrong_fraction": 0.019124348958333332,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "xor_quadrants",
+      "calibration_labels": 64,
+      "model": "regularized",
+      "accuracy": 0.9361490885416667,
+      "cross_entropy": 0.26625157113307246,
+      "brier": 0.047683924870686754,
+      "confident_wrong_fraction": 0.017171223958333332,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "xor_quadrants",
+      "calibration_labels": 64,
+      "model": "regularized_cap4",
+      "accuracy": 0.9361490885416667,
+      "cross_entropy": 0.1696679082304994,
+      "brier": 0.047701047993677394,
+      "confident_wrong_fraction": 0.017171223958333332,
+      "total_shots": 540672.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "xor_quadrants",
+      "calibration_labels": 128,
+      "model": "MLE",
+      "accuracy": 0.9387858072916667,
+      "cross_entropy": 0.24489632880853426,
+      "brier": 0.04506013175376671,
+      "confident_wrong_fraction": 0.014371744791666667,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "xor_quadrants",
+      "calibration_labels": 128,
+      "model": "MLE_cap4",
+      "accuracy": 0.9387858072916667,
+      "cross_entropy": 0.15894592406288813,
+      "brier": 0.045143468422477115,
+      "confident_wrong_fraction": 0.014371744791666667,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "xor_quadrants",
+      "calibration_labels": 128,
+      "model": "regularized",
+      "accuracy": 0.9373860677083333,
+      "cross_entropy": 0.17631032737016328,
+      "brier": 0.04616326445497291,
+      "confident_wrong_fraction": 0.015445963541666666,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "xor_quadrants",
+      "calibration_labels": 128,
+      "model": "regularized_cap4",
+      "accuracy": 0.9373860677083333,
+      "cross_entropy": 0.1621256429346118,
+      "brier": 0.046257696089111545,
+      "confident_wrong_fraction": 0.015445963541666666,
+      "total_shots": 557056.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "xor_quadrants",
+      "calibration_labels": 256,
+      "model": "MLE",
+      "accuracy": 0.9400553385416667,
+      "cross_entropy": 0.1375455287958799,
+      "brier": 0.04258957386919878,
+      "confident_wrong_fraction": 0.010026041666666667,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "xor_quadrants",
+      "calibration_labels": 256,
+      "model": "MLE_cap4",
+      "accuracy": 0.9400553385416667,
+      "cross_entropy": 0.14751891086298796,
+      "brier": 0.042776141068729207,
+      "confident_wrong_fraction": 0.010026041666666667,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "xor_quadrants",
+      "calibration_labels": 256,
+      "model": "regularized",
+      "accuracy": 0.937548828125,
+      "cross_entropy": 0.14405506883655575,
+      "brier": 0.0444131491245515,
+      "confident_wrong_fraction": 0.011393229166666666,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    },
+    {
+      "task": "xor_quadrants",
+      "calibration_labels": 256,
+      "model": "regularized_cap4",
+      "accuracy": 0.937548828125,
+      "cross_entropy": 0.15333935710089658,
+      "brier": 0.04458974193445215,
+      "confident_wrong_fraction": 0.011393229166666666,
+      "total_shots": 589824.0,
+      "cohort_rows": 30
+    }
+  ],
+  "findings": [
+    "59static128labelcohorts:MLECE .20352,fixedcap .20967,selectedregularization .20384. Neitheralternativeuniversallyhelps.",
+    "60nestedbudgets/sharedtestrecords:MLE64labels accuracy90.757%,CE .27898;128accuracy91.005%,CE .22715;256accuracy91.127%,CE .19674. Moredatahelpsmeanmetricswithhighercost.",
+    "60fixedcaphelpsCEat64labels(.27898->.22317),butslightlyworsensBrier(.06657->.06658).At256labels caphurtsCE(.19674->.20467)andBrier. Labelsunchangedbycap.",
+    "128labelcaphelpsin60butnot59;cohortvariationandoutliersremainimportant. Do notlabelcappingauniversaldefault.",
+    "Selectedshrinkagehelpedsomecasesbutnotconsistentlybetterinaccuracy/Brier. Staticcalibrationfindingsdonotproveimprovedtemporalmonitoring."
+  ],
+  "validation": {
+    "passed": true,
+    "joint_gradient_error": 1.5781687068283645e-10,
+    "feature_derivative_errors": [
+      4.727169766738371e-10,
+      4.669100661658376e-10
+    ],
+    "learned_angle_Qiskit_error": 1.4988010832439613e-15,
+    "physical_circuits_checked": 32,
+    "zero_lambda_affine_parameter_error": 0.0,
+    "all59_60_cost_totals": "verified",
+    "raw_capped_accuracy_pairs": "equalineverycohort",
+    "syntax": "newrunnersandreplayparsed"
+  },
+  "next_actions": [
+    "Consolidateindependenttrain/encoderselection/calibration/testbenchmarkwithfreshtrainingseeds andstrongfixedschedulingcontrols.",
+    "Confirmcalibration-budgettradeoffintemporalmonitoring,charging128/256labelupdatesandmonitorreferencecost.",
+    "Compareproperregularized/heldoutfitwithconfidencecapusingallprobabilitymetrics;capnotdefault.",
+    "Testunseen/circuitdependenterrorchannelsandfamilypersistentfalsealarmsbeforepreparingaspecifichardwarequestion."
+  ],
+  "limitations": [
+    "12oldencoderfits/3trainingseedspertask;5newcalibrationcohortsare notindependenttrainingseeds.",
+    "StaticA/Bhypotheticalchannels,synthetic2Ddata;notIBMhardware orunknownnoisemechanisms.",
+    "Calibrationlabelsdisjointencoderselection/test;selectionhalfchooseslambda,thenrefitallbudgetlabels.",
+    "64/128/256labels require16384/32768/65536calibrationshots;methodswithinbudgetsharemeasurementrecords,butbudgetsarenotequalcost.",
+    "Quantumfeaturemapstillhasexactclassicalequivalent;noquantumadvantage,novelty ortransformerclaim."
+  ],
+  "safeguards": "Localresearchonly;noIBMjobs,credentialaccess,paidcompute orinstalls. GitHubpublicationexplicitlyauthorizedbyuser."
+}

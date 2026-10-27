@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "quantum-first-run/research/quantum_nn/regularized_calibration.py": "7f97709a7fd0309a5646261f6efb51264c842ddd9244330a05c844d4efae7cb8",
+    "quantum-first-run/research/quantum_nn/calibration_budget.py": "07a21e31509f87916091222d91f64845a7b3a71624bc420aba37e6e257df682c",
+    "quantum-first-run/research/quantum_nn/continue.py": "cfda3b2e6c89565d63ac183224f0c8dcb4f86ad0dea17391c92992e027871e12",
+    "quantum-first-run/research/quantum_nn/logs/59_plan.json": "30b79a58346995690ad33a5f33dcad0fa9d53cc133e5c91fb472da552c6ecb8d",
+    "quantum-first-run/research/quantum_nn/logs/59_result.json": "70284f0cd2d1996f3b23e83bef6d14a4a743629c6ec890372e9d1fd8239046c8",
+    "quantum-first-run/research/quantum_nn/logs/60_plan.json": "8f5219636f22171a5e19954fa21ae9f2077e46de30212dd95aedfcfa930fc74b",
+    "quantum-first-run/research/quantum_nn/logs/60_result.json": "55add4f2d19cbe7d98110edca0df9fe23827201817276db661dbbe28797b47bb",
+    "quantum-first-run/research/quantum_nn/logs/61_checkpoint.json": "bf71e8232c81f172d77f811ca8a59daa20df9b4b77cbbf062e7355fbc17b86a9",
+    "quantum-first-run/research/quantum_nn/README.md": "8a1ccfd822ff577770dd6d2626199e9239d2370c763b85bc554e46ce3b7c4e03",
+    "quantum-first-run/research/HANDOFF.md": "069d27bedc6648891ad891815ba5454f3bdcc3c7caa629133b599fcc1827792b",
+    "README.md": "51a4e16d23225b39ff99c559c42c7e584bde71bf37f158daf0263a9f5cd44ef7"
+  }
+}

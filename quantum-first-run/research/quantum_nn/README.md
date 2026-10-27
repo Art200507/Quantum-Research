@@ -197,3 +197,11 @@ logitcap4. Monitoringcanhelpaccuracy/cost butprobabilityerrorssometimesworsen;
 caphelpsCEwhileBrierisslightlyworse. No universalreliabilityclaim.
 Next:regularized/heldoutcalibration,freshtrainingseeds,unseennoisemechanisms.
 Source/result hashes in `logs/provenance_58.json`;replayincludes4newrunners.
+
+Publishedto https://github.com/Art200507/Quantum-Research;initialcommit82d7ff5.
+Researchcontinuedafterpublication:59heldoutregularizedcalibration,60nested
+calibrationbudget64/128/256withsharedtestrecords. Latest61_checkpoint.json;
+51exploratorycycles. LargerbudgetimprovesmeanMLECE .279->.197;caphelpssmall
+budgetbuthurts256labelcase. Regularizationnotconsistentlybetter. Both128label
+capbatchesdiffer;keepuncertainty. RootREADMEexplainsfindings/aims/reproduction.
+Next:temporaldeploymentconfirmation,freshtrainingseeds,andunseenchannels.

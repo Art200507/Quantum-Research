@@ -4,7 +4,7 @@ An ongoing, AI-assisted experimental project investigating small quantum neural 
 
 Our aim is to develop a reproducible research question that can be discussed with university researchers and, when justified, tested on IBM quantum hardware. We care about capability, generalization, and reliability—not just speed.
 
-**Current status:** 49 logged exploratory experimental cycles through [checkpoint 58](quantum-first-run/research/quantum_nn/logs/58_checkpoint.json). These are iterative toy studies, not 49 independent replications. Research continues after this repository snapshot.
+**Current status:** 51 logged exploratory experimental cycles through [checkpoint 61](quantum-first-run/research/quantum_nn/logs/61_checkpoint.json). These are iterative toy studies, not 49 independent replications. Research continues after this repository snapshot.
 
 ## What we are trying to find
 
@@ -30,6 +30,14 @@ The numbers below describe specific simulated experiments. They are not guarante
 | Triggered versus scheduled updates | On randomized timelines, triggered updates reached about 91.15% accuracy using 254,976 total shots; updates every six batches reached 90.94% using 262,144. The triggered method had worse cross-entropy. | There is an accuracy/cost tradeoff, not universal superiority. Monitoring also costs measurements when nothing changes. [Experiment 56](quantum-first-run/research/quantum_nn/logs/56_result.json) |
 | Extreme confidence after recalibration | On fresh timelines, capping extreme logits reduced triggered-policy cross-entropy from 0.2360 to 0.2199 without changing accuracy or measurement cost; Brier error worsened slightly. | One safeguard can improve one metric while hurting another. A cap is not proof of calibrated probabilities. [Experiment 57](quantum-first-run/research/quantum_nn/logs/57_result.json) |
 
+## Continued after publication
+
+Experiments 59–60 were run after the initial GitHub push. They compare regularized affine recalibration, ordinary maximum-likelihood recalibration, and fixed confidence capping using calibration labels separate from encoder selection and test data.
+
+In a paired calibration-budget test, ordinary recalibration's mean cross-entropy fell from **0.279 with 64 calibration examples to 0.197 with 256**, with the same test measurements. Calibration measurement cost increased from 16,384 to 65,536 shots per model/cohort. A fixed confidence cap helped cross-entropy at the smaller budget but hurt at 256 examples; Brier error did not improve with the cap. The 128-example cap result also differed across the two experiment batches, so we retain the uncertainty rather than declaring a universal rule.
+
+Regularization selected using held-out calibration examples was not consistently better. These static-channel results still need temporal confirmation and fresh encoder-training seeds. See [experiment 60](quantum-first-run/research/quantum_nn/logs/60_result.json) and [checkpoint 61](quantum-first-run/research/quantum_nn/logs/61_checkpoint.json).
+
 ## What we have not established
 
 - No uniquely quantum advantage, breakthrough, or improvement over the strongest possible classical methods has been demonstrated. The current two-qubit feature map has an exact elementary classical representation.
@@ -50,7 +58,7 @@ The JSON logs retain the original exploratory sequence, including imperfect prot
 ## Repository map
 
 - [Quantum learning experiments and logs](quantum-first-run/research/quantum_nn/): QNNs, attention prototypes, feature/readout controls, finite-shot measurements, calibration, and monitoring.
-- [Latest research checkpoint](quantum-first-run/research/quantum_nn/logs/58_checkpoint.json): findings, caveats, verification, and next actions.
+- [Latest research checkpoint](quantum-first-run/research/quantum_nn/logs/61_checkpoint.json): findings, caveats, verification, and next actions.
 - [Research handoff](quantum-first-run/research/HANDOFF.md): cumulative continuation notes.
 - [Earlier research overview](quantum-first-run/research/README.md): original audit, circuit/spin studies, literature, and roadmap. Some documents describe earlier project stages; the latest checkpoint is the continuation guide.
 - [Local circuit demonstrations](quantum-first-run/README.md): bit-frequency, Bell/GHZ population, and mirror diagnostics. Their outputs are not evidence of certified randomness or measured entanglement.

@@ -1,0 +1,8 @@
+{
+  "reviewed": "59_result:128labelMLE meanCE .20352 vsfixedcap .20967;selectedshrinkage .20384,slightlyloweraccuracy. Contradictsuniversalconfidencecapbenefit. Needpairedlabel-budgettest beforeattributingchange tomoredata.",
+  "hypothesis": "Calibration sample size changes thereliability/costfrontier;regularization orcappingmayonlyhelpinsmall-dataregimes.",
+  "design": "12frozenencoders,channelsA/B,5freshcohorts.256freshcalibrationpoints with256shotfeatures perpoint. Nestedprefix64/128/256labels;eachbudgetsplit half fit/halfvalidation toselectlambda,thenrefitallbudgetlabels. CompareMLE,MLEcap4,selectedregularized,selectedregularizedcap4. Same2048testpointsandmeasurementrecord for allbudgets/methodswithincohort.",
+  "cost": "16384/32768/65536calibrationshots plus524288inferenceshots. Refitting/classicalselection notextraquantumshots. Differentbudgetslabeledexplicitly,notclaimed equal-cost.",
+  "primary": "PairedCE/Brier/accuracyperbudget;retainallmodels andseeds,no test-driven choiceofcap/lambda.",
+  "scope": "Staticchannels,nottemporalmonitoring. 5calibrationcohorts are notnewencodertrainingseeds. Exactclassical2qubitequivalent remains."
+}

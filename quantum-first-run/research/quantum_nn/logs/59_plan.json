@@ -1,0 +1,15 @@
+{
+  "reviewed": "58_checkpoint and57_result:extremeconfidence aftersmallnoisycalibration;fixedcaphelpsCEbuthurtsBrierslightly. Testregularizedcalibration withindependentselectionexamples.",
+  "hypothesis": "Held-outselectedshrinkage towardidentityaffinecorrection reducesextremeprobabilityerrors beyondMLEcalibration,andmaycompete withfixedcap.",
+  "design": "12frozenencoders,channelsA/B,5freshindependentcalibration/testcohorts each.128freshknowncalibrationlabels:64fit/64selectlambda onCE;thenrefitselectedlambda onall128. CompareMLEall128,MLEall128cap4,regularizedall128,regularizedall128cap4. Identical256shotfeatures;2048fresh testpoints/cohort. Calibration/trainencoder/testlabelsdisjoint.",
+  "lambda_grid": [
+    0.0,
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "objective": "mean logisticCE+lambda*((scale-1)^2+bias^2),sameaffineboundsas51. Selectlambdausingheldout64labels,notasymptoticcoverage.",
+  "cost": "Allmethods use32768calibrationshots/model/cohort and524288inferenceshots;classicalfit/search costsnotcounted asquantumshots. RawMLEcanuseall128directly. Refitafterselectionstandardizes totalfitlabels.",
+  "scope": "Staticchannelcalibration only;oldencoders reused,synthetic2Dtasks;notyetend-to-endmonitoringimprovement ornovelquantumalgorithm."
+}
